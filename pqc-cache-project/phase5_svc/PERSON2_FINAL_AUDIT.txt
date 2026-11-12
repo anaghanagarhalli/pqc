@@ -1,0 +1,28 @@
+PERSON 2 — FINAL C3/C4/C5/C9 AUDIT
+================================================
+Generated: 2026-10-19T15:24:22.335597+00:00
+
+Reconstructed Welch results: PRESENT (16230 bytes)
+Reconstructed confidence intervals: PRESENT (34321 bytes)
+Confidence interval audit: PRESENT (596 bytes)
+Full-trace rebuild report: PRESENT (2073 bytes)
+Corrected zero-padded analysis: PRESENT (17878 bytes)
+Corrected exact-CI analysis: PRESENT (28329 bytes)
+PC source mapping: PRESENT (42250 bytes)
+Previous completion status: PRESENT (1996 bytes)
+
+RECONSTRUCTED C3/C4 DATA
+Rows: 317
+Finite t values: 277
+Non-finite/missing t values: 40
+
+C3/C4: Reconstructed full-trace analysis exists; it uses newly assigned
+deterministic prefill seeds and is not verified as the original experiment.
+Confidence intervals are approximate; see PERSON2_CI_AUDIT.txt.
+
+C5: Original broad-sweep and timing logs have not been independently verified.
+C9: ELF-to-trace provenance remains unconfirmed; source mapping is provisional.
+
+FINAL VERDICT: PARTIALLY VERIFIED.
+Do not describe reconstructed results as verified original-run results.
+No existing experiment outputs were overwritten.

@@ -1,0 +1,25 @@
+PERSON 2 — EXECUTION BLOCKERS
+=======================================================
+Project: /home/cnc_susindharan/pqc-cache-project
+ELF binaries found: 28
+Trace CSVs found: 45
+
+EXISTING OUTPUTS:
+PRESENT: phase5_svc/person2_corrected_exact_ci.csv
+PRESENT: phase5_svc/person2_rebuilt_full/person2_full_trace_welch_results.csv
+MISSING: phase5_svc/person2_full_trace_with_ci.csv
+PRESENT: phase6/high_risk_source_mapping.csv
+
+POTENTIAL EXPERIMENT IMPLEMENTATIONS:
+phase5_svc/phase5_cache_variance.py (2304 bytes)
+
+NEXT ACTION:
+1. If a genuine C5 runner is listed, review its usage and dependencies before executing it.
+2. Capture raw execution logs and preserve the original experiment outputs.
+3. For C9, establish the exact ELF used for each trace; matching names or hashes alone do not prove the association.
+4. Do not report C5 as complete without primary experiment evidence.
+
+Current assessment:
+C3/C4: Existing outputs are available, subject to the reconstruction and undefined-statistic caveats.
+C5: Unverified until primary experiment results/logs are recovered or a controlled rerun is completed.
+C9: Provisional until trace-to-ELF provenance is established.

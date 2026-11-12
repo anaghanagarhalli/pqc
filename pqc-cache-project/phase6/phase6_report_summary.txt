@@ -1,0 +1,22 @@
+PHASE 6 SUMMARY
+================
+
+1. Vulnerable PC to source mapping
+   Generated: high_risk_source_mapping.csv
+   Generated: high_risk_source_mapping.txt
+
+2. Evaluation plots
+   Generated: cache_miss_heatmap.png
+   Generated: svs_distribution.png
+   Generated: svs_leakage_confidence.png
+
+3. Cache associativity trade-off
+   Generated: associativity_tradeoff.csv
+   Generated: associativity_tradeoff.png
+
+Associativity results:
+ASSOCIATIVITY  MISSES HIT_RATE MISS_RATE
+       direct    2120 99.7463%   0.2537%
+            2    1285 99.8462%   0.1538%
+            4    1424 99.8296%   0.1704%
+            8    1508 99.8196%   0.1804%

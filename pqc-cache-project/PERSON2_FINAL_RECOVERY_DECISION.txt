@@ -1,0 +1,18 @@
+PERSON 2 — FINAL RECOVERY DECISION
+============================================================
+Project: /home/cnc_susindharan/pqc-cache-project
+
+POTENTIAL EXPERIMENT SOURCE/LOG FILES:
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_mlkem_harness.c | 2298 bytes
+
+POTENTIAL BACKUP ARCHIVES:
+No archive filenames clearly identified as C5 experiment backups.
+
+EXISTING PROJECT HANDOFF ARCHIVES:
+PERSON2_FINAL_HANDOFF_PACKAGE.zip: 18 files; SHA256=f383e9323fbf87c2b911f29034f45beadf20ff761330115571fe5424a86cbff8
+
+DECISION:
+If an original C5 runner or raw timing log is found above, use that source to recover or rerun the experiment.
+If none is found, C5 remains blocked until the original code or documented procedure is supplied.
+C9 remains provisional until a trace is linked to its exact generating ELF through reliable build/run records.
+Do not infer successful experiments from handoff summaries or filenames alone.

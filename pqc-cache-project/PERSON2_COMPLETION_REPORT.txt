@@ -1,0 +1,34 @@
+PERSON 2 — COMPLETION REPORT
+=================================================================
+Generated: 2026-10-19T16:24:16.267931+00:00
+Project: /home/cnc_susindharan/pqc-cache-project
+
+C3/C4 STATISTICAL ARTIFACTS:
+{"exists": true, "finite_statistics": 191, "item": "C3 exact CI", "path": "phase5_svc/person2_corrected_exact_ci.csv", "rows": 194, "sha256": "06e992465cfcbefbdcf9fbd7648d4097aa173e23f42d53bcc072e5fda921cb2b", "undefined_statistics": 3}
+{"exists": true, "finite_statistics": 277, "item": "C4 full-trace Welch", "path": "phase5_svc/person2_rebuilt_full/person2_full_trace_welch_results.csv", "rows": 317, "sha256": "c74c2d469720393a7d8298aeeadc153b29529ce71eb2b357c85a73f1572637b4", "undefined_statistics": 40}
+{"exists": false, "item": "C4 full-trace CI", "path": "phase5_svc/person2_full_trace_with_ci.csv"}
+
+ELF files found: 28
+Trace CSV files found: 45
+Log/out files found: 0
+
+C5 RUNNER CANDIDATES:
+No clear C5 implementation identified.
+
+GIT HISTORY CANDIDATES:
+No relevant Git history paths found.
+
+ZIP ARCHIVE CANDIDATES:
+PERSON2_SOURCE_RECOVERY.zip :: phase5_svc/phase5_mlkem_harness.c
+PERSON2_SOURCE_RECOVERY.zip :: phase6/venv/lib/python3.12/site-packages/fontTools/cu2qu/benchmark.py
+PERSON2_SOURCE_RECOVERY.zip :: phase6/venv/lib/python3.12/site-packages/fontTools/qu2cu/benchmark.py
+PERSON2_SOURCE_RECOVERY.zip :: workloads/mldsa44_ntt/mldsa44_ntt_harness.c
+PERSON2_SOURCE_RECOVERY.zip :: workloads/mlkem512_ntt/mlkem512_ntt_harness.c
+
+FINAL DISPOSITION:
+C3: Existing results are inventoried. Undefined Welch statistics must not be interpreted as significant.
+C4: Reconstructed results use newly assigned deterministic seeds; historical run provenance is not established.
+C5: VERIFIED only if primary sweep/timing-injection execution outputs are recovered or the experiment is rerun successfully. Candidate filenames alone do not count.
+C9: PROVISIONAL until each trace can be linked to the exact generating ELF using reliable run/build records.
+
+If no C5 runner, original logs, or archived evidence was found, C5 cannot be honestly marked complete from this workspace alone.

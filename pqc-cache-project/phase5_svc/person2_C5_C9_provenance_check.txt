@@ -1,0 +1,40 @@
+========== C5: EXPERIMENT LOGS ==========
+2026-09-04 12:48 ./svs_results.csv
+2026-09-05 10:01 ../phase6/phase6_report_summary.txt
+2026-10-19 14:30 ./person2_findings_summary.txt
+
+========== C9: ELF METADATA ==========
+--- phase5_fixed.elf ---
+Modified: 2026-09-04 12:07:37.344896069 +0000 | Size: 378992 bytes
+--- phase5_fixed_1.elf ---
+Modified: 2026-09-04 12:46:58.477580938 +0000 | Size: 379024 bytes
+--- phase5_fixed_10.elf ---
+Modified: 2026-09-04 12:47:31.193198734 +0000 | Size: 378992 bytes
+--- phase5_random.elf ---
+Modified: 2026-09-04 10:46:35.261951386 +0000 | Size: 379008 bytes
+--- phase5_random_full_01.elf ---
+Modified: 2026-09-04 12:44:52.624673626 +0000 | Size: 379008 bytes
+--- phase5_test_fixed.elf ---
+Modified: 2026-09-04 11:58:02.299644681 +0000 | Size: 379024 bytes
+
+========== RECORDED ELF REFERENCES ==========
+./person2_final_audit.py:57:elfs = [phase / n for n in ("phase5_fixed.elf", "phase5_test_fixed.elf",
+./person2_final_audit.py:58:                             "phase5_fixed_1.elf")]
+./person2_final_audit.txt:16:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+./person2_final_audit.txt:18:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+./person2_final_audit.txt:21:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+./person2_final_audit.txt:23:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+./person2_final_elf_mapping.txt:2:===== phase5_fixed.elf =====
+./person2_final_elf_mapping.txt:82:===== phase5_test_fixed.elf =====
+./person2_final_elf_mapping.txt:150:===== phase5_fixed_1.elf =====
+./person2_C5_C9_provenance_check.txt:7:--- phase5_fixed.elf ---
+./person2_C5_C9_provenance_check.txt:9:--- phase5_fixed_1.elf ---
+./person2_C5_C9_provenance_check.txt:11:--- phase5_fixed_10.elf ---
+./person2_C5_C9_provenance_check.txt:13:--- phase5_random.elf ---
+./person2_C5_C9_provenance_check.txt:15:--- phase5_random_full_01.elf ---
+./person2_C5_C9_provenance_check.txt:17:--- phase5_test_fixed.elf ---
+./person2_completion_report.txt:83:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+./person2_completion_report.txt:85:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+./person2_completion_report.txt:88:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+./person2_completion_report.txt:90:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+./person2_final_checks.py:10:ELF = BASE / "phase5_fixed.elf"

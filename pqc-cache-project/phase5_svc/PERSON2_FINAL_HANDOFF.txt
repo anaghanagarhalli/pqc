@@ -1,0 +1,30 @@
+PERSON 2 — FINAL HANDOFF
+=================================================================
+Generated: 2026-10-19T16:07:52.205105+00:00
+
+FILE INVENTORY AND VALIDATION
+C3 exact CI results: PRESENT
+  CSV data rows: 194
+  Statistical/read check: 191 finite; 3 undefined/non-numeric
+C4 reconstructed full-trace Welch results: PRESENT
+  CSV data rows: 317
+  Statistical/read check: 277 finite; 40 undefined/non-numeric
+C4 reconstructed full-trace CI results: MISSING
+C5 findings summary: PRESENT
+C9 high-risk source mapping: PRESENT
+  CSV data rows: 13
+C4 rebuild report: PRESENT
+C4 CI audit report: MISSING
+Previous final audit: PRESENT
+C5 targeted source audit: MISSING
+C9 trace/ELF provenance audit: PRESENT
+
+COMPLETION STATUS
+C3: Existing statistical results audited. Review undefined Welch cases before reporting significance.
+C4: Reconstructed full-trace statistics and confidence intervals are available only where the relevant files exist. Reconstruction used new deterministic seeds, not verified historical seeds.
+C5: NOT VERIFIED — primary logs for the claimed broad sweep and timing-injection execution have not been established by the available audit.
+C9: PROVISIONAL — exact trace-to-ELF provenance has not been established.
+
+LIMITATION
+This report inventories and validates existing artifacts; it does not recreate missing primary evidence or prove that an experiment ran.
+Do not describe C5 or C9 as fully verified without the corresponding evidence.

@@ -1,0 +1,29 @@
+PERSON 2 — STATISTICAL VALIDATION AND SOURCE MAPPING
+====================================================
+
+Original analysis and CSV were not modified.
+The zero-padded and non-zero-padded CSV families were analysed separately.
+Missing PCs were assigned zero misses, matching the original script.
+
+Welch t-statistic: (fixed mean - random mean) / standard error.
+If both group variances are zero, the standard error is zero; the t-statistic
+is undefined whether the means differ or are equal. Do not report infinity
+as a conventional Welch t-statistic.
+
+Confidence intervals are approximate 95% Welch intervals using a conservative
+integer-df t critical-value table. For df > 30, 1.96 is used as a normal
+approximation. These intervals are not exact and should be labelled accordingly.
+
+The three workflows previously described must remain separate:
+1. Broad configuration sweep: six crypto kernels reportedly had zero flagged
+   locations; LEAKY positive control showed detection.
+2. Per-PC cache-miss analysis: 10 fixed and 10 random runs; previous CSV claimed
+   194 PCs and 13 high-risk PCs. The present script checks the current inputs
+   independently because their row counts do not match that previous CSV.
+3. Independent timing experiment: baseline reportedly showed no mean difference;
+   lookup had unequal means with zero variance; branch injection showed a timing
+   difference. Do not combine its timing values with cache-miss t-statistics.
+
+A high |t| is evidence of a statistical difference in this sample, not by itself
+proof of exploitable leakage. Source mapping is based on the selected ELF and
+debug info; verify the exact build corresponds to the measured traces.

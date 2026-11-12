@@ -1,0 +1,216 @@
+
+===== phase5_fixed.elf =====
+
+PC 0x0000000080000474
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380
+
+PC 0x0000000080000484
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380
+
+PC 0x0000000080000494
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380
+
+PC 0x00000000800004a4
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:397
+
+PC 0x0000000080000520
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:409
+
+PC 0x0000000080000540
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:416
+
+PC 0x000000008000055c
+mlk_ct_memcmp
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:356
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:422
+
+PC 0x0000000080000560
+mlk_ct_memcmp
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:350 (discriminator 1)
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:422 (discriminator 1)
+
+PC 0x000000008000057c
+mlk_ct_memcmp
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:368 (discriminator 2)
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:422 (discriminator 2)
+
+PC 0x0000000080000580
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:425
+
+PC 0x00000000800005b6
+mlk_value_barrier_i32
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:123
+mlk_ct_cmask_nonzero_u16
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:232
+mlk_ct_cmask_nonzero_u8
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:258
+mlk_ct_sel_uint8
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:314
+mlk_ct_cmov_zero
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:404
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:431
+
+PC 0x00000000800005bc
+mlk_ct_cmask_nonzero_u16
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:239
+mlk_ct_cmask_nonzero_u8
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:258
+mlk_ct_sel_uint8
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:314
+mlk_ct_cmov_zero
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:404
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:431
+
+PC 0x00000000800005d6
+mlk_ct_cmov_zero
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:398 (discriminator 1)
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:431 (discriminator 1)
+
+===== phase5_test_fixed.elf =====
+
+PC 0x0000000080000474
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380
+
+PC 0x0000000080000484
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380
+
+PC 0x0000000080000494
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380
+
+PC 0x00000000800004a4
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:396
+
+PC 0x0000000080000520
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:409
+
+PC 0x0000000080000540
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:416
+
+PC 0x000000008000055c
+mlk_ct_memcmp
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:356
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:422
+
+PC 0x0000000080000560
+mlk_ct_memcmp
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:356
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:422
+
+PC 0x000000008000057c
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:425
+
+PC 0x0000000080000580
+mlk_ct_memcmp
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:368 (discriminator 2)
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:422 (discriminator 2)
+
+PC 0x00000000800005b6
+mlk_ct_cmov_zero
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:404
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:431
+
+PC 0x00000000800005bc
+mlk_ct_sel_uint8
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:314 (discriminator 1)
+mlk_ct_cmov_zero
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:404 (discriminator 1)
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:431 (discriminator 1)
+
+PC 0x00000000800005d6
+mlk_ct_cmov_zero
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:398 (discriminator 1)
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:431 (discriminator 1)
+
+===== phase5_fixed_1.elf =====
+
+PC 0x0000000080000474
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380
+
+PC 0x0000000080000484
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380
+
+PC 0x0000000080000494
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380
+
+PC 0x00000000800004a4
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:396
+
+PC 0x0000000080000520
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:409
+
+PC 0x0000000080000540
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:416
+
+PC 0x000000008000055c
+mlk_ct_memcmp
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:356
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:422
+
+PC 0x0000000080000560
+mlk_ct_memcmp
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:356
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:422
+
+PC 0x000000008000057c
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:425
+
+PC 0x0000000080000580
+mlk_ct_memcmp
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:368 (discriminator 2)
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:422 (discriminator 2)
+
+PC 0x00000000800005b6
+mlk_ct_cmov_zero
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:404
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:431
+
+PC 0x00000000800005bc
+mlk_ct_sel_uint8
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:314 (discriminator 1)
+mlk_ct_cmov_zero
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:404 (discriminator 1)
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:431 (discriminator 1)
+
+PC 0x00000000800005d6
+mlk_ct_cmov_zero
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:398 (discriminator 1)
+PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:431 (discriminator 1)

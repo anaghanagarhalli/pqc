@@ -1,0 +1,11 @@
+Cache size      : 8 KB
+Associativity   : 4-way
+Block size      : 32 bytes
+Policy          : Pseudo-LRU
+Sets            : 64
+Reads           : 1609
+Writes          : 41
+Hits            : 1596
+Misses          : 54
+Hit rate        : 96.7273%
+Miss rate       : 3.2727%

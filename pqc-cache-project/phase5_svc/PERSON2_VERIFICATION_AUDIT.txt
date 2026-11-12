@@ -1,0 +1,790 @@
+============================================================================
+PERSON 2 — FINAL EVIDENCE VERIFICATION
+============================================================================
+Working directory: /home/cnc_susindharan/pqc-cache-project/phase5_svc
+Project directory: /home/cnc_susindharan/pqc-cache-project
+
+1. EXPECTED DELIVERABLES
+PRESENT: person2_corrected_zero_padded.csv (17878 bytes)
+PRESENT: person2_pc_source_mapping.csv (42250 bytes)
+PRESENT: person2_findings_summary.txt (1686 bytes)
+PRESENT: person2_final_audit.txt (8290 bytes)
+PRESENT: person2_final_elf_mapping.txt (10449 bytes)
+PRESENT: person2_C5_C9_final_audit.txt (746185 bytes)
+PRESENT: person2_C5_C9_provenance_check.txt (3070 bytes)
+PRESENT: person2_completion_report.txt (13465 bytes)
+PRESENT: PERSON2_FINAL_STATUS.txt (1146 bytes)
+
+2. EXPERIMENT ARTIFACT INVENTORY
+all_phase_summary.txt | 2562 bytes
+liboqs/scripts/run_doxygen.sh | 633 bytes
+liboqs/tests/run_astyle.sh | 789 bytes
+phase4_cache/misses_01.csv | 1840 bytes
+phase5_svc/fixed_trace.csv | 41314 bytes
+phase5_svc/person2_findings_summary.txt | 1686 bytes
+phase5_svc/phase5_fixed.elf | 378992 bytes
+phase5_svc/phase5_fixed_1.elf | 379024 bytes
+phase5_svc/phase5_fixed_10.elf | 378992 bytes
+phase5_svc/phase5_fixed_2.elf | 379024 bytes
+phase5_svc/phase5_fixed_3.elf | 379024 bytes
+phase5_svc/phase5_fixed_4.elf | 379016 bytes
+phase5_svc/phase5_fixed_5.elf | 379024 bytes
+phase5_svc/phase5_fixed_6.elf | 379024 bytes
+phase5_svc/phase5_fixed_7.elf | 379016 bytes
+phase5_svc/phase5_fixed_8.elf | 379016 bytes
+phase5_svc/phase5_fixed_9.elf | 379016 bytes
+phase5_svc/phase5_random.elf | 379008 bytes
+phase5_svc/phase5_random_1.elf | 379008 bytes
+phase5_svc/phase5_random_10.elf | 379008 bytes
+phase5_svc/phase5_random_2.elf | 379008 bytes
+phase5_svc/phase5_random_3.elf | 379008 bytes
+phase5_svc/phase5_random_4.elf | 379008 bytes
+phase5_svc/phase5_random_5.elf | 379008 bytes
+phase5_svc/phase5_random_6.elf | 379008 bytes
+phase5_svc/phase5_random_7.elf | 379008 bytes
+phase5_svc/phase5_random_8.elf | 379008 bytes
+phase5_svc/phase5_random_9.elf | 379008 bytes
+phase5_svc/phase5_random_full_01.elf | 379008 bytes
+phase5_svc/phase5_test_fixed.elf | 379024 bytes
+phase5_svc/phase5_test_random.elf | 379008 bytes
+phase5_svc/phase5_test_random18.elf | 379008 bytes
+phase5_svc/random_trace.csv | 39657 bytes
+phase5_svc/runs/fixed/misses_01.csv | 145 bytes
+phase5_svc/runs/fixed/misses_02.csv | 145 bytes
+phase5_svc/runs/fixed/misses_03.csv | 145 bytes
+phase5_svc/runs/fixed/misses_04.csv | 145 bytes
+phase5_svc/runs/fixed/misses_05.csv | 145 bytes
+phase5_svc/runs/fixed/misses_06.csv | 145 bytes
+phase5_svc/runs/fixed/misses_07.csv | 145 bytes
+phase5_svc/runs/fixed/misses_08.csv | 145 bytes
+phase5_svc/runs/fixed/misses_09.csv | 145 bytes
+phase5_svc/runs/fixed/misses_1.csv | 1840 bytes
+phase5_svc/runs/fixed/misses_10.csv | 1841 bytes
+phase5_svc/runs/fixed/misses_2.csv | 1840 bytes
+phase5_svc/runs/fixed/misses_3.csv | 1841 bytes
+phase5_svc/runs/fixed/misses_4.csv | 1840 bytes
+phase5_svc/runs/fixed/misses_5.csv | 1840 bytes
+phase5_svc/runs/fixed/misses_6.csv | 1840 bytes
+phase5_svc/runs/fixed/misses_7.csv | 1841 bytes
+phase5_svc/runs/fixed/misses_8.csv | 1841 bytes
+phase5_svc/runs/fixed/misses_9.csv | 1840 bytes
+phase5_svc/runs/fixed/trace_01.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_02.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_03.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_04.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_05.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_06.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_07.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_08.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_09.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_1.csv | 21266364 bytes
+phase5_svc/runs/fixed/trace_10.csv | 21267939 bytes
+phase5_svc/runs/fixed/trace_2.csv | 21268164 bytes
+phase5_svc/runs/fixed/trace_3.csv | 21272214 bytes
+phase5_svc/runs/fixed/trace_4.csv | 21271764 bytes
+phase5_svc/runs/fixed/trace_5.csv | 21271764 bytes
+phase5_svc/runs/fixed/trace_6.csv | 21268389 bytes
+phase5_svc/runs/fixed/trace_7.csv | 21267939 bytes
+phase5_svc/runs/fixed/trace_8.csv | 21271089 bytes
+phase5_svc/runs/fixed/trace_9.csv | 21269289 bytes
+phase5_svc/runs/random/misses_01.csv | 126 bytes
+phase5_svc/runs/random/misses_02.csv | 126 bytes
+phase5_svc/runs/random/misses_03.csv | 126 bytes
+phase5_svc/runs/random/misses_04.csv | 126 bytes
+phase5_svc/runs/random/misses_05.csv | 126 bytes
+phase5_svc/runs/random/misses_06.csv | 126 bytes
+phase5_svc/runs/random/misses_07.csv | 126 bytes
+phase5_svc/runs/random/misses_08.csv | 126 bytes
+phase5_svc/runs/random/misses_09.csv | 126 bytes
+phase5_svc/runs/random/misses_1.csv | 1840 bytes
+phase5_svc/runs/random/misses_10.csv | 1840 bytes
+phase5_svc/runs/random/misses_17_full.csv | 1841 bytes
+phase5_svc/runs/random/misses_18_full.csv | 1841 bytes
+phase5_svc/runs/random/misses_2.csv | 1840 bytes
+phase5_svc/runs/random/misses_3.csv | 1840 bytes
+phase5_svc/runs/random/misses_4.csv | 1840 bytes
+phase5_svc/runs/random/misses_5.csv | 1841 bytes
+phase5_svc/runs/random/misses_6.csv | 1840 bytes
+phase5_svc/runs/random/misses_7.csv | 1841 bytes
+phase5_svc/runs/random/misses_8.csv | 1840 bytes
+phase5_svc/runs/random/misses_9.csv | 1840 bytes
+phase5_svc/runs/random/misses_full_01.csv | 1840 bytes
+phase5_svc/runs/random/trace_01.csv | 39657 bytes
+phase5_svc/runs/random/trace_02.csv | 39657 bytes
+phase5_svc/runs/random/trace_03.csv | 39657 bytes
+phase5_svc/runs/random/trace_04.csv | 39657 bytes
+phase5_svc/runs/random/trace_05.csv | 39657 bytes
+phase5_svc/runs/random/trace_06.csv | 39657 bytes
+phase5_svc/runs/random/trace_07.csv | 39657 bytes
+phase5_svc/runs/random/trace_08.csv | 39657 bytes
+phase5_svc/runs/random/trace_09.csv | 39657 bytes
+phase5_svc/runs/random/trace_1.csv | 21269815 bytes
+phase5_svc/runs/random/trace_10.csv | 21265540 bytes
+phase5_svc/runs/random/trace_17_full.csv | 21268240 bytes
+phase5_svc/runs/random/trace_18_full.csv | 21270715 bytes
+phase5_svc/runs/random/trace_2.csv | 21269815 bytes
+phase5_svc/runs/random/trace_3.csv | 21266890 bytes
+phase5_svc/runs/random/trace_4.csv | 21267340 bytes
+phase5_svc/runs/random/trace_5.csv | 21265540 bytes
+phase5_svc/runs/random/trace_6.csv | 21267565 bytes
+phase5_svc/runs/random/trace_7.csv | 21268690 bytes
+phase5_svc/runs/random/trace_8.csv | 21270040 bytes
+phase5_svc/runs/random/trace_9.csv | 21270265 bytes
+phase5_svc/runs/random/trace_full_01.csv | 21269815 bytes
+phase5_svc/svs_analysis.py | 2894 bytes
+phase5_svc/svs_results.csv | 12771 bytes
+phase6/phase6_report_summary.txt | 634 bytes
+workloads/mldsa44_ntt/mldsa44_ntt.elf | 14632 bytes
+workloads/mlkem512_ntt/mlkem512_ntt.elf | 22800 bytes
+
+3. MISS CSV DATASET CHECK
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase4_cache/misses_01.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_01.csv
+Header: ['PC', 'MISSES']
+Data rows: 7
+Sample: {'PC': '0000000080000474', 'MISSES': '1'}
+Sample: {'PC': '0000000080000484', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_02.csv
+Header: ['PC', 'MISSES']
+Data rows: 7
+Sample: {'PC': '0000000080000474', 'MISSES': '1'}
+Sample: {'PC': '0000000080000484', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_03.csv
+Header: ['PC', 'MISSES']
+Data rows: 7
+Sample: {'PC': '0000000080000472', 'MISSES': '1'}
+Sample: {'PC': '0000000080000482', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_04.csv
+Header: ['PC', 'MISSES']
+Data rows: 7
+Sample: {'PC': '0000000080000474', 'MISSES': '1'}
+Sample: {'PC': '0000000080000484', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_05.csv
+Header: ['PC', 'MISSES']
+Data rows: 7
+Sample: {'PC': '0000000080000474', 'MISSES': '1'}
+Sample: {'PC': '0000000080000484', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_06.csv
+Header: ['PC', 'MISSES']
+Data rows: 7
+Sample: {'PC': '0000000080000474', 'MISSES': '1'}
+Sample: {'PC': '0000000080000484', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_07.csv
+Header: ['PC', 'MISSES']
+Data rows: 7
+Sample: {'PC': '0000000080000474', 'MISSES': '1'}
+Sample: {'PC': '0000000080000484', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_08.csv
+Header: ['PC', 'MISSES']
+Data rows: 7
+Sample: {'PC': '0000000080000474', 'MISSES': '1'}
+Sample: {'PC': '0000000080000484', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_09.csv
+Header: ['PC', 'MISSES']
+Data rows: 7
+Sample: {'PC': '0000000080000472', 'MISSES': '1'}
+Sample: {'PC': '0000000080000482', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_1.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_10.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_2.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_3.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_4.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_5.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_6.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_7.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_8.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_9.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_01.csv
+Header: ['PC', 'MISSES']
+Data rows: 6
+Sample: {'PC': '0000000080000494', 'MISSES': '1'}
+Sample: {'PC': '00000000800004a4', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_02.csv
+Header: ['PC', 'MISSES']
+Data rows: 6
+Sample: {'PC': '0000000080000494', 'MISSES': '1'}
+Sample: {'PC': '00000000800004a4', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_03.csv
+Header: ['PC', 'MISSES']
+Data rows: 6
+Sample: {'PC': '0000000080000494', 'MISSES': '1'}
+Sample: {'PC': '00000000800004a4', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_04.csv
+Header: ['PC', 'MISSES']
+Data rows: 6
+Sample: {'PC': '0000000080000494', 'MISSES': '1'}
+Sample: {'PC': '00000000800004a4', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_05.csv
+Header: ['PC', 'MISSES']
+Data rows: 6
+Sample: {'PC': '0000000080000494', 'MISSES': '1'}
+Sample: {'PC': '00000000800004a4', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_06.csv
+Header: ['PC', 'MISSES']
+Data rows: 6
+Sample: {'PC': '0000000080000494', 'MISSES': '1'}
+Sample: {'PC': '00000000800004a4', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_07.csv
+Header: ['PC', 'MISSES']
+Data rows: 6
+Sample: {'PC': '0000000080000494', 'MISSES': '1'}
+Sample: {'PC': '00000000800004a4', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_08.csv
+Header: ['PC', 'MISSES']
+Data rows: 6
+Sample: {'PC': '0000000080000494', 'MISSES': '1'}
+Sample: {'PC': '00000000800004a4', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_09.csv
+Header: ['PC', 'MISSES']
+Data rows: 6
+Sample: {'PC': '0000000080000494', 'MISSES': '1'}
+Sample: {'PC': '00000000800004a4', 'MISSES': '1'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_1.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_10.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_2.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_3.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_4.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_5.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_6.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_7.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_8.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+FILE: /home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_9.csv
+Header: ['PC', 'MISSES']
+Data rows: 95
+Sample: {'PC': '0000000080000010', 'MISSES': '11'}
+Sample: {'PC': '0000000080000014', 'MISSES': '14'}
+
+4. ZERO-PADDED INPUT COMPLETENESS
+fixed: 10/10 present
+random: 10/10 present
+
+5. CORRECTED RESULT CSV SANITY CHECK
+Rows: 194
+Columns: ['PC', 'N_FIXED', 'N_RANDOM', 'FIXED_MEAN', 'RANDOM_MEAN', 'MEAN_DIFFERENCE_FIXED_MINUS_RANDOM', 'FIXED_VARIANCE', 'RANDOM_VARIANCE', 'STANDARD_ERROR', 'WELCH_T', 'WELCH_DF', 'CI95_LOW_APPROX', 'CI95_HIGH_APPROX', 'STATISTIC_STATUS', 'RISK']
+Sample: {'PC': '0x0000000080000010', 'N_FIXED': '10', 'N_RANDOM': '10', 'FIXED_MEAN': '1.1', 'RANDOM_MEAN': '1.1', 'MEAN_DIFFERENCE_FIXED_MINUS_RANDOM': '0', 'FIXED_VARIANCE': '12.1', 'RANDOM_VARIANCE': '12.1', 'STANDARD_ERROR': '1.5556349', 'WELCH_T': '0', 'WELCH_DF': '18', 'CI95_LOW_APPROX': '-3.268389', 'CI95_HIGH_APPROX': '3.268389', 'STATISTIC_STATUS': 'FINITE_WELCH_T', 'RISK': 'NORMAL'}
+Sample: {'PC': '0x0000000080000014', 'N_FIXED': '10', 'N_RANDOM': '10', 'FIXED_MEAN': '1.4', 'RANDOM_MEAN': '1.4', 'MEAN_DIFFERENCE_FIXED_MINUS_RANDOM': '0', 'FIXED_VARIANCE': '19.6', 'RANDOM_VARIANCE': '19.6', 'STANDARD_ERROR': '1.979899', 'WELCH_T': '0', 'WELCH_DF': '18', 'CI95_LOW_APPROX': '-4.1597678', 'CI95_HIGH_APPROX': '4.1597678', 'STATISTIC_STATUS': 'FINITE_WELCH_T', 'RISK': 'NORMAL'}
+Sample: {'PC': '0x000000008000001a', 'N_FIXED': '10', 'N_RANDOM': '10', 'FIXED_MEAN': '0.8', 'RANDOM_MEAN': '0.8', 'MEAN_DIFFERENCE_FIXED_MINUS_RANDOM': '0', 'FIXED_VARIANCE': '6.4', 'RANDOM_VARIANCE': '6.4', 'STANDARD_ERROR': '1.1313708', 'WELCH_T': '0', 'WELCH_DF': '18', 'CI95_LOW_APPROX': '-2.3770102', 'CI95_HIGH_APPROX': '2.3770102', 'STATISTIC_STATUS': 'FINITE_WELCH_T', 'RISK': 'NORMAL'}
+Inspect the columns above for t-statistic, variance, sample-size, and classification fields.
+
+6. ELF IDENTITY AND DEBUG INFORMATION
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed.elf | SHA256 df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137 | modified 1788523657.344896
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_1.elf | SHA256 1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b | modified 1788526018.477581
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_10.elf | SHA256 df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137 | modified 1788526051.1931987
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_2.elf | SHA256 6bde6e353e5cfcaaf15f87ea85d12a1d2ac99bfa25a4f7778207c310d4dff5dd | modified 1788526022.243348
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_3.elf | SHA256 d7977e3c9268cdd9cdc6eaa987ef0a4cf4583e60510ce8fb6e6ef8fabadffdbc | modified 1788526025.949011
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_4.elf | SHA256 ba1f1b26f0c91173fc2bd3d0901dd6da94568d452841fdcbdd6f3939d377a599 | modified 1788526029.5133352
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_5.elf | SHA256 02f7580e195313ca7205d1217c40e5b157c8e2f9ca5cd306325eed4b2c7278b0 | modified 1788526033.856641
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_6.elf | SHA256 1120c1c388d081bb993b27275de894f9a34eaf203bb5943ea777ee942c3617b3 | modified 1788526037.315161
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_7.elf | SHA256 df29e977b592cb6799eb3f99e031a2e251dca0ff1fa43c1fbf6095fa313c75c3 | modified 1788526040.7814527
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_8.elf | SHA256 3fbe912e61cb2df796c1043397deb4d7357fcd2e1af779942ad94559c639774f | modified 1788526044.2577877
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_9.elf | SHA256 2848fcb07dd1fd96465804161a2e938b8cde38dab37342ad447977b2fe518b9b | modified 1788526047.716832
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random.elf | SHA256 355ae10935e3daeb0c49bf374b4da2ceab55dc563a2675ca86fb730ccabf7310 | modified 1788518795.2619514
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_1.elf | SHA256 90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42 | modified 1788526054.7471707
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_10.elf | SHA256 1702cc9c90459ead962448c7f1d5ffdd5d79c5d7c14033c7ed049b93d945f33b | modified 1788526088.2993023
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_2.elf | SHA256 8ee30bad0f970c2004105b651040969446641ef541beccf63a4ed11344b46daf | modified 1788526058.2233062
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_3.elf | SHA256 f633df1994860a6fd4b1a52fbd7ab888ef7147bc471b7e0c052998cbe5639578 | modified 1788526061.883434
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_4.elf | SHA256 bc055f4ded37da14fac4803f6ebe99f45b7931de16c585d3ae78bdf2fd33d50e | modified 1788526066.345839
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_5.elf | SHA256 f86149a40a3c1ec0ed5e35b26c600cb2cb05c74912fad1cd5703c78c4b3b0fe9 | modified 1788526070.147866
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_6.elf | SHA256 7886c1257028caa99812e5f017a4eb19521c34c195a97756f5798442d1c19706 | modified 1788526073.7524905
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_7.elf | SHA256 6ea3b9e4443efb544b828852ac55b089474721991d653b2b8f18e4e54f7abd31 | modified 1788526077.3579981
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_8.elf | SHA256 8f4f875a24944c17225db897a5e00e5240e5b625d28992fe6969d61dd6f7a8c2 | modified 1788526081.1629603
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_9.elf | SHA256 5f734bd1c48073fc9b04e7091747f87a9a7646d7aef64e89e5940fe50ea6766c | modified 1788526084.7640772
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_full_01.elf | SHA256 90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42 | modified 1788525892.6246736
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_test_fixed.elf | SHA256 1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b | modified 1788523082.2996447
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_test_random.elf | SHA256 22191aa1b8e8ff49b4f8c235839830dc474775d46b4612282f229c0b567b1ce0 | modified 1788523807.704471
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_test_random18.elf | SHA256 81e9660610511dccd4091bc91655750a794332c8d85cdb9f2349bfa440a25945 | modified 1788525738.0149891
+/home/cnc_susindharan/pqc-cache-project/workloads/mldsa44_ntt/mldsa44_ntt.elf | SHA256 c83c7348fe8aae3ac8584af8d08b087a2dda8603ec32ac93e7fc3193c7350b47 | modified 1788332749.959012
+/home/cnc_susindharan/pqc-cache-project/workloads/mlkem512_ntt/mlkem512_ntt.elf | SHA256 0626c11ca777fbd9663b3c24d2ac429bdd7a89f23cbef6110cf7e161eb7f42a5 | modified 1788332698.5786667
+
+Identical-hash groups:
+df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137: /home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed.elf == /home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_10.elf
+1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b: /home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_1.elf == /home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_test_fixed.elf
+90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42: /home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_1.elf == /home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_full_01.elf
+
+7. PROVENANCE AND WORKFLOW REFERENCES
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv
+  L1: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+  L32: 0000000080000474,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,9.0,4.58257569495584,HIGH-RISK
+  L34: 0000000080000484,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,9.0,4.58257569495584,HIGH-RISK
+  L35: 0000000080000494,0.0,0.9,0.0,0.1,-9.0,9.0,9.0,HIGH-RISK
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_pc_source_mapping.csv
+  L1: PC,FUNCTION_AND_SOURCE_FROM_ADDR2LINE
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_audit.py
+  L36: high = [r for r in rows if r.get("RISK") == "HIGH-RISK"]
+  L38: log(f"{name}: {len(rows)} PCs; finite high-risk={len(high)}; "
+  L41: log("  Zero SE rows are undefined; do not interpret their t-statistics as infinity.")
+  L55: # 3. Map the 13 original flagged PCs against multiple candidate ELFs
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_cache_variance.py
+  L16: def read_trace(path):
+  L32: def run(trace_path, seed, output_path):
+  L33: rows, blocks = read_trace(trace_path)
+  L46: # trace's working set. This is initialization state, not crypto data.
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_audit.txt
+  L6: person2_corrected_zero_padded.csv: 194 PCs; finite high-risk=10; undefined=3
+  L8: Zero SE rows are undefined; do not interpret their t-statistics as infinity.
+  L9: person2_corrected_full_runs.csv: 314 PCs; finite high-risk=91; undefined=78
+  L11: Zero SE rows are undefined; do not interpret their t-statistics as infinity.
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv
+  L1: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  L2: 0x0000000080000010,10,10,1.1,1.1,0,12.1,12.1,1.5556349,0,18,-3.268389,3.268389,FINITE_WELCH_T,NORMAL
+  L3: 0x0000000080000014,10,10,1.4,1.4,0,19.6,19.6,1.979899,0,18,-4.1597678,4.1597678,FINITE_WELCH_T,NORMAL
+  L4: 0x000000008000001a,10,10,0.8,0.8,0,6.4,6.4,1.1313708,0,18,-2.3770102,2.3770102,FINITE_WELCH_T,NORMAL
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt
+  L8: Welch t-statistic: (fixed mean - random mean) / standard error.
+  L9: If both group variances are zero, the standard error is zero; the t-statistic
+  L11: as a conventional Welch t-statistic.
+  L13: Confidence intervals are approximate 95% Welch intervals using a conservative
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/PERSON2_FINAL_STATUS.txt
+  L13: PC-to-source mappings and ELF comparison outputs exist. Multiple ELF files have different hashes and timestamps. The exact ELF corresponding to each measured trace set is not established by the available provenance output. Treat source attr
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_elf_mapping.txt
+  L2: ===== phase5_fixed.elf =====
+  L82: ===== phase5_test_fixed.elf =====
+  L150: ===== phase5_fixed_1.elf =====
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_C5_C9_provenance_check.txt
+  L6: ========== C9: ELF METADATA ==========
+  L7: --- phase5_fixed.elf ---
+  L9: --- phase5_fixed_1.elf ---
+  L11: --- phase5_fixed_10.elf ---
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_verification.py
+  L35: "person2_final_elf_mapping.txt",
+  L46: # 2. Locate experiment data, scripts, logs and ELFs
+  L52: "**/*timing*.csv", "**/*trace*.csv", "**/*result*.csv",
+  L53: "**/*summary*.txt", "**/*.elf", "**/*.map", "**/*.dump",
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_completion_report.txt
+  L6: C3: Statistical analysis and Welch t-statistic interpretation
+  L7: C4: Zero-variance / undefined t-statistic investigation
+  L19: CSV columns: PC, N_FIXED, N_RANDOM, FIXED_MEAN, RANDOM_MEAN, MEAN_DIFFERENCE_FIXED_MINUS_RANDOM, FIXED_VARIANCE, RANDOM_VARIANCE, STANDARD_ERROR, WELCH_T, WELCH_DF, CI95_LOW_APPROX, CI95_HIGH_APPROX, STATISTIC_STATUS, RISK
+  L20: Use the CSV's finite Welch t-statistics for threshold classification; zero standard error means the conventional Welch t-statistic is undefined.
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv
+  L1: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  L11: 0x00000000800000c2,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  L12: 0x00000000800000c4,10,10,0.9,1,-0.1,0.1,0,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL
+  L13: 0x00000000800000d0,10,10,0.2,0,0.2,0.4,0,0.2,1,9,-0.2524,0.6524,FINITE_WELCH_T,NORMAL
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_analysis.py
+  L72: risk = "HIGH-RISK" if svs > 4.5 else "NORMAL"
+  L94: "WELCH_T",
+  L101: high_risk = [r for r in results if r[-1] == "HIGH-RISK"]
+  L104: print(f"High-risk instructions: {len(high_risk)}")
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_C5_C9_final_audit.txt
+  L8: Matched terms: Welch, high-risk
+  L9: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+  L10: 0000000080000474,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,9.0,4.58257569495584,HIGH-RISK
+  L11: 0000000080000484,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,9.0,4.58257569495584,HIGH-RISK
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_checks.py
+  L10: ELF = BASE / "phase5_fixed.elf"
+  L78: status = "FINITE_WELCH_T"
+  L83: risk = ("HIGH-RISK" if math.isfinite(t) and abs(t) > 4.5
+  L91: "STANDARD_ERROR": se, "WELCH_T": t, "WELCH_DF": df,
+
+/home/cnc_susindharan/pqc-cache-project/all_phase_summary.txt
+  L9: riscv64-unknown-elf-gcc --version
+  L33: riscv64-unknown-elf-gcc -O2 -g ...
+  L36: Standalone PQC workloads and RISC-V ELF binaries generated successfully.
+  L45: Trace format:
+
+/home/cnc_susindharan/pqc-cache-project/phase4_cache/latency_analysis.py
+  L9: def run_cache_simulator(simulator, trace, cache_size, associativity,
+  L13: "--trace", trace,
+  L48: parser.add_argument("--trace", required=True)
+  L87: args.trace,
+
+/home/cnc_susindharan/pqc-cache-project/phase4_cache/cache_simulator.py
+  L13: def __init__(self, associativity: int, policy: str):
+  L14: self.lines = [CacheLine() for _ in range(associativity)]
+  L15: self.policy = policy
+  L16: self.associativity = associativity
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv
+  L1: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+  L32: 0000000080000474,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,9.0,4.58257569495584,HIGH-RISK
+  L34: 0000000080000484,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,9.0,4.58257569495584,HIGH-RISK
+  L35: 0000000080000494,0.0,0.9,0.0,0.1,-9.0,9.0,9.0,HIGH-RISK
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_pc_source_mapping.csv
+  L1: PC,FUNCTION_AND_SOURCE_FROM_ADDR2LINE
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_audit.py
+  L36: high = [r for r in rows if r.get("RISK") == "HIGH-RISK"]
+  L38: log(f"{name}: {len(rows)} PCs; finite high-risk={len(high)}; "
+  L41: log("  Zero SE rows are undefined; do not interpret their t-statistics as infinity.")
+  L55: # 3. Map the 13 original flagged PCs against multiple candidate ELFs
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_cache_variance.py
+  L16: def read_trace(path):
+  L32: def run(trace_path, seed, output_path):
+  L33: rows, blocks = read_trace(trace_path)
+  L46: # trace's working set. This is initialization state, not crypto data.
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_audit.txt
+  L6: person2_corrected_zero_padded.csv: 194 PCs; finite high-risk=10; undefined=3
+  L8: Zero SE rows are undefined; do not interpret their t-statistics as infinity.
+  L9: person2_corrected_full_runs.csv: 314 PCs; finite high-risk=91; undefined=78
+  L11: Zero SE rows are undefined; do not interpret their t-statistics as infinity.
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv
+  L1: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  L2: 0x0000000080000010,10,10,1.1,1.1,0,12.1,12.1,1.5556349,0,18,-3.268389,3.268389,FINITE_WELCH_T,NORMAL
+  L3: 0x0000000080000014,10,10,1.4,1.4,0,19.6,19.6,1.979899,0,18,-4.1597678,4.1597678,FINITE_WELCH_T,NORMAL
+  L4: 0x000000008000001a,10,10,0.8,0.8,0,6.4,6.4,1.1313708,0,18,-2.3770102,2.3770102,FINITE_WELCH_T,NORMAL
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt
+  L8: Welch t-statistic: (fixed mean - random mean) / standard error.
+  L9: If both group variances are zero, the standard error is zero; the t-statistic
+  L11: as a conventional Welch t-statistic.
+  L13: Confidence intervals are approximate 95% Welch intervals using a conservative
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/PERSON2_FINAL_STATUS.txt
+  L13: PC-to-source mappings and ELF comparison outputs exist. Multiple ELF files have different hashes and timestamps. The exact ELF corresponding to each measured trace set is not established by the available provenance output. Treat source attr
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_elf_mapping.txt
+  L2: ===== phase5_fixed.elf =====
+  L82: ===== phase5_test_fixed.elf =====
+  L150: ===== phase5_fixed_1.elf =====
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_C5_C9_provenance_check.txt
+  L6: ========== C9: ELF METADATA ==========
+  L7: --- phase5_fixed.elf ---
+  L9: --- phase5_fixed_1.elf ---
+  L11: --- phase5_fixed_10.elf ---
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_verification.py
+  L35: "person2_final_elf_mapping.txt",
+  L46: # 2. Locate experiment data, scripts, logs and ELFs
+  L52: "**/*timing*.csv", "**/*trace*.csv", "**/*result*.csv",
+  L53: "**/*summary*.txt", "**/*.elf", "**/*.map", "**/*.dump",
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_completion_report.txt
+  L6: C3: Statistical analysis and Welch t-statistic interpretation
+  L7: C4: Zero-variance / undefined t-statistic investigation
+  L19: CSV columns: PC, N_FIXED, N_RANDOM, FIXED_MEAN, RANDOM_MEAN, MEAN_DIFFERENCE_FIXED_MINUS_RANDOM, FIXED_VARIANCE, RANDOM_VARIANCE, STANDARD_ERROR, WELCH_T, WELCH_DF, CI95_LOW_APPROX, CI95_HIGH_APPROX, STATISTIC_STATUS, RISK
+  L20: Use the CSV's finite Welch t-statistics for threshold classification; zero standard error means the conventional Welch t-statistic is undefined.
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv
+  L1: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  L11: 0x00000000800000c2,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  L12: 0x00000000800000c4,10,10,0.9,1,-0.1,0.1,0,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL
+  L13: 0x00000000800000d0,10,10,0.2,0,0.2,0.4,0,0.2,1,9,-0.2524,0.6524,FINITE_WELCH_T,NORMAL
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_analysis.py
+  L72: risk = "HIGH-RISK" if svs > 4.5 else "NORMAL"
+  L94: "WELCH_T",
+  L101: high_risk = [r for r in results if r[-1] == "HIGH-RISK"]
+  L104: print(f"High-risk instructions: {len(high_risk)}")
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_C5_C9_final_audit.txt
+  L8: Matched terms: Welch, high-risk
+  L9: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+  L10: 0000000080000474,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,9.0,4.58257569495584,HIGH-RISK
+  L11: 0000000080000484,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,9.0,4.58257569495584,HIGH-RISK
+
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_checks.py
+  L10: ELF = BASE / "phase5_fixed.elf"
+  L78: status = "FINITE_WELCH_T"
+  L83: risk = ("HIGH-RISK" if math.isfinite(t) and abs(t) > 4.5
+  L91: "STANDARD_ERROR": se, "WELCH_T": t, "WELCH_DF": df,
+
+/home/cnc_susindharan/pqc-cache-project/liboqs/ALGORITHMS.md
+  L18: The **OQS tier** column records OQS's own support commitment for each algorithm. Tiers are self-assigned by the OQS technical governance team via PR review, and are structurally parallel to the platform tiers defined in [PLATFORMS.md](PLATF
+
+/home/cnc_susindharan/pqc-cache-project/liboqs/CMakeLists.txt
+  L215: find_program(OBJDUMP objdump)
+  L216: if(NOT OBJDUMP)
+  L217: message(FATAL_ERROR "objdump not found. Please install it from binutils.")
+  L220: COMMAND ${OBJDUMP} -p ${OPENSSL_CRYPTO_LIBRARY}
+
+/home/cnc_susindharan/pqc-cache-project/liboqs/CONFIGURE.md
+  L146: Only has an effect if the system supports `dlopen` and ELF binary format, such as Linux or BSD family.
+
+/home/cnc_susindharan/pqc-cache-project/phase6/phase6_report_summary.txt
+  L5: Generated: high_risk_source_mapping.csv
+  L6: Generated: high_risk_source_mapping.txt
+
+/home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv
+  L1: PC,FUNCTION,SOURCE_LOCATION,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,SVS,RISK
+  L2: 0x0000000080000474,mlk_zeroize,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:433,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,4.58257569495584,HIGH-RISK
+  L3: 0x0000000080000484,PQCP_MLKEM_NATIVE_MLKEM512_C_enc,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:369,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,4.58257569495584,HIGH-RISK
+  L4: 0x0000000080000494,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380,0.0,0.9,0.0,0.1,-9.0,9.0,HIGH-RISK
+
+/home/cnc_susindharan/pqc-cache-project/phase6/phase6_plots.py
+  L76: high = svs[svs["RISK"].astype(str).str.strip() == "HIGH-RISK"].copy()
+  L107: plt.axhline(4.5, linestyle="--", label="High-risk threshold |t| = 4.5")
+  L108: plt.xlabel("High-risk PC")
+  L109: plt.ylabel("SVS = |Welch t|")
+
+/home/cnc_susindharan/pqc-cache-project/liboqs/scripts/update_alg_support_table.py
+  L7: but it is not meant to be run by itself. Instead, run the legacy
+
+/home/cnc_susindharan/pqc-cache-project/liboqs/.github/actionlint.yaml
+  L8: self-hosted-runner:
+
+/home/cnc_susindharan/pqc-cache-project/liboqs/tests/test_binary.py
+  L61: ['readelf', '--wide', '--segments', liboqs]
+
+/home/cnc_susindharan/pqc-cache-project/liboqs/tests/test_constant_time.py
+  L28: programs are structured such that all secret data can be traced back to a call
+  L127: in other Kyber parameter sets), and truncated the backtrace (since the extra lines
+  L132: "fun:name" line in the backtrace can be replaced by an equivalent
+  L144: An ellipsis (...) can serve as a wildcard for a portion of the backtrace.
+
+/home/cnc_susindharan/pqc-cache-project/liboqs/zephyr/README.md
+  L50: Other architectures supported by Zephyr are not supported with this port, as liboqs itself doesn't support these architectures (the modules can't be enabled in those cases). Please feel free to raise an issue or PR in case a new architectur
+
+/home/cnc_susindharan/pqc-cache-project/liboqs/build/CMakeCache.txt
+  L18: CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
+  L187: CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
+  L202: CMAKE_READELF:FILEPATH=/usr/bin/readelf
+  L1144: //ADVANCED property for variable: CMAKE_ADDR2LINE
+
+/home/cnc_susindharan/pqc-cache-project/liboqs/build/CMakeFiles/CMakeConfigureLog.yaml
+  L6: backtrace:
+  L13: backtrace:
+  L35: backtrace:
+  L48: backtrace:
+
+8. TOOLCHAIN
+python3: /usr/bin/python3
+riscv64-unknown-elf-objdump: /usr/bin/riscv64-unknown-elf-objdump
+riscv64-unknown-elf-addr2line: /usr/bin/riscv64-unknown-elf-addr2line
+riscv64-unknown-elf-readelf: /usr/bin/riscv64-unknown-elf-readelf
+
+9. CURRENT STATUS FILE CONTENTS
+
+--- PERSON2_FINAL_STATUS.txt (last 35 lines) ---
+PERSON 2 — FINAL C5/C9 STATUS
+Generated: 2026-10-19T14:53:15+00:00
+
+C5 — WORKFLOW RECONCILIATION
+The three workflows are documented separately:
+1. Broad configuration sweep.
+2. Per-PC cache-miss analysis.
+3. Independent timing experiment.
+
+The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results.
+
+C9 — SOURCE MAPPING
+PC-to-source mappings and ELF comparison outputs exist. Multiple ELF files have different hashes and timestamps. The exact ELF corresponding to each measured trace set is not established by the available provenance output. Treat source attribution as a candidate mapping pending build-to-run confirma
+
+DELIVERABLES
+- person2_corrected_zero_padded.csv
+- person2_pc_source_mapping.csv
+- person2_findings_summary.txt
+- person2_final_audit.txt
+- person2_C5_C9_final_audit.txt
+- person2_C5_C9_provenance_check.txt
+
+STATUS
+C5/C9 documentation and audit artifacts are generated. Full experimental provenance is not independently verified.
+
+--- person2_completion_report.txt (last 35 lines) ---
+END OF CONSOLIDATED REPORT
+
+
+=======================================================
+C5/C9 AUDIT APPENDED
+Detailed audit: person2_C5_C9_final_audit.txt
+C5 workflow evidence inventory and C9 ELF address comparisons generated.
+
+
+============================================================
+
+PERSON 2 — FINAL C5/C9 STATUS
+Generated: 2026-10-19T14:53:15+00:00
+
+C5 — WORKFLOW RECONCILIATION
+The three workflows are documented separately:
+1. Broad configuration sweep.
+2. Per-PC cache-miss analysis.
+3. Independent timing experiment.
+
+The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results.
+
+C9 — SOURCE MAPPING
+PC-to-source mappings and ELF comparison outputs exist. Multiple ELF files have different hashes and timestamps. The exact ELF corresponding to each measured trace set is not established by the available provenance output. Treat source attribution as a candidate mapping pending build-to-run confirma
+
+DELIVERABLES
+- person2_corrected_zero_padded.csv
+- person2_pc_source_mapping.csv
+- person2_findings_summary.txt
+- person2_final_audit.txt
+- person2_C5_C9_final_audit.txt
+- person2_C5_C9_provenance_check.txt
+
+STATUS
+C5/C9 documentation and audit artifacts are generated. Full experimental provenance is not independently verified.
+
+--- person2_C5_C9_provenance_check.txt (last 35 lines) ---
+========== C9: ELF METADATA ==========
+--- phase5_fixed.elf ---
+Modified: 2026-09-04 12:07:37.344896069 +0000 | Size: 378992 bytes
+--- phase5_fixed_1.elf ---
+Modified: 2026-09-04 12:46:58.477580938 +0000 | Size: 379024 bytes
+--- phase5_fixed_10.elf ---
+Modified: 2026-09-04 12:47:31.193198734 +0000 | Size: 378992 bytes
+--- phase5_random.elf ---
+Modified: 2026-09-04 10:46:35.261951386 +0000 | Size: 379008 bytes
+--- phase5_random_full_01.elf ---
+Modified: 2026-09-04 12:44:52.624673626 +0000 | Size: 379008 bytes
+--- phase5_test_fixed.elf ---
+Modified: 2026-09-04 11:58:02.299644681 +0000 | Size: 379024 bytes
+
+========== RECORDED ELF REFERENCES ==========
+./person2_final_audit.py:57:elfs = [phase / n for n in ("phase5_fixed.elf", "phase5_test_fixed.elf",
+./person2_final_audit.py:58:                             "phase5_fixed_1.elf")]
+./person2_final_audit.txt:16:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+./person2_final_audit.txt:18:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+./person2_final_audit.txt:21:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+./person2_final_audit.txt:23:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+./person2_final_elf_mapping.txt:2:===== phase5_fixed.elf =====
+./person2_final_elf_mapping.txt:82:===== phase5_test_fixed.elf =====
+./person2_final_elf_mapping.txt:150:===== phase5_fixed_1.elf =====
+./person2_C5_C9_provenance_check.txt:7:--- phase5_fixed.elf ---
+./person2_C5_C9_provenance_check.txt:9:--- phase5_fixed_1.elf ---
+./person2_C5_C9_provenance_check.txt:11:--- phase5_fixed_10.elf ---
+./person2_C5_C9_provenance_check.txt:13:--- phase5_random.elf ---
+./person2_C5_C9_provenance_check.txt:15:--- phase5_random_full_01.elf ---
+./person2_C5_C9_provenance_check.txt:17:--- phase5_test_fixed.elf ---
+./person2_completion_report.txt:83:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+./person2_completion_report.txt:85:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+./person2_completion_report.txt:88:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+./person2_completion_report.txt:90:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+./person2_final_checks.py:10:ELF = BASE / "phase5_fixed.elf"
+
+============================================================================
+AUDIT COMPLETE — THIS SCRIPT DOES NOT CLAIM EXPERIMENTAL VALIDATION SOLELY FROM FILE EXISTENCE.
+Review missing inputs, dataset separation, and exact ELF-to-trace provenance.
+============================================================================

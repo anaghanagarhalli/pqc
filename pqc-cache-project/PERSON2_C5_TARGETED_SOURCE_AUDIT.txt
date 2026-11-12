@@ -1,0 +1,134 @@
+PERSON 2 — TARGETED C5 SOURCE AUDIT
+================================================
+Root: /home/cnc_susindharan/pqc-cache-project
+
+
+--- phase5_svc/person2_final_audit.py ---
+81: keywords = ("LEAKY", "504", "configuration", "baseline", "lookup",
+82: "branch", "6857", "7114", "7421", "TVLA", "Welch",
+111: log("Workflow A: broad configuration sweep — earlier reported result: six crypto kernels")
+112: log("  had zero flagged locations, while the LEAKY positive control was detected.")
+115: log("Workflow C: separate timing experiment — earlier reported baseline means were equal;")
+116: log("  lookup had unequal means but zero variance; branch injection showed a timing difference.")
+
+--- phase5_svc/person2_final_checks.py ---
+164: f.write("1. Broad configuration sweep: six crypto kernels reportedly had zero flagged\n")
+165: f.write("   locations; LEAKY positive control showed detection.\n")
+169: f.write("3. Independent timing experiment: baseline reportedly showed no mean difference;\n")
+170: f.write("   lookup had unequal means with zero variance; branch injection showed a timing\n")
+
+--- phase5_svc/person2_final_verification.py ---
+50: "**/misses_*.csv", "**/*svs*analysis*.py", "**/*tvla*.py",
+148: r"LEAKY|504.configuration|100 fixed|100 random|"
+
+Source/config files checked: 23
+
+--- ML-KEM harness ---
+1: #include <stdint.h>
+2: #include <stddef.h>
+3: 
+4: #include "kem.h"
+5: #include "params.h"
+6: 
+7: volatile uint64_t tohost = 0;
+8: volatile uint64_t fromhost = 0;
+9: volatile uint8_t checksum = 0;
+10: 
+11: static uint8_t pk[MLKEM_INDCCA_PUBLICKEYBYTES];
+12: static uint8_t sk[MLKEM_INDCCA_SECRETKEYBYTES];
+13: static uint8_t ct[MLKEM_INDCCA_CIPHERTEXTBYTES];
+14: static uint8_t ss_enc[MLKEM_SSBYTES];
+15: static uint8_t ss_dec[MLKEM_SSBYTES];
+16: 
+17: #ifndef PHASE5_RUN_ID
+18: #define PHASE5_RUN_ID 0
+19: #endif
+20: 
+21: static uint32_t rng_state =
+22:     0x13579BDFu + (uint32_t)PHASE5_RUN_ID * 0x9E3779B9u;
+23: 
+24: __attribute__((optimize("O0"))) void *memset(void *dst, int value, size_t n)
+25: {
+26:     uint8_t *p = (uint8_t *)dst;
+27:     while (n--)
+28:         *p++ = (uint8_t)value;
+29:     return dst;
+30: }
+31: 
+32: __attribute__((optimize("O0"))) void *memcpy(void *dst, const void *src, size_t n)
+33: {
+34:     uint8_t *d = (uint8_t *)dst;
+35:     const uint8_t *s = (const uint8_t *)src;
+36:     while (n--)
+37:         *d++ = *s++;
+38:     return dst;
+39: }
+40: 
+41: static uint8_t next_random_byte(void)
+42: {
+43:     rng_state = rng_state * 1664525u + 1013904223u;
+44:     return (uint8_t)(rng_state >> 24);
+45: }
+46: 
+47: static void fill_fixed(uint8_t *p, size_t n, uint8_t base)
+48: {
+49:     for (size_t i = 0; i < n; i++)
+50:         p[i] = (uint8_t)(base + (uint8_t)i);
+51: }
+52: 
+53: static void fill_random(uint8_t *p, size_t n)
+54: {
+55:     for (size_t i = 0; i < n; i++)
+56:         p[i] = next_random_byte();
+57: }
+58: 
+59: static int run_mlkem(void)
+60: {
+61:     uint8_t key_coins[2 * MLKEM_SYMBYTES];
+62:     uint8_t enc_coins[MLKEM_SYMBYTES];
+63: 
+64: #ifdef PHASE5_RANDOM_MODE
+65:     fill_random(key_coins, sizeof(key_coins));
+66:     fill_random(enc_coins, sizeof(enc_coins));
+67: #else
+68:     uint8_t key_base = (uint8_t)(0x10u + (uint32_t)PHASE5_RUN_ID * 0x17u);
+69:     uint8_t enc_base = (uint8_t)(0x80u + (uint32_t)PHASE5_RUN_ID * 0x29u);
+70:     fill_fixed(key_coins, sizeof(key_coins), key_base);
+71:     fill_fixed(enc_coins, sizeof(enc_coins), enc_base);
+72: #endif
+73: 
+74:     if (mlk_kem_keypair_derand(pk, sk, key_coins, 0) != 0)
+75:         return -1;
+76: 
+77:     if (mlk_kem_enc_derand(ct, ss_enc, pk, enc_coins, 0) != 0)
+78:         return -2;
+79: 
+80:     if (mlk_kem_dec(ss_dec, ct, sk, 0) != 0)
+81:         return -3;
+82: 
+83:     checksum = 0;
+84:     for (size_t i = 0; i < sizeof(ss_dec); i++)
+85:         checksum ^= ss_dec[i];
+86: 
+87:     return 0;
+88: }
+89: 
+90: int main(void)
+91: {
+92:     int ret = run_mlkem();
+93:     tohost = (ret == 0) ? 1 : 0;
+94: 
+95:     while (1) {
+96:     }
+97: 
+98:     return 0;
+99: }
+
+--- Git status ---
+fatal: not a git repository (or any of the parent directories): .git
+
+--- Recent Git history ---
+fatal: not a git repository (or any of the parent directories): .git
+
+--- Tracked experiment-related files ---
+No matching tracked paths, or Git history unavailable.

@@ -1,0 +1,145 @@
+PERSON 2 — NEXT ACTIONS
+============================================================
+Generated: 2026-10-19T16:11:18.830045+00:00
+Inventory: /home/cnc_susindharan/pqc-cache-project/PERSON2_RECOVERY_INVENTORY.json
+Relevant files found: 314
+Potential runner/build files: 113
+ELF files found: 27
+Trace CSVs found: 45
+
+P1 — C4: Check that the reconstructed Welch and confidence-interval outputs exist.
+P2 — C5: Use the inventory to identify the actual experiment runner and dependencies.
+P3 — C9: Match trace generation records to exact ELF hashes; hashes alone do not prove the association.
+
+Potential runner/build files:
+  liboqs/CMakeLists.txt
+  liboqs/README.md
+  liboqs/build/CMakeCache.txt
+  liboqs/build/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c
+  liboqs/build/CMakeFiles/CMakeConfigureLog.yaml
+  liboqs/scripts/copy_from_upstream/README.md
+  liboqs/scripts/copy_from_upstream/src/kem/family/CMakeLists.txt
+  liboqs/scripts/copy_from_upstream/src/sig/family/CMakeLists.txt
+  liboqs/scripts/copy_from_xkcp/CMakeLists.txt
+  liboqs/src/CMakeLists.txt
+  liboqs/src/common/CMakeLists.txt
+  liboqs/src/common/sha3/avx512vl_low/CMakeLists.txt
+  liboqs/src/common/sha3/xkcp_low/CMakeLists.txt
+  liboqs/src/kem/bike/CMakeLists.txt
+  liboqs/src/kem/bike/additional_r4/README.md
+  liboqs/src/kem/classic_mceliece/CMakeLists.txt
+  liboqs/src/kem/frodokem/CMakeLists.txt
+  liboqs/src/kem/hqc/CMakeLists.txt
+  liboqs/src/kem/kyber/CMakeLists.txt
+  liboqs/src/kem/ml_kem/CMakeLists.txt
+  liboqs/src/kem/ml_kem/mlkem-native_ml-kem-1024_aarch64/mlkem/src/native/aarch64/README.md
+  liboqs/src/kem/ml_kem/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/README.md
+  liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_aarch64/mlkem/src/native/aarch64/README.md
+  liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/README.md
+  liboqs/src/kem/ml_kem/mlkem-native_ml-kem-768_aarch64/mlkem/src/native/aarch64/README.md
+  liboqs/src/kem/ml_kem/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/README.md
+  liboqs/src/kem/ntru/CMakeLists.txt
+  liboqs/src/kem/ntruprime/CMakeLists.txt
+  liboqs/src/sig/cross/CMakeLists.txt
+  liboqs/src/sig/falcon/CMakeLists.txt
+  liboqs/src/sig/mayo/CMakeLists.txt
+  liboqs/src/sig/ml_dsa/CMakeLists.txt
+  liboqs/src/sig/mqom/CMakeLists.txt
+  liboqs/src/sig/slh_dsa/CMakeLists.txt
+  liboqs/src/sig/snova/CMakeLists.txt
+  liboqs/src/sig/uov/CMakeLists.txt
+  liboqs/src/sig_stfl/lms/CMakeLists.txt
+  liboqs/src/sig_stfl/xmss/CMakeLists.txt
+  liboqs/tests/CMakeLists.txt
+  liboqs/tests/KATs/README.md
+  liboqs/zephyr/CMakeLists.txt
+  liboqs/zephyr/README.md
+  liboqs/zephyr/samples/KEMs/CMakeLists.txt
+  liboqs/zephyr/samples/Signatures/CMakeLists.txt
+  phase5_svc/phase5_mlkem_harness.c
+  phase5_svc/runs/fixed/cache_01.txt
+  phase5_svc/runs/fixed/cache_02.txt
+  phase5_svc/runs/fixed/cache_03.txt
+  phase5_svc/runs/fixed/cache_04.txt
+  phase5_svc/runs/fixed/cache_05.txt
+  phase5_svc/runs/fixed/cache_06.txt
+  phase5_svc/runs/fixed/cache_07.txt
+  phase5_svc/runs/fixed/cache_08.txt
+  phase5_svc/runs/fixed/cache_09.txt
+  phase5_svc/runs/fixed/cache_10.txt
+  phase5_svc/runs/fixed/trace_01.csv
+  phase5_svc/runs/fixed/trace_02.csv
+  phase5_svc/runs/fixed/trace_03.csv
+  phase5_svc/runs/fixed/trace_04.csv
+  phase5_svc/runs/fixed/trace_05.csv
+  phase5_svc/runs/fixed/trace_06.csv
+  phase5_svc/runs/fixed/trace_07.csv
+  phase5_svc/runs/fixed/trace_08.csv
+  phase5_svc/runs/fixed/trace_09.csv
+  phase5_svc/runs/fixed/trace_1.csv
+  phase5_svc/runs/fixed/trace_10.csv
+  phase5_svc/runs/fixed/trace_2.csv
+  phase5_svc/runs/fixed/trace_3.csv
+  phase5_svc/runs/fixed/trace_4.csv
+  phase5_svc/runs/fixed/trace_5.csv
+  phase5_svc/runs/fixed/trace_6.csv
+  phase5_svc/runs/fixed/trace_7.csv
+  phase5_svc/runs/fixed/trace_8.csv
+  phase5_svc/runs/fixed/trace_9.csv
+  phase5_svc/runs/random/cache_01.txt
+  phase5_svc/runs/random/cache_02.txt
+  phase5_svc/runs/random/cache_03.txt
+  phase5_svc/runs/random/cache_04.txt
+  phase5_svc/runs/random/cache_05.txt
+  phase5_svc/runs/random/cache_06.txt
+  phase5_svc/runs/random/cache_07.txt
+  phase5_svc/runs/random/cache_08.txt
+  phase5_svc/runs/random/cache_09.txt
+  phase5_svc/runs/random/cache_10.txt
+  phase5_svc/runs/random/trace_01.csv
+  phase5_svc/runs/random/trace_02.csv
+  phase5_svc/runs/random/trace_03.csv
+  phase5_svc/runs/random/trace_04.csv
+  phase5_svc/runs/random/trace_05.csv
+  phase5_svc/runs/random/trace_06.csv
+  phase5_svc/runs/random/trace_07.csv
+  phase5_svc/runs/random/trace_08.csv
+  phase5_svc/runs/random/trace_09.csv
+  phase5_svc/runs/random/trace_1.csv
+  phase5_svc/runs/random/trace_10.csv
+  phase5_svc/runs/random/trace_17_full.csv
+  phase5_svc/runs/random/trace_18_full.csv
+  phase5_svc/runs/random/trace_2.csv
+  phase5_svc/runs/random/trace_3.csv
+  phase5_svc/runs/random/trace_4.csv
+
+ELF files:
+  phase5_svc/phase5_fixed.elf | df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137
+  phase5_svc/phase5_fixed_1.elf | 1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b
+  phase5_svc/phase5_fixed_10.elf | df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137
+  phase5_svc/phase5_fixed_2.elf | 6bde6e353e5cfcaaf15f87ea85d12a1d2ac99bfa25a4f7778207c310d4dff5dd
+  phase5_svc/phase5_fixed_3.elf | d7977e3c9268cdd9cdc6eaa987ef0a4cf4583e60510ce8fb6e6ef8fabadffdbc
+  phase5_svc/phase5_fixed_4.elf | ba1f1b26f0c91173fc2bd3d0901dd6da94568d452841fdcbdd6f3939d377a599
+  phase5_svc/phase5_fixed_5.elf | 02f7580e195313ca7205d1217c40e5b157c8e2f9ca5cd306325eed4b2c7278b0
+  phase5_svc/phase5_fixed_6.elf | 1120c1c388d081bb993b27275de894f9a34eaf203bb5943ea777ee942c3617b3
+  phase5_svc/phase5_fixed_7.elf | df29e977b592cb6799eb3f99e031a2e251dca0ff1fa43c1fbf6095fa313c75c3
+  phase5_svc/phase5_fixed_8.elf | 3fbe912e61cb2df796c1043397deb4d7357fcd2e1af779942ad94559c639774f
+  phase5_svc/phase5_fixed_9.elf | 2848fcb07dd1fd96465804161a2e938b8cde38dab37342ad447977b2fe518b9b
+  phase5_svc/phase5_random.elf | 355ae10935e3daeb0c49bf374b4da2ceab55dc563a2675ca86fb730ccabf7310
+  phase5_svc/phase5_random_1.elf | 90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42
+  phase5_svc/phase5_random_10.elf | 1702cc9c90459ead962448c7f1d5ffdd5d79c5d7c14033c7ed049b93d945f33b
+  phase5_svc/phase5_random_2.elf | 8ee30bad0f970c2004105b651040969446641ef541beccf63a4ed11344b46daf
+  phase5_svc/phase5_random_3.elf | f633df1994860a6fd4b1a52fbd7ab888ef7147bc471b7e0c052998cbe5639578
+  phase5_svc/phase5_random_4.elf | bc055f4ded37da14fac4803f6ebe99f45b7931de16c585d3ae78bdf2fd33d50e
+  phase5_svc/phase5_random_5.elf | f86149a40a3c1ec0ed5e35b26c600cb2cb05c74912fad1cd5703c78c4b3b0fe9
+  phase5_svc/phase5_random_6.elf | 7886c1257028caa99812e5f017a4eb19521c34c195a97756f5798442d1c19706
+  phase5_svc/phase5_random_7.elf | 6ea3b9e4443efb544b828852ac55b089474721991d653b2b8f18e4e54f7abd31
+  phase5_svc/phase5_random_8.elf | 8f4f875a24944c17225db897a5e00e5240e5b625d28992fe6969d61dd6f7a8c2
+  phase5_svc/phase5_random_9.elf | 5f734bd1c48073fc9b04e7091747f87a9a7646d7aef64e89e5940fe50ea6766c
+  phase5_svc/phase5_random_full_01.elf | 90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42
+  phase5_svc/phase5_test_fixed.elf | 1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b
+  phase5_svc/phase5_test_random.elf | 22191aa1b8e8ff49b4f8c235839830dc474775d46b4612282f229c0b567b1ce0
+  phase5_svc/phase5_test_random18.elf | 81e9660610511dccd4091bc91655750a794332c8d85cdb9f2349bfa440a25945
+  workloads/mlkem512_ntt/mlkem512_ntt.elf | 0626c11ca777fbd9663b3c24d2ac429bdd7a89f23cbef6110cf7e161eb7f42a5
+
+Caveat: this inventory does not execute experiments or certify missing evidence.

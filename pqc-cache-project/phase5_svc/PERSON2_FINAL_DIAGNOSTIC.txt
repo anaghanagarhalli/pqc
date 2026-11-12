@@ -1,0 +1,217 @@
+===== A. INPUT CSV HEADERS AND SAMPLE ROWS =====
+
+--- runs/fixed/misses_01.csv ---
+PC,MISSES
+0000000080000474,1
+0000000080000484,1
+0000000080000520,1
+Data rows: 7
+
+--- runs/fixed/misses_09.csv ---
+PC,MISSES
+0000000080000472,1
+0000000080000482,1
+000000008000051e,1
+Data rows: 7
+
+--- runs/fixed/misses_10.csv ---
+PC,MISSES
+0000000080000010,11
+0000000080000014,14
+000000008000001a,8
+Data rows: 95
+
+--- runs/random/misses_01.csv ---
+PC,MISSES
+0000000080000494,1
+00000000800004a4,1
+0000000080000540,1
+Data rows: 6
+
+--- runs/random/misses_09.csv ---
+PC,MISSES
+0000000080000494,1
+00000000800004a4,1
+0000000080000540,1
+Data rows: 6
+
+--- runs/random/misses_10.csv ---
+PC,MISSES
+0000000080000010,11
+0000000080000014,14
+000000008000001a,8
+Data rows: 95
+
+===== B. STATISTICAL CSV HEADERS =====
+
+--- svs_results.csv ---
+PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+0000000080000010,1.1,1.1,12.100000000000001,12.100000000000001,0.0,18.0,0.0,NORMAL
+Rows: 194
+
+--- person2_corrected_zero_padded.csv ---
+PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+0x0000000080000010,10,10,1.1,1.1,0,12.1,12.1,1.5556349,0,18,-3.268389,3.268389,FINITE_WELCH_T,NORMAL
+Rows: 194
+
+--- person2_corrected_exact_ci.csv ---
+PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK,CI95_LOW_EXACT,CI95_HIGH_EXACT,CI95_STATUS
+0x0000000080000010,10,10,1.1,1.1,0,12.1,12.1,1.5556349,0,18,-3.268389,3.268389,FINITE_WELCH_T,NORMAL,-3.268267648,3.268267648,WELCH_T_95_PERCENT_INTERVAL
+Rows: 194
+
+===== C. C5/C9 REPORT FINDINGS =====
+
+--- person2_findings_summary.txt: relevant lines ---
+6:Missing PCs were assigned zero misses, matching the original script.
+8:Welch t-statistic: (fixed mean - random mean) / standard error.
+10:is undefined whether the means differ or are equal. Do not report infinity
+11:as a conventional Welch t-statistic.
+13:Confidence intervals are approximate 95% Welch intervals using a conservative
+21:   194 PCs and 13 high-risk PCs. The present script checks the current inputs
+27:A high |t| is evidence of a statistical difference in this sample, not by itself
+28:proof of exploitable leakage. Source mapping is based on the selected ELF and
+29:debug info; verify the exact build corresponds to the measured traces.
+
+--- person2_C5_C9_final_audit.txt: relevant lines ---
+1:PERSON 2 — C5 AND C9 FINAL AUDIT
+5:C5 — WORKFLOW RECONCILIATION
+8:Matched terms: Welch, high-risk
+9:  PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+10:  0000000080000474,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,9.0,4.58257569495584,HIGH-RISK
+11:  0000000080000484,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,9.0,4.58257569495584,HIGH-RISK
+12:  0000000080000494,0.0,0.9,0.0,0.1,-9.0,9.0,9.0,HIGH-RISK
+13:  00000000800004a4,0.0,0.9,0.0,0.1,-9.0,9.0,9.0,HIGH-RISK
+14:  0000000080000520,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,9.0,4.58257569495584,HIGH-RISK
+15:  0000000080000540,0.0,1.0,0.0,0.0,inf,inf,inf,HIGH-RISK
+16:  000000008000055c,19.8,0.0,109.28888888888889,0.0,5.989315415470645,9.0,5.989315415470645,HIGH-RISK
+19:Matched terms: 504, 6857, 7114, 7421, LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+20:  person2_corrected_zero_padded.csv: 194 PCs; finite high-risk=10; undefined=3
+21:  person2_corrected_full_runs.csv: 314 PCs; finite high-risk=91; undefined=78
+22:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv: Welch, high-risk
+23:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv: 504, Welch, high-risk
+24:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt: LEAKY, configuration, baseline, lookup, branch, Welch, high-risk, source mapping
+25:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv: 504, 7421, Welch, high-risk
+26:  /home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv: Welch, high-risk
+30:Matched terms: 504, Welch, high-risk
+31:  PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+32:  0x0000000080000010,10,10,1.1,1.1,0,12.1,12.1,1.5556349,0,18,-3.268389,3.268389,FINITE_WELCH_T,NORMAL
+33:  0x0000000080000014,10,10,1.4,1.4,0,19.6,19.6,1.979899,0,18,-4.1597678,4.1597678,FINITE_WELCH_T,NORMAL
+34:  0x000000008000001a,10,10,0.8,0.8,0,6.4,6.4,1.1313708,0,18,-2.3770102,2.3770102,FINITE_WELCH_T,NORMAL
+35:  0x0000000080000040,10,10,19.2,19.3,-0.1,3686.4,3724.9,27.223703,-0.0036732696,17.999514,-57.542013,57.342013,FINITE_WELCH_T,NORMAL
+36:  0x0000000080000060,10,10,0.3,0.3,0,0.9,0.9,0.42426407,0,18,-0.89137881,0.89137881,FINITE_WELCH_T,NORMAL
+37:  0x0000000080000064,10,10,0.5,0.5,0,2.5,2.5,0.70710678,0,18,-1.4856313,1.4856313,FINITE_WELCH_T,NORMAL
+38:  0x000000008000006c,10,10,0.2,0.2,0,0.4,0.4,0.28284271,0,18,-0.59425254,0.59425254,FINITE_WELCH_T,NORMAL
+41:Matched terms: LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+42:  Welch t-statistic: (fixed mean - random mean) / standard error.
+43:  as a conventional Welch t-statistic.
+44:  Confidence intervals are approximate 95% Welch intervals using a conservative
+47:  194 PCs and 13 high-risk PCs. The present script checks the current inputs
+52:Matched terms: 504, 6857, 7114, 7421, LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+53:  C3: Statistical analysis and Welch t-statistic interpretation
+
+--- person2_C5_C9_provenance_check.txt: relevant lines ---
+1:========== C5: EXPERIMENT LOGS ==========
+6:========== C9: ELF METADATA ==========
+7:--- phase5_fixed.elf ---
+9:--- phase5_fixed_1.elf ---
+11:--- phase5_fixed_10.elf ---
+13:--- phase5_random.elf ---
+15:--- phase5_random_full_01.elf ---
+17:--- phase5_test_fixed.elf ---
+20:========== RECORDED ELF REFERENCES ==========
+21:./person2_final_audit.py:57:elfs = [phase / n for n in ("phase5_fixed.elf", "phase5_test_fixed.elf",
+22:./person2_final_audit.py:58:                             "phase5_fixed_1.elf")]
+27:./person2_final_elf_mapping.txt:2:===== phase5_fixed.elf =====
+28:./person2_final_elf_mapping.txt:82:===== phase5_test_fixed.elf =====
+29:./person2_final_elf_mapping.txt:150:===== phase5_fixed_1.elf =====
+30:./person2_C5_C9_provenance_check.txt:7:--- phase5_fixed.elf ---
+31:./person2_C5_C9_provenance_check.txt:9:--- phase5_fixed_1.elf ---
+32:./person2_C5_C9_provenance_check.txt:11:--- phase5_fixed_10.elf ---
+33:./person2_C5_C9_provenance_check.txt:13:--- phase5_random.elf ---
+34:./person2_C5_C9_provenance_check.txt:15:--- phase5_random_full_01.elf ---
+35:./person2_C5_C9_provenance_check.txt:17:--- phase5_test_fixed.elf ---
+40:./person2_final_checks.py:10:ELF = BASE / "phase5_fixed.elf"
+
+--- person2_final_elf_mapping.txt: relevant lines ---
+2:===== phase5_fixed.elf =====
+82:===== phase5_test_fixed.elf =====
+150:===== phase5_fixed_1.elf =====
+
+--- person2_completion_report.txt: relevant lines ---
+6:C3: Statistical analysis and Welch t-statistic interpretation
+7:C4: Zero-variance / undefined t-statistic investigation
+8:C5: Reconciliation of the three distinct experiment workflows
+9:C9: Program-counter to source/assembly mapping
+19:CSV columns: PC, N_FIXED, N_RANDOM, FIXED_MEAN, RANDOM_MEAN, MEAN_DIFFERENCE_FIXED_MINUS_RANDOM, FIXED_VARIANCE, RANDOM_VARIANCE, STANDARD_ERROR, WELCH_T, WELCH_DF, CI95_LOW_APPROX, CI95_HIGH_APPROX, STATISTIC_STATUS, RISK
+20:Use the CSV's finite Welch t-statistics for threshold classification; zero standard error means the conventional Welch t-statistic is undefined.
+29:Source attribution is conditional on confirming that the mapped ELF is the exact binary used for the corresponding measurements.
+32:A threshold exceedance indicates a difference in the observed samples; it does not by itself prove exploitable side-channel leakage.
+33:For zero standard error, report group means and variances and mark t as undefined. Confidence intervals must use a suitable Welch t critical value and must not be described as exact if approximations were used.
+41:Missing PCs were assigned zero misses, matching the original script.
+43:Welch t-statistic: (fixed mean - random mean) / standard error.
+45:is undefined whether the means differ or are equal. Do not report infinity
+46:as a conventional Welch t-statistic.
+48:Confidence intervals are approximate 95% Welch intervals using a conservative
+56:   194 PCs and 13 high-risk PCs. The present script checks the current inputs
+62:A high |t| is evidence of a statistical difference in this sample, not by itself
+63:proof of exploitable leakage. Source mapping is based on the selected ELF and
+64:debug info; verify the exact build corresponds to the measured traces.
+73:person2_corrected_zero_padded.csv: 194 PCs; finite high-risk=10; undefined=3
+74:  Confidence intervals: review column names and calculation before publication.
+75:  Zero SE rows are undefined; do not interpret their t-statistics as infinity.
+76:person2_corrected_full_runs.csv: 314 PCs; finite high-risk=91; undefined=78
+77:  Confidence intervals: review column names and calculation before publication.
+78:  Zero SE rows are undefined; do not interpret their t-statistics as infinity.
+80:2. INPUT FILE PROVENANCE
+93:3. ELF / SOURCE MAPPING CROSS-CHECK
+94:Created mapping comparison: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_elf_mapping.txt
+95:Important: addr2line output is only valid for the ELF that generated the measured traces.
+96:Confirming which ELF generated each run is required before final publication.
+99:/home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv: Welch, high-risk
+100:/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv: 504, Welch, high-risk
+101:/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt: LEAKY, configuration, baseline, lookup, branch, Welch, high-risk, source mapping
+102:/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv: 504, 7421, Welch, high-risk
+104:/home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv: Welch, high-risk
+143:  its corrected output has 10 finite threshold exceedances and 3 undefined rows.
+
+--- PERSON2_FINAL_STATUS.txt: relevant lines ---
+1:PERSON 2 — FINAL C5/C9 STATUS
+4:C5 — WORKFLOW RECONCILIATION
+10:The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results.
+12:C9 — SOURCE MAPPING
+13:PC-to-source mappings and ELF comparison outputs exist. Multiple ELF files have different hashes and timestamps. The exact ELF corresponding to each measured trace set is not established by the available provenance output. Treat source attribution as a candidate mapping pending build-to-run confirmation.
+20:- person2_C5_C9_final_audit.txt
+21:- person2_C5_C9_provenance_check.txt
+24:C5/C9 documentation and audit artifacts are generated. Full experimental provenance is not independently verified.
+
+===== D. ZERO-PADDED INPUT FILE INVENTORY =====
+
+FIXED
+runs/fixed/misses_01.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+runs/fixed/misses_02.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+runs/fixed/misses_03.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+runs/fixed/misses_04.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+runs/fixed/misses_05.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+runs/fixed/misses_06.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+runs/fixed/misses_07.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+runs/fixed/misses_08.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+runs/fixed/misses_09.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+runs/fixed/misses_10.csv: rows=95, unique_PC_strings=95, columns=['PC', 'MISSES']
+
+RANDOM
+runs/random/misses_01.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+runs/random/misses_02.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+runs/random/misses_03.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+runs/random/misses_04.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+runs/random/misses_05.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+runs/random/misses_06.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+runs/random/misses_07.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+runs/random/misses_08.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+runs/random/misses_09.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+runs/random/misses_10.csv: rows=95, unique_PC_strings=95, columns=['PC', 'MISSES']
+
+===== E. CONFIDENCE INTERVAL COLUMN NAMES =====
+person2_corrected_zero_padded.csv: ['PC', 'N_FIXED', 'N_RANDOM', 'FIXED_MEAN', 'RANDOM_MEAN', 'MEAN_DIFFERENCE_FIXED_MINUS_RANDOM', 'FIXED_VARIANCE', 'RANDOM_VARIANCE', 'STANDARD_ERROR', 'WELCH_T', 'WELCH_DF', 'CI95_LOW_APPROX', 'CI95_HIGH_APPROX', 'STATISTIC_STATUS', 'RISK']
+person2_corrected_exact_ci.csv: ['PC', 'N_FIXED', 'N_RANDOM', 'FIXED_MEAN', 'RANDOM_MEAN', 'MEAN_DIFFERENCE_FIXED_MINUS_RANDOM', 'FIXED_VARIANCE', 'RANDOM_VARIANCE', 'STANDARD_ERROR', 'WELCH_T', 'WELCH_DF', 'CI95_LOW_APPROX', 'CI95_HIGH_APPROX', 'STATISTIC_STATUS', 'RISK', 'CI95_LOW_EXACT', 'CI95_HIGH_EXACT', 'CI95_STATUS']
+
+===== END OF DIAGNOSTIC =====

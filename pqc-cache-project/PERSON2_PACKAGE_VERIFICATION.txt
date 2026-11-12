@@ -1,0 +1,37 @@
+PERSON 2 — PACKAGE VERIFICATION
+=======================================================
+Package: /home/cnc_susindharan/pqc-cache-project/PERSON2_FINAL_HANDOFF_PACKAGE.zip
+Size: 29191 bytes
+SHA256: 8a844df7b3ca989f7654f191b7f6948218d9d602f239b92c139630ba6ceeabb0
+ZIP integrity: PASS
+Files inside ZIP: 14
+
+ARCHIVE CONTENTS:
+  phase5_svc/PERSON2_FINAL_HANDOFF.txt
+  phase5_svc/PERSON2_FINAL_STATUS.txt
+  phase5_svc/PERSON2_FINAL_AUDIT.txt
+  phase5_svc/PERSON2_TRACE_ELF_PROVENANCE_AUDIT.txt
+  phase5_svc/PERSON2_C5_C9_FINAL_RECOVERY.txt
+  phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt
+  phase5_svc/person2_corrected_exact_ci.csv
+  phase5_svc/person2_corrected_zero_padded.csv
+  phase5_svc/person2_findings_summary.txt
+  phase5_svc/person2_rebuilt_full/person2_full_trace_welch_results.csv
+  phase5_svc/person2_rebuilt_full/PERSON2_FULL_TRACE_REBUILD_REPORT.txt
+  phase6/high_risk_source_mapping.csv
+  phase6/high_risk_source_mapping.txt
+  PERSON2_COMPLETION_REPORT.txt
+
+KEY DELIVERABLES:
+PRESENT: PERSON2_COMPLETION_REPORT.txt
+PRESENT: PERSON2_FINAL_HANDOFF_PACKAGE.zip
+PRESENT: PERSON2_LAST_RECOVERY.txt
+PRESENT: phase5_svc/person2_corrected_exact_ci.csv
+PRESENT: phase5_svc/person2_rebuilt_full/person2_full_trace_welch_results.csv
+MISSING: phase5_svc/person2_full_trace_with_ci.csv
+PRESENT: phase6/high_risk_source_mapping.csv
+
+TECHNICAL STATUS:
+C3/C4: Existing statistical results; reconstructed-seed limitations must be disclosed.
+C5: Unverified until primary experiment logs/results are recovered or the tests are rerun.
+C9: Provisional until exact trace-to-ELF provenance is established.

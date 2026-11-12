@@ -1,0 +1,825 @@
+PERSON 2 — C5/C9 SCRIPT AND COMMAND SEARCH
+====================================================
+Generated: 2026-10-19T15:26:43.870494+00:00
+Project: /home/cnc_susindharan/pqc-cache-project/phase5_svc
+Files containing relevant search terms: 53
+
+
+--- PERSON2_ALL_IN_ONE_FINAL_AUDIT.txt ---
+4: Directory: /home/cnc_susindharan/pqc-cache-project/phase5_svc
+11: Fixed runs: 10
+12: Random runs: 10
+31: 0x0000000080000540: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+32: 0x000000008000057c: fixed mean=0.0, random mean=25.0, variances=0.0/0.0; Welch t is undefined
+33: 0x00000000800005d6: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+56: df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137  ./phase5_fixed.elf
+57: 1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b  ./phase5_fixed_1.elf
+58: df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137  ./phase5_fixed_10.elf
+59: 6bde6e353e5cfcaaf15f87ea85d12a1d2ac99bfa25a4f7778207c310d4dff5dd  ./phase5_fixed_2.elf
+60: d7977e3c9268cdd9cdc6eaa987ef0a4cf4583e60510ce8fb6e6ef8fabadffdbc  ./phase5_fixed_3.elf
+61: ba1f1b26f0c91173fc2bd3d0901dd6da94568d452841fdcbdd6f3939d377a599  ./phase5_fixed_4.elf
+62: 02f7580e195313ca7205d1217c40e5b157c8e2f9ca5cd306325eed4b2c7278b0  ./phase5_fixed_5.elf
+63: 1120c1c388d081bb993b27275de894f9a34eaf203bb5943ea777ee942c3617b3  ./phase5_fixed_6.elf
+64: df29e977b592cb6799eb3f99e031a2e251dca0ff1fa43c1fbf6095fa313c75c3  ./phase5_fixed_7.elf
+65: 3fbe912e61cb2df796c1043397deb4d7357fcd2e1af779942ad94559c639774f  ./phase5_fixed_8.elf
+66: 2848fcb07dd1fd96465804161a2e938b8cde38dab37342ad447977b2fe518b9b  ./phase5_fixed_9.elf
+67: 355ae10935e3daeb0c49bf374b4da2ceab55dc563a2675ca86fb730ccabf7310  ./phase5_random.elf
+68: 90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42  ./phase5_random_1.elf
+69: 1702cc9c90459ead962448c7f1d5ffdd5d79c5d7c14033c7ed049b93d945f33b  ./phase5_random_10.elf
+70: 8ee30bad0f970c2004105b651040969446641ef541beccf63a4ed11344b46daf  ./phase5_random_2.elf
+71: f633df1994860a6fd4b1a52fbd7ab888ef7147bc471b7e0c052998cbe5639578  ./phase5_random_3.elf
+72: bc055f4ded37da14fac4803f6ebe99f45b7931de16c585d3ae78bdf2fd33d50e  ./phase5_random_4.elf
+73: f86149a40a3c1ec0ed5e35b26c600cb2cb05c74912fad1cd5703c78c4b3b0fe9  ./phase5_random_5.elf
+74: 7886c1257028caa99812e5f017a4eb19521c34c195a97756f5798442d1c19706  ./phase5_random_6.elf
+75: 6ea3b9e4443efb544b828852ac55b089474721991d653b2b8f18e4e54f7abd31  ./phase5_random_7.elf
+76: 8f4f875a24944c17225db897a5e00e5240e5b625d28992fe6969d61dd6f7a8c2  ./phase5_random_8.elf
+77: 5f734bd1c48073fc9b04e7091747f87a9a7646d7aef64e89e5940fe50ea6766c  ./phase5_random_9.elf
+78: 90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42  ./phase5_random_full_01.elf
+79: 1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b  ./phase5_test_fixed.elf
+... 28 additional matching lines omitted
+
+--- PERSON2_ALL_IN_ONE_FINAL_STATUS.txt ---
+12: Caution: reconstructed with newly assigned deterministic cache-prefill seeds;
+16: Previously reported broad sweep and timing results are not independently verified
+20: ELF-to-trace provenance remains unconfirmed; source mappings are provisional.
+23: person2_rebuilt_full/person2_full_trace_welch_results.csv: exists (16230 bytes)
+24: person2_rebuilt_full/PERSON2_FULL_TRACE_REBUILD_REPORT.txt: exists (2073 bytes)
+33: ELF-to-trace provenance still require independent verification.
+
+--- PERSON2_C5_C9_PROVENANCE_INVESTIGATION.txt ---
+4: Project root: /home/cnc_susindharan/pqc-cache-project/phase5_svc
+7: df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137  phase5_fixed.elf
+8: 1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b  phase5_fixed_1.elf
+9: df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137  phase5_fixed_10.elf
+10: 6bde6e353e5cfcaaf15f87ea85d12a1d2ac99bfa25a4f7778207c310d4dff5dd  phase5_fixed_2.elf
+11: d7977e3c9268cdd9cdc6eaa987ef0a4cf4583e60510ce8fb6e6ef8fabadffdbc  phase5_fixed_3.elf
+12: ba1f1b26f0c91173fc2bd3d0901dd6da94568d452841fdcbdd6f3939d377a599  phase5_fixed_4.elf
+13: 02f7580e195313ca7205d1217c40e5b157c8e2f9ca5cd306325eed4b2c7278b0  phase5_fixed_5.elf
+14: 1120c1c388d081bb993b27275de894f9a34eaf203bb5943ea777ee942c3617b3  phase5_fixed_6.elf
+15: df29e977b592cb6799eb3f99e031a2e251dca0ff1fa43c1fbf6095fa313c75c3  phase5_fixed_7.elf
+16: 3fbe912e61cb2df796c1043397deb4d7357fcd2e1af779942ad94559c639774f  phase5_fixed_8.elf
+17: 2848fcb07dd1fd96465804161a2e938b8cde38dab37342ad447977b2fe518b9b  phase5_fixed_9.elf
+18: 355ae10935e3daeb0c49bf374b4da2ceab55dc563a2675ca86fb730ccabf7310  phase5_random.elf
+19: 90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42  phase5_random_1.elf
+20: 1702cc9c90459ead962448c7f1d5ffdd5d79c5d7c14033c7ed049b93d945f33b  phase5_random_10.elf
+21: 8ee30bad0f970c2004105b651040969446641ef541beccf63a4ed11344b46daf  phase5_random_2.elf
+22: f633df1994860a6fd4b1a52fbd7ab888ef7147bc471b7e0c052998cbe5639578  phase5_random_3.elf
+23: bc055f4ded37da14fac4803f6ebe99f45b7931de16c585d3ae78bdf2fd33d50e  phase5_random_4.elf
+24: f86149a40a3c1ec0ed5e35b26c600cb2cb05c74912fad1cd5703c78c4b3b0fe9  phase5_random_5.elf
+25: 7886c1257028caa99812e5f017a4eb19521c34c195a97756f5798442d1c19706  phase5_random_6.elf
+26: 6ea3b9e4443efb544b828852ac55b089474721991d653b2b8f18e4e54f7abd31  phase5_random_7.elf
+27: 8f4f875a24944c17225db897a5e00e5240e5b625d28992fe6969d61dd6f7a8c2  phase5_random_8.elf
+28: 5f734bd1c48073fc9b04e7091747f87a9a7646d7aef64e89e5940fe50ea6766c  phase5_random_9.elf
+29: 90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42  phase5_random_full_01.elf
+30: 1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b  phase5_test_fixed.elf
+31: 22191aa1b8e8ff49b4f8c235839830dc474775d46b4612282f229c0b567b1ce0  phase5_test_random.elf
+32: 81e9660610511dccd4091bc91655750a794332c8d85cdb9f2349bfa440a25945  phase5_test_random18.elf
+34: TRACE CSV FILES — ROW COUNTS AND SHA256
+35: rows=1650  sha256=19ea74553488e68fac69dab6e066ada48d58113f3c112157063a8cf534cdc7c5  file=fixed_trace.csv
+36: rows=317  sha256=c74c2d469720393a7d8298aeeadc153b29529ce71eb2b357c85a73f1572637b4  file=person2_rebuilt_full/person2_full_trace_welch_results.csv
+... 45 additional matching lines omitted
+
+--- PERSON2_EXACT_RECOMPUTE.txt ---
+3: Fixed runs: 10
+4: Random runs: 10
+23: 0x0000000080000540: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+24: 0x000000008000057c: fixed mean=0.0, random mean=25.0, variances=0.0/0.0; Welch t is undefined
+25: 0x00000000800005d6: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+
+--- PERSON2_FINAL_AUDIT.txt ---
+8: Full-trace rebuild report: PRESENT (2073 bytes)
+19: C3/C4: Reconstructed full-trace analysis exists; it uses newly assigned
+20: deterministic prefill seeds and is not verified as the original experiment.
+23: C5: Original broad-sweep and timing logs have not been independently verified.
+24: C9: ELF-to-trace provenance remains unconfirmed; source mapping is provisional.
+
+--- PERSON2_FINAL_COMPLETION_STATUS.txt ---
+6: - 10 fixed and 10 random zero-padded files were processed.
+12: - Confirm that missing PCs genuinely represent zero misses before treating the analysis as final.
+25: - Original sweep and timing experiment evidence was not located in the searched locations.
+32: - The exact ELF used to produce each measured trace set is not established by the available evidence.
+38: and C9 ELF-to-trace provenance remain unresolved.
+
+--- PERSON2_FINAL_DIAGNOSTIC.txt ---
+3: --- runs/fixed/misses_01.csv ---
+4: PC,MISSES
+10: --- runs/fixed/misses_09.csv ---
+11: PC,MISSES
+17: --- runs/fixed/misses_10.csv ---
+18: PC,MISSES
+24: --- runs/random/misses_01.csv ---
+25: PC,MISSES
+31: --- runs/random/misses_09.csv ---
+32: PC,MISSES
+38: --- runs/random/misses_10.csv ---
+39: PC,MISSES
+48: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+53: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+58: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK,CI95_LOW_EXACT,CI95_HIGH_EXACT,CI95_STATUS
+65: 6:Missing PCs were assigned zero misses, matching the original script.
+66: 8:Welch t-statistic: (fixed mean - random mean) / standard error.
+73: 29:debug info; verify the exact build corresponds to the measured traces.
+79: 9:  PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+87: 19:Matched terms: 504, 6857, 7114, 7421, LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+90: 22:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv: Welch, high-risk
+91: 23:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv: 504, Welch, high-risk
+92: 24:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt: LEAKY, configuration, baseline, lookup, branch, Welch, high-risk, source mapping
+93: 25:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv: 504, 7421, Welch, high-risk
+94: 26:  /home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv: Welch, high-risk
+96: 31:  PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+104: 41:Matched terms: LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+105: 42:  Welch t-statistic: (fixed mean - random mean) / standard error.
+109: 52:Matched terms: 504, 6857, 7114, 7421, LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+115: 7:--- phase5_fixed.elf ---
+... 57 additional matching lines omitted
+
+--- PERSON2_FINAL_STATUS.txt ---
+6: 1. Broad configuration sweep.
+7: 2. Per-PC cache-miss analysis.
+8: 3. Independent timing experiment.
+10: The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results
+13: PC-to-source mappings and ELF comparison outputs exist. Multiple ELF files have different hashes and timestamps. The exact ELF corresponding to each measured trace set is not established by the available provenance output. Treat source attr
+
+--- PERSON2_FULL_TRACE_RECONSTRUCTION_AUDIT.txt ---
+1: PERSON 2 — FULL TRACE RECONSTRUCTION AUDIT
+2: Purpose: establish trace/miss-file relationships without overwriting originals.
+4: === 1. TRACE HASH GROUPS ===
+6: FIXED:
+7: 1430b894a1d76be82f71de15ceeb751aabbbb525b8ae7316d5fadb254e5a7d1a | 1 file(s) | runs/fixed/trace_2.csv
+8: 19ea74553488e68fac69dab6e066ada48d58113f3c112157063a8cf534cdc7c5 | 2 file(s) | runs/fixed/trace_03.csv, runs/fixed/trace_09.csv
+9: 1c979072a5f57a5eca644a5f571c37949f27caadeb131a2c21ac5837ee20b563 | 1 file(s) | runs/fixed/trace_10.csv
+10: 23b9beea6f4c4b5f3490298dd34f4afaede3eb36cd5801e1412ab44d311dbfff | 1 file(s) | runs/fixed/trace_5.csv
+11: 4e9b8565a0af16960ff6d1580ce650b95dd88e62ab5dd3c3aeb0e40e90230bfa | 1 file(s) | runs/fixed/trace_6.csv
+12: 5286c88adf59dd467f3e8e3ae0fad064e3c29ac2ee99e2757b247a6255904c5f | 1 file(s) | runs/fixed/trace_8.csv
+13: 88dd47d70440b6d99d2ee789321659c95dcc639b1e82873a75ec27fab2a828db | 1 file(s) | runs/fixed/trace_4.csv
+14: 8af6dcf51acae95f370a9661d7eb493ae191e28c54637607ad85fa2e3e2b71ce | 1 file(s) | runs/fixed/trace_3.csv
+15: 9f5a6fe37f7391dc436a50e595e694cbd153ff46b62bc78a1ea347bd156be18b | 1 file(s) | runs/fixed/trace_9.csv
+16: baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366 | 7 file(s) | runs/fixed/trace_01.csv, runs/fixed/trace_02.csv, runs/fixed/trace_04.csv, runs/fixed/trace_05.csv, runs/fixed/trace_06.csv, runs/fixed/trace_07.csv, runs/fixed/
+17: d7800729bb0f091e6205cf4354dee6717a7f85b6a77467992b6bb764e9342fe3 | 1 file(s) | runs/fixed/trace_7.csv
+18: d8e6beacd1977ecbfdde413f51818f7d200029d184a9cd15f059a3d4f1ed2eb1 | 1 file(s) | runs/fixed/trace_1.csv
+20: RANDOM:
+21: 082078ff0dc8b1ae1f286426d96125348f07bf03818a24e181faba30a90537a8 | 1 file(s) | runs/random/trace_5.csv
+22: 181fae87871b735d0c6bb5b51a84cc024f15b0bc583d903cf648e86c21f5b1f8 | 1 file(s) | runs/random/trace_9.csv
+23: 22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630 | 9 file(s) | runs/random/trace_01.csv, runs/random/trace_02.csv, runs/random/trace_03.csv, runs/random/trace_04.csv, runs/random/trace_05.csv, runs/random/trace_06.csv, runs/
+24: 22cd1ef727fd45b2c5023d3ecf3f3e31fc7edf0c8f99e072a32f6cfd461dd931 | 1 file(s) | runs/random/trace_2.csv
+25: 4226451f0022ead28f2637a4a299d4a466c313d56c590d32a145a336a35a6557 | 1 file(s) | runs/random/trace_10.csv
+26: 4f6f496b9fa2ff2f0ad73557ac91ebd9a2e4ef01224f86249633e9840f23ba3c | 1 file(s) | runs/random/trace_4.csv
+27: 692ce46b83879bfd8e358aecb0e6e422037b064e952e81174c586a0b23c70cde | 1 file(s) | runs/random/trace_3.csv
+28: 7b096243748ad470d7640503e4654cfae856e5bb0044537c1a7f7a191f168241 | 2 file(s) | runs/random/trace_1.csv, runs/random/trace_full_01.csv
+29: a9617da8ff162f675718631f4dba9bfb0319b170c5532891a3e231f592355b2a | 1 file(s) | runs/random/trace_6.csv
+30: d1c07dee1885d0647d34d04c345334ed031926db2d8267ac930d4df37cd9b460 | 1 file(s) | runs/random/trace_8.csv
+31: d89fe83f90db5fba469d52908048af810f802d4e338bf5c1aec67fdf90963fee | 1 file(s) | runs/random/trace_18_full.csv
+32: e08614ae15eaa4592bc61d0a7b4c67abed3673fc4464643db40d7b348da33c36 | 1 file(s) | runs/random/trace_7.csv
+33: ec36e99a004ab1b30c76bbc49767f5ff7ce595dc17953d830f8d26b42556833f | 1 file(s) | runs/random/trace_17_full.csv
+... 296 additional matching lines omitted
+
+--- PERSON2_INDEPENDENT_STATS_CHECK.txt ---
+3: Zero-padded fixed files: 10
+4: Zero-padded random files: 10
+5: Distinct fixed PCs: 108
+6: Distinct random PCs: 97
+8: Fixed rows per file: [7, 7, 7, 7, 7, 7, 7, 7, 7, 95]
+9: Random rows per file: [6, 6, 6, 6, 6, 6, 6, 6, 6, 95]
+
+--- PERSON2_INPUT_ORIGIN_CHECK.txt ---
+6: 8: FIXED = BASE / "fixed"
+7: 9: RANDOM = BASE / "random"
+8: 10: OUTPUT = Path.home() / "pqc-cache-project/phase5_svc/svs_results.csv"
+11: 26: fixed_data = [
+12: 27:     load_distribution(FIXED / f"misses_{i:02d}.csv")
+13: 31: random_data = [
+14: 32:     load_distribution(RANDOM / f"misses_{i:02d}.csv")
+15: 36: pcs = sorted(set().union(*(d.keys() for d in fixed_data + random_data)))
+16: 41:     fixed_values = [d.get(pc, 0) for d in fixed_data]
+17: 42:     random_values = [d.get(pc, 0) for d in random_data]
+18: 44:     nf = len(fixed_values)
+19: 45:     nr = len(random_values)
+20: 47:     mf = sum(fixed_values) / nf
+21: 48:     mr = sum(random_values) / nr
+22: 50:     vf = sample_variance(fixed_values, mf)
+23: 51:     vr = sample_variance(random_values, mr)
+27: 90:         "FIXED_MEAN_MISSES",
+28: 91:         "RANDOM_MEAN_MISSES",
+29: 92:         "FIXED_VARIANCE",
+30: 93:         "RANDOM_VARIANCE",
+34: 113:             f"fixed_mean={r[1]:.4f}  "
+35: 114:             f"random_mean={r[2]:.4f}  "
+39: 10: ELF = BASE / "phase5_fixed.elf"
+44: 36:     fixed_files = ([BASE / "runs/fixed" / f"misses_{i:02d}.csv" for i in range(1, 11)]
+45: 37:                    if prefix == "misses_[0-9][0-9].csv" else
+46: 38:                    [BASE / "runs/fixed" / f"misses_{i}.csv" for i in range(1, 11)])
+47: 39:     random_files = ([BASE / "runs/random" / f"misses_{i:02d}.csv" for i in range(1, 11)]
+48: 40:                     if prefix == "misses_[0-9][0-9].csv" else
+49: 41:                     [BASE / "runs/random" / f"misses_{i}.csv" for i in range(1, 11)])
+51: 44:     if len(fixed_files) != 10 or len(random_files) != 10:
+... 114 additional matching lines omitted
+
+--- PERSON2_PENDING_EVIDENCE_SEARCH.txt ---
+8: ../liboqs/scripts/copy_from_upstream/patches/pqclean-kyber-armneon-variable-timing-fix.patch
+9: ../liboqs/src/sig/mqom/mqom_mqom_common/benchmark.h
+10: ../liboqs/tests/ds_benchmark.h
+11: ../phase5_svc/fixed_trace.csv
+12: ../phase5_svc/person2_C5_C9_provenance_check.txt
+13: ../phase5_svc/random_trace.csv
+14: ../phase5_svc/runs/fixed/trace_01.csv
+15: ../phase5_svc/runs/fixed/trace_02.csv
+16: ../phase5_svc/runs/fixed/trace_03.csv
+17: ../phase5_svc/runs/fixed/trace_04.csv
+18: ../phase5_svc/runs/fixed/trace_05.csv
+19: ../phase5_svc/runs/fixed/trace_06.csv
+20: ../phase5_svc/runs/fixed/trace_07.csv
+21: ../phase5_svc/runs/fixed/trace_08.csv
+22: ../phase5_svc/runs/fixed/trace_09.csv
+23: ../phase5_svc/runs/fixed/trace_1.csv
+24: ../phase5_svc/runs/fixed/trace_10.csv
+25: ../phase5_svc/runs/fixed/trace_2.csv
+26: ../phase5_svc/runs/fixed/trace_3.csv
+27: ../phase5_svc/runs/fixed/trace_4.csv
+28: ../phase5_svc/runs/fixed/trace_5.csv
+29: ../phase5_svc/runs/fixed/trace_6.csv
+30: ../phase5_svc/runs/fixed/trace_7.csv
+31: ../phase5_svc/runs/fixed/trace_8.csv
+32: ../phase5_svc/runs/fixed/trace_9.csv
+33: ../phase5_svc/runs/random/trace_01.csv
+34: ../phase5_svc/runs/random/trace_02.csv
+35: ../phase5_svc/runs/random/trace_03.csv
+36: ../phase5_svc/runs/random/trace_04.csv
+37: ../phase5_svc/runs/random/trace_05.csv
+... 327 additional matching lines omitted
+
+--- PERSON2_TRACE_ELF_PROVENANCE_AUDIT.txt ---
+2: PERSON 2 — RAW TRACE AND ELF PROVENANCE AUDIT
+6: ===== 1. TRACE FILE INVENTORY =====
+7: runs/fixed/trace_01.csv | 41314 bytes | modified 2026-09-04 12:07:35.1920961420
+8: runs/fixed/trace_02.csv | 41314 bytes | modified 2026-09-04 12:07:35.4080961350
+9: runs/fixed/trace_03.csv | 41314 bytes | modified 2026-09-04 12:07:35.6276961270
+10: runs/fixed/trace_04.csv | 41314 bytes | modified 2026-09-04 12:07:35.8904961190
+11: runs/fixed/trace_05.csv | 41314 bytes | modified 2026-09-04 12:07:36.1388961100
+12: runs/fixed/trace_06.csv | 41314 bytes | modified 2026-09-04 12:07:36.3980961010
+13: runs/fixed/trace_07.csv | 41314 bytes | modified 2026-09-04 12:07:36.6320960930
+14: runs/fixed/trace_08.csv | 41314 bytes | modified 2026-09-04 12:07:36.8696960850
+15: runs/fixed/trace_09.csv | 41314 bytes | modified 2026-09-04 12:07:37.0928960780
+16: runs/fixed/trace_1.csv | 21266364 bytes | modified 2026-09-04 12:46:58.9600698400
+17: runs/fixed/trace_10.csv | 21267939 bytes | modified 2026-09-04 12:47:31.6448740900
+18: runs/fixed/trace_2.csv | 21268164 bytes | modified 2026-09-04 12:47:02.7062235230
+19: runs/fixed/trace_3.csv | 21272214 bytes | modified 2026-09-04 12:47:06.4187281980
+20: runs/fixed/trace_4.csv | 21271764 bytes | modified 2026-09-04 12:47:09.9672635860
+21: runs/fixed/trace_5.csv | 21271764 bytes | modified 2026-09-04 12:47:14.3035283840
+22: runs/fixed/trace_6.csv | 21268389 bytes | modified 2026-09-04 12:47:17.7620482870
+23: runs/fixed/trace_7.csv | 21267939 bytes | modified 2026-09-04 12:47:21.2205681920
+24: runs/fixed/trace_8.csv | 21271089 bytes | modified 2026-09-04 12:47:24.6979587900
+25: runs/fixed/trace_9.csv | 21269289 bytes | modified 2026-09-04 12:47:28.1608982910
+26: runs/random/trace_01.csv | 39657 bytes | modified 2026-09-04 10:46:33.1939518350
+27: runs/random/trace_02.csv | 39657 bytes | modified 2026-09-04 10:46:33.4286184490
+28: runs/random/trace_03.csv | 39657 bytes | modified 2026-09-04 10:46:33.6779517290
+29: runs/random/trace_04.csv | 39657 bytes | modified 2026-09-04 10:46:33.9126183450
+30: runs/random/trace_05.csv | 39657 bytes | modified 2026-09-04 10:46:34.1546182930
+31: runs/random/trace_06.csv | 39657 bytes | modified 2026-09-04 10:46:34.3929515750
+32: runs/random/trace_07.csv | 39657 bytes | modified 2026-09-04 10:46:34.6386181870
+33: runs/random/trace_08.csv | 39657 bytes | modified 2026-09-04 10:46:34.8659514720
+34: runs/random/trace_09.csv | 39657 bytes | modified 2026-09-04 10:46:35.0969514220
+... 197 additional matching lines omitted
+
+--- PERSON2_VERIFICATION_AUDIT.txt ---
+4: Working directory: /home/cnc_susindharan/pqc-cache-project/phase5_svc
+5: Project directory: /home/cnc_susindharan/pqc-cache-project
+22: phase4_cache/misses_01.csv | 1840 bytes
+23: phase5_svc/fixed_trace.csv | 41314 bytes
+24: phase5_svc/person2_findings_summary.txt | 1686 bytes
+25: phase5_svc/phase5_fixed.elf | 378992 bytes
+26: phase5_svc/phase5_fixed_1.elf | 379024 bytes
+27: phase5_svc/phase5_fixed_10.elf | 378992 bytes
+28: phase5_svc/phase5_fixed_2.elf | 379024 bytes
+29: phase5_svc/phase5_fixed_3.elf | 379024 bytes
+30: phase5_svc/phase5_fixed_4.elf | 379016 bytes
+31: phase5_svc/phase5_fixed_5.elf | 379024 bytes
+32: phase5_svc/phase5_fixed_6.elf | 379024 bytes
+33: phase5_svc/phase5_fixed_7.elf | 379016 bytes
+34: phase5_svc/phase5_fixed_8.elf | 379016 bytes
+35: phase5_svc/phase5_fixed_9.elf | 379016 bytes
+36: phase5_svc/phase5_random.elf | 379008 bytes
+37: phase5_svc/phase5_random_1.elf | 379008 bytes
+38: phase5_svc/phase5_random_10.elf | 379008 bytes
+39: phase5_svc/phase5_random_2.elf | 379008 bytes
+40: phase5_svc/phase5_random_3.elf | 379008 bytes
+41: phase5_svc/phase5_random_4.elf | 379008 bytes
+42: phase5_svc/phase5_random_5.elf | 379008 bytes
+43: phase5_svc/phase5_random_6.elf | 379008 bytes
+44: phase5_svc/phase5_random_7.elf | 379008 bytes
+45: phase5_svc/phase5_random_8.elf | 379008 bytes
+46: phase5_svc/phase5_random_9.elf | 379008 bytes
+47: phase5_svc/phase5_random_full_01.elf | 379008 bytes
+48: phase5_svc/phase5_test_fixed.elf | 379024 bytes
+49: phase5_svc/phase5_test_random.elf | 379008 bytes
+... 438 additional matching lines omitted
+
+--- person2_C5_C9_final_audit.txt ---
+7: Evidence file: phase5_svc/svs_results.csv
+9: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+18: Evidence file: phase5_svc/person2_final_audit.txt
+19: Matched terms: 504, 6857, 7114, 7421, LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+22: /home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv: Welch, high-risk
+23: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv: 504, Welch, high-risk
+24: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt: LEAKY, configuration, baseline, lookup, branch, Welch, high-risk, source mapping
+25: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv: 504, 7421, Welch, high-risk
+26: /home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv: Welch, high-risk
+27: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Stocks.csv: 504, 6857, 7114, 7421
+29: Evidence file: phase5_svc/person2_corrected_zero_padded.csv
+31: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+40: Evidence file: phase5_svc/person2_findings_summary.txt
+41: Matched terms: LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+42: Welch t-statistic: (fixed mean - random mean) / standard error.
+45: 1. Broad configuration sweep: six crypto kernels reportedly had zero flagged
+46: locations; LEAKY positive control showed detection.
+48: 3. Independent timing experiment: baseline reportedly showed no mean difference;
+49: lookup had unequal means with zero variance; branch injection showed a timing
+51: Evidence file: phase5_svc/person2_completion_report.txt
+52: Matched terms: 504, 6857, 7114, 7421, LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+54: CSV columns: PC, N_FIXED, N_RANDOM, FIXED_MEAN, RANDOM_MEAN, MEAN_DIFFERENCE_FIXED_MINUS_RANDOM, FIXED_VARIANCE, RANDOM_VARIANCE, STANDARD_ERROR, WELCH_T, WELCH_DF, CI95_LOW_APPROX, CI95_HIGH_APPROX, STATISTIC_STATUS, RISK
+56: Workflow A — Broad configuration sweep: prior summary reports no flagged locations for six crypto kernels and detection in the LEAKY positive control.
+57: Workflow C — Independent timing experiment: baseline, lookup injection, and branch injection are separate timing results, not cache-miss results.
+59: Welch t-statistic: (fixed mean - random mean) / standard error.
+62: Evidence file: phase5_svc/person2_corrected_full_runs.csv
+64: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+73: Evidence file: phase6/high_risk_source_mapping.csv
+75: PC,FUNCTION,SOURCE_LOCATION,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,SVS,RISK
+76: 0x0000000080000474,mlk_zeroize,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:433,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,4.58257569495584,HIGH-RISK
+... 2949 additional matching lines omitted
+
+--- person2_C5_C9_provenance_check.txt ---
+3: 2026-09-05 10:01 ../phase6/phase6_report_summary.txt
+7: --- phase5_fixed.elf ---
+9: --- phase5_fixed_1.elf ---
+11: --- phase5_fixed_10.elf ---
+13: --- phase5_random.elf ---
+15: --- phase5_random_full_01.elf ---
+17: --- phase5_test_fixed.elf ---
+21: ./person2_final_audit.py:57:elfs = [phase / n for n in ("phase5_fixed.elf", "phase5_test_fixed.elf",
+22: ./person2_final_audit.py:58:                             "phase5_fixed_1.elf")]
+23: ./person2_final_audit.txt:16:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+24: ./person2_final_audit.txt:18:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+25: ./person2_final_audit.txt:21:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+26: ./person2_final_audit.txt:23:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+27: ./person2_final_elf_mapping.txt:2:===== phase5_fixed.elf =====
+28: ./person2_final_elf_mapping.txt:82:===== phase5_test_fixed.elf =====
+29: ./person2_final_elf_mapping.txt:150:===== phase5_fixed_1.elf =====
+30: ./person2_C5_C9_provenance_check.txt:7:--- phase5_fixed.elf ---
+31: ./person2_C5_C9_provenance_check.txt:9:--- phase5_fixed_1.elf ---
+32: ./person2_C5_C9_provenance_check.txt:11:--- phase5_fixed_10.elf ---
+33: ./person2_C5_C9_provenance_check.txt:13:--- phase5_random.elf ---
+34: ./person2_C5_C9_provenance_check.txt:15:--- phase5_random_full_01.elf ---
+35: ./person2_C5_C9_provenance_check.txt:17:--- phase5_test_fixed.elf ---
+36: ./person2_completion_report.txt:83:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+37: ./person2_completion_report.txt:85:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+38: ./person2_completion_report.txt:88:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+39: ./person2_completion_report.txt:90:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+40: ./person2_final_checks.py:10:ELF = BASE / "phase5_fixed.elf"
+
+--- person2_completion_report.txt ---
+12: Zero-padded fixed run files found: 10
+13: Zero-padded random run files found: 10
+19: CSV columns: PC, N_FIXED, N_RANDOM, FIXED_MEAN, RANDOM_MEAN, MEAN_DIFFERENCE_FIXED_MINUS_RANDOM, FIXED_VARIANCE, RANDOM_VARIANCE, STANDARD_ERROR, WELCH_T, WELCH_DF, CI95_LOW_APPROX, CI95_HIGH_APPROX, STATISTIC_STATUS, RISK
+23: Workflow A — Broad configuration sweep: prior summary reports no flagged locations for six crypto kernels and detection in the LEAKY positive control.
+24: Workflow B — Per-PC cache-miss analysis: use the corrected zero-padded CSV; do not use infinite t-statistics as valid threshold exceedances.
+25: Workflow C — Independent timing experiment: baseline, lookup injection, and branch injection are separate timing results, not cache-miss results.
+41: Missing PCs were assigned zero misses, matching the original script.
+43: Welch t-statistic: (fixed mean - random mean) / standard error.
+53: 1. Broad configuration sweep: six crypto kernels reportedly had zero flagged
+54: locations; LEAKY positive control showed detection.
+55: 2. Per-PC cache-miss analysis: 10 fixed and 10 random runs; previous CSV claimed
+58: 3. Independent timing experiment: baseline reportedly showed no mean difference;
+59: lookup had unequal means with zero variance; branch injection showed a timing
+60: difference. Do not combine its timing values with cache-miss t-statistics.
+64: debug info; verify the exact build corresponds to the measured traces.
+81: fixed:
+82: misses_[0-9][0-9].csv: 10 files
+83: misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+84: misses_[0-9].csv: 9 files
+85: misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+86: random:
+87: misses_[0-9][0-9].csv: 10 files
+88: misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+89: misses_[0-9].csv: 9 files
+90: misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+94: Created mapping comparison: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_elf_mapping.txt
+95: Important: addr2line output is only valid for the ELF that generated the measured traces.
+99: /home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv: Welch, high-risk
+100: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv: 504, Welch, high-risk
+101: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt: LEAKY, configuration, baseline, lookup, branch, Welch, high-risk, source mapping
+... 46 additional matching lines omitted
+
+--- person2_exact_recompute.py ---
+10: f"0x{int(r['PC'].strip(), 16):016x}": float(r["MISSES"])
+15: files = [BASE / "runs" / group / f"misses_{i:02d}.csv"
+34: fixed = load_group("fixed")
+35: random = load_group("random")
+36: pcs = sorted(set().union(*(d.keys() for d in fixed + random)))
+40: x = [d.get(pc, 0.0) for d in fixed]
+41: y = [d.get(pc, 0.0) for d in random]
+44: "PC": pc, "N_FIXED": 10, "N_RANDOM": 10,
+45: "FIXED_MEAN": mx, "RANDOM_MEAN": my,
+46: "MEAN_DIFFERENCE_FIXED_MINUS_RANDOM": mx-my,
+47: "FIXED_VARIANCE": vx, "RANDOM_VARIANCE": vy,
+68: f"Fixed runs: {len(fixed)}",
+69: f"Random runs: {len(random)}",
+87: for field in ("FIXED_MEAN", "RANDOM_MEAN",
+88: "FIXED_VARIANCE", "RANDOM_VARIANCE"):
+91: a["FIXED_MEAN_MISSES" if field=="FIXED_MEAN" else
+92: "RANDOM_MEAN_MISSES" if field=="RANDOM_MEAN" else
+93: "FIXED_VARIANCE" if field=="FIXED_VARIANCE" else
+94: "RANDOM_VARIANCE"])
+121: f"{pc}: fixed mean={r['FIXED_MEAN']}, random mean={r['RANDOM_MEAN']}, "
+122: f"variances={r['FIXED_VARIANCE']}/{r['RANDOM_VARIANCE']}; "
+
+--- person2_final_audit.py ---
+7: base = Path.home() / "pqc-cache-project"
+8: phase = base / "phase5_svc"
+45: for group in ("fixed", "random"):
+48: for pattern in ("misses_[0-9][0-9].csv", "misses_[0-9].csv"):
+57: elfs = [phase / n for n in ("phase5_fixed.elf", "phase5_test_fixed.elf",
+58: "phase5_fixed_1.elf")]
+68: ["riscv64-unknown-elf-addr2line", "-f", "-C", "-i",
+76: log("Important: addr2line output is only valid for the ELF that generated the measured traces.")
+81: keywords = ("LEAKY", "504", "configuration", "baseline", "lookup",
+86: base / "phase4_cache", phase, base / "phase6"):
+111: log("Workflow A: broad configuration sweep — earlier reported result: six crypto kernels")
+112: log("  had zero flagged locations, while the LEAKY positive control was detected.")
+113: log("Workflow B: per-PC cache-miss experiment — the zero-padded dataset has 194 PCs;")
+115: log("Workflow C: separate timing experiment — earlier reported baseline means were equal;")
+116: log("  lookup had unequal means but zero variance; branch injection showed a timing difference.")
+
+--- person2_final_audit.txt ---
+14: fixed:
+15: misses_[0-9][0-9].csv: 10 files
+16: misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+17: misses_[0-9].csv: 9 files
+18: misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+19: random:
+20: misses_[0-9][0-9].csv: 10 files
+21: misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+22: misses_[0-9].csv: 9 files
+23: misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+27: Created mapping comparison: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_elf_mapping.txt
+28: Important: addr2line output is only valid for the ELF that generated the measured traces.
+32: /home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv: Welch, high-risk
+33: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv: 504, Welch, high-risk
+34: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt: LEAKY, configuration, baseline, lookup, branch, Welch, high-risk, source mapping
+35: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv: 504, 7421, Welch, high-risk
+36: /home/cnc_susindharan/pqc-cache-project/phase6/phase6_report_summary.txt: source mapping
+37: /home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv: Welch, high-risk
+38: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Stocks.csv: 504, 6857, 7114, 7421
+39: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/msft.csv: 504
+40: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy-2.5.2.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md: 504
+41: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/sfc64-testset-1.csv: 504, 7114
+42: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64-testset-2.csv: 504
+43: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/sfc64-testset-2.csv: 504, 6857, 7421
+44: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/mt19937-testset-2.csv: 504
+45: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/mt19937-testset-1.csv: 504
+46: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64dxsm-testset-2.csv: 504
+47: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/philox-testset-1.csv: 504
+48: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64dxsm-testset-1.csv: 504
+49: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/philox-testset-2.csv: 504, 7114
+... 26 additional matching lines omitted
+
+--- person2_final_checks.py ---
+8: ROOT = Path.home() / "pqc-cache-project"
+9: BASE = ROOT / "phase5_svc"
+10: ELF = BASE / "phase5_fixed.elf"
+27: data[int(row["PC"], 16)] = float(row["MISSES"])
+36: fixed_files = ([BASE / "runs/fixed" / f"misses_{i:02d}.csv" for i in range(1, 11)]
+37: if prefix == "misses_[0-9][0-9].csv" else
+38: [BASE / "runs/fixed" / f"misses_{i}.csv" for i in range(1, 11)])
+39: random_files = ([BASE / "runs/random" / f"misses_{i:02d}.csv" for i in range(1, 11)]
+40: if prefix == "misses_[0-9][0-9].csv" else
+41: [BASE / "runs/random" / f"misses_{i}.csv" for i in range(1, 11)])
+44: if len(fixed_files) != 10 or len(random_files) != 10:
+46: f"found fixed={len(fixed_files)}, random={len(random_files)}")
+49: fixed = [load_csv(p) for p in fixed_files]
+50: random = [load_csv(p) for p in random_files]
+51: pcs = sorted(set().union(*(d.keys() for d in fixed + random)))
+55: # Missing PCs are treated as zero misses, consistent with the old script.
+56: x = [d.get(pc, 0.0) for d in fixed]
+57: y = [d.get(pc, 0.0) for d in random]
+87: "PC": f"0x{pc:016x}", "N_FIXED": nx, "N_RANDOM": ny,
+88: "FIXED_MEAN": mx, "RANDOM_MEAN": my,
+89: "MEAN_DIFFERENCE_FIXED_MINUS_RANDOM": diff,
+90: "FIXED_VARIANCE": vx, "RANDOM_VARIANCE": vy,
+109: print(f"Fixed runs: {len(fixed_files)} | Random runs: {len(random_files)}")
+120: old_results = analyze("misses_[0-9][0-9].csv",
+122: full_results = analyze("misses_[0-9].csv",
+133: writer.writerow(["PC", "FUNCTION_AND_SOURCE_FROM_ADDR2LINE"])
+137: ["riscv64-unknown-elf-addr2line", "-f", "-C", "-i",
+155: f.write("Missing PCs were assigned zero misses, matching the original script.\n\n")
+156: f.write("Welch t-statistic: (fixed mean - random mean) / standard error.\n")
+164: f.write("1. Broad configuration sweep: six crypto kernels reportedly had zero flagged\n")
+... 6 additional matching lines omitted
+
+--- person2_final_elf_mapping.txt ---
+2: ===== phase5_fixed.elf =====
+5: PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+6: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380
+9: PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+10: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380
+13: PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+14: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380
+17: PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+18: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:397
+21: PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+22: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:409
+25: PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+26: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:416
+30: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:356
+31: PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+32: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:422
+36: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:350 (discriminator 1)
+37: PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+38: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:422 (discriminator 1)
+42: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:368 (discriminator 2)
+43: PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+44: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:422 (discriminator 2)
+47: PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+48: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:425
+52: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:123
+54: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:232
+56: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:258
+58: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:314
+60: /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:404
+61: PQCP_MLKEM_NATIVE_MLKEM512_C_dec
+... 78 additional matching lines omitted
+
+--- person2_final_verification.py ---
+50: "**/misses_*.csv", "**/*svs*analysis*.py", "**/*tvla*.py",
+52: "**/*timing*.csv", "**/*trace*.csv", "**/*result*.csv",
+77: if re.fullmatch(r"misses_\d+\.csv", p.name)]
+79: log("NO misses_N.csv files found in searched directories.")
+96: for group in ["fixed", "random"]:
+101: p = d / f"misses_{i:02d}.csv"
+147: r"misses_01|misses_1\.csv|phase5_fixed|phase5_random|"
+148: r"LEAKY|504.configuration|100 fixed|100 random|"
+149: r"Welch|t.statistic|high.risk|trace|ELF|objdump|addr2line",
+158: if any(part in {".git", "__pycache__", ".venv", "venv"} for part in p.parts):
+186: for cmd in ["python3", "riscv64-unknown-elf-objdump",
+187: "riscv64-unknown-elf-addr2line", "riscv64-unknown-elf-readelf"]:
+210: log("Review missing inputs, dataset separation, and exact ELF-to-trace provenance.")
+
+--- person2_findings_summary.txt ---
+6: Missing PCs were assigned zero misses, matching the original script.
+8: Welch t-statistic: (fixed mean - random mean) / standard error.
+18: 1. Broad configuration sweep: six crypto kernels reportedly had zero flagged
+19: locations; LEAKY positive control showed detection.
+20: 2. Per-PC cache-miss analysis: 10 fixed and 10 random runs; previous CSV claimed
+23: 3. Independent timing experiment: baseline reportedly showed no mean difference;
+24: lookup had unequal means with zero variance; branch injection showed a timing
+25: difference. Do not combine its timing values with cache-miss t-statistics.
+29: debug info; verify the exact build corresponds to the measured traces.
+
+--- person2_finish_ci_audit.py ---
+6: source = folder / "person2_full_trace_welch_results.csv"
+7: output = folder / "person2_full_trace_with_ci.csv"
+28: "mean_difference_fixed_minus_random", "welch_se",
+36: a = float(r["fixed_mean"])
+37: b = float(r["random_mean"])
+38: va = float(r["fixed_variance"])
+39: vb = float(r["random_variance"])
+52: r["mean_difference_fixed_minus_random"] = f"{diff:.10g}"
+59: r["mean_difference_fixed_minus_random"] = ""
+76: "These intervals use reconstructed data and newly assigned cache-prefill seeds.\n"
+77: "They do not validate original experimental results or ELF-to-trace provenance.\n"
+
+--- person2_independent_stats_check.py ---
+5: FIXED = ROOT / "runs" / "fixed"
+6: RANDOM = ROOT / "runs" / "random"
+21: if not reader.fieldnames or not {"PC", "MISSES"}.issubset(reader.fieldnames):
+25: value = float(row["MISSES"])
+32: fixed, ff = load_group(FIXED, "misses_[0-9][0-9].csv")
+33: random, rf = load_group(RANDOM, "misses_[0-9][0-9].csv")
+35: log(f"Zero-padded fixed files: {len(ff)}")
+36: log(f"Zero-padded random files: {len(rf)}")
+37: log(f"Distinct fixed PCs: {len(fixed)}")
+38: log(f"Distinct random PCs: {len(random)}")
+39: log(f"Union of PCs in raw inputs: {len(set(fixed) | set(random))}")
+40: log("Fixed rows per file: " + str([sum(1 for _ in csv.DictReader(p.open())) for p in ff]))
+41: log("Random rows per file: " + str([sum(1 for _ in csv.DictReader(p.open())) for p in rf]))
+44: log("FAIL: Expected 10 fixed and 10 random zero-padded files.")
+56: raw_union = set(fixed) | set(random)
+64: for pc in sorted(set(fixed) & set(random)):
+65: x, y = fixed[pc], random[pc]
+98: nfixed = int(row["N_FIXED"])
+99: nrandom = int(row["N_RANDOM"])
+102: if nfixed != len(fixed[pc]) or nrandom != len(random[pc]):
+103: mismatches.append((pc, len(fixed[pc]), len(random[pc]),
+104: f"sample-size mismatch: CSV says {nfixed}/{nrandom}"))
+121: f"t={row['WELCH_T']}, means={row['FIXED_MEAN']}/{row['RANDOM_MEAN']}, "
+122: f"variances={row['FIXED_VARIANCE']}/{row['RANDOM_VARIANCE']}")
+
+--- person2_rebuild_full_traces.py ---
+1: import csv, random, math, statistics, subprocess, sys
+5: SCRIPT = BASE / "phase5_cache_variance.py"
+9: def run_trace(group, n):
+10: trace = BASE / "runs" / group / f"trace_{n}.csv"
+11: if not trace.exists():
+12: raise FileNotFoundError(f"Missing full trace: {trace}")
+14: # Use deterministic, explicitly recorded seeds for reproducibility.
+15: seed = (10000 if group == "fixed" else 20000) + n
+16: dest = OUT / f"{group}_misses_{n:02d}.csv"
+19: [sys.executable, str(SCRIPT), "--trace", str(trace),
+20: "--seed", str(seed), "--output", str(dest)],
+24: raise RuntimeError(f"{trace} failed:\n{result.stderr}")
+29: counts[int(row["PC"], 16)] = int(row["MISSES"])
+30: return counts, seed, result.stdout.strip()
+45: fixed, random = [], []
+46: seeds, runlogs = [], []
+47: for group, dest in (("fixed", fixed), ("random", random)):
+49: counts, seed, log = run_trace(group, n)
+51: seeds.append((group, n, seed))
+54: all_pcs = sorted(set().union(*(set(x) for x in fixed + random)))
+55: stats_path = OUT / "person2_full_trace_welch_results.csv"
+61: w.writerow(["PC", "fixed_mean", "random_mean", "fixed_variance",
+62: "random_variance", "welch_t", "welch_df", "abs_t_gt_4_5",
+65: # A PC not present in a full trace has zero misses for that run.
+66: a = [d.get(pc, 0) for d in fixed]
+67: b = [d.get(pc, 0) for d in random]
+82: report = OUT / "PERSON2_FULL_TRACE_REBUILD_REPORT.txt"
+84: f.write("PERSON 2 — FULL TRACE REBUILD REPORT\n")
+86: f.write("Original traces and miss CSVs were not overwritten.\n")
+87: f.write("Inputs: runs/fixed/trace_1.csv through trace_10.csv and\n")
+... 8 additional matching lines omitted
+
+--- person2_rebuilt_full/PERSON2_CI_AUDIT.txt ---
+3: Input: person2_rebuilt_full/person2_full_trace_welch_results.csv
+10: These intervals use reconstructed data and newly assigned cache-prefill seeds.
+11: They do not validate original experimental results or ELF-to-trace provenance.
+
+--- person2_rebuilt_full/PERSON2_FULL_TRACE_REBUILD_REPORT.txt ---
+1: PERSON 2 — FULL TRACE REBUILD REPORT
+3: Original traces and miss CSVs were not overwritten.
+4: Inputs: runs/fixed/trace_1.csv through trace_10.csv and
+5: runs/random/trace_1.csv through trace_10.csv
+7: Method: regenerated per-PC cache misses using phase5_cache_variance.py.
+8: Seeds are newly assigned deterministic seeds, not recovered historical seeds.
+10: Missing PCs in a generated miss CSV are treated as zero misses.
+17: Generated seeds and cache simulator outputs:
+18: fixed run 01: seed=10001
+19: fixed run 02: seed=10002
+20: fixed run 03: seed=10003
+21: fixed run 04: seed=10004
+22: fixed run 05: seed=10005
+23: fixed run 06: seed=10006
+24: fixed run 07: seed=10007
+25: fixed run 08: seed=10008
+26: fixed run 09: seed=10009
+27: fixed run 10: seed=10010
+28: random run 01: seed=20001
+29: random run 02: seed=20002
+30: random run 03: seed=20003
+31: random run 04: seed=20004
+32: random run 05: seed=20005
+33: random run 06: seed=20006
+34: random run 07: seed=20007
+35: random run 08: seed=20008
+36: random run 09: seed=20009
+37: random run 10: seed=20010
+38: fixed run 01: Hits=834221 Misses=1485
+39: fixed run 02: Hits=834287 Misses=1491
+... 19 additional matching lines omitted
+
+--- person2_status.txt ---
+2: Project: /home/cnc_susindharan/pqc-cache-project/phase5_svc
+
+--- person2_verify_confidence_intervals.py ---
+72: diff = float(r["MEAN_DIFFERENCE_FIXED_MINUS_RANDOM"])
+
+--- phase5_cache_variance.py ---
+5: import random
+10: SIM_PATH = Path.home() / "pqc-cache-project/phase4_cache/cache_simulator.py"
+12: spec = spec_from_file_location("cache_simulator", SIM_PATH)
+16: def read_trace(path):
+32: def run(trace_path, seed, output_path):
+33: rows, blocks = read_trace(trace_path)
+35: sim = mod.CacheSimulator(
+36: cache_size=8 * 1024,
+42: rng = random.Random(seed)
+44: # Model a variable cache state before the measured cryptographic run.
+45: # Half of the cache lines are pre-populated with blocks drawn from the
+46: # trace's working set. This is initialization state, not crypto data.
+51: misses_by_pc = {}
+56: misses_by_pc[pc] = misses_by_pc.get(pc, 0) + 1
+60: w.writerow(["PC", "MISSES"])
+61: for pc in sorted(misses_by_pc):
+62: w.writerow([f"{pc:016x}", misses_by_pc[pc]])
+64: return sim.hits, sim.misses
+68: parser.add_argument("--trace", required=True)
+69: parser.add_argument("--seed", required=True, type=int)
+73: hits, misses = run(args.trace, args.seed, args.output)
+74: print(f"Hits={hits} Misses={misses}")
+
+--- runs/fixed/cache_01.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 54
+
+--- runs/fixed/cache_02.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 54
+
+--- runs/fixed/cache_03.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 54
+
+--- runs/fixed/cache_04.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 54
+
+--- runs/fixed/cache_05.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 54
+
+--- runs/fixed/cache_06.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 54
+
+--- runs/fixed/cache_07.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 54
+
+--- runs/fixed/cache_08.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 54
+
+--- runs/fixed/cache_09.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 54
+
+--- runs/fixed/cache_10.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 54
+
+--- runs/random/cache_01.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 53
+
+--- runs/random/cache_02.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 53
+
+--- runs/random/cache_03.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 53
+
+--- runs/random/cache_04.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 53
+
+--- runs/random/cache_05.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 53
+
+--- runs/random/cache_06.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 53
+
+--- runs/random/cache_07.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 53
+
+--- runs/random/cache_08.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 53
+
+--- runs/random/cache_09.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 53
+
+--- runs/random/cache_10.txt ---
+1: Cache size      : 8 KB
+9: Misses          : 53
+
+--- svs_analysis.py ---
+7: BASE = Path.home() / "pqc-cache-project/phase5_svc/runs"
+8: FIXED = BASE / "fixed"
+9: RANDOM = BASE / "random"
+10: OUTPUT = Path.home() / "pqc-cache-project/phase5_svc/svs_results.csv"
+17: data[int(row["PC"], 16)] = int(row["MISSES"])
+26: fixed_data = [
+27: load_distribution(FIXED / f"misses_{i:02d}.csv")
+31: random_data = [
+32: load_distribution(RANDOM / f"misses_{i:02d}.csv")
+36: pcs = sorted(set().union(*(d.keys() for d in fixed_data + random_data)))
+41: fixed_values = [d.get(pc, 0) for d in fixed_data]
+42: random_values = [d.get(pc, 0) for d in random_data]
+44: nf = len(fixed_values)
+45: nr = len(random_values)
+47: mf = sum(fixed_values) / nf
+48: mr = sum(random_values) / nr
+50: vf = sample_variance(fixed_values, mf)
+51: vr = sample_variance(random_values, mr)
+90: "FIXED_MEAN_MISSES",
+91: "RANDOM_MEAN_MISSES",
+92: "FIXED_VARIANCE",
+93: "RANDOM_VARIANCE",
+113: f"fixed_mean={r[1]:.4f}  "
+114: f"random_mean={r[2]:.4f}  "
+
+NEXT ACTION
+Review candidate scripts for exact trace-generation commands, executable inputs,
+seed settings, and saved logs. A script's presence alone does not prove it was run.
+Do not claim C5/C9 provenance is verified without execution evidence.

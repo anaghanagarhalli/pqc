@@ -1,0 +1,33 @@
+PERSON 2 — INDEPENDENT STATISTICS CHECK
+======================================================================
+Zero-padded fixed files: 10
+Zero-padded random files: 10
+Distinct fixed PCs: 108
+Distinct random PCs: 97
+Union of PCs in raw inputs: 194
+Fixed rows per file: [7, 7, 7, 7, 7, 7, 7, 7, 7, 95]
+Random rows per file: [6, 6, 6, 6, 6, 6, 6, 6, 6, 95]
+PASS: Expected number of zero-padded files is present.
+Corrected result PCs: 194
+PCs in corrected CSV but not raw zero-padded inputs: 194
+PCs in raw zero-padded inputs but not corrected CSV: 194
+
+INDEPENDENT RECOMPUTATION
+PCs with observations in both groups: 11
+Finite Welch statistics: 0
+Zero-SE undefined statistics: 0
+Insufficient samples: 11
+Comparisons against corrected CSV: 0
+Mismatches found: 0
+
+ZERO-STANDARD-ERROR ROWS IN CORRECTED CSV
+0x0000000080000540: status=UNDEFINED_ZERO_STANDARD_ERROR, t=nan, means=0/1, variances=0/0
+0x000000008000057c: status=UNDEFINED_ZERO_STANDARD_ERROR, t=nan, means=0/25, variances=0/0
+0x00000000800005d6: status=UNDEFINED_ZERO_STANDARD_ERROR, t=nan, means=0/1, variances=0/0
+Total corrected rows with zero standard error: 3
+
+VERDICT
+NOT VERIFIED: corrected CSV contains PCs absent from these raw inputs.
+Review the counts above before using this CSV as a verified final result.
+
+This check intentionally does not merge the non-zero-padded files.

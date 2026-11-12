@@ -1,0 +1,13 @@
+0x0000000080000474 -> mlk_zeroize -> /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:433 -> SVS=4.58257569495584
+0x0000000080000484 -> PQCP_MLKEM_NATIVE_MLKEM512_C_enc -> /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:369 -> SVS=4.58257569495584
+0x0000000080000494 -> PQCP_MLKEM_NATIVE_MLKEM512_C_dec -> /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380 -> SVS=9.0
+0x00000000800004a4 -> PQCP_MLKEM_NATIVE_MLKEM512_C_dec -> /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380 -> SVS=9.0
+0x0000000080000520 -> PQCP_MLKEM_NATIVE_MLKEM512_C_dec -> /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:402 -> SVS=4.58257569495584
+0x0000000080000540 -> PQCP_MLKEM_NATIVE_MLKEM512_C_dec -> /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:409 -> SVS=inf
+0x000000008000055c -> PQCP_MLKEM_NATIVE_MLKEM512_C_dec -> /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:416 -> SVS=5.989315415470645
+0x0000000080000560 -> PQCP_MLKEM_NATIVE_MLKEM512_C_dec -> /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:416 -> SVS=4.582575694955841
+0x000000008000057c -> mlk_ct_memcmp -> /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:356 -> SVS=inf
+0x0000000080000580 -> mlk_ct_memcmp -> /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:356 -> SVS=239.0
+0x00000000800005b6 -> PQCP_MLKEM_NATIVE_MLKEM512_C_dec -> /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:427 -> SVS=4.58257569495584
+0x00000000800005bc -> PQCP_MLKEM_NATIVE_MLKEM512_C_dec -> /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:427 -> SVS=4.58257569495584
+0x00000000800005d6 -> mlk_ct_cmov_zero -> /home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:404 -> SVS=inf

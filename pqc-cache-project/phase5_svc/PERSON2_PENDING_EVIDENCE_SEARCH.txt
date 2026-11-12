@@ -1,0 +1,629 @@
+============================================================
+PERSON 2 — PENDING EVIDENCE SEARCH
+Mon Oct 19 15:08:35 UTC 2026
+============================================================
+
+===== 1. SEARCH FOR ORIGINAL EXPERIMENT LOGS =====
+../liboqs/build/CMakeFiles/3.28.3/CompilerIdC/a.out
+../liboqs/scripts/copy_from_upstream/patches/pqclean-kyber-armneon-variable-timing-fix.patch
+../liboqs/src/sig/mqom/mqom_mqom_common/benchmark.h
+../liboqs/tests/ds_benchmark.h
+../phase5_svc/fixed_trace.csv
+../phase5_svc/person2_C5_C9_provenance_check.txt
+../phase5_svc/random_trace.csv
+../phase5_svc/runs/fixed/trace_01.csv
+../phase5_svc/runs/fixed/trace_02.csv
+../phase5_svc/runs/fixed/trace_03.csv
+../phase5_svc/runs/fixed/trace_04.csv
+../phase5_svc/runs/fixed/trace_05.csv
+../phase5_svc/runs/fixed/trace_06.csv
+../phase5_svc/runs/fixed/trace_07.csv
+../phase5_svc/runs/fixed/trace_08.csv
+../phase5_svc/runs/fixed/trace_09.csv
+../phase5_svc/runs/fixed/trace_1.csv
+../phase5_svc/runs/fixed/trace_10.csv
+../phase5_svc/runs/fixed/trace_2.csv
+../phase5_svc/runs/fixed/trace_3.csv
+../phase5_svc/runs/fixed/trace_4.csv
+../phase5_svc/runs/fixed/trace_5.csv
+../phase5_svc/runs/fixed/trace_6.csv
+../phase5_svc/runs/fixed/trace_7.csv
+../phase5_svc/runs/fixed/trace_8.csv
+../phase5_svc/runs/fixed/trace_9.csv
+../phase5_svc/runs/random/trace_01.csv
+../phase5_svc/runs/random/trace_02.csv
+../phase5_svc/runs/random/trace_03.csv
+../phase5_svc/runs/random/trace_04.csv
+../phase5_svc/runs/random/trace_05.csv
+../phase5_svc/runs/random/trace_06.csv
+../phase5_svc/runs/random/trace_07.csv
+../phase5_svc/runs/random/trace_08.csv
+../phase5_svc/runs/random/trace_09.csv
+../phase5_svc/runs/random/trace_1.csv
+../phase5_svc/runs/random/trace_10.csv
+../phase5_svc/runs/random/trace_17_full.csv
+../phase5_svc/runs/random/trace_18_full.csv
+../phase5_svc/runs/random/trace_2.csv
+../phase5_svc/runs/random/trace_3.csv
+../phase5_svc/runs/random/trace_4.csv
+../phase5_svc/runs/random/trace_5.csv
+../phase5_svc/runs/random/trace_6.csv
+../phase5_svc/runs/random/trace_7.csv
+../phase5_svc/runs/random/trace_8.csv
+../phase5_svc/runs/random/trace_9.csv
+../phase5_svc/runs/random/trace_full_01.csv
+
+===== 2. SEARCH FOR RUN SCRIPTS AND BUILD RECORDS =====
+../liboqs/.CMake/CMakeDependentOption.cmake
+../liboqs/.CMake/alg_support.cmake
+../liboqs/.CMake/apple.cmake
+../liboqs/.CMake/compiler_opts.cmake
+../liboqs/.CMake/gcc_clang_intrinsics.cmake
+../liboqs/.CMake/toolchain_arm64.cmake
+../liboqs/.CMake/toolchain_armhf.cmake
+../liboqs/.CMake/toolchain_rasppi.cmake
+../liboqs/.CMake/toolchain_windows-amd64.cmake
+../liboqs/.CMake/toolchain_windows_amd64.cmake
+../liboqs/.CMake/toolchain_windows_arm64.cmake
+../liboqs/.CMake/toolchain_windows_x86.cmake
+../liboqs/.CMake/toolchain_x86.cmake
+../liboqs/.github/ISSUE_TEMPLATE/bug_report.yml
+../liboqs/.github/ISSUE_TEMPLATE/feature_request.yml
+../liboqs/.github/actionlint.yaml
+../liboqs/.github/dependabot.yml
+../liboqs/.github/workflows/android.yml
+../liboqs/.github/workflows/apple.yml
+../liboqs/.github/workflows/basic.yml
+../liboqs/.github/workflows/code-coverage.yml
+../liboqs/.github/workflows/commit-to-main.yml
+../liboqs/.github/workflows/docs-sync.yml
+../liboqs/.github/workflows/downstream-basic.yml
+../liboqs/.github/workflows/downstream-release.yml
+../liboqs/.github/workflows/extended.yml
+../liboqs/.github/workflows/kem-bench.yml
+../liboqs/.github/workflows/linux.yml
+../liboqs/.github/workflows/macos.yml
+../liboqs/.github/workflows/platforms.yml
+../liboqs/.github/workflows/pr.yml
+../liboqs/.github/workflows/push.yml
+../liboqs/.github/workflows/release.yml
+../liboqs/.github/workflows/sig-bench.yml
+../liboqs/.github/workflows/supplychain.yml
+../liboqs/.github/workflows/weekly.yml
+../liboqs/.github/workflows/windows.yml
+../liboqs/.github/workflows/zephyr.yml
+../liboqs/.rumdl.toml
+../liboqs/build/CMakeFiles/3.28.3/CMakeASMCompiler.cmake
+../liboqs/build/CMakeFiles/3.28.3/CMakeCCompiler.cmake
+../liboqs/build/CMakeFiles/3.28.3/CMakeSystem.cmake
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml
+../liboqs/build/CPackConfig.cmake
+../liboqs/build/CPackSourceConfig.cmake
+../liboqs/build/cmake_install.cmake
+../liboqs/build/cmake_uninstall.cmake
+../liboqs/build/compile_commands.json
+../liboqs/build/src/cmake_install.cmake
+../liboqs/build/src/common/cmake_install.cmake
+../liboqs/build/src/kem/bike/cmake_install.cmake
+../liboqs/build/src/kem/classic_mceliece/cmake_install.cmake
+../liboqs/build/src/kem/frodokem/cmake_install.cmake
+../liboqs/build/src/kem/hqc/cmake_install.cmake
+../liboqs/build/src/kem/kyber/cmake_install.cmake
+../liboqs/build/src/kem/ml_kem/cmake_install.cmake
+../liboqs/build/src/kem/ntru/cmake_install.cmake
+../liboqs/build/src/kem/ntruprime/cmake_install.cmake
+../liboqs/build/src/liboqsConfig.cmake
+../liboqs/build/src/liboqsConfigVersion.cmake
+../liboqs/build/src/liboqsTargets.cmake
+../liboqs/build/src/sig/cross/cmake_install.cmake
+../liboqs/build/src/sig/falcon/cmake_install.cmake
+../liboqs/build/src/sig/mayo/cmake_install.cmake
+../liboqs/build/src/sig/ml_dsa/cmake_install.cmake
+../liboqs/build/src/sig/mqom/cmake_install.cmake
+../liboqs/build/src/sig/slh_dsa/cmake_install.cmake
+../liboqs/build/src/sig/snova/cmake_install.cmake
+../liboqs/build/src/sig/uov/cmake_install.cmake
+../liboqs/build/tests/cmake_install.cmake
+../liboqs/docs/algorithms/kem/bike.yml
+../liboqs/docs/algorithms/kem/classic_mceliece.yml
+../liboqs/docs/algorithms/kem/frodokem.yml
+../liboqs/docs/algorithms/kem/hqc.yml
+../liboqs/docs/algorithms/kem/kyber.yml
+../liboqs/docs/algorithms/kem/ml_kem.yml
+../liboqs/docs/algorithms/kem/ntru.yml
+../liboqs/docs/algorithms/kem/ntruprime.yml
+../liboqs/docs/algorithms/sig/cross.yml
+../liboqs/docs/algorithms/sig/falcon.yml
+../liboqs/docs/algorithms/sig/mayo.yml
+../liboqs/docs/algorithms/sig/ml_dsa.yml
+../liboqs/docs/algorithms/sig/mqom.yml
+../liboqs/docs/algorithms/sig/slh_dsa.yml
+../liboqs/docs/algorithms/sig/snova.yml
+../liboqs/docs/algorithms/sig/uov.yml
+../liboqs/docs/algorithms/sig_stfl/lms.yml
+../liboqs/docs/algorithms/sig_stfl/xmss.yml
+../liboqs/docs/cbom.json
+../liboqs/scripts/build-android.sh
+../liboqs/scripts/copy_from_upstream/copy_from_libjade.yml
+../liboqs/scripts/copy_from_upstream/copy_from_slh_dsa_c.py
+../liboqs/scripts/copy_from_upstream/copy_from_upstream.py
+../liboqs/scripts/copy_from_upstream/copy_from_upstream.yml
+../liboqs/scripts/copy_from_upstream/update_upstream_alg_docs.py
+../liboqs/scripts/copy_from_xkcp/checkout.sh
+../liboqs/scripts/copy_from_xkcp/package.sh
+../liboqs/scripts/copy_from_xkcp/update_patches.sh
+../liboqs/scripts/doxyfy.py
+../liboqs/scripts/format_code.sh
+../liboqs/scripts/format_docs_yaml.py
+../liboqs/scripts/generate_algorithms_md.py
+../liboqs/scripts/genkatdict.py
+../liboqs/scripts/genkatsha256.sh
+../liboqs/scripts/git_commit.sh
+../liboqs/scripts/parse_liboqs_speed.py
+../liboqs/scripts/provider-test-trigger.sh
+../liboqs/scripts/run_doxygen.sh
+../liboqs/scripts/update_alg_support_table.py
+../liboqs/scripts/update_cbom.py
+../liboqs/scripts/update_docs_from_yaml.py
+../liboqs/scripts/validate_cbom.sh
+../liboqs/src/kem/ntruprime/sntrup761_openssh/sntrup761.sh
+../liboqs/src/oqsconfig.h.cmake
+../liboqs/tests/KATs/kem/kats.json
+../liboqs/tests/KATs/sig/kats.json
+../liboqs/tests/KATs/sig_stfl/kats.json
+../liboqs/tests/constant_time/kem/issues.json
+../liboqs/tests/constant_time/kem/passes.json
+../liboqs/tests/constant_time/sig/issues.json
+../liboqs/tests/constant_time/sig/passes.json
+../liboqs/tests/helpers.py
+../liboqs/tests/run_astyle.sh
+../liboqs/tests/test_acvp_vectors.py
+../liboqs/tests/test_alg_info.py
+../liboqs/tests/test_alg_support_generators.py
+../liboqs/tests/test_binary.py
+../liboqs/tests/test_cmdline.py
+../liboqs/tests/test_code_conventions.py
+../liboqs/tests/test_constant_time.py
+../liboqs/tests/test_distbuild.py
+../liboqs/tests/test_hash.py
+../liboqs/tests/test_kat.py
+../liboqs/tests/test_kat_all.py
+../liboqs/tests/test_kem_vectors.sh
+../liboqs/tests/test_leaks.py
+../liboqs/tests/test_mem.py
+../liboqs/tests/test_sig_vectors.sh
+../liboqs/tests/test_spdx.sh
+../liboqs/tests/test_speed.py
+../liboqs/tests/test_vectors.sh
+../liboqs/tests/test_wycheproof_vectors.py
+../liboqs/zephyr/module.yml
+../liboqs/zephyr/samples/KEMs/sample.yaml
+../liboqs/zephyr/samples/Signatures/sample.yaml
+../phase4_cache/cache_simulator.py
+../phase4_cache/latency_analysis.py
+../phase5_svc/person2_exact_recompute.py
+../phase5_svc/person2_final_audit.py
+../phase5_svc/person2_final_checks.py
+../phase5_svc/person2_final_verification.py
+../phase5_svc/person2_independent_stats_check.py
+../phase5_svc/person2_verify_confidence_intervals.py
+../phase5_svc/phase5_cache_variance.py
+../phase5_svc/svs_analysis.py
+../phase6/phase6_plots.py
+../phase6/venv/lib/python3.12/site-packages/pylab.py
+../phase6/venv/lib/python3.12/site-packages/six.py
+
+===== 3. SEARCH SCRIPT CONTENT FOR ELF/TRACE LINKAGE =====
+../phase4_cache/latency_analysis.py:9:def run_cache_simulator(simulator, trace, cache_size, associativity,
+../phase4_cache/latency_analysis.py:13:        "--trace", trace,
+../phase4_cache/latency_analysis.py:48:    parser.add_argument("--trace", required=True)
+../phase4_cache/latency_analysis.py:87:        args.trace,
+../phase4_cache/cache_simulator.py:166:    def process_trace(self, trace_file: str, output_file: str | None = None):
+../phase4_cache/cache_simulator.py:167:        with open(trace_file, "r", encoding="utf-8") as file:
+../phase4_cache/cache_simulator.py:181:                        f"Invalid trace line {line_number}: {line}"
+../phase4_cache/cache_simulator.py:196:                # Parsed for trace correctness and future extensions.
+../phase4_cache/cache_simulator.py:269:        "--trace",
+../phase4_cache/cache_simulator.py:271:        help="Path to Spike CSV trace file",
+../phase4_cache/cache_simulator.py:318:    simulator.process_trace(args.trace, args.miss_output)
+../phase5_svc/person2_final_audit.py:45:for group in ("fixed", "random"):
+../phase5_svc/person2_final_audit.py:57:elfs = [phase / n for n in ("phase5_fixed.elf", "phase5_test_fixed.elf",
+../phase5_svc/person2_final_audit.py:58:                             "phase5_fixed_1.elf")]
+../phase5_svc/person2_final_audit.py:76:log("Important: addr2line output is only valid for the ELF that generated the measured traces.")
+../phase5_svc/person2_final_audit.py:77:log("Confirming which ELF generated each run is required before final publication.")
+../phase5_svc/person2_final_audit.py:82:            "branch", "6857", "7114", "7421", "TVLA", "Welch",
+../phase5_svc/person2_final_audit.py:125:log("- Match every mapped PC to the ELF used for its measured run.")
+../phase5_svc/phase5_cache_variance.py:16:def read_trace(path):
+../phase5_svc/phase5_cache_variance.py:32:def run(trace_path, seed, output_path):
+../phase5_svc/phase5_cache_variance.py:33:    rows, blocks = read_trace(trace_path)
+../phase5_svc/phase5_cache_variance.py:46:    # trace's working set. This is initialization state, not crypto data.
+../phase5_svc/phase5_cache_variance.py:68:    parser.add_argument("--trace", required=True)
+../phase5_svc/phase5_cache_variance.py:73:    hits, misses = run(args.trace, args.seed, args.output)
+../phase5_svc/person2_independent_stats_check.py:39:log(f"Union of PCs in raw inputs: {len(set(fixed) | set(random))}")
+../phase5_svc/person2_independent_stats_check.py:44:    log("FAIL: Expected 10 fixed and 10 random zero-padded files.")
+../phase5_svc/person2_independent_stats_check.py:56:raw_union = set(fixed) | set(random)
+../phase5_svc/person2_independent_stats_check.py:64:for pc in sorted(set(fixed) & set(random)):
+../phase5_svc/person2_independent_stats_check.py:65:    x, y = fixed[pc], random[pc]
+../phase5_svc/person2_independent_stats_check.py:102:        if nfixed != len(fixed[pc]) or nrandom != len(random[pc]):
+../phase5_svc/person2_independent_stats_check.py:103:            mismatches.append((pc, len(fixed[pc]), len(random[pc]),
+../phase5_svc/person2_independent_stats_check.py:104:                               f"sample-size mismatch: CSV says {nfixed}/{nrandom}"))
+../phase5_svc/person2_independent_stats_check.py:121:                f"t={row['WELCH_T']}, means={row['FIXED_MEAN']}/{row['RANDOM_MEAN']}, "
+../phase5_svc/person2_independent_stats_check.py:122:                f"variances={row['FIXED_VARIANCE']}/{row['RANDOM_VARIANCE']}")
+../phase5_svc/person2_exact_recompute.py:36:pcs = sorted(set().union(*(d.keys() for d in fixed + random)))
+../phase5_svc/person2_exact_recompute.py:44:        "PC": pc, "N_FIXED": 10, "N_RANDOM": 10,
+../phase5_svc/person2_exact_recompute.py:45:        "FIXED_MEAN": mx, "RANDOM_MEAN": my,
+../phase5_svc/person2_exact_recompute.py:46:        "MEAN_DIFFERENCE_FIXED_MINUS_RANDOM": mx-my,
+../phase5_svc/person2_exact_recompute.py:47:        "FIXED_VARIANCE": vx, "RANDOM_VARIANCE": vy,
+../phase5_svc/person2_exact_recompute.py:87:        for field in ("FIXED_MEAN", "RANDOM_MEAN",
+../phase5_svc/person2_exact_recompute.py:88:                      "FIXED_VARIANCE", "RANDOM_VARIANCE"):
+../phase5_svc/person2_exact_recompute.py:121:            f"{pc}: fixed mean={r['FIXED_MEAN']}, random mean={r['RANDOM_MEAN']}, "
+../phase5_svc/person2_exact_recompute.py:122:            f"variances={r['FIXED_VARIANCE']}/{r['RANDOM_VARIANCE']}; "
+../phase5_svc/person2_verify_confidence_intervals.py:72:    diff = float(r["MEAN_DIFFERENCE_FIXED_MINUS_RANDOM"])
+../phase5_svc/person2_final_verification.py:14:def sha256(path):
+../phase5_svc/person2_final_verification.py:15:    h = hashlib.sha256()
+../phase5_svc/person2_final_verification.py:50:    "**/misses_*.csv", "**/*svs*analysis*.py", "**/*tvla*.py",
+../phase5_svc/person2_final_verification.py:52:    "**/*timing*.csv", "**/*trace*.csv", "**/*result*.csv",
+../phase5_svc/person2_final_verification.py:96:for group in ["fixed", "random"]:
+../phase5_svc/person2_final_verification.py:133:    digest = sha256(p)
+../phase5_svc/person2_final_verification.py:135:    log(f"{p} | SHA256 {digest} | modified {p.stat().st_mtime}")
+../phase5_svc/person2_final_verification.py:147:    r"misses_01|misses_1\.csv|phase5_fixed|phase5_random|"
+../phase5_svc/person2_final_verification.py:148:    r"LEAKY|504.configuration|100 fixed|100 random|"
+../phase5_svc/person2_final_verification.py:149:    r"Welch|t.statistic|high.risk|trace|ELF|objdump|addr2line",
+../phase5_svc/person2_final_verification.py:210:log("Review missing inputs, dataset separation, and exact ELF-to-trace provenance.")
+../phase5_svc/svs_analysis.py:36:pcs = sorted(set().union(*(d.keys() for d in fixed_data + random_data)))
+../phase5_svc/person2_final_checks.py:10:ELF = BASE / "phase5_fixed.elf"
+../phase5_svc/person2_final_checks.py:44:    if len(fixed_files) != 10 or len(random_files) != 10:
+../phase5_svc/person2_final_checks.py:46:              f"found fixed={len(fixed_files)}, random={len(random_files)}")
+../phase5_svc/person2_final_checks.py:51:    pcs = sorted(set().union(*(d.keys() for d in fixed + random)))
+../phase5_svc/person2_final_checks.py:87:            "PC": f"0x{pc:016x}", "N_FIXED": nx, "N_RANDOM": ny,
+../phase5_svc/person2_final_checks.py:88:            "FIXED_MEAN": mx, "RANDOM_MEAN": my,
+../phase5_svc/person2_final_checks.py:89:            "MEAN_DIFFERENCE_FIXED_MINUS_RANDOM": diff,
+../phase5_svc/person2_final_checks.py:90:            "FIXED_VARIANCE": vx, "RANDOM_VARIANCE": vy,
+../phase5_svc/person2_final_checks.py:109:    print(f"Fixed runs: {len(fixed_files)} | Random runs: {len(random_files)}")
+../phase5_svc/person2_final_checks.py:125:# Map PCs from the full-run dataset using the ELF and its debug information.
+../phase5_svc/person2_final_checks.py:156:    f.write("Welch t-statistic: (fixed mean - random mean) / standard error.\n")
+../phase5_svc/person2_final_checks.py:166:    f.write("2. Per-PC cache-miss analysis: 10 fixed and 10 random runs; previous CSV claimed\n")
+../phase5_svc/person2_final_checks.py:174:    f.write("debug info; verify the exact build corresponds to the measured traces.\n")
+../liboqs/scripts/genkatsha256.sh:5:# Run in arbitrary folder to create .sha256 files from .kat files
+../liboqs/scripts/genkatsha256.sh:7:    sha256sum $filename | awk '{printf $1}' > $filename.sha256
+../liboqs/scripts/copy_from_upstream/copy_from_upstream.py:742:                        if kats['kem'][scheme['pretty_name_full']]['single'] != scheme['metadata']['nistkat-sha256']:
+../liboqs/scripts/copy_from_upstream/copy_from_upstream.py:750:                    kats['kem'][scheme['pretty_name_full']]['single'] = scheme['metadata']['nistkat-sha256']
+../liboqs/scripts/copy_from_upstream/copy_from_upstream.py:752:                        kats['kem'][scheme['alias_pretty_name_full']]['single'] = scheme['metadata']['nistkat-sha256']
+../liboqs/scripts/copy_from_upstream/copy_from_upstream.py:755:                        if kats['sig'][scheme['pretty_name_full']]['single'] != scheme['metadata']['nistkat-sha256']:
+../liboqs/scripts/copy_from_upstream/copy_from_upstream.py:763:                    kats['sig'][scheme['pretty_name_full']]['single'] = scheme['metadata']['nistkat-sha256']
+../liboqs/scripts/copy_from_upstream/copy_from_upstream.py:765:                        kats['sig'][scheme['alias_pretty_name_full']]['single'] = scheme['metadata']['nistkat-sha256']
+../liboqs/scripts/genkatdict.py:6:KATSHA = ".kat.sha256"
+../liboqs/scripts/update_alg_support_table.py:7:but it is not meant to be run by itself. Instead, run the legacy 
+../liboqs/.github/actionlint.yaml:8:self-hosted-runner:
+../liboqs/.github/workflows/linux.yml:239:            sha256sum sde-external-9.53.0-2025-03-16-lin.tar.xz > lhs && \
+../liboqs/docs/algorithms/sig_stfl/lms.yml:23:- name: LMS_SHA256_H5_W1
+../liboqs/docs/algorithms/sig_stfl/lms.yml:29:- name: LMS_SHA256_H5_W2
+../liboqs/docs/algorithms/sig_stfl/lms.yml:35:- name: LMS_SHA256_H5_W4
+../liboqs/docs/algorithms/sig_stfl/lms.yml:41:- name: LMS_SHA256_H5_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:47:- name: LMS_SHA256_H10_W1
+../liboqs/docs/algorithms/sig_stfl/lms.yml:53:- name: LMS_SHA256_H10_W2
+../liboqs/docs/algorithms/sig_stfl/lms.yml:59:- name: LMS_SHA256_H10_W4
+../liboqs/docs/algorithms/sig_stfl/lms.yml:65:- name: LMS_SHA256_H10_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:71:- name: LMS_SHA256_H15_W1
+../liboqs/docs/algorithms/sig_stfl/lms.yml:77:- name: LMS_SHA256_H15_W2
+../liboqs/docs/algorithms/sig_stfl/lms.yml:83:- name: LMS_SHA256_H15_W4
+../liboqs/docs/algorithms/sig_stfl/lms.yml:89:- name: LMS_SHA256_H15_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:95:- name: LMS_SHA256_H20_W1
+../liboqs/docs/algorithms/sig_stfl/lms.yml:101:- name: LMS_SHA256_H20_W2
+../liboqs/docs/algorithms/sig_stfl/lms.yml:107:- name: LMS_SHA256_H20_W4
+../liboqs/docs/algorithms/sig_stfl/lms.yml:113:- name: LMS_SHA256_H20_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:119:- name: LMS_SHA256_H25_W1
+../liboqs/docs/algorithms/sig_stfl/lms.yml:125:- name: LMS_SHA256_H25_W2
+../liboqs/docs/algorithms/sig_stfl/lms.yml:131:- name: LMS_SHA256_H25_W4
+../liboqs/docs/algorithms/sig_stfl/lms.yml:137:- name: LMS_SHA256_H25_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:143:- name: LMS_SHA256_H5_W8_H5_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:149:- name: LMS_SHA256_H10_W4_H5_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:155:- name: LMS_SHA256_H10_W8_H5_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:161:- name: LMS_SHA256_H10_W2_H10_W2
+../liboqs/docs/algorithms/sig_stfl/lms.yml:167:- name: LMS_SHA256_H10_W4_H10_W4
+../liboqs/docs/algorithms/sig_stfl/lms.yml:173:- name: LMS_SHA256_H10_W8_H10_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:179:- name: LMS_SHA256_H15_W8_H5_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:185:- name: LMS_SHA256_H15_W8_H10_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:191:- name: LMS_SHA256_H15_W8_H15_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:197:- name: LMS_SHA256_H20_W8_H5_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:203:- name: LMS_SHA256_H20_W8_H10_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:209:- name: LMS_SHA256_H20_W8_H15_W8
+../liboqs/docs/algorithms/sig_stfl/lms.yml:215:- name: LMS_SHA256_H20_W8_H20_W8
+../liboqs/tests/test_acvp_vectors.py:43:        return hashlib.sha256(msg_bytes).hexdigest()
+../liboqs/tests/test_cmdline.py:34:    names_to_allow = ["LMS_SHA256_H5_W1", "LMS_SHA256_H5_W2", 
+../liboqs/tests/test_cmdline.py:35:                        "LMS_SHA256_H5_W4",
+../liboqs/tests/test_cmdline.py:36:                        "LMS_SHA256_H5_W8",
+../liboqs/tests/test_cmdline.py:37:                        "LMS_SHA256_H10_W1",
+../liboqs/tests/test_cmdline.py:38:                        "LMS_SHA256_H10_W2",
+../liboqs/tests/test_cmdline.py:39:                        "LMS_SHA256_H10_W4",
+../liboqs/tests/test_cmdline.py:40:                        "LMS_SHA256_H10_W8",
+../liboqs/tests/test_cmdline.py:41:                        "LMS_SHA256_H15_W1",
+../liboqs/tests/test_cmdline.py:42:                        "LMS_SHA256_H15_W2",
+../liboqs/tests/test_cmdline.py:43:                        "LMS_SHA256_H15_W4",
+../liboqs/tests/test_cmdline.py:44:                        "LMS_SHA256_H5_W8_H5_W8",
+../liboqs/tests/test_cmdline.py:45:                        "LMS_SHA256_H10_W4_H5_W8",]
+../liboqs/tests/test_kat.py:8:from hashlib import sha256
+../liboqs/tests/test_kat.py:21:    h256 = sha256()
+../liboqs/tests/test_kat.py:38:    h256 = sha256()
+../liboqs/tests/test_kat.py:56:    h256 = sha256()
+../liboqs/tests/test_hash.py:24:@pytest.mark.parametrize('algname', ['sha256', 'sha384', 'sha512', 'sha3_256', 'sha3_384', 'sha3_512'])
+../liboqs/tests/test_constant_time.py:28:programs are structured such that all secret data can be traced back to a call
+../liboqs/tests/test_constant_time.py:127:in other Kyber parameter sets), and truncated the backtrace (since the extra lines
+../liboqs/tests/test_constant_time.py:132:"fun:name" line in the backtrace can be replaced by an equivalent
+../liboqs/tests/test_constant_time.py:144:An ellipsis (...) can serve as a wildcard for a portion of the backtrace.
+../liboqs/tests/test_kat_all.py:8:from hashlib import sha256
+../liboqs/tests/test_kat_all.py:19:    h256 = sha256()
+../liboqs/tests/test_kat_all.py:35:    h256 = sha256()
+../liboqs/tests/helpers.py:254:def test_requires_qemu(platform, mincpu):
+../liboqs/tests/helpers.py:255:    no_qemu=False
+../liboqs/tests/helpers.py:257:        run_subprocess(["qemu-"+platform+"-static", "-cpu", mincpu, path_to_executable('test_kem')], ignore_returncode=True)
+../liboqs/tests/helpers.py:259:        no_qemu=True
+../liboqs/tests/helpers.py:260:    return pytest.mark.skipif(no_qemu,
+../liboqs/tests/helpers.py:261:                reason='Test requires qemu-{}-static -cpu {}'.format(platform, mincpu))
+../liboqs/tests/test_distbuild.py:8:# TODO: We shouldn't use platform.machine() to select the qemu binary directly,
+../liboqs/tests/test_distbuild.py:21:@helpers.test_requires_qemu(platform.machine(), MINCPU)
+../liboqs/tests/test_distbuild.py:26:    helpers.run_subprocess(["qemu-"+platform.machine()+"-static", "-cpu", MINCPU,
+../liboqs/tests/test_distbuild.py:32:@helpers.test_requires_qemu(platform.machine(), MINCPU)
+../liboqs/tests/test_distbuild.py:37:    helpers.run_subprocess(["qemu-"+platform.machine()+"-static", "-cpu", MINCPU,
+../liboqs/tests/test_speed.py:29:    names_to_allow = ["LMS_SHA256_H5_W1", "LMS_SHA256_H5_W2", 
+../liboqs/tests/test_speed.py:30:                        "LMS_SHA256_H5_W4",
+../liboqs/tests/test_speed.py:31:                        "LMS_SHA256_H5_W8",
+../liboqs/tests/test_speed.py:32:                        "LMS_SHA256_H10_W1",
+../liboqs/tests/test_speed.py:33:                        "LMS_SHA256_H10_W2",
+../liboqs/tests/test_speed.py:34:                        "LMS_SHA256_H10_W4",
+../liboqs/tests/test_speed.py:35:                        "LMS_SHA256_H10_W8",
+../liboqs/tests/test_speed.py:36:                        "LMS_SHA256_H15_W1",
+../liboqs/tests/test_speed.py:37:                        "LMS_SHA256_H15_W2",
+../liboqs/tests/test_speed.py:38:                        "LMS_SHA256_H15_W4",
+../liboqs/tests/test_speed.py:39:                        "LMS_SHA256_H5_W8_H5_W8",
+../liboqs/tests/test_speed.py:40:                        "LMS_SHA256_H10_W4_H5_W8",]
+../liboqs/zephyr/samples/KEMs/sample.yaml:15:      - qemu_x86
+../liboqs/zephyr/samples/KEMs/sample.yaml:16:      - qemu_cortex_a53
+../liboqs/zephyr/samples/KEMs/sample.yaml:17:      - qemu_riscv32
+../liboqs/zephyr/samples/KEMs/sample.yaml:18:      - qemu_riscv64
+../liboqs/zephyr/samples/Signatures/sample.yaml:15:      - qemu_x86
+../liboqs/zephyr/samples/Signatures/sample.yaml:16:      - qemu_cortex_a53
+../liboqs/zephyr/samples/Signatures/sample.yaml:17:      - qemu_riscv32
+../liboqs/zephyr/samples/Signatures/sample.yaml:18:      - qemu_riscv64
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:6:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:13:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:35:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:48:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:74:        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:109:        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:116:         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cccUnXUq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_30744 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_30744.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:122:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:144:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:160:        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:195:        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:202:        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cccUnXUq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_30744 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_30744.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:270:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:299:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:328:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:362:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:389:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:416:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:443:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:470:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:504:    backtrace:
+../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:539:    backtrace:
+../phase6/phase6_plots.py:18:for condition in ["fixed", "random"]:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:71:        Method to take an exception and translate the Python internal traceback into a list
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:78:        - depth (default=16) - number of levels back in the stack trace to list expression
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:79:          and function names; if None, the full stack trace names will be listed; if 0, only
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:83:        exception's stack trace.
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:96:        if depth <= 0 or exc.__traceback__ is None:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:99:        callers = inspect.getinnerframes(exc.__traceback__, context=depth)
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:251:        Method to translate the Python internal traceback into a list
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:256:        - depth (default=16) - number of levels back in the stack trace to list expression
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:257:          and function names; if None, the full stack trace names will be listed; if 0, only
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:261:        exception's stack trace.
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:288:        Note: pyparsing's default truncation of exception tracebacks may also truncate the
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:290:        of parser expressions, you may have to set ``ParserElement.verbose_stacktrace = True``
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:350:        self.parseElementTrace = parseElementList
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:353:        return f"RecursiveGrammarException: {self.parseElementTrace}"
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/tools/cvt_pyparsing_pep8_names.py:23:traceParseAction transformString tryParse unicodeString upcaseTokens withAttribute withClass
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:28:import traceback
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:260:_trim_arity_call_line: traceback.StackSummary = None  # type: ignore[assignment]
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:274:    # synthesize what would be returned by traceback.extract_stack at the call to
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:281:    _trim_arity_call_line = _trim_arity_call_line or traceback.extract_stack(limit=2)[-1]
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:298:                    tb = te.__traceback__
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:299:                    frames = traceback.extract_tb(tb, limit=2)
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:316:                ).with_traceback(None)
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:401:    verbose_stacktrace: bool = False
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:786:            Traceback (most recent call last):
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:843:            Traceback (most recent call last):
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1096:                    # cache a copy of the exception, without the traceback
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1319:            Traceback (most recent call last):
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1342:            if ParserElement.verbose_stacktrace:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1345:            # catch and re-raise exception from here, clearing out pyparsing internal stack trace
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1346:            raise exc.with_traceback(None)
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1448:            if ParserElement.verbose_stacktrace:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1451:            # catch and re-raise exception from here, clears out pyparsing internal stack trace
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1452:            raise exc.with_traceback(None)
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1507:            if ParserElement.verbose_stacktrace:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1510:            # catch and re-raise exception from here, clears out pyparsing internal stack trace
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1511:            raise exc.with_traceback(None)
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1566:            if ParserElement.verbose_stacktrace:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1569:            # catch and re-raise exception from here, clears out pyparsing internal stack trace
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1570:            raise exc.with_traceback(None)
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2154:            Traceback (most recent call last):
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2160:            Traceback (most recent call last):
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2204:    def validate(self, validateTrace=None) -> None:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2244:            if ParserElement.verbose_stacktrace:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2247:            # catch and re-raise exception from here, clears out pyparsing internal stack trace
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2248:            raise exc.with_traceback(None)
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2480:                if ParserElement.verbose_stacktrace:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2481:                    out.extend(traceback.format_tb(pe.__traceback__))
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2488:                tb = exc.__traceback__
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2489:                it = iter(traceback.walk_tb(tb))
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2497:                if ParserElement.verbose_stacktrace:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2498:                    out.extend(traceback.format_tb(exc.__traceback__))
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2708:        Traceback (most recent call last):
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2812:        Traceback (most recent call last):
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2820:        Traceback (most recent call last):
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:3018:        Traceback (most recent call last):
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4411:    def validate(self, validateTrace=None) -> None:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4417:        tmp = (validateTrace if validateTrace is not None else [])[:] + [self]
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4623:                    pe.__traceback__ = None
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4711:                pfe.__traceback__ = None
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4718:                    err.__traceback__ = None
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4752:                    err.__traceback__ = None
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4872:                pfe.__traceback__ = None
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:5069:                    pfe.__traceback__ = None
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:5215:    def validate(self, validateTrace=None) -> None:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:5221:        if validateTrace is None:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:5222:            validateTrace = []
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:5223:        tmp = validateTrace[:] + [self]
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6166:        self.caller_frame = traceback.extract_stack(limit=2)[0]
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6189:        self.lshift_line = traceback.extract_stack(limit=2)[-2]  # type: ignore[assignment]
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6199:        caller_line = traceback.extract_stack(limit=2)[-2]
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6244:            tb = traceback.extract_stack(limit=200)
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6347:    def validate(self, validateTrace=None) -> None:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6353:        if validateTrace is None:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6354:            validateTrace = []
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6356:        if self not in validateTrace:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6357:            tmp = validateTrace[:] + [self]
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6450:        Traceback (most recent call last):
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6691:def trace_parse_action(f: ParseAction) -> ParseAction:
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6714:        @trace_parse_action
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6948:traceParseAction = replaced_by_pep8("traceParseAction", trace_parse_action)
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/__init__.py:199:- If troubleshooting parse actions, use pyparsing's trace_parse_action decorator to echo arguments and return value
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/__init__.py:360:    "trace_parse_action",
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/__init__.py:406:    "traceParseAction",
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/results.py:655:           Traceback (most recent call last):
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/testing.py:73:            self._save_context["verbose_stacktrace"] = ParserElement.verbose_stacktrace
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/testing.py:107:            ParserElement.verbose_stacktrace = self._save_context["verbose_stacktrace"]
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/testing.py:191:            self, run_tests_report, expected_parse_results=None, msg=None
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/common.py:432:            raise ParseException(t, l, f"Invalid date/time: {ve}").with_traceback(
+../phase6/venv/lib64/python3.12/site-packages/pyparsing/common.py:433:                ve.__traceback__
+../phase6/venv/lib64/python3.12/site-packages/mpl_toolkits/axes_grid1/axes_divider.py:151:    def get_position_runtime(self, ax, renderer):
+../phase6/venv/lib64/python3.12/site-packages/mpl_toolkits/axes_grid1/axes_divider.py:216:        x, y, w, h = self.get_position_runtime(axes, renderer)
+../phase6/venv/lib64/python3.12/site-packages/mpl_toolkits/axes_grid1/axes_divider.py:545:        x, y, w, h = self.get_position_runtime(axes, renderer)
+../phase6/venv/lib64/python3.12/site-packages/mpl_toolkits/axes_grid1/axes_divider.py:582:        x, y, w, h = self.get_position_runtime(axes, renderer)
+../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:101:                elif op == 3 and self._previous_pixel:  # QOI_OP_RUN
+../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:143:    def _write_run(self) -> bytes:
+../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:144:        data = o8(0b11000000 | (self._run - 1))  # QOI_OP_RUN
+../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:145:        self._run = 0
+../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:171:                    self._run += 1
+../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:172:                    if self._run == 62:
+../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:173:                        data += self._write_run()
+../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:175:                    if self._run:
+../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:176:                        data += self._write_run()
+../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:223:        if self._run:
+../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:224:            data += self._write_run()
+../phase6/venv/lib64/python3.12/site-packages/PIL/ImageFile.py:429:        if not self.map and not LOAD_TRUNCATED_IMAGES and err_code < 0:
+../phase6/venv/lib64/python3.12/site-packages/PIL/ContainerIO.py:147:    def truncate(self, size: int | None = None) -> int:
+../phase6/venv/lib64/python3.12/site-packages/PIL/JpegImagePlugin.py:420:        if not s and ImageFile.LOAD_TRUNCATED_IMAGES and not hasattr(self, "_ended"):
+
+===== 4. CHECK ZERO-PADDED INPUT COVERAGE =====
+fixed run 01: 7 rows, 7 unique PCs
+fixed run 02: 7 rows, 7 unique PCs
+fixed run 03: 7 rows, 7 unique PCs
+fixed run 04: 7 rows, 7 unique PCs
+fixed run 05: 7 rows, 7 unique PCs
+fixed run 06: 7 rows, 7 unique PCs
+fixed run 07: 7 rows, 7 unique PCs
+fixed run 08: 7 rows, 7 unique PCs
+fixed run 09: 7 rows, 7 unique PCs
+fixed run 10: 95 rows, 95 unique PCs
+fixed union: 108 PCs
+random run 01: 6 rows, 6 unique PCs
+random run 02: 6 rows, 6 unique PCs
+random run 03: 6 rows, 6 unique PCs
+random run 04: 6 rows, 6 unique PCs
+random run 05: 6 rows, 6 unique PCs
+random run 06: 6 rows, 6 unique PCs
+random run 07: 6 rows, 6 unique PCs
+random run 08: 6 rows, 6 unique PCs
+random run 09: 6 rows, 6 unique PCs
+random run 10: 95 rows, 95 unique PCs
+random union: 97 PCs
+
+FIXED absent-PC counts relative to group union:
+run 01: 101 PCs absent
+run 02: 101 PCs absent
+run 03: 101 PCs absent
+run 04: 101 PCs absent
+run 05: 101 PCs absent
+run 06: 101 PCs absent
+run 07: 101 PCs absent
+run 08: 101 PCs absent
+run 09: 101 PCs absent
+run 10: 13 PCs absent
+
+RANDOM absent-PC counts relative to group union:
+run 01: 91 PCs absent
+run 02: 91 PCs absent
+run 03: 91 PCs absent
+run 04: 91 PCs absent
+run 05: 91 PCs absent
+run 06: 91 PCs absent
+run 07: 91 PCs absent
+run 08: 91 PCs absent
+run 09: 91 PCs absent
+run 10: 2 PCs absent
+
+Combined PC union: 194
+WARNING: fixed run 01 lacks 187 PCs from the combined union; verify absence means zero misses.
+WARNING: fixed run 02 lacks 187 PCs from the combined union; verify absence means zero misses.
+WARNING: fixed run 03 lacks 187 PCs from the combined union; verify absence means zero misses.
+WARNING: fixed run 04 lacks 187 PCs from the combined union; verify absence means zero misses.
+WARNING: fixed run 05 lacks 187 PCs from the combined union; verify absence means zero misses.
+WARNING: fixed run 06 lacks 187 PCs from the combined union; verify absence means zero misses.
+WARNING: fixed run 07 lacks 187 PCs from the combined union; verify absence means zero misses.
+WARNING: fixed run 08 lacks 187 PCs from the combined union; verify absence means zero misses.
+WARNING: fixed run 09 lacks 187 PCs from the combined union; verify absence means zero misses.
+WARNING: fixed run 10 lacks 99 PCs from the combined union; verify absence means zero misses.
+WARNING: random run 01 lacks 188 PCs from the combined union; verify absence means zero misses.
+WARNING: random run 02 lacks 188 PCs from the combined union; verify absence means zero misses.
+WARNING: random run 03 lacks 188 PCs from the combined union; verify absence means zero misses.
+WARNING: random run 04 lacks 188 PCs from the combined union; verify absence means zero misses.
+WARNING: random run 05 lacks 188 PCs from the combined union; verify absence means zero misses.
+WARNING: random run 06 lacks 188 PCs from the combined union; verify absence means zero misses.
+WARNING: random run 07 lacks 188 PCs from the combined union; verify absence means zero misses.
+WARNING: random run 08 lacks 188 PCs from the combined union; verify absence means zero misses.
+WARNING: random run 09 lacks 188 PCs from the combined union; verify absence means zero misses.
+WARNING: random run 10 lacks 99 PCs from the combined union; verify absence means zero misses.
+
+===== 5. ELF HASHES FOR TRACE-PROVENANCE REVIEW =====
+df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137  ./phase5_fixed.elf
+1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b  ./phase5_fixed_1.elf
+df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137  ./phase5_fixed_10.elf
+6bde6e353e5cfcaaf15f87ea85d12a1d2ac99bfa25a4f7778207c310d4dff5dd  ./phase5_fixed_2.elf
+d7977e3c9268cdd9cdc6eaa987ef0a4cf4583e60510ce8fb6e6ef8fabadffdbc  ./phase5_fixed_3.elf
+ba1f1b26f0c91173fc2bd3d0901dd6da94568d452841fdcbdd6f3939d377a599  ./phase5_fixed_4.elf
+02f7580e195313ca7205d1217c40e5b157c8e2f9ca5cd306325eed4b2c7278b0  ./phase5_fixed_5.elf
+1120c1c388d081bb993b27275de894f9a34eaf203bb5943ea777ee942c3617b3  ./phase5_fixed_6.elf
+df29e977b592cb6799eb3f99e031a2e251dca0ff1fa43c1fbf6095fa313c75c3  ./phase5_fixed_7.elf
+3fbe912e61cb2df796c1043397deb4d7357fcd2e1af779942ad94559c639774f  ./phase5_fixed_8.elf
+2848fcb07dd1fd96465804161a2e938b8cde38dab37342ad447977b2fe518b9b  ./phase5_fixed_9.elf
+355ae10935e3daeb0c49bf374b4da2ceab55dc563a2675ca86fb730ccabf7310  ./phase5_random.elf
+90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42  ./phase5_random_1.elf
+1702cc9c90459ead962448c7f1d5ffdd5d79c5d7c14033c7ed049b93d945f33b  ./phase5_random_10.elf
+8ee30bad0f970c2004105b651040969446641ef541beccf63a4ed11344b46daf  ./phase5_random_2.elf
+f633df1994860a6fd4b1a52fbd7ab888ef7147bc471b7e0c052998cbe5639578  ./phase5_random_3.elf
+bc055f4ded37da14fac4803f6ebe99f45b7931de16c585d3ae78bdf2fd33d50e  ./phase5_random_4.elf
+f86149a40a3c1ec0ed5e35b26c600cb2cb05c74912fad1cd5703c78c4b3b0fe9  ./phase5_random_5.elf
+7886c1257028caa99812e5f017a4eb19521c34c195a97756f5798442d1c19706  ./phase5_random_6.elf
+6ea3b9e4443efb544b828852ac55b089474721991d653b2b8f18e4e54f7abd31  ./phase5_random_7.elf
+8f4f875a24944c17225db897a5e00e5240e5b625d28992fe6969d61dd6f7a8c2  ./phase5_random_8.elf
+5f734bd1c48073fc9b04e7091747f87a9a7646d7aef64e89e5940fe50ea6766c  ./phase5_random_9.elf
+90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42  ./phase5_random_full_01.elf
+1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b  ./phase5_test_fixed.elf
+22191aa1b8e8ff49b4f8c235839830dc474775d46b4612282f229c0b567b1ce0  ./phase5_test_random.elf
+81e9660610511dccd4091bc91655750a794332c8d85cdb9f2349bfa440a25945  ./phase5_test_random18.elf
+
+===== 6. CURRENT OUTPUTS =====
+-rw-r--r-- 1 cnc_susindharan cnc_susindharan  693 Oct 19 15:03 PERSON2_CI_VERIFICATION.txt
+-rw-r--r-- 1 cnc_susindharan cnc_susindharan  875 Oct 19 15:01 PERSON2_EXACT_RECOMPUTE.txt
+-rw-r--r-- 1 cnc_susindharan cnc_susindharan 2.0K Oct 19 15:07 PERSON2_FINAL_COMPLETION_STATUS.txt
+-rw-r--r-- 1 cnc_susindharan cnc_susindharan  28K Oct 19 15:03 person2_corrected_exact_ci.csv
+-rw-r--r-- 1 cnc_susindharan cnc_susindharan  18K Oct 19 14:30 person2_corrected_zero_padded.csv
+-rw-r--r-- 1 cnc_susindharan cnc_susindharan  42K Oct 19 14:30 person2_pc_source_mapping.csv
+
+===== 7. NEXT ACTIONS BASED ON EVIDENCE =====
+A. Verify whether absent PCs genuinely represent zero misses.
+B. Recover original C5 sweep and timing experiment logs.
+C. Find a run manifest/build record connecting each trace set to an ELF hash.
+D. Do not claim C5/C9 are fully verified until B and C are supported.
+E. Do not overwrite existing result CSVs during this search.

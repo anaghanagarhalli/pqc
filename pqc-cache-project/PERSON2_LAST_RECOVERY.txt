@@ -1,0 +1,20 @@
+PERSON 2 — FINAL RECOVERY DECISION
+============================================================
+Project: /home/cnc_susindharan/pqc-cache-project
+
+POTENTIAL SOURCE OR EXECUTION EVIDENCE:
+No matching source/log evidence found in the searched local directories.
+
+POTENTIAL BACKUP ARCHIVES:
+No matching archive filenames found.
+
+GIT HISTORY:
+No Git repository found at project root.
+
+FINAL STATUS
+C3: Existing statistics are available; undefined Welch results are not significant results.
+C4: Reconstructed traces used new deterministic seeds, not verified original run seeds.
+C5: Complete only if original experiment logs are recovered or a controlled rerun produces primary evidence.
+C9: Complete only if reliable records associate each trace with its exact generating ELF.
+
+If the original runner and run records are absent, the remaining blocker is missing project evidence, not another audit command.

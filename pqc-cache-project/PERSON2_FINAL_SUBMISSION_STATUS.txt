@@ -1,0 +1,15 @@
+PERSON 2 — EVIDENCE-BASED AUDIT
+Generated: 2026-10-19T16:57:10.174567+00:00
+C3 results file: PRESENT; rows: 194
+C4 full-trace results: PRESENT; rows: 317
+C4 CI file: PRESENT; rows: 317
+C5 candidate experiment scripts found: 0
+C9 ELFs: 26; trace CSVs: 45
+
+REQUIRED EVIDENCE CHECKS
+- C3: original raw inputs and independent recalculation must agree with the reported 194 rows.
+- C4: verify original seeds, trace provenance, and CI formula/inputs; reconstructed outputs do not establish history.
+- C5: preserve actual sweep and timing-injection commands, configurations, raw outputs and execution logs.
+- C9: tie each trace to an ELF hash/build/run ID and validate each mapped PC against that ELF's symbols/source.
+
+Do not report any task complete solely because files exist or the ZIP passes integrity.

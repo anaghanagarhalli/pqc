@@ -1,0 +1,83 @@
+PERSON 2 — CONSOLIDATED FINALIZATION
+=================================================================
+Started: 2026-10-19T16:07:52.111439+00:00
+Working directory: /home/cnc_susindharan/pqc-cache-project/phase5_svc
+
+[1] Attempting C4 confidence interval generation...
+Exit code: 0
+PERSON 2 — RECONSTRUCTED CONFIDENCE INTERVAL AUDIT
+=================================================
+Input: person2_rebuilt_full/person2_full_trace_welch_results.csv
+Rows processed: 317
+Approximate 95% intervals computed: 277
+Undefined intervals: 40
+
+Method: Welch standard error and Welch-Satterthwaite degrees of freedom.
+Critical values use a t-critical approximation; intervals are approximate.
+These intervals use reconstructed data and newly assigned cache-prefill seeds.
+They do not validate original experimental results or ELF-to-trace provenance.
+Original files were not overwritten.
+
+CSV saved: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/person2_full_trace_with_ci.csv
+Audit saved: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/PERSON2_CI_AUDIT.txt
+
+[2] File and statistical audit
+
+C3 exact CI results: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_exact_ci.csv
+STATUS: PRESENT
+Size: 28329 bytes
+SHA256: 06e992465cfcbefbdcf9fbd7648d4097aa173e23f42d53bcc072e5fda921cb2b
+Rows: 194
+Columns: PC, N_FIXED, N_RANDOM, FIXED_MEAN, RANDOM_MEAN, MEAN_DIFFERENCE_FIXED_MINUS_RANDOM, FIXED_VARIANCE, RANDOM_VARIANCE, STANDARD_ERROR, WELCH_T, WELCH_DF, CI95_LOW_APPROX, CI95_HIGH_APPROX, STATISTIC_STATUS, RISK, CI95_LOW_EXACT, CI95_HIGH_EXACT, CI95_STATUS
+WELCH_T: 191 finite; 3 undefined/non-numeric
+
+C4 reconstructed full-trace Welch results: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/person2_full_trace_welch_results.csv
+STATUS: PRESENT
+Size: 16230 bytes
+SHA256: c74c2d469720393a7d8298aeeadc153b29529ce71eb2b357c85a73f1572637b4
+Rows: 317
+Columns: PC, fixed_mean, random_mean, fixed_variance, random_variance, welch_t, welch_df, abs_t_gt_4_5, status
+welch_t: 277 finite; 40 undefined/non-numeric
+
+C4 reconstructed full-trace CI results: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_full_trace_with_ci.csv
+STATUS: MISSING
+
+C5 findings summary: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt
+STATUS: PRESENT
+Size: 1686 bytes
+SHA256: 6cb1e30bc6e043f4210360c61834dc98f1c9399e021a5529a49330b0944f68f6
+
+C9 high-risk source mapping: /home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv
+STATUS: PRESENT
+Size: 2935 bytes
+SHA256: 4d68dc6d6ec962cacfdad1b76976fa180e44eec982621996c8786bdfe19b4fae
+Rows: 13
+Columns: PC, FUNCTION, SOURCE_LOCATION, FIXED_MEAN_MISSES, RANDOM_MEAN_MISSES, FIXED_VARIANCE, RANDOM_VARIANCE, WELCH_T, SVS, RISK
+
+C4 rebuild report: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/PERSON2_FULL_TRACE_REBUILD_REPORT.txt
+STATUS: PRESENT
+Size: 2073 bytes
+SHA256: 0a371ab2c702a235d2645e7da53929f29c887f313f0390721b0a480d6f8e0d9e
+
+C4 CI audit report: /home/cnc_susindharan/pqc-cache-project/phase5_svc/PERSON2_CI_AUDIT.txt
+STATUS: MISSING
+
+Previous final audit: /home/cnc_susindharan/pqc-cache-project/phase5_svc/PERSON2_FINAL_AUDIT.txt
+STATUS: PRESENT
+Size: 1149 bytes
+SHA256: 6df4796357f1f64fc97b2970a223df7b3b5744fa86527360f1bfe9fe0713058f
+
+C5 targeted source audit: /home/cnc_susindharan/pqc-cache-project/phase5_svc/PERSON2_C5_TARGETED_SOURCE_AUDIT.txt
+STATUS: MISSING
+
+C9 trace/ELF provenance audit: /home/cnc_susindharan/pqc-cache-project/phase5_svc/PERSON2_TRACE_ELF_PROVENANCE_AUDIT.txt
+STATUS: PRESENT
+Size: 24653 bytes
+SHA256: e2d409c4beb6e01344a59bcf746fecf7623cdceeb77434d6aac2329dab2158d4
+
+[3] Final disposition
+C3: Existing statistical CSV identified and audited. Undefined Welch statistics are not valid evidence of significance.
+C4: Reconstructed full traces use newly assigned deterministic seeds; original historical run provenance is not established.
+C5: NOT VERIFIED unless primary execution logs for the broad configuration sweep and timing-injection tests are recovered.
+C9: PROVISIONAL unless the exact ELF binary used to generate each trace can be established.
+No experiment is claimed to have been rerun by this finalization script.

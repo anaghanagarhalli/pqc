@@ -1,0 +1,14 @@
+PC,FUNCTION,SOURCE_LOCATION,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,SVS,RISK
+0x0000000080000474,mlk_zeroize,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:433,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,4.58257569495584,HIGH-RISK
+0x0000000080000484,PQCP_MLKEM_NATIVE_MLKEM512_C_enc,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:369,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,4.58257569495584,HIGH-RISK
+0x0000000080000494,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380,0.0,0.9,0.0,0.1,-9.0,9.0,HIGH-RISK
+0x00000000800004a4,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380,0.0,0.9,0.0,0.1,-9.0,9.0,HIGH-RISK
+0x0000000080000520,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:402,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,4.58257569495584,HIGH-RISK
+0x0000000080000540,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:409,0.0,1.0,0.0,0.0,inf,inf,HIGH-RISK
+0x000000008000055c,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:416,19.8,0.0,109.28888888888889,0.0,5.989315415470645,5.989315415470645,HIGH-RISK
+0x0000000080000560,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:416,16.8,0.0,134.39999999999998,0.0,4.582575694955841,4.582575694955841,HIGH-RISK
+0x000000008000057c,mlk_ct_memcmp,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:356,0.0,25.0,0.0,0.0,inf,inf,HIGH-RISK
+0x0000000080000580,mlk_ct_memcmp,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:356,0.0,23.9,0.0,0.09999999999999999,-239.0,239.0,HIGH-RISK
+0x00000000800005b6,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:427,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,4.58257569495584,HIGH-RISK
+0x00000000800005bc,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:427,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,4.58257569495584,HIGH-RISK
+0x00000000800005d6,mlk_ct_cmov_zero,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:404,0.0,1.0,0.0,0.0,inf,inf,HIGH-RISK

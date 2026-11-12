@@ -1,0 +1,25 @@
+PERSON 2 — EXACT INPUT RECOMPUTATION
+========================================================================
+Fixed runs: 10
+Random runs: 10
+PC union: 194
+Finite Welch t: 191
+Undefined zero-SE: 3
+Finite |t| > 4.5: 10
+
+--- Comparison with corrected: person2_corrected_zero_padded.csv ---
+Rows: 194; recomputed rows: 194
+PC sets identical: True
+Field mismatches: 0
+PASS: compared fields and PC set match.
+
+--- Comparison with original: svs_results.csv ---
+Rows: 194; recomputed rows: 194
+PC sets identical: True
+Field mismatches: 0
+PASS: compared fields and PC set match.
+
+--- Zero-SE cases ---
+0x0000000080000540: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+0x000000008000057c: fixed mean=0.0, random mean=25.0, variances=0.0/0.0; Welch t is undefined
+0x00000000800005d6: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined

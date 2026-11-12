@@ -1,0 +1,178 @@
+PERSON 2 — REMAINING WORK PLAN
+============================================================
+Generated: 2026-10-19T16:09:25.552961+00:00
+Project: /home/cnc_susindharan/pqc-cache-project
+
+1. EXISTING FILE INVENTORY
+phase5_svc/PERSON2_ALL_IN_ONE_FINAL_AUDIT.txt | 6714 bytes
+phase5_svc/PERSON2_ALL_IN_ONE_FINAL_STATUS.txt | 1378 bytes
+phase5_svc/PERSON2_C5_C9_FINAL_RECOVERY.txt | 26439 bytes
+phase5_svc/PERSON2_C5_C9_PROVENANCE_INVESTIGATION.txt | 8172 bytes
+phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt | 51129 bytes
+phase5_svc/PERSON2_C5_RERUN_READINESS.txt | 5147 bytes
+phase5_svc/PERSON2_CI_VERIFICATION.txt | 693 bytes
+phase5_svc/PERSON2_EXACT_RECOMPUTE.txt | 875 bytes
+phase5_svc/PERSON2_FINAL_AUDIT.txt | 1149 bytes
+phase5_svc/PERSON2_FINAL_COMPLETION_STATUS.txt | 1996 bytes
+phase5_svc/PERSON2_FINAL_DIAGNOSTIC.txt | 13806 bytes
+phase5_svc/PERSON2_FINAL_HANDOFF.txt | 1467 bytes
+phase5_svc/PERSON2_FINAL_HANDOFF_RUNLOG.txt | 4253 bytes
+phase5_svc/PERSON2_FINAL_STATUS.txt | 852 bytes
+phase5_svc/PERSON2_FULL_TRACE_RECONSTRUCTION_AUDIT.txt | 30607 bytes
+phase5_svc/PERSON2_INDEPENDENT_STATS_CHECK.txt | 1346 bytes
+phase5_svc/PERSON2_INPUT_ORIGIN_CHECK.txt | 16082 bytes
+phase5_svc/PERSON2_NEXT_ACTION_REPORT.txt | 8616 bytes
+phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt | 54336 bytes
+phase5_svc/PERSON2_TRACE_ELF_PROVENANCE_AUDIT.txt | 24653 bytes
+phase5_svc/PERSON2_VERIFICATION_AUDIT.txt | 44907 bytes
+phase5_svc/fixed_trace.csv | 41314 bytes
+phase5_svc/person2_C5_C9_final_audit.txt | 746185 bytes
+phase5_svc/person2_C5_C9_provenance_check.txt | 3070 bytes
+phase5_svc/person2_completion_report.txt | 13465 bytes
+phase5_svc/person2_corrected_exact_ci.csv | 28329 bytes
+phase5_svc/person2_corrected_full_runs.csv | 31390 bytes
+phase5_svc/person2_corrected_zero_padded.csv | 17878 bytes
+phase5_svc/person2_exact_recompute.py | 4951 bytes
+phase5_svc/person2_final_audit.py | 5634 bytes
+phase5_svc/person2_final_audit.txt | 8290 bytes
+phase5_svc/person2_final_checks.py | 8385 bytes
+phase5_svc/person2_final_elf_mapping.txt | 10449 bytes
+phase5_svc/person2_final_verification.py | 7045 bytes
+phase5_svc/person2_findings_summary.txt | 1686 bytes
+phase5_svc/person2_finish_ci_audit.py | 3261 bytes
+phase5_svc/person2_independent_stats_check.py | 5792 bytes
+phase5_svc/person2_pc_source_mapping.csv | 42250 bytes
+phase5_svc/person2_rebuild_full_traces.py | 4437 bytes
+phase5_svc/person2_rebuilt_full/PERSON2_CI_AUDIT.txt | 596 bytes
+phase5_svc/person2_rebuilt_full/PERSON2_FULL_TRACE_REBUILD_REPORT.txt | 2073 bytes
+phase5_svc/person2_rebuilt_full/person2_full_trace_welch_results.csv | 16230 bytes
+phase5_svc/person2_rebuilt_full/person2_full_trace_with_ci.csv | 34321 bytes
+phase5_svc/person2_status.txt | 363 bytes
+phase5_svc/person2_verify_confidence_intervals.py | 3503 bytes
+phase5_svc/phase5_cache_variance.py | 2304 bytes
+phase5_svc/phase5_fixed.elf | 378992 bytes | SHA256-prefix=df184c14309e9a7e
+phase5_svc/phase5_fixed_1.elf | 379024 bytes | SHA256-prefix=1b2574ef1b75bffb
+phase5_svc/phase5_fixed_10.elf | 378992 bytes | SHA256-prefix=df184c14309e9a7e
+phase5_svc/phase5_fixed_2.elf | 379024 bytes | SHA256-prefix=6bde6e353e5cfcaa
+phase5_svc/phase5_fixed_3.elf | 379024 bytes | SHA256-prefix=d7977e3c9268cdd9
+phase5_svc/phase5_fixed_4.elf | 379016 bytes | SHA256-prefix=ba1f1b26f0c91173
+phase5_svc/phase5_fixed_5.elf | 379024 bytes | SHA256-prefix=02f7580e195313ca
+phase5_svc/phase5_fixed_6.elf | 379024 bytes | SHA256-prefix=1120c1c388d081bb
+phase5_svc/phase5_fixed_7.elf | 379016 bytes | SHA256-prefix=df29e977b592cb67
+phase5_svc/phase5_fixed_8.elf | 379016 bytes | SHA256-prefix=3fbe912e61cb2df7
+phase5_svc/phase5_fixed_9.elf | 379016 bytes | SHA256-prefix=2848fcb07dd1fd96
+phase5_svc/phase5_mlkem_harness.c | 2298 bytes
+phase5_svc/phase5_random.elf | 379008 bytes | SHA256-prefix=355ae10935e3daeb
+phase5_svc/phase5_random_1.elf | 379008 bytes | SHA256-prefix=90656c0037410a35
+phase5_svc/phase5_random_10.elf | 379008 bytes | SHA256-prefix=1702cc9c90459ead
+phase5_svc/phase5_random_2.elf | 379008 bytes | SHA256-prefix=8ee30bad0f970c20
+phase5_svc/phase5_random_3.elf | 379008 bytes | SHA256-prefix=f633df1994860a6f
+phase5_svc/phase5_random_4.elf | 379008 bytes | SHA256-prefix=bc055f4ded37da14
+phase5_svc/phase5_random_5.elf | 379008 bytes | SHA256-prefix=f86149a40a3c1ec0
+phase5_svc/phase5_random_6.elf | 379008 bytes | SHA256-prefix=7886c1257028caa9
+phase5_svc/phase5_random_7.elf | 379008 bytes | SHA256-prefix=6ea3b9e4443efb54
+phase5_svc/phase5_random_8.elf | 379008 bytes | SHA256-prefix=8f4f875a24944c17
+phase5_svc/phase5_random_9.elf | 379008 bytes | SHA256-prefix=5f734bd1c48073fc
+phase5_svc/phase5_random_full_01.elf | 379008 bytes | SHA256-prefix=90656c0037410a35
+phase5_svc/phase5_test_fixed.elf | 379024 bytes | SHA256-prefix=1b2574ef1b75bffb
+phase5_svc/phase5_test_random.elf | 379008 bytes | SHA256-prefix=22191aa1b8e8ff49
+phase5_svc/phase5_test_random18.elf | 379008 bytes | SHA256-prefix=81e9660610511dcc
+phase5_svc/random_trace.csv | 39657 bytes
+phase5_svc/runs/fixed/cache_01.txt | 265 bytes
+phase5_svc/runs/fixed/cache_02.txt | 265 bytes
+phase5_svc/runs/fixed/cache_03.txt | 265 bytes
+phase5_svc/runs/fixed/cache_04.txt | 265 bytes
+phase5_svc/runs/fixed/cache_05.txt | 265 bytes
+phase5_svc/runs/fixed/cache_06.txt | 265 bytes
+phase5_svc/runs/fixed/cache_07.txt | 265 bytes
+phase5_svc/runs/fixed/cache_08.txt | 265 bytes
+phase5_svc/runs/fixed/cache_09.txt | 265 bytes
+phase5_svc/runs/fixed/cache_10.txt | 265 bytes
+phase5_svc/runs/fixed/trace_01.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_02.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_03.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_04.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_05.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_06.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_07.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_08.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_09.csv | 41314 bytes
+phase5_svc/runs/fixed/trace_1.csv | 21266364 bytes
+phase5_svc/runs/fixed/trace_10.csv | 21267939 bytes
+phase5_svc/runs/fixed/trace_2.csv | 21268164 bytes
+phase5_svc/runs/fixed/trace_3.csv | 21272214 bytes
+phase5_svc/runs/fixed/trace_4.csv | 21271764 bytes
+phase5_svc/runs/fixed/trace_5.csv | 21271764 bytes
+phase5_svc/runs/fixed/trace_6.csv | 21268389 bytes
+phase5_svc/runs/fixed/trace_7.csv | 21267939 bytes
+phase5_svc/runs/fixed/trace_8.csv | 21271089 bytes
+phase5_svc/runs/fixed/trace_9.csv | 21269289 bytes
+phase5_svc/runs/random/cache_01.txt | 264 bytes
+phase5_svc/runs/random/cache_02.txt | 264 bytes
+phase5_svc/runs/random/cache_03.txt | 264 bytes
+phase5_svc/runs/random/cache_04.txt | 264 bytes
+phase5_svc/runs/random/cache_05.txt | 264 bytes
+phase5_svc/runs/random/cache_06.txt | 264 bytes
+phase5_svc/runs/random/cache_07.txt | 264 bytes
+phase5_svc/runs/random/cache_08.txt | 264 bytes
+phase5_svc/runs/random/cache_09.txt | 264 bytes
+phase5_svc/runs/random/cache_10.txt | 264 bytes
+phase5_svc/runs/random/trace_01.csv | 39657 bytes
+phase5_svc/runs/random/trace_02.csv | 39657 bytes
+phase5_svc/runs/random/trace_03.csv | 39657 bytes
+phase5_svc/runs/random/trace_04.csv | 39657 bytes
+phase5_svc/runs/random/trace_05.csv | 39657 bytes
+phase5_svc/runs/random/trace_06.csv | 39657 bytes
+phase5_svc/runs/random/trace_07.csv | 39657 bytes
+phase5_svc/runs/random/trace_08.csv | 39657 bytes
+phase5_svc/runs/random/trace_09.csv | 39657 bytes
+phase5_svc/runs/random/trace_1.csv | 21269815 bytes
+phase5_svc/runs/random/trace_10.csv | 21265540 bytes
+phase5_svc/runs/random/trace_17_full.csv | 21268240 bytes
+phase5_svc/runs/random/trace_18_full.csv | 21270715 bytes
+phase5_svc/runs/random/trace_2.csv | 21269815 bytes
+phase5_svc/runs/random/trace_3.csv | 21266890 bytes
+phase5_svc/runs/random/trace_4.csv | 21267340 bytes
+phase5_svc/runs/random/trace_5.csv | 21265540 bytes
+phase5_svc/runs/random/trace_6.csv | 21267565 bytes
+phase5_svc/runs/random/trace_7.csv | 21268690 bytes
+phase5_svc/runs/random/trace_8.csv | 21270040 bytes
+phase5_svc/runs/random/trace_9.csv | 21270265 bytes
+phase5_svc/runs/random/trace_full_01.csv | 21269815 bytes
+phase6/phase6_plots.py | 3613 bytes
+phase6/phase6_report_summary.txt | 634 bytes
+phase6/venv/lib/python3.12/site-packages/fontTools/cu2qu/benchmark.py | 1296 bytes
+phase6/venv/lib/python3.12/site-packages/fontTools/qu2cu/benchmark.py | 1400 bytes
+phase6/venv/lib/python3.12/site-packages/fontTools/ttLib/tables/table_API_readme.txt | 2748 bytes
+phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/readme.txt | 828 bytes
+phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/README.txt | 128 bytes
+phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-README.txt | 967 bytes
+phase6/venv/lib/python3.12/site-packages/numpy/typing/tests/test_runtime.py | 3114 bytes
+phase6/venv/lib/python3.12/site-packages/packaging/_elffile.py | 3236 bytes
+phase6/venv/lib/python3.12/site-packages/pandas/tests/frame/methods/test_truncate.py | 5216 bytes
+phase6/venv/lib/python3.12/site-packages/pandas/tests/series/methods/test_truncate.py | 2307 bytes
+phase6/venv/lib/python3.12/site-packages/pip/__pip-runner__.py | 1444 bytes
+phase6/venv/lib/python3.12/site-packages/pip/_internal/cache.py | 10370 bytes
+phase6/venv/lib/python3.12/site-packages/pip/_internal/commands/cache.py | 7944 bytes
+phase6/venv/lib/python3.12/site-packages/pip/_internal/network/cache.py | 3935 bytes
+phase6/venv/lib/python3.12/site-packages/pip/_internal/self_outdated_check.py | 8378 bytes
+phase6/venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/cache.py | 1952 bytes
+phase6/venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py | 5352 bytes
+phase6/venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py | 1386 bytes
+phase6/venv/lib/python3.12/site-packages/pip/_vendor/rich/traceback.py | 29604 bytes
+phase6/venv/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py | 1417 bytes
+
+2. PRIORITY ACTIONS
+P1 — C4: Ensure person2_full_trace_with_ci.csv exists and validate the 317-row results.
+P2 — C5: Locate the actual configuration-sweep and timing-injection runners, then execute them only after confirming their usage and dependencies.
+P3 — C9: Identify the exact ELF build used for each trace; filename similarity alone is insufficient.
+P4 — Packaging: Include only available outputs and state limitations in the handoff.
+
+3. EVIDENCE LIMITATIONS
+An inventory or summary report does not establish that an experiment was executed.
+C5 is not complete without primary experiment output/logs or a controlled rerun.
+C9 remains provisional until trace-to-ELF provenance is established.
+C4 reconstructed traces use new deterministic seeds and must not be represented as original historical runs.
+
+4. RECOMMENDED NEXT STEP
+Read the project README/build instructions and identify the exact supported runner commands before rerunning missing experiments.

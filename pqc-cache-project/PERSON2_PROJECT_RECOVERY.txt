@@ -1,0 +1,320 @@
+PERSON 2 PROJECT RECOVERY
+Date: 2026-10-19T16:10:31+00:00
+Root: /home/cnc_susindharan/pqc-cache-project
+
+========== 1. TOP-LEVEL PROJECT STRUCTURE ==========
+total 108K
+drwxr-xr-x  8 cnc_susindharan cnc_susindharan 4.0K Oct 19 16:10 .
+drwxr-x---  9 cnc_susindharan cnc_susindharan 4.0K Oct 19 15:02 ..
+-rw-r--r--  1 cnc_susindharan cnc_susindharan  57K Oct 19 16:01 PERSON2_C5_ARTIFACT_DISCOVERY.txt
+-rw-r--r--  1 cnc_susindharan cnc_susindharan 4.2K Oct 19 16:03 PERSON2_C5_TARGETED_SOURCE_AUDIT.txt
+-rw-r--r--  1 cnc_susindharan cnc_susindharan  158 Oct 19 16:10 PERSON2_PROJECT_RECOVERY.txt
+-rw-r--r--  1 cnc_susindharan cnc_susindharan 2.6K Sep  8 14:54 all_phase_summary.txt
+drwxr-xr-x 13 cnc_susindharan cnc_susindharan 4.0K Sep  1 15:10 liboqs
+drwxr-xr-x  2 cnc_susindharan cnc_susindharan 4.0K Sep  1 14:53 liboqs-workloads
+drwxr-xr-x  3 cnc_susindharan cnc_susindharan 4.0K Sep 12 14:29 phase4_cache
+drwxr-xr-x  5 cnc_susindharan cnc_susindharan 4.0K Oct 19 16:09 phase5_svc
+drwxr-xr-x  3 cnc_susindharan cnc_susindharan 4.0K Sep  5 10:01 phase6
+drwxr-xr-x  4 cnc_susindharan cnc_susindharan 4.0K Sep  1 15:06 workloads
+.
+./liboqs-workloads
+./phase4_cache
+./phase4_cache/__pycache__
+./phase5_svc
+./phase5_svc/runs
+./phase5_svc/runs/random
+./phase5_svc/runs/fixed
+./phase5_svc/__pycache__
+./phase5_svc/person2_rebuilt_full
+./phase6
+./phase6/venv
+./phase6/venv/bin
+./phase6/venv/share
+./phase6/venv/include
+./phase6/venv/lib
+./workloads
+./workloads/mlkem512_ntt
+./workloads/mldsa44_ntt
+
+========== 2. ALL LIKELY RUNNERS AND BUILD FILES ==========
+./phase5_svc/phase5_mlkem_harness.c | 2298 bytes
+./phase6/venv/lib/python3.12/site-packages/fontTools/cu2qu/benchmark.py | 1296 bytes
+./phase6/venv/lib/python3.12/site-packages/fontTools/qu2cu/benchmark.py | 1400 bytes
+./phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/readme.txt | 828 bytes
+./phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/README.txt | 128 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/ma/README.rst | 9874 bytes
+./workloads/mldsa44_ntt/mldsa44_ntt_harness.c | 293 bytes
+./workloads/mlkem512_ntt/mlkem512_ntt_harness.c | 606 bytes
+
+========== 3. TRACKED SOURCE CONTROL STATUS ==========
+No Git repository detected at project root.
+../pqc-cache-project/liboqs/.git
+../riscv-isa-sim/.git
+
+========== 4. EXISTING EXECUTABLES AND ELF FILES ==========
+./phase5_svc/phase5_test_random18.elf | 379008 bytes
+./phase5_svc/phase5_random_7.elf | 379008 bytes
+./phase5_svc/phase5_fixed_8.elf | 379016 bytes
+./phase5_svc/phase5_random_3.elf | 379008 bytes
+./phase5_svc/phase5_random_10.elf | 379008 bytes
+./phase5_svc/phase5_random_9.elf | 379008 bytes
+./phase5_svc/phase5_fixed_10.elf | 378992 bytes
+./phase5_svc/phase5_random_8.elf | 379008 bytes
+./phase5_svc/phase5_random_full_01.elf | 379008 bytes
+./phase5_svc/phase5_test_fixed.elf | 379024 bytes
+./phase5_svc/phase5_fixed_1.elf | 379024 bytes
+./phase5_svc/phase5_fixed_7.elf | 379016 bytes
+./phase5_svc/phase5_random_2.elf | 379008 bytes
+./phase5_svc/phase5_random_1.elf | 379008 bytes
+./phase5_svc/phase5_fixed_3.elf | 379024 bytes
+./phase5_svc/phase5_test_random.elf | 379008 bytes
+./phase5_svc/phase5_fixed.elf | 378992 bytes
+./phase5_svc/phase5_fixed_4.elf | 379016 bytes
+./phase5_svc/phase5_random_6.elf | 379008 bytes
+./phase5_svc/phase5_fixed_6.elf | 379024 bytes
+./phase5_svc/phase5_random_4.elf | 379008 bytes
+./phase5_svc/phase5_random.elf | 379008 bytes
+./phase5_svc/phase5_fixed_5.elf | 379024 bytes
+./phase5_svc/phase5_fixed_2.elf | 379024 bytes
+./phase5_svc/phase5_random_5.elf | 379008 bytes
+./phase5_svc/phase5_fixed_9.elf | 379016 bytes
+./phase6/venv/bin/numpy-config | 263 bytes
+./phase6/venv/bin/f2py | 263 bytes
+./phase6/venv/bin/pip3.12 | 268 bytes
+./phase6/venv/bin/pyftsubset | 262 bytes
+./phase6/venv/bin/fonttools | 264 bytes
+./phase6/venv/bin/ttx | 259 bytes
+./phase6/venv/bin/pip | 268 bytes
+./phase6/venv/bin/pyftmerge | 261 bytes
+./phase6/venv/bin/pip3 | 268 bytes
+./phase6/venv/lib/python3.12/site-packages/PIL/_imagingmath.cpython-312-x86_64-linux-gnu.so | 142280 bytes
+./phase6/venv/lib/python3.12/site-packages/PIL/_imaging.cpython-312-x86_64-linux-gnu.so | 3402345 bytes
+./phase6/venv/lib/python3.12/site-packages/PIL/_webp.cpython-312-x86_64-linux-gnu.so | 108849 bytes
+./phase6/venv/lib/python3.12/site-packages/PIL/_imagingcms.cpython-312-x86_64-linux-gnu.so | 157841 bytes
+./phase6/venv/lib/python3.12/site-packages/PIL/_imagingft.cpython-312-x86_64-linux-gnu.so | 327073 bytes
+./phase6/venv/lib/python3.12/site-packages/PIL/_avif.cpython-312-x86_64-linux-gnu.so | 91985 bytes
+./phase6/venv/lib/python3.12/site-packages/PIL/_imagingmorph.cpython-312-x86_64-linux-gnu.so | 39312 bytes
+./phase6/venv/lib/python3.12/site-packages/PIL/_imagingtk.cpython-312-x86_64-linux-gnu.so | 47200 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libfreetype-9fc94c80.so.6.20.6 | 1467713 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libjpeg-31e2ca52.so.62.4.0 | 829137 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/liblcms2-dade1fbf.so.2.0.19 | 519257 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libbrotlicommon-53534446.so.1.2.0 | 144425 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libharfbuzz-172d1f63.so.0.61421.0 | 970233 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libbrotlidec-7e5462ba.so.1.2.0 | 66441 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libtiff-fc87e79d.so.6.2.0 | 762929 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/liblzma-2be87c3e.so.5.8.3 | 266369 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libavif-8a7f9d56.so.16.4.2 | 5203513 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libwebpmux-8fb1c9f6.so.3.1.2 | 64257 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libopenjp2-b07f72ad.so.2.5.4 | 585849 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libsharpyuv-0066295b.so.0.1.2 | 46113 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libXau-154567c4.so.6.0.0 | 22081 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libpng16-abb096d5.so.16.58.0 | 278001 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libxcb-ad31f5a3.so.1.1.0 | 271913 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libzstd-44be1190.so.1.5.7 | 1800497 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libwebpdemux-9fe2abcc.so.2.0.17 | 33553 bytes
+./phase6/venv/lib/python3.12/site-packages/pillow.libs/libwebp-51b0b3f7.so.7.2.0 | 735313 bytes
+./phase6/venv/lib/python3.12/site-packages/fontTools/pens/momentsPen.cpython-312-x86_64-linux-gnu.so | 1191872 bytes
+./phase6/venv/lib/python3.12/site-packages/fontTools/cu2qu/cu2qu.cpython-312-x86_64-linux-gnu.so | 1166864 bytes
+./phase6/venv/lib/python3.12/site-packages/fontTools/qu2cu/qu2cu.cpython-312-x86_64-linux-gnu.so | 1476144 bytes
+./phase6/venv/lib/python3.12/site-packages/fontTools/misc/bezierTools.cpython-312-x86_64-linux-gnu.so | 4889112 bytes
+./phase6/venv/lib/python3.12/site-packages/fontTools/varLib/iup.cpython-312-x86_64-linux-gnu.so | 1944232 bytes
+./phase6/venv/lib/python3.12/site-packages/fontTools/feaLib/lexer.cpython-312-x86_64-linux-gnu.so | 1501672 bytes
+./phase6/venv/lib/python3.12/site-packages/contourpy/_contourpy.cpython-312-x86_64-linux-gnu.so | 954680 bytes
+./phase6/venv/lib/python3.12/site-packages/matplotlib/_c_internal_utils.cpython-312-x86_64-linux-gnu.so | 294784 bytes
+./phase6/venv/lib/python3.12/site-packages/matplotlib/_qhull.cpython-312-x86_64-linux-gnu.so | 792456 bytes
+./phase6/venv/lib/python3.12/site-packages/matplotlib/_tri.cpython-312-x86_64-linux-gnu.so | 461664 bytes
+./phase6/venv/lib/python3.12/site-packages/matplotlib/_image.cpython-312-x86_64-linux-gnu.so | 631272 bytes
+./phase6/venv/lib/python3.12/site-packages/matplotlib/_path.cpython-312-x86_64-linux-gnu.so | 522648 bytes
+./phase6/venv/lib/python3.12/site-packages/matplotlib/backends/_tkagg.cpython-312-x86_64-linux-gnu.so | 315000 bytes
+./phase6/venv/lib/python3.12/site-packages/matplotlib/backends/_backend_agg.cpython-312-x86_64-linux-gnu.so | 811384 bytes
+./phase6/venv/lib/python3.12/site-packages/matplotlib/ft2font.cpython-312-x86_64-linux-gnu.so | 3398248 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslib.cpython-312-x86_64-linux-gnu.so | 144528 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/json.cpython-312-x86_64-linux-gnu.so | 68704 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/algos.cpython-312-x86_64-linux-gnu.so | 1943216 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/writers.cpython-312-x86_64-linux-gnu.so | 99984 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/groupby.cpython-312-x86_64-linux-gnu.so | 2237848 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/internals.cpython-312-x86_64-linux-gnu.so | 279632 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/_cyutility.cpython-312-x86_64-linux-gnu.so | 190192 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/ops.cpython-312-x86_64-linux-gnu.so | 127952 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/pandas_parser.cpython-312-x86_64-linux-gnu.so | 43792 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/arrays.cpython-312-x86_64-linux-gnu.so | 116880 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/window/indexers.cpython-312-x86_64-linux-gnu.so | 199728 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/window/aggregations.cpython-312-x86_64-linux-gnu.so | 423496 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/sas.cpython-312-x86_64-linux-gnu.so | 128304 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/pandas_datetime.cpython-312-x86_64-linux-gnu.so | 39600 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/sparse.cpython-312-x86_64-linux-gnu.so | 770960 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/lib.cpython-312-x86_64-linux-gnu.so | 628336 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/properties.cpython-312-x86_64-linux-gnu.so | 83696 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/ops_dispatch.cpython-312-x86_64-linux-gnu.so | 58032 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/missing.cpython-312-x86_64-linux-gnu.so | 178352 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/join.cpython-312-x86_64-linux-gnu.so | 1101968 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/indexing.cpython-312-x86_64-linux-gnu.so | 66768 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/index.cpython-312-x86_64-linux-gnu.so | 700304 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/parsers.cpython-312-x86_64-linux-gnu.so | 422352 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/reshape.cpython-312-x86_64-linux-gnu.so | 161616 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/hashing.cpython-312-x86_64-linux-gnu.so | 78672 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/ccalendar.cpython-312-x86_64-linux-gnu.so | 95024 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/period.cpython-312-x86_64-linux-gnu.so | 352240 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/strptime.cpython-312-x86_64-linux-gnu.so | 206448 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/base.cpython-312-x86_64-linux-gnu.so | 58320 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/timestamps.cpython-312-x86_64-linux-gnu.so | 473168 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/np_datetime.cpython-312-x86_64-linux-gnu.so | 132080 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/timedeltas.cpython-312-x86_64-linux-gnu.so | 468048 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/parsing.cpython-312-x86_64-linux-gnu.so | 247312 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/nattype.cpython-312-x86_64-linux-gnu.so | 187920 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/conversion.cpython-312-x86_64-linux-gnu.so | 161392 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/vectorized.cpython-312-x86_64-linux-gnu.so | 111600 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/timezones.cpython-312-x86_64-linux-gnu.so | 169008 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/offsets.cpython-312-x86_64-linux-gnu.so | 1027216 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/tzconversion.cpython-312-x86_64-linux-gnu.so | 181680 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/fields.cpython-312-x86_64-linux-gnu.so | 198160 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/dtypes.cpython-312-x86_64-linux-gnu.so | 153520 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/hashtable.cpython-312-x86_64-linux-gnu.so | 2374448 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/testing.cpython-312-x86_64-linux-gnu.so | 111472 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/byteswap.cpython-312-x86_64-linux-gnu.so | 53968 bytes
+./phase6/venv/lib/python3.12/site-packages/pandas/_libs/interval.cpython-312-x86_64-linux-gnu.so | 1021296 bytes
+./phase6/venv/lib/python3.12/site-packages/kiwisolver/_cext.cpython-312-x86_64-linux-gnu.so | 5739552 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy.libs/libgfortran-83c28eba-468e71e5.so.5.0.0 | 2862249 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-61654e39.so | 25210641 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy.libs/libquadmath-2284e583-a9307bba.so.0.0.0 | 275553 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/random/_generator.cpython-312-x86_64-linux-gnu.so | 813968 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/random/_bounded_integers.cpython-312-x86_64-linux-gnu.so | 320104 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/random/_common.cpython-312-x86_64-linux-gnu.so | 257776 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/random/_sfc64.cpython-312-x86_64-linux-gnu.so | 96232 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/random/mtrand.cpython-312-x86_64-linux-gnu.so | 636520 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/random/_pcg64.cpython-312-x86_64-linux-gnu.so | 146480 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/random/_mt19937.cpython-312-x86_64-linux-gnu.so | 139128 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/random/bit_generator.cpython-312-x86_64-linux-gnu.so | 227976 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/random/_philox.cpython-312-x86_64-linux-gnu.so | 130880 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/_core/_simd.cpython-312-x86_64-linux-gnu.so | 1506088 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/_core/_umath_tests.cpython-312-x86_64-linux-gnu.so | 50360 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/_core/_rational_tests.cpython-312-x86_64-linux-gnu.so | 65848 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/_core/_multiarray_tests.cpython-312-x86_64-linux-gnu.so | 146912 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/_core/_operand_flag_tests.cpython-312-x86_64-linux-gnu.so | 16800 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/_core/_struct_ufunc_tests.cpython-312-x86_64-linux-gnu.so | 16936 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so | 10633145 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/fft/_pocketfft_umath.cpython-312-x86_64-linux-gnu.so | 539296 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/linalg/lapack_lite.cpython-312-x86_64-linux-gnu.so | 30001 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/linalg/_umath_linalg.cpython-312-x86_64-linux-gnu.so | 231801 bytes
+./phase6/venv/lib/python3.12/site-packages/numpy/testing/print_coercion_tables.py | 6286 bytes
+./workloads/mlkem512_ntt/mlkem512_ntt.elf | 22800 bytes
+./workloads/mldsa44_ntt/mldsa44_ntt.elf | 14632 bytes
+
+========== 5. HARNESS IMPLEMENTATION ==========
+#include <stdint.h>
+#include <stddef.h>
+
+#include "kem.h"
+#include "params.h"
+
+volatile uint64_t tohost = 0;
+volatile uint64_t fromhost = 0;
+volatile uint8_t checksum = 0;
+
+static uint8_t pk[MLKEM_INDCCA_PUBLICKEYBYTES];
+static uint8_t sk[MLKEM_INDCCA_SECRETKEYBYTES];
+static uint8_t ct[MLKEM_INDCCA_CIPHERTEXTBYTES];
+static uint8_t ss_enc[MLKEM_SSBYTES];
+static uint8_t ss_dec[MLKEM_SSBYTES];
+
+#ifndef PHASE5_RUN_ID
+#define PHASE5_RUN_ID 0
+#endif
+
+static uint32_t rng_state =
+    0x13579BDFu + (uint32_t)PHASE5_RUN_ID * 0x9E3779B9u;
+
+__attribute__((optimize("O0"))) void *memset(void *dst, int value, size_t n)
+{
+    uint8_t *p = (uint8_t *)dst;
+    while (n--)
+        *p++ = (uint8_t)value;
+    return dst;
+}
+
+__attribute__((optimize("O0"))) void *memcpy(void *dst, const void *src, size_t n)
+{
+    uint8_t *d = (uint8_t *)dst;
+    const uint8_t *s = (const uint8_t *)src;
+    while (n--)
+        *d++ = *s++;
+    return dst;
+}
+
+static uint8_t next_random_byte(void)
+{
+    rng_state = rng_state * 1664525u + 1013904223u;
+    return (uint8_t)(rng_state >> 24);
+}
+
+static void fill_fixed(uint8_t *p, size_t n, uint8_t base)
+{
+    for (size_t i = 0; i < n; i++)
+        p[i] = (uint8_t)(base + (uint8_t)i);
+}
+
+static void fill_random(uint8_t *p, size_t n)
+{
+    for (size_t i = 0; i < n; i++)
+        p[i] = next_random_byte();
+}
+
+static int run_mlkem(void)
+{
+    uint8_t key_coins[2 * MLKEM_SYMBYTES];
+    uint8_t enc_coins[MLKEM_SYMBYTES];
+
+#ifdef PHASE5_RANDOM_MODE
+    fill_random(key_coins, sizeof(key_coins));
+    fill_random(enc_coins, sizeof(enc_coins));
+#else
+    uint8_t key_base = (uint8_t)(0x10u + (uint32_t)PHASE5_RUN_ID * 0x17u);
+    uint8_t enc_base = (uint8_t)(0x80u + (uint32_t)PHASE5_RUN_ID * 0x29u);
+    fill_fixed(key_coins, sizeof(key_coins), key_base);
+    fill_fixed(enc_coins, sizeof(enc_coins), enc_base);
+#endif
+
+    if (mlk_kem_keypair_derand(pk, sk, key_coins, 0) != 0)
+        return -1;
+
+    if (mlk_kem_enc_derand(ct, ss_enc, pk, enc_coins, 0) != 0)
+        return -2;
+
+    if (mlk_kem_dec(ss_dec, ct, sk, 0) != 0)
+        return -3;
+
+    checksum = 0;
+    for (size_t i = 0; i < sizeof(ss_dec); i++)
+        checksum ^= ss_dec[i];
+
+    return 0;
+}
+
+int main(void)
+{
+    int ret = run_mlkem();
+    tohost = (ret == 0) ? 1 : 0;
+
+    while (1) {
+    }
+
+    return 0;
+}
+
+========== 6. DEPENDENCY AND TOOL CHECK ==========
+python3                           /usr/bin/python3
+make                              /usr/bin/make
+cmake                             /usr/bin/cmake
+gcc                               /usr/bin/gcc
+clang                             not found
+qemu-system-riscv64               not found
+riscv64-unknown-elf-gcc           /usr/bin/riscv64-unknown-elf-gcc
+riscv64-unknown-elf-objdump       /usr/bin/riscv64-unknown-elf-objdump
+riscv64-unknown-elf-readelf       /usr/bin/riscv64-unknown-elf-readelf
+riscv64-unknown-elf-addr2line     /usr/bin/riscv64-unknown-elf-addr2line
+
+========== 7. RECOVERY DECISION ==========
+C3/C4: use existing statistical outputs; preserve reconstruction caveats.
+C5: locate the original runner and build process before attempting a rerun.
+C9: associate each trace with the exact generating ELF and record its SHA256.
+Do not mark missing experiments as verified.

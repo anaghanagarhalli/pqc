@@ -1,0 +1,141 @@
+PERSON 2 — C5 RERUN READINESS
+============================================
+Generated: 2026-10-19T16:00:51.715330+00:00
+
+
+--- phase5_svc/phase5_cache_variance.py ---
+Size: 2304 bytes
+1: #!/usr/bin/env python3
+2: 
+3: import argparse
+4: import csv
+5: import random
+6: from pathlib import Path
+7: 
+8: from importlib.util import spec_from_file_location, module_from_spec
+9: 
+10: SIM_PATH = Path.home() / "pqc-cache-project/phase4_cache/cache_simulator.py"
+11: 
+12: spec = spec_from_file_location("cache_simulator", SIM_PATH)
+13: mod = module_from_spec(spec)
+14: spec.loader.exec_module(mod)
+15: 
+16: def read_trace(path):
+17:     rows = []
+18:     blocks = []
+19: 
+20:     with open(path, "r", encoding="utf-8") as f:
+21:         reader = csv.DictReader(f)
+22:         for row in reader:
+23:             pc = int(row["PC"], 16)
+24:             access_type = row["ACCESS"].strip().upper()
+25:             address = int(row["ADDRESS"], 16)
+26:             size = int(row["SIZE"])
+27:             rows.append((pc, access_type, address, size))
+28:             blocks.append(address // 32)
+29: 
+30:     return rows, sorted(set(blocks))
+31: 
+32: def run(trace_path, seed, output_path):
+33:     rows, blocks = read_trace(trace_path)
+34: 
+35:     sim = mod.CacheSimulator(
+36:         cache_size=8 * 1024,
+37:         associativity=4,
+38:         block_size=32,
+39:         policy="Pseudo-LRU",
+40:     )
+41: 
+42:     rng = random.Random(seed)
+43: 
+44:     # Model a variable cache state before the measured cryptographic run.
+45:     # Half of the cache lines are pre-populated with blocks drawn from the
+46:     # trace's working set. This is initialization state, not crypto data.
+47:     prefill_count = min(128, len(blocks))
+48:     for block in rng.sample(blocks, prefill_count):
+49:         sim.access(block * 32, "READ")
+50: 
+51:     misses_by_pc = {}
+52: 
+53:     for pc, access_type, address, size in rows:
+54:         result = sim.access(address, access_type)
+55:         if not result["hit"]:
+56:             misses_by_pc[pc] = misses_by_pc.get(pc, 0) + 1
+57: 
+58:     with open(output_path, "w", newline="", encoding="utf-8") as f:
+59:         w = csv.writer(f)
+60:         w.writerow(["PC", "MISSES"])
+61:         for pc in sorted(misses_by_pc):
+62:             w.writerow([f"{pc:016x}", misses_by_pc[pc]])
+63: 
+64:     return sim.hits, sim.misses
+65: 
+66: def main():
+67:     parser = argparse.ArgumentParser()
+68:     parser.add_argument("--trace", required=True)
+69:     parser.add_argument("--seed", required=True, type=int)
+70:     parser.add_argument("--output", required=True)
+71:     args = parser.parse_args()
+72: 
+73:     hits, misses = run(args.trace, args.seed, args.output)
+74:     print(f"Hits={hits} Misses={misses}")
+75: 
+76: if __name__ == "__main__":
+77:     main()
+
+--- phase5_svc/person2_rebuild_full_traces.py ---
+Size: 4437 bytes
+1: import csv, random, math, statistics, subprocess, sys
+9: def run_trace(group, n):
+10: trace = BASE / "runs" / group / f"trace_{n}.csv"
+11: if not trace.exists():
+12: raise FileNotFoundError(f"Missing full trace: {trace}")
+14: # Use deterministic, explicitly recorded seeds for reproducibility.
+15: seed = (10000 if group == "fixed" else 20000) + n
+18: result = subprocess.run(
+19: [sys.executable, str(SCRIPT), "--trace", str(trace),
+20: "--seed", str(seed), "--output", str(dest)],
+21: text=True, capture_output=True
+24: raise RuntimeError(f"{trace} failed:\n{result.stderr}")
+30: return counts, seed, result.stdout.strip()
+45: fixed, random = [], []
+46: seeds, runlogs = [], []
+47: for group, dest in (("fixed", fixed), ("random", random)):
+49: counts, seed, log = run_trace(group, n)
+51: seeds.append((group, n, seed))
+52: runlogs.append((group, n, log))
+54: all_pcs = sorted(set().union(*(set(x) for x in fixed + random)))
+55: stats_path = OUT / "person2_full_trace_welch_results.csv"
+61: w.writerow(["PC", "fixed_mean", "random_mean", "fixed_variance",
+62: "random_variance", "welch_t", "welch_df", "abs_t_gt_4_5",
+65: # A PC not present in a full trace has zero misses for that run.
+66: a = [d.get(pc, 0) for d in fixed]
+... 15 more matching lines
+
+--- phase5_svc/person2_final_verification.py ---
+Size: 7045 bytes
+51: "**/*experiment*.py", "**/*run*.sh", "**/*test*.log",
+52: "**/*timing*.csv", "**/*trace*.csv", "**/*result*.csv",
+96: for group in ["fixed", "random"]:
+97: d = ROOT / "runs" / group
+147: r"misses_01|misses_1\.csv|phase5_fixed|phase5_random|"
+148: r"LEAKY|504.configuration|100 fixed|100 random|"
+149: r"Welch|t.statistic|high.risk|trace|ELF|objdump|addr2line",
+186: for cmd in ["python3", "riscv64-unknown-elf-objdump",
+187: "riscv64-unknown-elf-addr2line", "riscv64-unknown-elf-readelf"]:
+210: log("Review missing inputs, dataset separation, and exact ELF-to-trace provenance.")
+
+--- phase5_svc/Makefile ---
+NOT FOUND
+
+--- Makefile ---
+NOT FOUND
+
+--- README.md ---
+NOT FOUND
+
+DECISION
+The cache simulator accepts a trace, seed, and output path. This alone does
+not reproduce the separate broad configuration sweep or timing-injection tests.
+Do not claim C5 verified until its intended harness, parameters, commands,
+and outputs have been identified and recorded.

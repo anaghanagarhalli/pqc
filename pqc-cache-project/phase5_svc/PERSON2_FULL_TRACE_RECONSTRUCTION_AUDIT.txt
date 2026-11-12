@@ -1,0 +1,374 @@
+PERSON 2 — FULL TRACE RECONSTRUCTION AUDIT
+Purpose: establish trace/miss-file relationships without overwriting originals.
+
+=== 1. TRACE HASH GROUPS ===
+
+FIXED:
+1430b894a1d76be82f71de15ceeb751aabbbb525b8ae7316d5fadb254e5a7d1a | 1 file(s) | runs/fixed/trace_2.csv
+19ea74553488e68fac69dab6e066ada48d58113f3c112157063a8cf534cdc7c5 | 2 file(s) | runs/fixed/trace_03.csv, runs/fixed/trace_09.csv
+1c979072a5f57a5eca644a5f571c37949f27caadeb131a2c21ac5837ee20b563 | 1 file(s) | runs/fixed/trace_10.csv
+23b9beea6f4c4b5f3490298dd34f4afaede3eb36cd5801e1412ab44d311dbfff | 1 file(s) | runs/fixed/trace_5.csv
+4e9b8565a0af16960ff6d1580ce650b95dd88e62ab5dd3c3aeb0e40e90230bfa | 1 file(s) | runs/fixed/trace_6.csv
+5286c88adf59dd467f3e8e3ae0fad064e3c29ac2ee99e2757b247a6255904c5f | 1 file(s) | runs/fixed/trace_8.csv
+88dd47d70440b6d99d2ee789321659c95dcc639b1e82873a75ec27fab2a828db | 1 file(s) | runs/fixed/trace_4.csv
+8af6dcf51acae95f370a9661d7eb493ae191e28c54637607ad85fa2e3e2b71ce | 1 file(s) | runs/fixed/trace_3.csv
+9f5a6fe37f7391dc436a50e595e694cbd153ff46b62bc78a1ea347bd156be18b | 1 file(s) | runs/fixed/trace_9.csv
+baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366 | 7 file(s) | runs/fixed/trace_01.csv, runs/fixed/trace_02.csv, runs/fixed/trace_04.csv, runs/fixed/trace_05.csv, runs/fixed/trace_06.csv, runs/fixed/trace_07.csv, runs/fixed/trace_08.csv
+d7800729bb0f091e6205cf4354dee6717a7f85b6a77467992b6bb764e9342fe3 | 1 file(s) | runs/fixed/trace_7.csv
+d8e6beacd1977ecbfdde413f51818f7d200029d184a9cd15f059a3d4f1ed2eb1 | 1 file(s) | runs/fixed/trace_1.csv
+
+RANDOM:
+082078ff0dc8b1ae1f286426d96125348f07bf03818a24e181faba30a90537a8 | 1 file(s) | runs/random/trace_5.csv
+181fae87871b735d0c6bb5b51a84cc024f15b0bc583d903cf648e86c21f5b1f8 | 1 file(s) | runs/random/trace_9.csv
+22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630 | 9 file(s) | runs/random/trace_01.csv, runs/random/trace_02.csv, runs/random/trace_03.csv, runs/random/trace_04.csv, runs/random/trace_05.csv, runs/random/trace_06.csv, runs/random/trace_07.csv, runs/random/trace_08.csv, runs/random/trace_09.csv
+22cd1ef727fd45b2c5023d3ecf3f3e31fc7edf0c8f99e072a32f6cfd461dd931 | 1 file(s) | runs/random/trace_2.csv
+4226451f0022ead28f2637a4a299d4a466c313d56c590d32a145a336a35a6557 | 1 file(s) | runs/random/trace_10.csv
+4f6f496b9fa2ff2f0ad73557ac91ebd9a2e4ef01224f86249633e9840f23ba3c | 1 file(s) | runs/random/trace_4.csv
+692ce46b83879bfd8e358aecb0e6e422037b064e952e81174c586a0b23c70cde | 1 file(s) | runs/random/trace_3.csv
+7b096243748ad470d7640503e4654cfae856e5bb0044537c1a7f7a191f168241 | 2 file(s) | runs/random/trace_1.csv, runs/random/trace_full_01.csv
+a9617da8ff162f675718631f4dba9bfb0319b170c5532891a3e231f592355b2a | 1 file(s) | runs/random/trace_6.csv
+d1c07dee1885d0647d34d04c345334ed031926db2d8267ac930d4df37cd9b460 | 1 file(s) | runs/random/trace_8.csv
+d89fe83f90db5fba469d52908048af810f802d4e338bf5c1aec67fdf90963fee | 1 file(s) | runs/random/trace_18_full.csv
+e08614ae15eaa4592bc61d0a7b4c67abed3673fc4464643db40d7b348da33c36 | 1 file(s) | runs/random/trace_7.csv
+ec36e99a004ab1b30c76bbc49767f5ff7ce595dc17953d830f8d26b42556833f | 1 file(s) | runs/random/trace_17_full.csv
+
+=== 2. EXISTING MISS FILES ===
+
+FIXED:
+runs/fixed/misses_01.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+runs/fixed/misses_02.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+runs/fixed/misses_03.csv: PCs=7, total_misses=54, sha256=e704d1c49fd73ac26a21577f488cf2f8fc25e56d45aa2acefd6bf324628043e7
+runs/fixed/misses_04.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+runs/fixed/misses_05.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+runs/fixed/misses_06.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+runs/fixed/misses_07.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+runs/fixed/misses_08.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+runs/fixed/misses_09.csv: PCs=7, total_misses=54, sha256=e704d1c49fd73ac26a21577f488cf2f8fc25e56d45aa2acefd6bf324628043e7
+runs/fixed/misses_1.csv: PCs=95, total_misses=1423, sha256=bb6b9e4ada972ecfac1a0140552577312431adad8e993894cddf5876d9387a73
+runs/fixed/misses_10.csv: PCs=95, total_misses=1423, sha256=c7aa7cee24cb4dc97d86971582beb8ce1cac66deb31379eac5d9f0d4255dcd0b
+runs/fixed/misses_2.csv: PCs=95, total_misses=1423, sha256=b21f3107ab6bf74a3aa17e10cd0a499eab4e5e810e3713244c9c995c015d5b03
+runs/fixed/misses_3.csv: PCs=95, total_misses=1423, sha256=064ea9a8b6c70ca00416a9bbbc1adcf474657d146045e2d719cd8d64e37f64db
+runs/fixed/misses_4.csv: PCs=95, total_misses=1423, sha256=b21f3107ab6bf74a3aa17e10cd0a499eab4e5e810e3713244c9c995c015d5b03
+runs/fixed/misses_5.csv: PCs=95, total_misses=1423, sha256=386cc2a1778b7de4ab6e98eace36feac59fa0854b3beaa1f041008c51cab7e36
+runs/fixed/misses_6.csv: PCs=95, total_misses=1423, sha256=ea8bdf68d2a2d0eee8d202f80034904b25d01fcfaa6b67cfacb626fbf3bf8165
+runs/fixed/misses_7.csv: PCs=95, total_misses=1423, sha256=ec90a25b3df39b0385c557834a3436e1ddbbff9ed5ae69f1d1b85c916fe3e3fa
+runs/fixed/misses_8.csv: PCs=95, total_misses=1423, sha256=81fdd26865c9c7b48d915c1f1927dd3d29664408c66b2fb03873fb82e8659bbb
+runs/fixed/misses_9.csv: PCs=95, total_misses=1423, sha256=a21ebdcd8631bab3ac3a73d9c85c0db51a4884530e4533b8ffab711d1db0b046
+
+RANDOM:
+runs/random/misses_01.csv: PCs=6, total_misses=53, sha256=b5213587b9af96600ac45a6b0adb49903a8cd768cd1ffd161e099ed977a53d0d
+runs/random/misses_02.csv: PCs=6, total_misses=53, sha256=b5213587b9af96600ac45a6b0adb49903a8cd768cd1ffd161e099ed977a53d0d
+runs/random/misses_03.csv: PCs=6, total_misses=53, sha256=b5213587b9af96600ac45a6b0adb49903a8cd768cd1ffd161e099ed977a53d0d
+runs/random/misses_04.csv: PCs=6, total_misses=53, sha256=b5213587b9af96600ac45a6b0adb49903a8cd768cd1ffd161e099ed977a53d0d
+runs/random/misses_05.csv: PCs=6, total_misses=53, sha256=b5213587b9af96600ac45a6b0adb49903a8cd768cd1ffd161e099ed977a53d0d
+runs/random/misses_06.csv: PCs=6, total_misses=53, sha256=b5213587b9af96600ac45a6b0adb49903a8cd768cd1ffd161e099ed977a53d0d
+runs/random/misses_07.csv: PCs=6, total_misses=53, sha256=b5213587b9af96600ac45a6b0adb49903a8cd768cd1ffd161e099ed977a53d0d
+runs/random/misses_08.csv: PCs=6, total_misses=53, sha256=b5213587b9af96600ac45a6b0adb49903a8cd768cd1ffd161e099ed977a53d0d
+runs/random/misses_09.csv: PCs=6, total_misses=53, sha256=b5213587b9af96600ac45a6b0adb49903a8cd768cd1ffd161e099ed977a53d0d
+runs/random/misses_1.csv: PCs=95, total_misses=1424, sha256=2cf4db338f69b6714010004546bea8d71aa2fb74e200b9f1c96c49800a598e74
+runs/random/misses_10.csv: PCs=95, total_misses=1424, sha256=543349a6bafc290d8170d1727eaa09677fe028027102f487c28e2915a39d0eeb
+runs/random/misses_17_full.csv: PCs=95, total_misses=1424, sha256=280d6051d43d21baaafffec18e47233090ef720dc412e352d919a768b4488aa2
+runs/random/misses_18_full.csv: PCs=95, total_misses=1424, sha256=5c802d9b22a5409970364ec8f1979df7e076ec2d216da54c2ff724fe0cdb99be
+runs/random/misses_2.csv: PCs=95, total_misses=1424, sha256=88900502da704b43a58680d8c35606172a32d58a4cb17a8e1e8312fb1938eca0
+runs/random/misses_3.csv: PCs=95, total_misses=1424, sha256=2da640525290b699b3c1be93ce617ba27897ea20b9331518bbb620cac3c2bc0d
+runs/random/misses_4.csv: PCs=95, total_misses=1424, sha256=0d0ac0adf2f0510232e1c1645b07e0441d833c0bd330b3173fca3c15ce66f911
+runs/random/misses_5.csv: PCs=95, total_misses=1424, sha256=8463a5249e1fc3599d7b193ac7253baed85366f0f67beebfcdcadfc468d1b0f3
+runs/random/misses_6.csv: PCs=95, total_misses=1424, sha256=5dca4a6e9f43f21adda61a196590eb8892f84276ea6bf22ecf8b99d36dc56f00
+runs/random/misses_7.csv: PCs=95, total_misses=1424, sha256=c34eb884d9e9f8911502c9f13bfd666ddeb9e3ea622ad4c9068e570ee0be89c5
+runs/random/misses_8.csv: PCs=95, total_misses=1424, sha256=f13eba0d826ee082523209dfa661b3cc7a28a73e9c6213955b79676b145dee13
+runs/random/misses_9.csv: PCs=95, total_misses=1424, sha256=19bba4bfcdb89e711b1ab2bc59735a7d7ff94bb92ed48395a1d9f8c63161d055
+runs/random/misses_full_01.csv: PCs=95, total_misses=1424, sha256=2cf4db338f69b6714010004546bea8d71aa2fb74e200b9f1c96c49800a598e74
+
+=== 3. SMALL TRACE VS FULL TRACE PREFIX CHECK ===
+fixed: small rows=1650, full rows=835578
+  small unique PCs=23, full unique PCs=2882
+  small PCs absent from full trace=0
+random: small rows=1585, full rows=835716
+  small unique PCs=20, full unique PCs=2882
+  small PCs absent from full trace=0
+
+=== 4. RECORDED SEEDS / COMMANDS / TRACE GENERATION ===
+
+--- PERSON2_ALL_IN_ONE_FINAL_AUDIT.txt ---
+100: runs/fixed/misses_01.csv: 7 data rows
+101: runs/fixed/misses_02.csv: 7 data rows
+102: runs/fixed/misses_03.csv: 7 data rows
+103: runs/fixed/misses_04.csv: 7 data rows
+104: runs/fixed/misses_05.csv: 7 data rows
+105: runs/fixed/misses_06.csv: 7 data rows
+106: runs/fixed/misses_07.csv: 7 data rows
+107: runs/fixed/misses_08.csv: 7 data rows
+108: runs/fixed/misses_09.csv: 7 data rows
+109: runs/fixed/misses_10.csv: 95 data rows
+111: runs/random/misses_01.csv: 6 data rows
+112: runs/random/misses_02.csv: 6 data rows
+113: runs/random/misses_03.csv: 6 data rows
+114: runs/random/misses_04.csv: 6 data rows
+115: runs/random/misses_05.csv: 6 data rows
+116: runs/random/misses_06.csv: 6 data rows
+117: runs/random/misses_07.csv: 6 data rows
+118: runs/random/misses_08.csv: 6 data rows
+119: runs/random/misses_09.csv: 6 data rows
+120: runs/random/misses_10.csv: 95 data rows
+124: /usr/bin/riscv64-unknown-elf-objdump
+134: C9 needs evidence tying the exact ELF build to the measured traces.
+
+--- PERSON2_FINAL_COMPLETION_STATUS.txt ---
+32: - The exact ELF used to produce each measured trace set is not established by the available evidence.
+38: and C9 ELF-to-trace provenance remain unresolved.
+
+--- PERSON2_TRACE_ELF_PROVENANCE_AUDIT.txt ---
+2: PERSON 2 — RAW TRACE AND ELF PROVENANCE AUDIT
+7: runs/fixed/trace_01.csv | 41314 bytes | modified 2026-09-04 12:07:35.1920961420
+8: runs/fixed/trace_02.csv | 41314 bytes | modified 2026-09-04 12:07:35.4080961350
+9: runs/fixed/trace_03.csv | 41314 bytes | modified 2026-09-04 12:07:35.6276961270
+10: runs/fixed/trace_04.csv | 41314 bytes | modified 2026-09-04 12:07:35.8904961190
+11: runs/fixed/trace_05.csv | 41314 bytes | modified 2026-09-04 12:07:36.1388961100
+12: runs/fixed/trace_06.csv | 41314 bytes | modified 2026-09-04 12:07:36.3980961010
+13: runs/fixed/trace_07.csv | 41314 bytes | modified 2026-09-04 12:07:36.6320960930
+14: runs/fixed/trace_08.csv | 41314 bytes | modified 2026-09-04 12:07:36.8696960850
+15: runs/fixed/trace_09.csv | 41314 bytes | modified 2026-09-04 12:07:37.0928960780
+16: runs/fixed/trace_1.csv | 21266364 bytes | modified 2026-09-04 12:46:58.9600698400
+17: runs/fixed/trace_10.csv | 21267939 bytes | modified 2026-09-04 12:47:31.6448740900
+18: runs/fixed/trace_2.csv | 21268164 bytes | modified 2026-09-04 12:47:02.7062235230
+19: runs/fixed/trace_3.csv | 21272214 bytes | modified 2026-09-04 12:47:06.4187281980
+20: runs/fixed/trace_4.csv | 21271764 bytes | modified 2026-09-04 12:47:09.9672635860
+21: runs/fixed/trace_5.csv | 21271764 bytes | modified 2026-09-04 12:47:14.3035283840
+22: runs/fixed/trace_6.csv | 21268389 bytes | modified 2026-09-04 12:47:17.7620482870
+23: runs/fixed/trace_7.csv | 21267939 bytes | modified 2026-09-04 12:47:21.2205681920
+24: runs/fixed/trace_8.csv | 21271089 bytes | modified 2026-09-04 12:47:24.6979587900
+25: runs/fixed/trace_9.csv | 21269289 bytes | modified 2026-09-04 12:47:28.1608982910
+26: runs/random/trace_01.csv | 39657 bytes | modified 2026-09-04 10:46:33.1939518350
+27: runs/random/trace_02.csv | 39657 bytes | modified 2026-09-04 10:46:33.4286184490
+28: runs/random/trace_03.csv | 39657 bytes | modified 2026-09-04 10:46:33.6779517290
+29: runs/random/trace_04.csv | 39657 bytes | modified 2026-09-04 10:46:33.9126183450
+30: runs/random/trace_05.csv | 39657 bytes | modified 2026-09-04 10:46:34.1546182930
+31: runs/random/trace_06.csv | 39657 bytes | modified 2026-09-04 10:46:34.3929515750
+32: runs/random/trace_07.csv | 39657 bytes | modified 2026-09-04 10:46:34.6386181870
+33: runs/random/trace_08.csv | 39657 bytes | modified 2026-09-04 10:46:34.8659514720
+34: runs/random/trace_09.csv | 39657 bytes | modified 2026-09-04 10:46:35.0969514220
+35: runs/random/trace_1.csv | 21269815 bytes | modified 2026-09-04 12:47:35.1988459690
+36: runs/random/trace_10.csv | 21265540 bytes | modified 2026-09-04 12:48:08.7441319250
+39: runs/random/trace_2.csv | 21269815 bytes | modified 2026-09-04 12:47:38.6603364680
+40: runs/random/trace_3.csv | 21266890 bytes | modified 2026-09-04 12:47:42.3321704570
+41: runs/random/trace_4.csv | 21267340 bytes | modified 2026-09-04 12:47:46.8179331500
+42: runs/random/trace_5.csv | 21265540 bytes | modified 2026-09-04 12:47:50.6277804920
+
+--- person2_final_audit.py ---
+76: log("Important: addr2line output is only valid for the ELF that generated the measured traces.")
+
+--- phase5_cache_variance.py ---
+69: parser.add_argument("--seed", required=True, type=int)
+
+--- PERSON2_FULL_TRACE_RECONSTRUCTION_AUDIT.txt ---
+7: 1430b894a1d76be82f71de15ceeb751aabbbb525b8ae7316d5fadb254e5a7d1a | 1 file(s) | runs/fixed/trace_2.csv
+8: 19ea74553488e68fac69dab6e066ada48d58113f3c112157063a8cf534cdc7c5 | 2 file(s) | runs/fixed/trace_03.csv, runs/fixed/trace_09.csv
+9: 1c979072a5f57a5eca644a5f571c37949f27caadeb131a2c21ac5837ee20b563 | 1 file(s) | runs/fixed/trace_10.csv
+10: 23b9beea6f4c4b5f3490298dd34f4afaede3eb36cd5801e1412ab44d311dbfff | 1 file(s) | runs/fixed/trace_5.csv
+11: 4e9b8565a0af16960ff6d1580ce650b95dd88e62ab5dd3c3aeb0e40e90230bfa | 1 file(s) | runs/fixed/trace_6.csv
+12: 5286c88adf59dd467f3e8e3ae0fad064e3c29ac2ee99e2757b247a6255904c5f | 1 file(s) | runs/fixed/trace_8.csv
+13: 88dd47d70440b6d99d2ee789321659c95dcc639b1e82873a75ec27fab2a828db | 1 file(s) | runs/fixed/trace_4.csv
+14: 8af6dcf51acae95f370a9661d7eb493ae191e28c54637607ad85fa2e3e2b71ce | 1 file(s) | runs/fixed/trace_3.csv
+15: 9f5a6fe37f7391dc436a50e595e694cbd153ff46b62bc78a1ea347bd156be18b | 1 file(s) | runs/fixed/trace_9.csv
+16: baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366 | 7 file(s) | runs/fixed/trace_01.csv, runs/fixed/trace_02.csv, runs/fixed/trace_04.csv, runs/fixed/trace_05.csv, runs/fixed/trace_06.csv, runs/fixed/trace_07.csv, runs/fixed/trace_08.csv
+17: d7800729bb0f091e6205cf4354dee6717a7f85b6a77467992b6bb764e9342fe3 | 1 file(s) | runs/fixed/trace_7.csv
+18: d8e6beacd1977ecbfdde413f51818f7d200029d184a9cd15f059a3d4f1ed2eb1 | 1 file(s) | runs/fixed/trace_1.csv
+21: 082078ff0dc8b1ae1f286426d96125348f07bf03818a24e181faba30a90537a8 | 1 file(s) | runs/random/trace_5.csv
+22: 181fae87871b735d0c6bb5b51a84cc024f15b0bc583d903cf648e86c21f5b1f8 | 1 file(s) | runs/random/trace_9.csv
+23: 22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630 | 9 file(s) | runs/random/trace_01.csv, runs/random/trace_02.csv, runs/random/trace_03.csv, runs/random/trace_04.csv, runs/random/trace_05.csv, runs/random/trace_06.csv, runs/random/trace_07.csv, runs/random/trace_08.csv, runs/random/t
+24: 22cd1ef727fd45b2c5023d3ecf3f3e31fc7edf0c8f99e072a32f6cfd461dd931 | 1 file(s) | runs/random/trace_2.csv
+25: 4226451f0022ead28f2637a4a299d4a466c313d56c590d32a145a336a35a6557 | 1 file(s) | runs/random/trace_10.csv
+26: 4f6f496b9fa2ff2f0ad73557ac91ebd9a2e4ef01224f86249633e9840f23ba3c | 1 file(s) | runs/random/trace_4.csv
+27: 692ce46b83879bfd8e358aecb0e6e422037b064e952e81174c586a0b23c70cde | 1 file(s) | runs/random/trace_3.csv
+28: 7b096243748ad470d7640503e4654cfae856e5bb0044537c1a7f7a191f168241 | 2 file(s) | runs/random/trace_1.csv, runs/random/trace_full_01.csv
+29: a9617da8ff162f675718631f4dba9bfb0319b170c5532891a3e231f592355b2a | 1 file(s) | runs/random/trace_6.csv
+30: d1c07dee1885d0647d34d04c345334ed031926db2d8267ac930d4df37cd9b460 | 1 file(s) | runs/random/trace_8.csv
+32: e08614ae15eaa4592bc61d0a7b4c67abed3673fc4464643db40d7b348da33c36 | 1 file(s) | runs/random/trace_7.csv
+38: runs/fixed/misses_01.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+39: runs/fixed/misses_02.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+40: runs/fixed/misses_03.csv: PCs=7, total_misses=54, sha256=e704d1c49fd73ac26a21577f488cf2f8fc25e56d45aa2acefd6bf324628043e7
+41: runs/fixed/misses_04.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+42: runs/fixed/misses_05.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+43: runs/fixed/misses_06.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+44: runs/fixed/misses_07.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+45: runs/fixed/misses_08.csv: PCs=7, total_misses=54, sha256=316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+46: runs/fixed/misses_09.csv: PCs=7, total_misses=54, sha256=e704d1c49fd73ac26a21577f488cf2f8fc25e56d45aa2acefd6bf324628043e7
+47: runs/fixed/misses_1.csv: PCs=95, total_misses=1423, sha256=bb6b9e4ada972ecfac1a0140552577312431adad8e993894cddf5876d9387a73
+48: runs/fixed/misses_10.csv: PCs=95, total_misses=1423, sha256=c7aa7cee24cb4dc97d86971582beb8ce1cac66deb31379eac5d9f0d4255dcd0b
+49: runs/fixed/misses_2.csv: PCs=95, total_misses=1423, sha256=b21f3107ab6bf74a3aa17e10cd0a499eab4e5e810e3713244c9c995c015d5b03
+
+--- person2_final_audit.txt ---
+16: misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+18: misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+21: misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+23: misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+28: Important: addr2line output is only valid for the ELF that generated the measured traces.
+
+--- PERSON2_FINAL_DIAGNOSTIC.txt ---
+3: --- runs/fixed/misses_01.csv ---
+10: --- runs/fixed/misses_09.csv ---
+17: --- runs/fixed/misses_10.csv ---
+24: --- runs/random/misses_01.csv ---
+31: --- runs/random/misses_09.csv ---
+38: --- runs/random/misses_10.csv ---
+168: 95:Important: addr2line output is only valid for the ELF that generated the measured traces.
+182: 13:PC-to-source mappings and ELF comparison outputs exist. Multiple ELF files have different hashes and timestamps. The exact ELF corresponding to each measured trace set is not established by the available provenance output. Treat source attribution as a candidate mapping pending build-to-run confi
+190: runs/fixed/misses_01.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+191: runs/fixed/misses_02.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+192: runs/fixed/misses_03.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+193: runs/fixed/misses_04.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+194: runs/fixed/misses_05.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+195: runs/fixed/misses_06.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+196: runs/fixed/misses_07.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+197: runs/fixed/misses_08.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+198: runs/fixed/misses_09.csv: rows=7, unique_PC_strings=7, columns=['PC', 'MISSES']
+199: runs/fixed/misses_10.csv: rows=95, unique_PC_strings=95, columns=['PC', 'MISSES']
+202: runs/random/misses_01.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+203: runs/random/misses_02.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+204: runs/random/misses_03.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+205: runs/random/misses_04.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+206: runs/random/misses_05.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+207: runs/random/misses_06.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+208: runs/random/misses_07.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+209: runs/random/misses_08.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+210: runs/random/misses_09.csv: rows=6, unique_PC_strings=6, columns=['PC', 'MISSES']
+211: runs/random/misses_10.csv: rows=95, unique_PC_strings=95, columns=['PC', 'MISSES']
+
+--- PERSON2_FINAL_STATUS.txt ---
+13: PC-to-source mappings and ELF comparison outputs exist. Multiple ELF files have different hashes and timestamps. The exact ELF corresponding to each measured trace set is not established by the available provenance output. Treat source attribution as a candidate mapping pending build-to-run confirma
+
+--- person2_C5_C9_provenance_check.txt ---
+23: ./person2_final_audit.txt:16:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+24: ./person2_final_audit.txt:18:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+25: ./person2_final_audit.txt:21:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+26: ./person2_final_audit.txt:23:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+36: ./person2_completion_report.txt:83:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+37: ./person2_completion_report.txt:85:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+38: ./person2_completion_report.txt:88:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+39: ./person2_completion_report.txt:90:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+
+--- PERSON2_INPUT_ORIGIN_CHECK.txt ---
+127: 76: log("Important: addr2line output is only valid for the ELF that generated the measured traces.")
+188: rows per file: misses_01.csv=7, misses_02.csv=7, misses_03.csv=7, misses_04.csv=7, misses_05.csv=7, misses_06.csv=7, misses_07.csv=7, misses_08.csv=7, misses_09.csv=7, misses_10.csv=95
+191: rows per file: misses_01.csv=6, misses_02.csv=6, misses_03.csv=6, misses_04.csv=6, misses_05.csv=6, misses_06.csv=6, misses_07.csv=6, misses_08.csv=6, misses_09.csv=6, misses_10.csv=95
+194: rows per file: misses_1.csv=95, misses_2.csv=95, misses_3.csv=95, misses_4.csv=95, misses_5.csv=95, misses_6.csv=95, misses_7.csv=95, misses_8.csv=95, misses_9.csv=95
+197: rows per file: misses_1.csv=95, misses_2.csv=95, misses_3.csv=95, misses_4.csv=95, misses_5.csv=95, misses_6.csv=95, misses_7.csv=95, misses_8.csv=95, misses_9.csv=95
+215: fixed padded: runs/fixed/misses_01.csv
+222: random padded: runs/random/misses_01.csv
+229: fixed ordinary: runs/fixed/misses_1.csv
+236: random ordinary: runs/random/misses_1.csv
+243: runs/fixed/misses_10.csv: 95 rows; first 5:
+250: runs/random/misses_10.csv: 95 rows; first 5:
+266: runs/fixed/misses_01.csv: 316cf9e1f02676c19fea2c7904d15838c45c8c06ecb6cdb458ca087ab36ad07b
+267: runs/fixed/misses_1.csv: bb6b9e4ada972ecfac1a0140552577312431adad8e993894cddf5876d9387a73
+268: runs/fixed/misses_10.csv: c7aa7cee24cb4dc97d86971582beb8ce1cac66deb31379eac5d9f0d4255dcd0b
+269: runs/random/misses_01.csv: b5213587b9af96600ac45a6b0adb49903a8cd768cd1ffd161e099ed977a53d0d
+270: runs/random/misses_1.csv: 2cf4db338f69b6714010004546bea8d71aa2fb74e200b9f1c96c49800a598e74
+271: runs/random/misses_10.csv: 543349a6bafc290d8170d1727eaa09677fe028027102f487c28e2915a39d0eeb
+
+--- PERSON2_VERIFICATION_AUDIT.txt ---
+22: phase4_cache/misses_01.csv | 1840 bytes
+52: phase5_svc/runs/fixed/misses_01.csv | 145 bytes
+53: phase5_svc/runs/fixed/misses_02.csv | 145 bytes
+54: phase5_svc/runs/fixed/misses_03.csv | 145 bytes
+55: phase5_svc/runs/fixed/misses_04.csv | 145 bytes
+56: phase5_svc/runs/fixed/misses_05.csv | 145 bytes
+57: phase5_svc/runs/fixed/misses_06.csv | 145 bytes
+58: phase5_svc/runs/fixed/misses_07.csv | 145 bytes
+59: phase5_svc/runs/fixed/misses_08.csv | 145 bytes
+60: phase5_svc/runs/fixed/misses_09.csv | 145 bytes
+61: phase5_svc/runs/fixed/misses_1.csv | 1840 bytes
+62: phase5_svc/runs/fixed/misses_10.csv | 1841 bytes
+63: phase5_svc/runs/fixed/misses_2.csv | 1840 bytes
+64: phase5_svc/runs/fixed/misses_3.csv | 1841 bytes
+65: phase5_svc/runs/fixed/misses_4.csv | 1840 bytes
+66: phase5_svc/runs/fixed/misses_5.csv | 1840 bytes
+67: phase5_svc/runs/fixed/misses_6.csv | 1840 bytes
+68: phase5_svc/runs/fixed/misses_7.csv | 1841 bytes
+69: phase5_svc/runs/fixed/misses_8.csv | 1841 bytes
+70: phase5_svc/runs/fixed/misses_9.csv | 1840 bytes
+71: phase5_svc/runs/fixed/trace_01.csv | 41314 bytes
+72: phase5_svc/runs/fixed/trace_02.csv | 41314 bytes
+73: phase5_svc/runs/fixed/trace_03.csv | 41314 bytes
+74: phase5_svc/runs/fixed/trace_04.csv | 41314 bytes
+75: phase5_svc/runs/fixed/trace_05.csv | 41314 bytes
+76: phase5_svc/runs/fixed/trace_06.csv | 41314 bytes
+77: phase5_svc/runs/fixed/trace_07.csv | 41314 bytes
+78: phase5_svc/runs/fixed/trace_08.csv | 41314 bytes
+79: phase5_svc/runs/fixed/trace_09.csv | 41314 bytes
+80: phase5_svc/runs/fixed/trace_1.csv | 21266364 bytes
+81: phase5_svc/runs/fixed/trace_10.csv | 21267939 bytes
+82: phase5_svc/runs/fixed/trace_2.csv | 21268164 bytes
+83: phase5_svc/runs/fixed/trace_3.csv | 21272214 bytes
+84: phase5_svc/runs/fixed/trace_4.csv | 21271764 bytes
+85: phase5_svc/runs/fixed/trace_5.csv | 21271764 bytes
+
+--- person2_final_verification.py ---
+149: r"Welch|t.statistic|high.risk|trace|ELF|objdump|addr2line",
+186: for cmd in ["python3", "riscv64-unknown-elf-objdump",
+210: log("Review missing inputs, dataset separation, and exact ELF-to-trace provenance.")
+
+--- person2_completion_report.txt ---
+83: misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+85: misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+88: misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+90: misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+95: Important: addr2line output is only valid for the ELF that generated the measured traces.
+183: PC-to-source mappings and ELF comparison outputs exist. Multiple ELF files have different hashes and timestamps. The exact ELF corresponding to each measured trace set is not established by the available provenance output. Treat source attribution as a candidate mapping pending build-to-run confirma
+
+--- person2_C5_C9_final_audit.txt ---
+3262: Address-to-source output is a candidate mapping only. It is confirmed for the experiment only if the ELF is verified as the exact binary used to produce those traces.
+
+--- PERSON2_PENDING_EVIDENCE_SEARCH.txt ---
+14: ../phase5_svc/runs/fixed/trace_01.csv
+15: ../phase5_svc/runs/fixed/trace_02.csv
+16: ../phase5_svc/runs/fixed/trace_03.csv
+17: ../phase5_svc/runs/fixed/trace_04.csv
+18: ../phase5_svc/runs/fixed/trace_05.csv
+19: ../phase5_svc/runs/fixed/trace_06.csv
+20: ../phase5_svc/runs/fixed/trace_07.csv
+21: ../phase5_svc/runs/fixed/trace_08.csv
+22: ../phase5_svc/runs/fixed/trace_09.csv
+23: ../phase5_svc/runs/fixed/trace_1.csv
+24: ../phase5_svc/runs/fixed/trace_10.csv
+25: ../phase5_svc/runs/fixed/trace_2.csv
+26: ../phase5_svc/runs/fixed/trace_3.csv
+27: ../phase5_svc/runs/fixed/trace_4.csv
+28: ../phase5_svc/runs/fixed/trace_5.csv
+29: ../phase5_svc/runs/fixed/trace_6.csv
+30: ../phase5_svc/runs/fixed/trace_7.csv
+31: ../phase5_svc/runs/fixed/trace_8.csv
+32: ../phase5_svc/runs/fixed/trace_9.csv
+33: ../phase5_svc/runs/random/trace_01.csv
+34: ../phase5_svc/runs/random/trace_02.csv
+35: ../phase5_svc/runs/random/trace_03.csv
+36: ../phase5_svc/runs/random/trace_04.csv
+37: ../phase5_svc/runs/random/trace_05.csv
+38: ../phase5_svc/runs/random/trace_06.csv
+39: ../phase5_svc/runs/random/trace_07.csv
+40: ../phase5_svc/runs/random/trace_08.csv
+41: ../phase5_svc/runs/random/trace_09.csv
+42: ../phase5_svc/runs/random/trace_1.csv
+43: ../phase5_svc/runs/random/trace_10.csv
+46: ../phase5_svc/runs/random/trace_2.csv
+47: ../phase5_svc/runs/random/trace_3.csv
+48: ../phase5_svc/runs/random/trace_4.csv
+49: ../phase5_svc/runs/random/trace_5.csv
+50: ../phase5_svc/runs/random/trace_6.csv
+
+Files with matching references: 16
+
+=== 5. TRACE RUN FILES AND MISS FILES PRESENT ===
+
+FIXED:
+trace_*.csv: trace_01.csv, trace_02.csv, trace_03.csv, trace_04.csv, trace_05.csv, trace_06.csv, trace_07.csv, trace_08.csv, trace_09.csv, trace_1.csv, trace_10.csv, trace_2.csv, trace_3.csv, trace_4.csv, trace_5.csv, trace_6.csv, trace_7.csv, trace_8.csv, trace_9.csv
+misses_*.csv: misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_1.csv, misses_10.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+
+RANDOM:
+trace_*.csv: trace_01.csv, trace_02.csv, trace_03.csv, trace_04.csv, trace_05.csv, trace_06.csv, trace_07.csv, trace_08.csv, trace_09.csv, trace_1.csv, trace_10.csv, trace_17_full.csv, trace_18_full.csv, trace_2.csv, trace_3.csv, trace_4.csv, trace_5.csv, trace_6.csv, trace_7.csv, trace_8.csv, trace_9.csv, trace_full_01.csv
+misses_*.csv: misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_1.csv, misses_10.csv, misses_17_full.csv, misses_18_full.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv, misses_full_01.csv
+
+=== 6. INTERPRETATION ===
+Do not treat a seed as confirmed unless it is supported by recorded commands or logs.
+Do not overwrite original miss files during reconstruction.
+Trace files with identical hashes are duplicate content, not independent observations.

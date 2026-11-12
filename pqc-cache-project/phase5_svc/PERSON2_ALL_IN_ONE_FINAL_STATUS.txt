@@ -1,0 +1,33 @@
+PERSON 2 — CONSOLIDATED FINAL STATUS
+Generated: 2026-10-19T15:21:49.028302+00:00
+=======================================================
+
+C3/C4 — RECONSTRUCTED STATISTICS
+PCs analysed: 317
+Finite Welch statistics: 277
+Undefined statistics: 40
+Finite |t| > 4.5: 100
+Confidence intervals: not recomputed in this final status script.
+
+Caution: reconstructed with newly assigned deterministic cache-prefill seeds;
+these are not verified original experimental results.
+
+C5 — EXPERIMENT PROVENANCE
+Previously reported broad sweep and timing results are not independently verified
+by this script. Do not present them as freshly reproduced results.
+
+C9 — SOURCE MAPPING
+ELF-to-trace provenance remains unconfirmed; source mappings are provisional.
+
+OUTPUT FILES
+person2_rebuilt_full/person2_full_trace_welch_results.csv: exists (16230 bytes)
+person2_rebuilt_full/PERSON2_FULL_TRACE_REBUILD_REPORT.txt: exists (2073 bytes)
+person2_corrected_zero_padded.csv: exists (17878 bytes)
+person2_corrected_exact_ci.csv: exists (28329 bytes)
+person2_pc_source_mapping.csv: exists (42250 bytes)
+PERSON2_FINAL_COMPLETION_STATUS.txt: exists (1996 bytes)
+
+FINAL VERDICT
+PARTIALLY VERIFIED — reconstructed statistics are available, but original-run
+reproducibility, confidence intervals for the reconstructed data, C5 logs, and
+ELF-to-trace provenance still require independent verification.

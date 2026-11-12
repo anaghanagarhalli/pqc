@@ -1,0 +1,376 @@
+============================================================
+PERSON 2 — RAW TRACE AND ELF PROVENANCE AUDIT
+Mon Oct 19 15:10:28 UTC 2026
+============================================================
+
+===== 1. TRACE FILE INVENTORY =====
+runs/fixed/trace_01.csv | 41314 bytes | modified 2026-09-04 12:07:35.1920961420
+runs/fixed/trace_02.csv | 41314 bytes | modified 2026-09-04 12:07:35.4080961350
+runs/fixed/trace_03.csv | 41314 bytes | modified 2026-09-04 12:07:35.6276961270
+runs/fixed/trace_04.csv | 41314 bytes | modified 2026-09-04 12:07:35.8904961190
+runs/fixed/trace_05.csv | 41314 bytes | modified 2026-09-04 12:07:36.1388961100
+runs/fixed/trace_06.csv | 41314 bytes | modified 2026-09-04 12:07:36.3980961010
+runs/fixed/trace_07.csv | 41314 bytes | modified 2026-09-04 12:07:36.6320960930
+runs/fixed/trace_08.csv | 41314 bytes | modified 2026-09-04 12:07:36.8696960850
+runs/fixed/trace_09.csv | 41314 bytes | modified 2026-09-04 12:07:37.0928960780
+runs/fixed/trace_1.csv | 21266364 bytes | modified 2026-09-04 12:46:58.9600698400
+runs/fixed/trace_10.csv | 21267939 bytes | modified 2026-09-04 12:47:31.6448740900
+runs/fixed/trace_2.csv | 21268164 bytes | modified 2026-09-04 12:47:02.7062235230
+runs/fixed/trace_3.csv | 21272214 bytes | modified 2026-09-04 12:47:06.4187281980
+runs/fixed/trace_4.csv | 21271764 bytes | modified 2026-09-04 12:47:09.9672635860
+runs/fixed/trace_5.csv | 21271764 bytes | modified 2026-09-04 12:47:14.3035283840
+runs/fixed/trace_6.csv | 21268389 bytes | modified 2026-09-04 12:47:17.7620482870
+runs/fixed/trace_7.csv | 21267939 bytes | modified 2026-09-04 12:47:21.2205681920
+runs/fixed/trace_8.csv | 21271089 bytes | modified 2026-09-04 12:47:24.6979587900
+runs/fixed/trace_9.csv | 21269289 bytes | modified 2026-09-04 12:47:28.1608982910
+runs/random/trace_01.csv | 39657 bytes | modified 2026-09-04 10:46:33.1939518350
+runs/random/trace_02.csv | 39657 bytes | modified 2026-09-04 10:46:33.4286184490
+runs/random/trace_03.csv | 39657 bytes | modified 2026-09-04 10:46:33.6779517290
+runs/random/trace_04.csv | 39657 bytes | modified 2026-09-04 10:46:33.9126183450
+runs/random/trace_05.csv | 39657 bytes | modified 2026-09-04 10:46:34.1546182930
+runs/random/trace_06.csv | 39657 bytes | modified 2026-09-04 10:46:34.3929515750
+runs/random/trace_07.csv | 39657 bytes | modified 2026-09-04 10:46:34.6386181870
+runs/random/trace_08.csv | 39657 bytes | modified 2026-09-04 10:46:34.8659514720
+runs/random/trace_09.csv | 39657 bytes | modified 2026-09-04 10:46:35.0969514220
+runs/random/trace_1.csv | 21269815 bytes | modified 2026-09-04 12:47:35.1988459690
+runs/random/trace_10.csv | 21265540 bytes | modified 2026-09-04 12:48:08.7441319250
+runs/random/trace_17_full.csv | 21268240 bytes | modified 2026-09-04 12:40:56.4055840770
+runs/random/trace_18_full.csv | 21270715 bytes | modified 2026-09-04 12:42:37.4439863020
+runs/random/trace_2.csv | 21269815 bytes | modified 2026-09-04 12:47:38.6603364680
+runs/random/trace_3.csv | 21266890 bytes | modified 2026-09-04 12:47:42.3321704570
+runs/random/trace_4.csv | 21267340 bytes | modified 2026-09-04 12:47:46.8179331500
+runs/random/trace_5.csv | 21265540 bytes | modified 2026-09-04 12:47:50.6277804920
+runs/random/trace_6.csv | 21267565 bytes | modified 2026-09-04 12:47:54.1954883990
+runs/random/trace_7.csv | 21268690 bytes | modified 2026-09-04 12:47:57.7976307860
+runs/random/trace_8.csv | 21270040 bytes | modified 2026-09-04 12:48:01.6025930250
+runs/random/trace_9.csv | 21270265 bytes | modified 2026-09-04 12:48:05.2128088120
+runs/random/trace_full_01.csv | 21269815 bytes | modified 2026-09-04 12:45:11.8231155440
+
+===== 2. TRACE HEADERS AND ROW COUNTS =====
+
+--- FIXED ---
+runs/fixed/trace_01.csv: data_rows=1650, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000474', 'WRITE', '8002a0b0', '8']
+runs/fixed/trace_02.csv: data_rows=1650, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000474', 'WRITE', '8002a0b0', '8']
+runs/fixed/trace_03.csv: data_rows=1650, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000472', 'WRITE', '8002a0b0', '8']
+runs/fixed/trace_04.csv: data_rows=1650, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000474', 'WRITE', '8002a0b0', '8']
+runs/fixed/trace_05.csv: data_rows=1650, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000474', 'WRITE', '8002a0b0', '8']
+runs/fixed/trace_06.csv: data_rows=1650, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000474', 'WRITE', '8002a0b0', '8']
+runs/fixed/trace_07.csv: data_rows=1650, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000474', 'WRITE', '8002a0b0', '8']
+runs/fixed/trace_08.csv: data_rows=1650, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000474', 'WRITE', '8002a0b0', '8']
+runs/fixed/trace_09.csv: data_rows=1650, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000472', 'WRITE', '8002a0b0', '8']
+runs/fixed/trace_1.csv: data_rows=835578, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['800000c4', 'WRITE', '8002a128', '8']
+runs/fixed/trace_10.csv: data_rows=835641, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['800000c2', 'WRITE', '8002a108', '8']
+runs/fixed/trace_2.csv: data_rows=835650, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['800000c4', 'WRITE', '8002a128', '8']
+runs/fixed/trace_3.csv: data_rows=835812, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['800000c4', 'WRITE', '8002a128', '8']
+runs/fixed/trace_4.csv: data_rows=835794, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['800000c4', 'WRITE', '8002a128', '8']
+runs/fixed/trace_5.csv: data_rows=835794, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['800000c4', 'WRITE', '8002a128', '8']
+runs/fixed/trace_6.csv: data_rows=835659, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['800000c4', 'WRITE', '8002a128', '8']
+runs/fixed/trace_7.csv: data_rows=835641, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['800000c4', 'WRITE', '8002a128', '8']
+runs/fixed/trace_8.csv: data_rows=835767, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['800000c4', 'WRITE', '8002a128', '8']
+runs/fixed/trace_9.csv: data_rows=835695, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['800000c4', 'WRITE', '8002a128', '8']
+
+--- RANDOM ---
+runs/random/trace_01.csv: data_rows=1585, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000494', 'WRITE', '8002a0d0', '8']
+runs/random/trace_02.csv: data_rows=1585, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000494', 'WRITE', '8002a0d0', '8']
+runs/random/trace_03.csv: data_rows=1585, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000494', 'WRITE', '8002a0d0', '8']
+runs/random/trace_04.csv: data_rows=1585, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000494', 'WRITE', '8002a0d0', '8']
+runs/random/trace_05.csv: data_rows=1585, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000494', 'WRITE', '8002a0d0', '8']
+runs/random/trace_06.csv: data_rows=1585, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000494', 'WRITE', '8002a0d0', '8']
+runs/random/trace_07.csv: data_rows=1585, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000494', 'WRITE', '8002a0d0', '8']
+runs/random/trace_08.csv: data_rows=1585, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000494', 'WRITE', '8002a0d0', '8']
+runs/random/trace_09.csv: data_rows=1585, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000494', 'WRITE', '8002a0d0', '8']
+runs/random/trace_1.csv: data_rows=835716, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000102', 'WRITE', '8002a148', '8']
+runs/random/trace_10.csv: data_rows=835545, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000102', 'WRITE', '8002a148', '8']
+runs/random/trace_17_full.csv: data_rows=835653, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000102', 'WRITE', '8002a148', '8']
+runs/random/trace_18_full.csv: data_rows=835752, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000102', 'WRITE', '8002a148', '8']
+runs/random/trace_2.csv: data_rows=835716, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000102', 'WRITE', '8002a148', '8']
+runs/random/trace_3.csv: data_rows=835599, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000102', 'WRITE', '8002a148', '8']
+runs/random/trace_4.csv: data_rows=835617, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000102', 'WRITE', '8002a148', '8']
+runs/random/trace_5.csv: data_rows=835545, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000102', 'WRITE', '8002a148', '8']
+runs/random/trace_6.csv: data_rows=835626, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000102', 'WRITE', '8002a148', '8']
+runs/random/trace_7.csv: data_rows=835671, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000102', 'WRITE', '8002a148', '8']
+runs/random/trace_8.csv: data_rows=835725, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000102', 'WRITE', '8002a148', '8']
+runs/random/trace_9.csv: data_rows=835734, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000102', 'WRITE', '8002a148', '8']
+runs/random/trace_full_01.csv: data_rows=835716, header=['PC', 'ACCESS', 'ADDRESS', 'SIZE'], sample=['80000102', 'WRITE', '8002a148', '8']
+
+fixed_trace.csv: header=['PC', 'ACCESS', 'ADDRESS', 'SIZE']; sample=['80000472', 'WRITE', '8002a0b0', '8']
+
+random_trace.csv: header=['PC', 'ACCESS', 'ADDRESS', 'SIZE']; sample=['80000494', 'WRITE', '8002a0d0', '8']
+
+===== 3. TRACE PROCESSING SCRIPT =====
+#!/usr/bin/env python3
+
+import argparse
+import csv
+import random
+from pathlib import Path
+
+from importlib.util import spec_from_file_location, module_from_spec
+
+SIM_PATH = Path.home() / "pqc-cache-project/phase4_cache/cache_simulator.py"
+
+spec = spec_from_file_location("cache_simulator", SIM_PATH)
+mod = module_from_spec(spec)
+spec.loader.exec_module(mod)
+
+def read_trace(path):
+    rows = []
+    blocks = []
+
+    with open(path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            pc = int(row["PC"], 16)
+            access_type = row["ACCESS"].strip().upper()
+            address = int(row["ADDRESS"], 16)
+            size = int(row["SIZE"])
+            rows.append((pc, access_type, address, size))
+            blocks.append(address // 32)
+
+    return rows, sorted(set(blocks))
+
+def run(trace_path, seed, output_path):
+    rows, blocks = read_trace(trace_path)
+
+    sim = mod.CacheSimulator(
+        cache_size=8 * 1024,
+        associativity=4,
+        block_size=32,
+        policy="Pseudo-LRU",
+    )
+
+    rng = random.Random(seed)
+
+    # Model a variable cache state before the measured cryptographic run.
+    # Half of the cache lines are pre-populated with blocks drawn from the
+    # trace's working set. This is initialization state, not crypto data.
+    prefill_count = min(128, len(blocks))
+    for block in rng.sample(blocks, prefill_count):
+        sim.access(block * 32, "READ")
+
+    misses_by_pc = {}
+
+    for pc, access_type, address, size in rows:
+        result = sim.access(address, access_type)
+        if not result["hit"]:
+            misses_by_pc[pc] = misses_by_pc.get(pc, 0) + 1
+
+    with open(output_path, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["PC", "MISSES"])
+        for pc in sorted(misses_by_pc):
+            w.writerow([f"{pc:016x}", misses_by_pc[pc]])
+
+    return sim.hits, sim.misses
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--trace", required=True)
+    parser.add_argument("--seed", required=True, type=int)
+    parser.add_argument("--output", required=True)
+    args = parser.parse_args()
+
+    hits, misses = run(args.trace, args.seed, args.output)
+    print(f"Hits={hits} Misses={misses}")
+
+if __name__ == "__main__":
+    main()
+
+===== 4. MISS GENERATION SCRIPT REFERENCES =====
+./phase5_cache_variance.py:68:    parser.add_argument("--trace", required=True)
+./phase5_cache_variance.py:69:    parser.add_argument("--seed", required=True, type=int)
+./phase5_cache_variance.py:70:    parser.add_argument("--output", required=True)
+./person2_final_verification.py:147:    r"misses_01|misses_1\.csv|phase5_fixed|phase5_random|"
+
+===== 5. RAW TRACE AND ELF SHA256 =====
+19ea74553488e68fac69dab6e066ada48d58113f3c112157063a8cf534cdc7c5  ./fixed_trace.csv
+df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137  ./phase5_fixed.elf
+1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b  ./phase5_fixed_1.elf
+df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137  ./phase5_fixed_10.elf
+6bde6e353e5cfcaaf15f87ea85d12a1d2ac99bfa25a4f7778207c310d4dff5dd  ./phase5_fixed_2.elf
+d7977e3c9268cdd9cdc6eaa987ef0a4cf4583e60510ce8fb6e6ef8fabadffdbc  ./phase5_fixed_3.elf
+ba1f1b26f0c91173fc2bd3d0901dd6da94568d452841fdcbdd6f3939d377a599  ./phase5_fixed_4.elf
+02f7580e195313ca7205d1217c40e5b157c8e2f9ca5cd306325eed4b2c7278b0  ./phase5_fixed_5.elf
+1120c1c388d081bb993b27275de894f9a34eaf203bb5943ea777ee942c3617b3  ./phase5_fixed_6.elf
+df29e977b592cb6799eb3f99e031a2e251dca0ff1fa43c1fbf6095fa313c75c3  ./phase5_fixed_7.elf
+3fbe912e61cb2df796c1043397deb4d7357fcd2e1af779942ad94559c639774f  ./phase5_fixed_8.elf
+2848fcb07dd1fd96465804161a2e938b8cde38dab37342ad447977b2fe518b9b  ./phase5_fixed_9.elf
+355ae10935e3daeb0c49bf374b4da2ceab55dc563a2675ca86fb730ccabf7310  ./phase5_random.elf
+90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42  ./phase5_random_1.elf
+1702cc9c90459ead962448c7f1d5ffdd5d79c5d7c14033c7ed049b93d945f33b  ./phase5_random_10.elf
+8ee30bad0f970c2004105b651040969446641ef541beccf63a4ed11344b46daf  ./phase5_random_2.elf
+f633df1994860a6fd4b1a52fbd7ab888ef7147bc471b7e0c052998cbe5639578  ./phase5_random_3.elf
+bc055f4ded37da14fac4803f6ebe99f45b7931de16c585d3ae78bdf2fd33d50e  ./phase5_random_4.elf
+f86149a40a3c1ec0ed5e35b26c600cb2cb05c74912fad1cd5703c78c4b3b0fe9  ./phase5_random_5.elf
+7886c1257028caa99812e5f017a4eb19521c34c195a97756f5798442d1c19706  ./phase5_random_6.elf
+6ea3b9e4443efb544b828852ac55b089474721991d653b2b8f18e4e54f7abd31  ./phase5_random_7.elf
+8f4f875a24944c17225db897a5e00e5240e5b625d28992fe6969d61dd6f7a8c2  ./phase5_random_8.elf
+5f734bd1c48073fc9b04e7091747f87a9a7646d7aef64e89e5940fe50ea6766c  ./phase5_random_9.elf
+90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42  ./phase5_random_full_01.elf
+1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b  ./phase5_test_fixed.elf
+22191aa1b8e8ff49b4f8c235839830dc474775d46b4612282f229c0b567b1ce0  ./phase5_test_random.elf
+81e9660610511dccd4091bc91655750a794332c8d85cdb9f2349bfa440a25945  ./phase5_test_random18.elf
+22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630  ./random_trace.csv
+baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366  runs/fixed/trace_01.csv
+baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366  runs/fixed/trace_02.csv
+19ea74553488e68fac69dab6e066ada48d58113f3c112157063a8cf534cdc7c5  runs/fixed/trace_03.csv
+baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366  runs/fixed/trace_04.csv
+baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366  runs/fixed/trace_05.csv
+baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366  runs/fixed/trace_06.csv
+baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366  runs/fixed/trace_07.csv
+baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366  runs/fixed/trace_08.csv
+19ea74553488e68fac69dab6e066ada48d58113f3c112157063a8cf534cdc7c5  runs/fixed/trace_09.csv
+d8e6beacd1977ecbfdde413f51818f7d200029d184a9cd15f059a3d4f1ed2eb1  runs/fixed/trace_1.csv
+1c979072a5f57a5eca644a5f571c37949f27caadeb131a2c21ac5837ee20b563  runs/fixed/trace_10.csv
+1430b894a1d76be82f71de15ceeb751aabbbb525b8ae7316d5fadb254e5a7d1a  runs/fixed/trace_2.csv
+8af6dcf51acae95f370a9661d7eb493ae191e28c54637607ad85fa2e3e2b71ce  runs/fixed/trace_3.csv
+88dd47d70440b6d99d2ee789321659c95dcc639b1e82873a75ec27fab2a828db  runs/fixed/trace_4.csv
+23b9beea6f4c4b5f3490298dd34f4afaede3eb36cd5801e1412ab44d311dbfff  runs/fixed/trace_5.csv
+4e9b8565a0af16960ff6d1580ce650b95dd88e62ab5dd3c3aeb0e40e90230bfa  runs/fixed/trace_6.csv
+d7800729bb0f091e6205cf4354dee6717a7f85b6a77467992b6bb764e9342fe3  runs/fixed/trace_7.csv
+5286c88adf59dd467f3e8e3ae0fad064e3c29ac2ee99e2757b247a6255904c5f  runs/fixed/trace_8.csv
+9f5a6fe37f7391dc436a50e595e694cbd153ff46b62bc78a1ea347bd156be18b  runs/fixed/trace_9.csv
+22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630  runs/random/trace_01.csv
+22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630  runs/random/trace_02.csv
+22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630  runs/random/trace_03.csv
+22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630  runs/random/trace_04.csv
+22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630  runs/random/trace_05.csv
+22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630  runs/random/trace_06.csv
+22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630  runs/random/trace_07.csv
+22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630  runs/random/trace_08.csv
+22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630  runs/random/trace_09.csv
+7b096243748ad470d7640503e4654cfae856e5bb0044537c1a7f7a191f168241  runs/random/trace_1.csv
+4226451f0022ead28f2637a4a299d4a466c313d56c590d32a145a336a35a6557  runs/random/trace_10.csv
+ec36e99a004ab1b30c76bbc49767f5ff7ce595dc17953d830f8d26b42556833f  runs/random/trace_17_full.csv
+d89fe83f90db5fba469d52908048af810f802d4e338bf5c1aec67fdf90963fee  runs/random/trace_18_full.csv
+22cd1ef727fd45b2c5023d3ecf3f3e31fc7edf0c8f99e072a32f6cfd461dd931  runs/random/trace_2.csv
+692ce46b83879bfd8e358aecb0e6e422037b064e952e81174c586a0b23c70cde  runs/random/trace_3.csv
+4f6f496b9fa2ff2f0ad73557ac91ebd9a2e4ef01224f86249633e9840f23ba3c  runs/random/trace_4.csv
+082078ff0dc8b1ae1f286426d96125348f07bf03818a24e181faba30a90537a8  runs/random/trace_5.csv
+a9617da8ff162f675718631f4dba9bfb0319b170c5532891a3e231f592355b2a  runs/random/trace_6.csv
+e08614ae15eaa4592bc61d0a7b4c67abed3673fc4464643db40d7b348da33c36  runs/random/trace_7.csv
+d1c07dee1885d0647d34d04c345334ed031926db2d8267ac930d4df37cd9b460  runs/random/trace_8.csv
+181fae87871b735d0c6bb5b51a84cc024f15b0bc583d903cf648e86c21f5b1f8  runs/random/trace_9.csv
+7b096243748ad470d7640503e4654cfae856e5bb0044537c1a7f7a191f168241  runs/random/trace_full_01.csv
+
+===== 6. ELF BUILD IDENTIFIERS =====
+
+--- phase5_fixed.elf ---
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Machine:                           RISC-V
+  Entry point address:               0x80000000
+
+--- phase5_fixed_1.elf ---
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Machine:                           RISC-V
+  Entry point address:               0x80000000
+
+--- phase5_fixed_10.elf ---
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Machine:                           RISC-V
+  Entry point address:               0x80000000
+
+--- phase5_random.elf ---
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Machine:                           RISC-V
+  Entry point address:               0x80000000
+
+--- phase5_random_1.elf ---
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Machine:                           RISC-V
+  Entry point address:               0x80000000
+
+--- phase5_random_full_01.elf ---
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Machine:                           RISC-V
+  Entry point address:               0x80000000
+
+--- phase5_test_fixed.elf ---
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Machine:                           RISC-V
+  Entry point address:               0x80000000
+
+--- phase5_test_random.elf ---
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Machine:                           RISC-V
+  Entry point address:               0x80000000
+
+===== 7. EXISTING PROVENANCE NOTES =====
+--- person2_C5_C9_provenance_check.txt ---
+========== C5: EXPERIMENT LOGS ==========
+2026-09-04 12:48 ./svs_results.csv
+2026-09-05 10:01 ../phase6/phase6_report_summary.txt
+2026-10-19 14:30 ./person2_findings_summary.txt
+
+========== C9: ELF METADATA ==========
+--- phase5_fixed.elf ---
+Modified: 2026-09-04 12:07:37.344896069 +0000 | Size: 378992 bytes
+--- phase5_fixed_1.elf ---
+Modified: 2026-09-04 12:46:58.477580938 +0000 | Size: 379024 bytes
+--- phase5_fixed_10.elf ---
+Modified: 2026-09-04 12:47:31.193198734 +0000 | Size: 378992 bytes
+--- phase5_random.elf ---
+Modified: 2026-09-04 10:46:35.261951386 +0000 | Size: 379008 bytes
+--- phase5_random_full_01.elf ---
+Modified: 2026-09-04 12:44:52.624673626 +0000 | Size: 379008 bytes
+--- phase5_test_fixed.elf ---
+Modified: 2026-09-04 11:58:02.299644681 +0000 | Size: 379024 bytes
+
+========== RECORDED ELF REFERENCES ==========
+./person2_final_audit.py:57:elfs = [phase / n for n in ("phase5_fixed.elf", "phase5_test_fixed.elf",
+./person2_final_audit.py:58:                             "phase5_fixed_1.elf")]
+./person2_final_audit.txt:16:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+./person2_final_audit.txt:18:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+./person2_final_audit.txt:21:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+./person2_final_audit.txt:23:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+./person2_final_elf_mapping.txt:2:===== phase5_fixed.elf =====
+./person2_final_elf_mapping.txt:82:===== phase5_test_fixed.elf =====
+./person2_final_elf_mapping.txt:150:===== phase5_fixed_1.elf =====
+./person2_C5_C9_provenance_check.txt:7:--- phase5_fixed.elf ---
+./person2_C5_C9_provenance_check.txt:9:--- phase5_fixed_1.elf ---
+./person2_C5_C9_provenance_check.txt:11:--- phase5_fixed_10.elf ---
+./person2_C5_C9_provenance_check.txt:13:--- phase5_random.elf ---
+./person2_C5_C9_provenance_check.txt:15:--- phase5_random_full_01.elf ---
+./person2_C5_C9_provenance_check.txt:17:--- phase5_test_fixed.elf ---
+./person2_completion_report.txt:83:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+./person2_completion_report.txt:85:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+./person2_completion_report.txt:88:    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+./person2_completion_report.txt:90:    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+./person2_final_checks.py:10:ELF = BASE / "phase5_fixed.elf"
+--- PERSON2_FINAL_STATUS.txt ---
+PERSON 2 — FINAL C5/C9 STATUS
+Generated: 2026-10-19T14:53:15+00:00
+
+C5 — WORKFLOW RECONCILIATION
+The three workflows are documented separately:
+1. Broad configuration sweep.
+2. Per-PC cache-miss analysis.
+3. Independent timing experiment.
+
+The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results.
+
+C9 — SOURCE MAPPING
+PC-to-source mappings and ELF comparison outputs exist. Multiple ELF files have different hashes and timestamps. The exact ELF corresponding to each measured trace set is not established by the available provenance output. Treat source attribution as a candidate mapping pending build-to-run confirmation.
+
+DELIVERABLES
+- person2_corrected_zero_padded.csv
+- person2_pc_source_mapping.csv
+- person2_findings_summary.txt
+- person2_final_audit.txt
+- person2_C5_C9_final_audit.txt
+- person2_C5_C9_provenance_check.txt
+
+STATUS
+C5/C9 documentation and audit artifacts are generated. Full experimental provenance is not independently verified.
+
+===== END OF AUDIT =====
+Interpretation: matching filenames or timestamps alone do not prove
+that a particular ELF generated a particular trace.

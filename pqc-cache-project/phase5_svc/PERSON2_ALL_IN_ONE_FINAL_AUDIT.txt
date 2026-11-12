@@ -1,0 +1,135 @@
+============================================================
+PERSON 2 — ALL-IN-ONE FINAL AUDIT
+Mon Oct 19 15:05:27 UTC 2026
+Directory: /home/cnc_susindharan/pqc-cache-project/phase5_svc
+============================================================
+
+===== 1. STATISTICAL VERIFICATION =====
+--- PERSON2_EXACT_RECOMPUTE.txt ---
+PERSON 2 — EXACT INPUT RECOMPUTATION
+========================================================================
+Fixed runs: 10
+Random runs: 10
+PC union: 194
+Finite Welch t: 191
+Undefined zero-SE: 3
+Finite |t| > 4.5: 10
+
+--- Comparison with corrected: person2_corrected_zero_padded.csv ---
+Rows: 194; recomputed rows: 194
+PC sets identical: True
+Field mismatches: 0
+PASS: compared fields and PC set match.
+
+--- Comparison with original: svs_results.csv ---
+Rows: 194; recomputed rows: 194
+PC sets identical: True
+Field mismatches: 0
+PASS: compared fields and PC set match.
+
+--- Zero-SE cases ---
+0x0000000080000540: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+0x000000008000057c: fixed mean=0.0, random mean=25.0, variances=0.0/0.0; Welch t is undefined
+0x00000000800005d6: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+--- PERSON2_CI_VERIFICATION.txt ---
+PERSON 2 — WELCH CONFIDENCE INTERVAL VERIFICATION
+Rows processed: 194
+Approximate intervals differing from recomputed Welch intervals: 190
+Undefined intervals (zero SE or invalid df): 3
+Output CSV: person2_corrected_exact_ci.csv
+The original corrected CSV was preserved.
+First differing PCs: 0x0000000080000010, 0x0000000080000014, 0x000000008000001a, 0x0000000080000040, 0x0000000080000060, 0x0000000080000064, 0x000000008000006c, 0x000000008000009a, 0x000000008000009e, 0x00000000800000c2, 0x00000000800000c4, 0x00000000800000d0, 0x00000000800000e6, 0x00000000800000e8, 0x0000000080000102, 0x000000008000017e, 0x00000000800001a2, 0x0000000080000266, 0x000000008000028a, 0x00000000800002b2
+
+===== 2. C5 / C9 EVIDENCE FILES =====
+./PERSON2_ALL_IN_ONE_FINAL_AUDIT.txt
+./PERSON2_VERIFICATION_AUDIT.txt
+./person2_C5_C9_final_audit.txt
+./person2_C5_C9_provenance_check.txt
+./person2_completion_report.txt
+./person2_final_audit.py
+./person2_final_audit.txt
+./person2_final_elf_mapping.txt
+./person2_findings_summary.txt
+./person2_pc_source_mapping.csv
+
+===== 3. ELF FILES AND HASHES =====
+df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137  ./phase5_fixed.elf
+1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b  ./phase5_fixed_1.elf
+df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137  ./phase5_fixed_10.elf
+6bde6e353e5cfcaaf15f87ea85d12a1d2ac99bfa25a4f7778207c310d4dff5dd  ./phase5_fixed_2.elf
+d7977e3c9268cdd9cdc6eaa987ef0a4cf4583e60510ce8fb6e6ef8fabadffdbc  ./phase5_fixed_3.elf
+ba1f1b26f0c91173fc2bd3d0901dd6da94568d452841fdcbdd6f3939d377a599  ./phase5_fixed_4.elf
+02f7580e195313ca7205d1217c40e5b157c8e2f9ca5cd306325eed4b2c7278b0  ./phase5_fixed_5.elf
+1120c1c388d081bb993b27275de894f9a34eaf203bb5943ea777ee942c3617b3  ./phase5_fixed_6.elf
+df29e977b592cb6799eb3f99e031a2e251dca0ff1fa43c1fbf6095fa313c75c3  ./phase5_fixed_7.elf
+3fbe912e61cb2df796c1043397deb4d7357fcd2e1af779942ad94559c639774f  ./phase5_fixed_8.elf
+2848fcb07dd1fd96465804161a2e938b8cde38dab37342ad447977b2fe518b9b  ./phase5_fixed_9.elf
+355ae10935e3daeb0c49bf374b4da2ceab55dc563a2675ca86fb730ccabf7310  ./phase5_random.elf
+90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42  ./phase5_random_1.elf
+1702cc9c90459ead962448c7f1d5ffdd5d79c5d7c14033c7ed049b93d945f33b  ./phase5_random_10.elf
+8ee30bad0f970c2004105b651040969446641ef541beccf63a4ed11344b46daf  ./phase5_random_2.elf
+f633df1994860a6fd4b1a52fbd7ab888ef7147bc471b7e0c052998cbe5639578  ./phase5_random_3.elf
+bc055f4ded37da14fac4803f6ebe99f45b7931de16c585d3ae78bdf2fd33d50e  ./phase5_random_4.elf
+f86149a40a3c1ec0ed5e35b26c600cb2cb05c74912fad1cd5703c78c4b3b0fe9  ./phase5_random_5.elf
+7886c1257028caa99812e5f017a4eb19521c34c195a97756f5798442d1c19706  ./phase5_random_6.elf
+6ea3b9e4443efb544b828852ac55b089474721991d653b2b8f18e4e54f7abd31  ./phase5_random_7.elf
+8f4f875a24944c17225db897a5e00e5240e5b625d28992fe6969d61dd6f7a8c2  ./phase5_random_8.elf
+5f734bd1c48073fc9b04e7091747f87a9a7646d7aef64e89e5940fe50ea6766c  ./phase5_random_9.elf
+90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42  ./phase5_random_full_01.elf
+1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b  ./phase5_test_fixed.elf
+22191aa1b8e8ff49b4f8c235839830dc474775d46b4612282f229c0b567b1ce0  ./phase5_test_random.elf
+81e9660610511dccd4091bc91655750a794332c8d85cdb9f2349bfa440a25945  ./phase5_test_random18.elf
+
+===== 4. EXPECTED DELIVERABLES =====
+PRESENT  person2_corrected_zero_padded.csv  (17878 bytes)
+PRESENT  person2_corrected_exact_ci.csv  (28329 bytes)
+PRESENT  person2_pc_source_mapping.csv  (42250 bytes)
+PRESENT  person2_findings_summary.txt  (1686 bytes)
+PRESENT  person2_final_audit.txt  (8290 bytes)
+PRESENT  person2_final_elf_mapping.txt  (10449 bytes)
+PRESENT  person2_C5_C9_final_audit.txt  (746185 bytes)
+PRESENT  person2_C5_C9_provenance_check.txt  (3070 bytes)
+PRESENT  person2_completion_report.txt  (13465 bytes)
+PRESENT  PERSON2_FINAL_STATUS.txt  (1146 bytes)
+PRESENT  PERSON2_VERIFICATION_AUDIT.txt  (44907 bytes)
+PRESENT  PERSON2_INDEPENDENT_STATS_CHECK.txt  (1346 bytes)
+PRESENT  PERSON2_INPUT_ORIGIN_CHECK.txt  (16082 bytes)
+
+===== 5. INPUT COUNTS =====
+-- fixed zero-padded runs --
+runs/fixed/misses_01.csv: 7 data rows
+runs/fixed/misses_02.csv: 7 data rows
+runs/fixed/misses_03.csv: 7 data rows
+runs/fixed/misses_04.csv: 7 data rows
+runs/fixed/misses_05.csv: 7 data rows
+runs/fixed/misses_06.csv: 7 data rows
+runs/fixed/misses_07.csv: 7 data rows
+runs/fixed/misses_08.csv: 7 data rows
+runs/fixed/misses_09.csv: 7 data rows
+runs/fixed/misses_10.csv: 95 data rows
+-- random zero-padded runs --
+runs/random/misses_01.csv: 6 data rows
+runs/random/misses_02.csv: 6 data rows
+runs/random/misses_03.csv: 6 data rows
+runs/random/misses_04.csv: 6 data rows
+runs/random/misses_05.csv: 6 data rows
+runs/random/misses_06.csv: 6 data rows
+runs/random/misses_07.csv: 6 data rows
+runs/random/misses_08.csv: 6 data rows
+runs/random/misses_09.csv: 6 data rows
+runs/random/misses_10.csv: 95 data rows
+
+===== 6. TOOL AVAILABILITY =====
+/usr/bin/python3
+/usr/bin/riscv64-unknown-elf-objdump
+/usr/bin/riscv64-unknown-elf-addr2line
+/usr/bin/readelf
+
+===== 7. GIT STATUS =====
+Git status unavailable or not a Git repository.
+
+===== 8. FINAL CAUTION =====
+File presence does not prove experimental validity.
+C5 needs original experiment logs/results for independent validation.
+C9 needs evidence tying the exact ELF build to the measured traces.
+Review the evidence above before claiming full completion.

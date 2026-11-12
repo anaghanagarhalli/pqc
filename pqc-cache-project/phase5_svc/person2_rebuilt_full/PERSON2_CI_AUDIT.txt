@@ -1,0 +1,12 @@
+PERSON 2 — RECONSTRUCTED CONFIDENCE INTERVAL AUDIT
+=================================================
+Input: person2_rebuilt_full/person2_full_trace_welch_results.csv
+Rows processed: 317
+Approximate 95% intervals computed: 277
+Undefined intervals: 40
+
+Method: Welch standard error and Welch-Satterthwaite degrees of freedom.
+Critical values use a t-critical approximation; intervals are approximate.
+These intervals use reconstructed data and newly assigned cache-prefill seeds.
+They do not validate original experimental results or ELF-to-trace provenance.
+Original files were not overwritten.

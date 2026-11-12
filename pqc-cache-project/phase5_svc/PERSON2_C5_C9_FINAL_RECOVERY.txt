@@ -1,0 +1,258 @@
+PERSON 2 — C5/C9 EVIDENCE RECOVERY
+Date: 2026-10-19T16:08:49+00:00
+Project: /home/cnc_susindharan/pqc-cache-project/phase5_svc
+
+========== 1. FIND EXPERIMENT SCRIPTS AND LOGS ==========
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/../phase6/assoc_2_misses.csv | 1878 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/../phase6/assoc_4_misses.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/../phase6/assoc_8_misses.csv | 2012 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/../phase6/assoc_direct_misses.csv | 2466 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/../phase6/venv/lib/python3.12/site-packages/fontTools/cu2qu/__pycache__/benchmark.cpython-312.pyc | 2780 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/../phase6/venv/lib/python3.12/site-packages/fontTools/cu2qu/benchmark.py | 1296 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/../phase6/venv/lib/python3.12/site-packages/fontTools/qu2cu/__pycache__/benchmark.cpython-312.pyc | 2922 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/../phase6/venv/lib/python3.12/site-packages/fontTools/qu2cu/benchmark.py | 1400 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/fixed_misses.csv | 145 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/fixed_trace.csv | 41314 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/fixed_misses_01.csv | 1915 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/fixed_misses_02.csv | 1856 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/fixed_misses_03.csv | 1895 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/fixed_misses_04.csv | 1895 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/fixed_misses_05.csv | 1894 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/fixed_misses_06.csv | 1816 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/fixed_misses_07.csv | 1876 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/fixed_misses_08.csv | 1877 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/fixed_misses_09.csv | 1894 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/fixed_misses_10.csv | 1895 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/person2_full_trace_welch_results.csv | 16230 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/person2_full_trace_with_ci.csv | 34321 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/random_misses_01.csv | 1895 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/random_misses_02.csv | 1836 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/random_misses_03.csv | 1795 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/random_misses_04.csv | 1876 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/random_misses_05.csv | 1877 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/random_misses_06.csv | 1897 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/random_misses_07.csv | 1875 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/random_misses_08.csv | 1817 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/random_misses_09.csv | 1896 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_rebuilt_full/random_misses_10.csv | 1855 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed.elf | 378992 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_1.elf | 379024 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_10.elf | 378992 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_2.elf | 379024 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_3.elf | 379024 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_4.elf | 379016 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_5.elf | 379024 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_6.elf | 379024 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_7.elf | 379016 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_8.elf | 379016 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_fixed_9.elf | 379016 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_1.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_10.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_2.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_3.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_4.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_5.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_6.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_7.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_8.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_9.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_random_full_01.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_test_fixed.elf | 379024 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_test_random.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_test_random18.elf | 379008 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/random_misses.csv | 126 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/random_trace.csv | 39657 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_01.csv | 145 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_02.csv | 145 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_03.csv | 145 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_04.csv | 145 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_05.csv | 145 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_06.csv | 145 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_07.csv | 145 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_08.csv | 145 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_09.csv | 145 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_1.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_10.csv | 1841 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_2.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_3.csv | 1841 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_4.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_5.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_6.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_7.csv | 1841 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_8.csv | 1841 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/misses_9.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_01.csv | 41314 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_02.csv | 41314 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_03.csv | 41314 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_04.csv | 41314 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_05.csv | 41314 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_06.csv | 41314 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_07.csv | 41314 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_08.csv | 41314 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_09.csv | 41314 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_1.csv | 21266364 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_10.csv | 21267939 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_2.csv | 21268164 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_3.csv | 21272214 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_4.csv | 21271764 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_5.csv | 21271764 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_6.csv | 21268389 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_7.csv | 21267939 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_8.csv | 21271089 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/fixed/trace_9.csv | 21269289 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_01.csv | 126 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_02.csv | 126 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_03.csv | 126 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_04.csv | 126 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_05.csv | 126 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_06.csv | 126 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_07.csv | 126 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_08.csv | 126 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_09.csv | 126 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_1.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_10.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_17_full.csv | 1841 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_18_full.csv | 1841 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_2.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_3.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_4.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_5.csv | 1841 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_6.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_7.csv | 1841 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_8.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_9.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/misses_full_01.csv | 1840 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_01.csv | 39657 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_02.csv | 39657 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_03.csv | 39657 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_04.csv | 39657 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_05.csv | 39657 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_06.csv | 39657 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_07.csv | 39657 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_08.csv | 39657 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_09.csv | 39657 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_1.csv | 21269815 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_10.csv | 21265540 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_17_full.csv | 21268240 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_18_full.csv | 21270715 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_2.csv | 21269815 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_3.csv | 21266890 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_4.csv | 21267340 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_5.csv | 21265540 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_6.csv | 21267565 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_7.csv | 21268690 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_8.csv | 21270040 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_9.csv | 21270265 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/runs/random/trace_full_01.csv | 21269815 bytes
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/test_fixed_misses.csv | 145 bytes
+
+========== 2. CHECK TOOL AVAILABILITY ==========
+python3: /usr/bin/python3
+make: /usr/bin/make
+riscv64-unknown-elf-objdump: /usr/bin/riscv64-unknown-elf-objdump
+riscv64-unknown-elf-readelf: /usr/bin/riscv64-unknown-elf-readelf
+riscv64-unknown-elf-addr2line: /usr/bin/riscv64-unknown-elf-addr2line
+
+========== 3. C5 PRIMARY EVIDENCE CHECK ==========
+phase6/venv/lib/python3.12/site-packages/fontTools/cu2qu/benchmark.py (1296 bytes)
+phase6/venv/lib/python3.12/site-packages/fontTools/qu2cu/benchmark.py (1400 bytes)
+
+Conclusion: filenames alone do not prove experiments ran.
+C5 remains unverified until primary logs/results are identified or experiments are rerun.
+
+========== 4. C9 ELF/TRACE INVENTORY ==========
+phase5_svc/fixed_trace.csv | 41314 bytes | SHA256 19ea74553488e68fac69dab6e066ada48d58113f3c112157063a8cf534cdc7c5
+phase5_svc/person2_rebuilt_full/person2_full_trace_welch_results.csv | 16230 bytes | SHA256 c74c2d469720393a7d8298aeeadc153b29529ce71eb2b357c85a73f1572637b4
+phase5_svc/person2_rebuilt_full/person2_full_trace_with_ci.csv | 34321 bytes | SHA256 5974c29889666521862bcefb089a0d2db3fd16ebb44b572e6a2e8351bf11dc25
+phase5_svc/phase5_fixed.elf | 378992 bytes | SHA256 df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137
+phase5_svc/phase5_fixed_1.elf | 379024 bytes | SHA256 1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b
+phase5_svc/phase5_fixed_10.elf | 378992 bytes | SHA256 df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137
+phase5_svc/phase5_fixed_2.elf | 379024 bytes | SHA256 6bde6e353e5cfcaaf15f87ea85d12a1d2ac99bfa25a4f7778207c310d4dff5dd
+phase5_svc/phase5_fixed_3.elf | 379024 bytes | SHA256 d7977e3c9268cdd9cdc6eaa987ef0a4cf4583e60510ce8fb6e6ef8fabadffdbc
+phase5_svc/phase5_fixed_4.elf | 379016 bytes | SHA256 ba1f1b26f0c91173fc2bd3d0901dd6da94568d452841fdcbdd6f3939d377a599
+phase5_svc/phase5_fixed_5.elf | 379024 bytes | SHA256 02f7580e195313ca7205d1217c40e5b157c8e2f9ca5cd306325eed4b2c7278b0
+phase5_svc/phase5_fixed_6.elf | 379024 bytes | SHA256 1120c1c388d081bb993b27275de894f9a34eaf203bb5943ea777ee942c3617b3
+phase5_svc/phase5_fixed_7.elf | 379016 bytes | SHA256 df29e977b592cb6799eb3f99e031a2e251dca0ff1fa43c1fbf6095fa313c75c3
+phase5_svc/phase5_fixed_8.elf | 379016 bytes | SHA256 3fbe912e61cb2df796c1043397deb4d7357fcd2e1af779942ad94559c639774f
+phase5_svc/phase5_fixed_9.elf | 379016 bytes | SHA256 2848fcb07dd1fd96465804161a2e938b8cde38dab37342ad447977b2fe518b9b
+phase5_svc/phase5_random.elf | 379008 bytes | SHA256 355ae10935e3daeb0c49bf374b4da2ceab55dc563a2675ca86fb730ccabf7310
+phase5_svc/phase5_random_1.elf | 379008 bytes | SHA256 90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42
+phase5_svc/phase5_random_10.elf | 379008 bytes | SHA256 1702cc9c90459ead962448c7f1d5ffdd5d79c5d7c14033c7ed049b93d945f33b
+phase5_svc/phase5_random_2.elf | 379008 bytes | SHA256 8ee30bad0f970c2004105b651040969446641ef541beccf63a4ed11344b46daf
+phase5_svc/phase5_random_3.elf | 379008 bytes | SHA256 f633df1994860a6fd4b1a52fbd7ab888ef7147bc471b7e0c052998cbe5639578
+phase5_svc/phase5_random_4.elf | 379008 bytes | SHA256 bc055f4ded37da14fac4803f6ebe99f45b7931de16c585d3ae78bdf2fd33d50e
+phase5_svc/phase5_random_5.elf | 379008 bytes | SHA256 f86149a40a3c1ec0ed5e35b26c600cb2cb05c74912fad1cd5703c78c4b3b0fe9
+phase5_svc/phase5_random_6.elf | 379008 bytes | SHA256 7886c1257028caa99812e5f017a4eb19521c34c195a97756f5798442d1c19706
+phase5_svc/phase5_random_7.elf | 379008 bytes | SHA256 6ea3b9e4443efb544b828852ac55b089474721991d653b2b8f18e4e54f7abd31
+phase5_svc/phase5_random_8.elf | 379008 bytes | SHA256 8f4f875a24944c17225db897a5e00e5240e5b625d28992fe6969d61dd6f7a8c2
+phase5_svc/phase5_random_9.elf | 379008 bytes | SHA256 5f734bd1c48073fc9b04e7091747f87a9a7646d7aef64e89e5940fe50ea6766c
+phase5_svc/phase5_random_full_01.elf | 379008 bytes | SHA256 90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42
+phase5_svc/phase5_test_fixed.elf | 379024 bytes | SHA256 1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b
+phase5_svc/phase5_test_random.elf | 379008 bytes | SHA256 22191aa1b8e8ff49b4f8c235839830dc474775d46b4612282f229c0b567b1ce0
+phase5_svc/phase5_test_random18.elf | 379008 bytes | SHA256 81e9660610511dccd4091bc91655750a794332c8d85cdb9f2349bfa440a25945
+phase5_svc/random_trace.csv | 39657 bytes | SHA256 22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630
+phase5_svc/runs/fixed/trace_01.csv | 41314 bytes | SHA256 baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366
+phase5_svc/runs/fixed/trace_02.csv | 41314 bytes | SHA256 baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366
+phase5_svc/runs/fixed/trace_03.csv | 41314 bytes | SHA256 19ea74553488e68fac69dab6e066ada48d58113f3c112157063a8cf534cdc7c5
+phase5_svc/runs/fixed/trace_04.csv | 41314 bytes | SHA256 baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366
+phase5_svc/runs/fixed/trace_05.csv | 41314 bytes | SHA256 baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366
+phase5_svc/runs/fixed/trace_06.csv | 41314 bytes | SHA256 baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366
+phase5_svc/runs/fixed/trace_07.csv | 41314 bytes | SHA256 baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366
+phase5_svc/runs/fixed/trace_08.csv | 41314 bytes | SHA256 baa171fcd14259ce1bb9d4fcb8274a62ee17fcd2dff132b9c24ca6f5b82ed366
+phase5_svc/runs/fixed/trace_09.csv | 41314 bytes | SHA256 19ea74553488e68fac69dab6e066ada48d58113f3c112157063a8cf534cdc7c5
+phase5_svc/runs/fixed/trace_1.csv | 21266364 bytes | SHA256 d8e6beacd1977ecbfdde413f51818f7d200029d184a9cd15f059a3d4f1ed2eb1
+phase5_svc/runs/fixed/trace_10.csv | 21267939 bytes | SHA256 1c979072a5f57a5eca644a5f571c37949f27caadeb131a2c21ac5837ee20b563
+phase5_svc/runs/fixed/trace_2.csv | 21268164 bytes | SHA256 1430b894a1d76be82f71de15ceeb751aabbbb525b8ae7316d5fadb254e5a7d1a
+phase5_svc/runs/fixed/trace_3.csv | 21272214 bytes | SHA256 8af6dcf51acae95f370a9661d7eb493ae191e28c54637607ad85fa2e3e2b71ce
+phase5_svc/runs/fixed/trace_4.csv | 21271764 bytes | SHA256 88dd47d70440b6d99d2ee789321659c95dcc639b1e82873a75ec27fab2a828db
+phase5_svc/runs/fixed/trace_5.csv | 21271764 bytes | SHA256 23b9beea6f4c4b5f3490298dd34f4afaede3eb36cd5801e1412ab44d311dbfff
+phase5_svc/runs/fixed/trace_6.csv | 21268389 bytes | SHA256 4e9b8565a0af16960ff6d1580ce650b95dd88e62ab5dd3c3aeb0e40e90230bfa
+phase5_svc/runs/fixed/trace_7.csv | 21267939 bytes | SHA256 d7800729bb0f091e6205cf4354dee6717a7f85b6a77467992b6bb764e9342fe3
+phase5_svc/runs/fixed/trace_8.csv | 21271089 bytes | SHA256 5286c88adf59dd467f3e8e3ae0fad064e3c29ac2ee99e2757b247a6255904c5f
+phase5_svc/runs/fixed/trace_9.csv | 21269289 bytes | SHA256 9f5a6fe37f7391dc436a50e595e694cbd153ff46b62bc78a1ea347bd156be18b
+phase5_svc/runs/random/trace_01.csv | 39657 bytes | SHA256 22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630
+phase5_svc/runs/random/trace_02.csv | 39657 bytes | SHA256 22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630
+phase5_svc/runs/random/trace_03.csv | 39657 bytes | SHA256 22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630
+phase5_svc/runs/random/trace_04.csv | 39657 bytes | SHA256 22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630
+phase5_svc/runs/random/trace_05.csv | 39657 bytes | SHA256 22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630
+phase5_svc/runs/random/trace_06.csv | 39657 bytes | SHA256 22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630
+phase5_svc/runs/random/trace_07.csv | 39657 bytes | SHA256 22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630
+phase5_svc/runs/random/trace_08.csv | 39657 bytes | SHA256 22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630
+phase5_svc/runs/random/trace_09.csv | 39657 bytes | SHA256 22455fcddf969a7fd90ea08b2f76520cab59396e4c685def695dead79f8b6630
+phase5_svc/runs/random/trace_1.csv | 21269815 bytes | SHA256 7b096243748ad470d7640503e4654cfae856e5bb0044537c1a7f7a191f168241
+phase5_svc/runs/random/trace_10.csv | 21265540 bytes | SHA256 4226451f0022ead28f2637a4a299d4a466c313d56c590d32a145a336a35a6557
+phase5_svc/runs/random/trace_17_full.csv | 21268240 bytes | SHA256 ec36e99a004ab1b30c76bbc49767f5ff7ce595dc17953d830f8d26b42556833f
+phase5_svc/runs/random/trace_18_full.csv | 21270715 bytes | SHA256 d89fe83f90db5fba469d52908048af810f802d4e338bf5c1aec67fdf90963fee
+phase5_svc/runs/random/trace_2.csv | 21269815 bytes | SHA256 22cd1ef727fd45b2c5023d3ecf3f3e31fc7edf0c8f99e072a32f6cfd461dd931
+phase5_svc/runs/random/trace_3.csv | 21266890 bytes | SHA256 692ce46b83879bfd8e358aecb0e6e422037b064e952e81174c586a0b23c70cde
+phase5_svc/runs/random/trace_4.csv | 21267340 bytes | SHA256 4f6f496b9fa2ff2f0ad73557ac91ebd9a2e4ef01224f86249633e9840f23ba3c
+phase5_svc/runs/random/trace_5.csv | 21265540 bytes | SHA256 082078ff0dc8b1ae1f286426d96125348f07bf03818a24e181faba30a90537a8
+phase5_svc/runs/random/trace_6.csv | 21267565 bytes | SHA256 a9617da8ff162f675718631f4dba9bfb0319b170c5532891a3e231f592355b2a
+phase5_svc/runs/random/trace_7.csv | 21268690 bytes | SHA256 e08614ae15eaa4592bc61d0a7b4c67abed3673fc4464643db40d7b348da33c36
+phase5_svc/runs/random/trace_8.csv | 21270040 bytes | SHA256 d1c07dee1885d0647d34d04c345334ed031926db2d8267ac930d4df37cd9b460
+phase5_svc/runs/random/trace_9.csv | 21270265 bytes | SHA256 181fae87871b735d0c6bb5b51a84cc024f15b0bc583d903cf648e86c21f5b1f8
+phase5_svc/runs/random/trace_full_01.csv | 21269815 bytes | SHA256 7b096243748ad470d7640503e4654cfae856e5bb0044537c1a7f7a191f168241
+
+========== 5. VERIFY AVAILABLE C9 SOURCE MAPPING ==========
+PC,FUNCTION,SOURCE_LOCATION,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,SVS,RISK
+0x0000000080000474,mlk_zeroize,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:433,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,4.58257569495584,HIGH-RISK
+0x0000000080000484,PQCP_MLKEM_NATIVE_MLKEM512_C_enc,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:369,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,4.58257569495584,HIGH-RISK
+0x0000000080000494,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380,0.0,0.9,0.0,0.1,-9.0,9.0,HIGH-RISK
+0x00000000800004a4,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:380,0.0,0.9,0.0,0.1,-9.0,9.0,HIGH-RISK
+0x0000000080000520,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:402,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,4.58257569495584,HIGH-RISK
+0x0000000080000540,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:409,0.0,1.0,0.0,0.0,inf,inf,HIGH-RISK
+0x000000008000055c,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:416,19.8,0.0,109.28888888888889,0.0,5.989315415470645,5.989315415470645,HIGH-RISK
+0x0000000080000560,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:416,16.8,0.0,134.39999999999998,0.0,4.582575694955841,4.582575694955841,HIGH-RISK
+0x000000008000057c,mlk_ct_memcmp,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:356,0.0,25.0,0.0,0.0,inf,inf,HIGH-RISK
+0x0000000080000580,mlk_ct_memcmp,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:356,0.0,23.9,0.0,0.09999999999999999,-239.0,239.0,HIGH-RISK
+0x00000000800005b6,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:427,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,4.58257569495584,HIGH-RISK
+0x00000000800005bc,PQCP_MLKEM_NATIVE_MLKEM512_C_dec,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c:427,0.7,0.0,0.23333333333333334,0.0,4.58257569495584,4.58257569495584,HIGH-RISK
+0x00000000800005d6,mlk_ct_cmov_zero,/home/cnc_susindharan/pqc-cache-project/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/verify.h:404,0.0,1.0,0.0,0.0,inf,inf,HIGH-RISK
+
+========== 6. PRESERVE CURRENT OUTPUTS ==========
+No experiment was rerun by this recovery/inventory command.
+Do not infer trace-to-ELF provenance from matching filenames alone.
+C3/C4 statistical outputs should be kept separate from C5 timing tests.
+C5 requires original execution evidence or a controlled rerun.
+C9 requires the exact ELF hash/build identity associated with each trace.

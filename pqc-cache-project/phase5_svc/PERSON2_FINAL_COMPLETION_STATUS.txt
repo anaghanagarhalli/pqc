@@ -1,0 +1,38 @@
+PERSON 2 — FINAL COMPLETION STATUS
+Date: 2026-10-19
+
+C3 — STATISTICAL RECOMPUTATION
+Status: RECOMPUTATION PASSED, INPUT COMPLETENESS UNRESOLVED
+- 10 fixed and 10 random zero-padded files were processed.
+- 194 PCs were analysed.
+- 191 finite Welch t-statistics and 3 undefined zero-SE cases.
+- 10 finite statistics exceeded |t| > 4.5.
+- The recomputed PC set and compared fields matched both CSV outputs.
+- Runs 1–9 have only 6–7 PC rows, while run 10 has 95.
+- Confirm that missing PCs genuinely represent zero misses before treating the analysis as final.
+
+C4 — ZERO STANDARD ERROR AND CONFIDENCE INTERVALS
+Status: ZERO-SE INTERPRETATION CORRECTED; CI RECOMPUTATION GENERATED
+- PCs 0x80000540, 0x8000057c, 0x800005d6 have zero standard error.
+- Their conventional Welch t-statistics are undefined, not infinity.
+- person2_corrected_exact_ci.csv contains separately recomputed Welch intervals.
+- 190 old approximate intervals differ under the script's strict comparison tolerance.
+- This difference alone does not mean the intervals are materially wrong.
+
+C5 — EXPERIMENTAL VALIDATION
+Status: NOT INDEPENDENTLY VERIFIED
+- Existing reports describe multiple workflows.
+- Original sweep and timing experiment evidence was not located in the searched locations.
+- Do not describe previously reported experimental values as independently reproduced without the underlying logs and inputs.
+
+C9 — PC-TO-SOURCE MAPPING
+Status: CANDIDATE MAPPINGS AVAILABLE; BUILD-TO-RUN PROVENANCE UNCONFIRMED
+- Mapping and ELF audit files exist.
+- Multiple ELF binaries have different hashes.
+- The exact ELF used to produce each measured trace set is not established by the available evidence.
+- Confirm build-to-run linkage before claiming definitive source attribution.
+
+OVERALL
+The statistical computations are reproducible from the current zero-padded CSV inputs.
+Full completion is NOT YET VERIFIED because input completeness, original C5 evidence,
+and C9 ELF-to-trace provenance remain unresolved.

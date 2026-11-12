@@ -1,0 +1,191 @@
+PERSON 2 — NEXT ACTION REPORT
+============================================
+Generated: 2026-10-19T15:27:21.685234+00:00
+Candidate scripts: 11
+
+SCRIPT CONTENT (relevant lines only)
+
+--- phase5_svc/person2_exact_recompute.py ---
+10: f"0x{int(r['PC'].strip(), 16):016x}": float(r["MISSES"])
+15: files = [BASE / "runs" / group / f"misses_{i:02d}.csv"
+34: fixed = load_group("fixed")
+35: random = load_group("random")
+36: pcs = sorted(set().union(*(d.keys() for d in fixed + random)))
+40: x = [d.get(pc, 0.0) for d in fixed]
+41: y = [d.get(pc, 0.0) for d in random]
+44: "PC": pc, "N_FIXED": 10, "N_RANDOM": 10,
+45: "FIXED_MEAN": mx, "RANDOM_MEAN": my,
+46: "MEAN_DIFFERENCE_FIXED_MINUS_RANDOM": mx-my,
+47: "FIXED_VARIANCE": vx, "RANDOM_VARIANCE": vy,
+68: f"Fixed runs: {len(fixed)}",
+69: f"Random runs: {len(random)}",
+87: for field in ("FIXED_MEAN", "RANDOM_MEAN",
+88: "FIXED_VARIANCE", "RANDOM_VARIANCE"):
+91: a["FIXED_MEAN_MISSES" if field=="FIXED_MEAN" else
+92: "RANDOM_MEAN_MISSES" if field=="RANDOM_MEAN" else
+93: "FIXED_VARIANCE" if field=="FIXED_VARIANCE" else
+... 3 more matching lines
+
+--- phase5_svc/person2_final_audit.py ---
+3: import subprocess
+45: for group in ("fixed", "random"):
+48: for pattern in ("misses_[0-9][0-9].csv", "misses_[0-9].csv"):
+57: elfs = [phase / n for n in ("phase5_fixed.elf", "phase5_test_fixed.elf",
+58: "phase5_fixed_1.elf")]
+67: proc = subprocess.run(
+68: ["riscv64-unknown-elf-addr2line", "-f", "-C", "-i",
+76: log("Important: addr2line output is only valid for the ELF that generated the measured traces.")
+81: keywords = ("LEAKY", "504", "configuration", "baseline", "lookup",
+82: "branch", "6857", "7114", "7421", "TVLA", "Welch",
+111: log("Workflow A: broad configuration sweep — earlier reported result: six crypto kernels")
+115: log("Workflow C: separate timing experiment — earlier reported baseline means were equal;")
+116: log("  lookup had unequal means but zero variance; branch injection showed a timing difference.")
+
+--- phase5_svc/person2_final_checks.py ---
+4: import subprocess
+10: ELF = BASE / "phase5_fixed.elf"
+27: data[int(row["PC"], 16)] = float(row["MISSES"])
+36: fixed_files = ([BASE / "runs/fixed" / f"misses_{i:02d}.csv" for i in range(1, 11)]
+37: if prefix == "misses_[0-9][0-9].csv" else
+38: [BASE / "runs/fixed" / f"misses_{i}.csv" for i in range(1, 11)])
+39: random_files = ([BASE / "runs/random" / f"misses_{i:02d}.csv" for i in range(1, 11)]
+40: if prefix == "misses_[0-9][0-9].csv" else
+41: [BASE / "runs/random" / f"misses_{i}.csv" for i in range(1, 11)])
+44: if len(fixed_files) != 10 or len(random_files) != 10:
+46: f"found fixed={len(fixed_files)}, random={len(random_files)}")
+49: fixed = [load_csv(p) for p in fixed_files]
+50: random = [load_csv(p) for p in random_files]
+51: pcs = sorted(set().union(*(d.keys() for d in fixed + random)))
+55: # Missing PCs are treated as zero misses, consistent with the old script.
+56: x = [d.get(pc, 0.0) for d in fixed]
+57: y = [d.get(pc, 0.0) for d in random]
+87: "PC": f"0x{pc:016x}", "N_FIXED": nx, "N_RANDOM": ny,
+... 16 more matching lines
+
+--- phase5_svc/person2_final_verification.py ---
+50: "**/misses_*.csv", "**/*svs*analysis*.py", "**/*tvla*.py",
+52: "**/*timing*.csv", "**/*trace*.csv", "**/*result*.csv",
+77: if re.fullmatch(r"misses_\d+\.csv", p.name)]
+79: log("NO misses_N.csv files found in searched directories.")
+96: for group in ["fixed", "random"]:
+101: p = d / f"misses_{i:02d}.csv"
+147: r"misses_01|misses_1\.csv|phase5_fixed|phase5_random|"
+148: r"LEAKY|504.configuration|100 fixed|100 random|"
+149: r"Welch|t.statistic|high.risk|trace|ELF|objdump|addr2line",
+186: for cmd in ["python3", "riscv64-unknown-elf-objdump",
+187: "riscv64-unknown-elf-addr2line", "riscv64-unknown-elf-readelf"]:
+210: log("Review missing inputs, dataset separation, and exact ELF-to-trace provenance.")
+
+--- phase5_svc/person2_finish_ci_audit.py ---
+6: source = folder / "person2_full_trace_welch_results.csv"
+7: output = folder / "person2_full_trace_with_ci.csv"
+28: "mean_difference_fixed_minus_random", "welch_se",
+36: a = float(r["fixed_mean"])
+37: b = float(r["random_mean"])
+38: va = float(r["fixed_variance"])
+39: vb = float(r["random_variance"])
+52: r["mean_difference_fixed_minus_random"] = f"{diff:.10g}"
+59: r["mean_difference_fixed_minus_random"] = ""
+76: "These intervals use reconstructed data and newly assigned cache-prefill seeds.\n"
+77: "They do not validate original experimental results or ELF-to-trace provenance.\n"
+
+--- phase5_svc/person2_independent_stats_check.py ---
+5: FIXED = ROOT / "runs" / "fixed"
+6: RANDOM = ROOT / "runs" / "random"
+21: if not reader.fieldnames or not {"PC", "MISSES"}.issubset(reader.fieldnames):
+25: value = float(row["MISSES"])
+32: fixed, ff = load_group(FIXED, "misses_[0-9][0-9].csv")
+33: random, rf = load_group(RANDOM, "misses_[0-9][0-9].csv")
+35: log(f"Zero-padded fixed files: {len(ff)}")
+36: log(f"Zero-padded random files: {len(rf)}")
+37: log(f"Distinct fixed PCs: {len(fixed)}")
+38: log(f"Distinct random PCs: {len(random)}")
+39: log(f"Union of PCs in raw inputs: {len(set(fixed) | set(random))}")
+40: log("Fixed rows per file: " + str([sum(1 for _ in csv.DictReader(p.open())) for p in ff]))
+41: log("Random rows per file: " + str([sum(1 for _ in csv.DictReader(p.open())) for p in rf]))
+44: log("FAIL: Expected 10 fixed and 10 random zero-padded files.")
+56: raw_union = set(fixed) | set(random)
+64: for pc in sorted(set(fixed) & set(random)):
+65: x, y = fixed[pc], random[pc]
+98: nfixed = int(row["N_FIXED"])
+... 6 more matching lines
+
+--- phase5_svc/person2_rebuild_full_traces.py ---
+1: import csv, random, math, statistics, subprocess, sys
+9: def run_trace(group, n):
+10: trace = BASE / "runs" / group / f"trace_{n}.csv"
+11: if not trace.exists():
+12: raise FileNotFoundError(f"Missing full trace: {trace}")
+14: # Use deterministic, explicitly recorded seeds for reproducibility.
+15: seed = (10000 if group == "fixed" else 20000) + n
+16: dest = OUT / f"{group}_misses_{n:02d}.csv"
+18: result = subprocess.run(
+19: [sys.executable, str(SCRIPT), "--trace", str(trace),
+20: "--seed", str(seed), "--output", str(dest)],
+24: raise RuntimeError(f"{trace} failed:\n{result.stderr}")
+29: counts[int(row["PC"], 16)] = int(row["MISSES"])
+30: return counts, seed, result.stdout.strip()
+45: fixed, random = [], []
+46: seeds, runlogs = [], []
+47: for group, dest in (("fixed", fixed), ("random", random)):
+49: counts, seed, log = run_trace(group, n)
+... 20 more matching lines
+
+--- phase5_svc/person2_verify_confidence_intervals.py ---
+72: diff = float(r["MEAN_DIFFERENCE_FIXED_MINUS_RANDOM"])
+
+--- phase5_svc/phase5_cache_variance.py ---
+5: import random
+16: def read_trace(path):
+32: def run(trace_path, seed, output_path):
+33: rows, blocks = read_trace(trace_path)
+42: rng = random.Random(seed)
+46: # trace's working set. This is initialization state, not crypto data.
+51: misses_by_pc = {}
+56: misses_by_pc[pc] = misses_by_pc.get(pc, 0) + 1
+60: w.writerow(["PC", "MISSES"])
+61: for pc in sorted(misses_by_pc):
+62: w.writerow([f"{pc:016x}", misses_by_pc[pc]])
+64: return sim.hits, sim.misses
+68: parser.add_argument("--trace", required=True)
+69: parser.add_argument("--seed", required=True, type=int)
+73: hits, misses = run(args.trace, args.seed, args.output)
+74: print(f"Hits={hits} Misses={misses}")
+
+--- phase5_svc/svs_analysis.py ---
+8: FIXED = BASE / "fixed"
+9: RANDOM = BASE / "random"
+17: data[int(row["PC"], 16)] = int(row["MISSES"])
+26: fixed_data = [
+27: load_distribution(FIXED / f"misses_{i:02d}.csv")
+31: random_data = [
+32: load_distribution(RANDOM / f"misses_{i:02d}.csv")
+36: pcs = sorted(set().union(*(d.keys() for d in fixed_data + random_data)))
+41: fixed_values = [d.get(pc, 0) for d in fixed_data]
+42: random_values = [d.get(pc, 0) for d in random_data]
+44: nf = len(fixed_values)
+45: nr = len(random_values)
+47: mf = sum(fixed_values) / nf
+48: mr = sum(random_values) / nr
+50: vf = sample_variance(fixed_values, mf)
+51: vr = sample_variance(random_values, mr)
+90: "FIXED_MEAN_MISSES",
+91: "RANDOM_MEAN_MISSES",
+... 4 more matching lines
+
+--- phase6/phase6_plots.py ---
+18: for condition in ["fixed", "random"]:
+20: miss_file = BASE / condition / f"misses_{run:02d}.csv"
+28: "Misses": int(row["MISSES"])
+36: values="Misses",
+43: df.groupby("PC")["Misses"]
+63: plt.colorbar(label="Cache misses")
+
+LOG INVENTORY
+Files with likely execution-log names:
+No likely execution logs found by filename.
+
+INTERPRETATION
+Scripts show how an experiment could be run, not proof it was run.
+C5 requires recorded execution evidence or a documented rerun.
+C9 requires matching each trace to its exact ELF/build before source attribution.

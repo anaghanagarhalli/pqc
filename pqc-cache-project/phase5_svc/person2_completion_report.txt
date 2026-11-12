@@ -1,0 +1,194 @@
+PERSON 2 — CONSOLIDATED COMPLETION REPORT
+================================================
+Generated: 2026-10-19T14:43:44+00:00
+
+SCOPE
+C3: Statistical analysis and Welch t-statistic interpretation
+C4: Zero-variance / undefined t-statistic investigation
+C5: Reconciliation of the three distinct experiment workflows
+C9: Program-counter to source/assembly mapping
+
+INPUT DATA
+Zero-padded fixed run files found: 10
+Zero-padded random run files found: 10
+The zero-padded and non-zero-padded CSV families are separate datasets.
+They must not be combined.
+
+CORRECTED PER-PC ANALYSIS
+Rows in corrected CSV: 194
+CSV columns: PC, N_FIXED, N_RANDOM, FIXED_MEAN, RANDOM_MEAN, MEAN_DIFFERENCE_FIXED_MINUS_RANDOM, FIXED_VARIANCE, RANDOM_VARIANCE, STANDARD_ERROR, WELCH_T, WELCH_DF, CI95_LOW_APPROX, CI95_HIGH_APPROX, STATISTIC_STATUS, RISK
+Use the CSV's finite Welch t-statistics for threshold classification; zero standard error means the conventional Welch t-statistic is undefined.
+
+THREE-WORKFLOW RECONCILIATION
+Workflow A — Broad configuration sweep: prior summary reports no flagged locations for six crypto kernels and detection in the LEAKY positive control.
+Workflow B — Per-PC cache-miss analysis: use the corrected zero-padded CSV; do not use infinite t-statistics as valid threshold exceedances.
+Workflow C — Independent timing experiment: baseline, lookup injection, and branch injection are separate timing results, not cache-miss results.
+
+SOURCE MAPPING
+PC source-mapping CSV present: yes
+Source attribution is conditional on confirming that the mapped ELF is the exact binary used for the corresponding measurements.
+
+STATISTICAL INTERPRETATION
+A threshold exceedance indicates a difference in the observed samples; it does not by itself prove exploitable side-channel leakage.
+For zero standard error, report group means and variances and mark t as undefined. Confidence intervals must use a suitable Welch t critical value and must not be described as exact if approximations were used.
+
+EXISTING FINDINGS SUMMARY
+PERSON 2 — STATISTICAL VALIDATION AND SOURCE MAPPING
+====================================================
+
+Original analysis and CSV were not modified.
+The zero-padded and non-zero-padded CSV families were analysed separately.
+Missing PCs were assigned zero misses, matching the original script.
+
+Welch t-statistic: (fixed mean - random mean) / standard error.
+If both group variances are zero, the standard error is zero; the t-statistic
+is undefined whether the means differ or are equal. Do not report infinity
+as a conventional Welch t-statistic.
+
+Confidence intervals are approximate 95% Welch intervals using a conservative
+integer-df t critical-value table. For df > 30, 1.96 is used as a normal
+approximation. These intervals are not exact and should be labelled accordingly.
+
+The three workflows previously described must remain separate:
+1. Broad configuration sweep: six crypto kernels reportedly had zero flagged
+   locations; LEAKY positive control showed detection.
+2. Per-PC cache-miss analysis: 10 fixed and 10 random runs; previous CSV claimed
+   194 PCs and 13 high-risk PCs. The present script checks the current inputs
+   independently because their row counts do not match that previous CSV.
+3. Independent timing experiment: baseline reportedly showed no mean difference;
+   lookup had unequal means with zero variance; branch injection showed a timing
+   difference. Do not combine its timing values with cache-miss t-statistics.
+
+A high |t| is evidence of a statistical difference in this sample, not by itself
+proof of exploitable leakage. Source mapping is based on the selected ELF and
+debug info; verify the exact build corresponds to the measured traces.
+
+
+EXISTING AUDIT RECORD
+PERSON 2 FINAL AUDIT
+Generated: 2026-10-19T14:33:18
+=================================================================
+
+1. STATISTICAL OUTPUTS
+person2_corrected_zero_padded.csv: 194 PCs; finite high-risk=10; undefined=3
+  Confidence intervals: review column names and calculation before publication.
+  Zero SE rows are undefined; do not interpret their t-statistics as infinity.
+person2_corrected_full_runs.csv: 314 PCs; finite high-risk=91; undefined=78
+  Confidence intervals: review column names and calculation before publication.
+  Zero SE rows are undefined; do not interpret their t-statistics as infinity.
+
+2. INPUT FILE PROVENANCE
+fixed:
+  misses_[0-9][0-9].csv: 10 files
+    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+  misses_[0-9].csv: 9 files
+    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+random:
+  misses_[0-9][0-9].csv: 10 files
+    misses_01.csv, misses_02.csv, misses_03.csv, misses_04.csv, misses_05.csv, misses_06.csv, misses_07.csv, misses_08.csv, misses_09.csv, misses_10.csv
+  misses_[0-9].csv: 9 files
+    misses_1.csv, misses_2.csv, misses_3.csv, misses_4.csv, misses_5.csv, misses_6.csv, misses_7.csv, misses_8.csv, misses_9.csv
+The zero-padded and non-zero-padded datasets are separate and must not be pooled.
+
+3. ELF / SOURCE MAPPING CROSS-CHECK
+Created mapping comparison: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_final_elf_mapping.txt
+Important: addr2line output is only valid for the ELF that generated the measured traces.
+Confirming which ELF generated each run is required before final publication.
+
+4. WORKFLOW EVIDENCE INVENTORY
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv: Welch, high-risk
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv: 504, Welch, high-risk
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt: LEAKY, configuration, baseline, lookup, branch, Welch, high-risk, source mapping
+/home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv: 504, 7421, Welch, high-risk
+/home/cnc_susindharan/pqc-cache-project/phase6/phase6_report_summary.txt: source mapping
+/home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv: Welch, high-risk
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Stocks.csv: 504, 6857, 7114, 7421
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/msft.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy-2.5.2.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/sfc64-testset-1.csv: 504, 7114
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64-testset-2.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/sfc64-testset-2.csv: 504, 6857, 7421
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/mt19937-testset-2.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/mt19937-testset-1.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64dxsm-testset-2.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/philox-testset-1.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64dxsm-testset-1.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/philox-testset-2.csv: 504, 7114
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64-testset-1.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arctan.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-tanh.csv: 504, 7421
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-sin.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-tan.csv: 504, 7114, 7421
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arctanh.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-exp2.csv: 504, 7421
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arccosh.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arcsin.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-cbrt.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-log10.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-sinh.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-log2.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-cos.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-exp.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-expm1.csv: 504, 6857
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arcsinh.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-cosh.csv: 6857
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arccos.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-log.csv: 504
+/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-log1p.csv: 504, 7421
+
+5. THREE WORKFLOWS — RECONCILIATION STATUS
+Workflow A: broad configuration sweep — earlier reported result: six crypto kernels
+  had zero flagged locations, while the LEAKY positive control was detected.
+Workflow B: per-PC cache-miss experiment — the zero-padded dataset has 194 PCs;
+  its corrected output has 10 finite threshold exceedances and 3 undefined rows.
+Workflow C: separate timing experiment — earlier reported baseline means were equal;
+  lookup had unequal means but zero variance; branch injection showed a timing difference.
+These are different experiments and metrics. They must be described separately.
+The figures above are prior reported results; verify them against original logs before publication.
+
+6. REQUIRED FINAL CHECKS
+- Use only finite Welch t-statistics for threshold classification.
+- For zero standard error, report t as undefined and give group means/variances.
+- Check that confidence intervals use an appropriate Welch t critical value for each df.
+- Do not present the existing approximate intervals as exact.
+- Match every mapped PC to the ELF used for its measured run.
+- Support each workflow's claims with its own stored logs/results.
+
+Audit generated. Original runs, analysis script, and original results CSV were not changed.
+
+
+END OF CONSOLIDATED REPORT
+
+
+=======================================================
+C5/C9 AUDIT APPENDED
+Detailed audit: person2_C5_C9_final_audit.txt
+C5 workflow evidence inventory and C9 ELF address comparisons generated.
+
+
+============================================================
+
+PERSON 2 — FINAL C5/C9 STATUS
+Generated: 2026-10-19T14:53:15+00:00
+
+C5 — WORKFLOW RECONCILIATION
+The three workflows are documented separately:
+1. Broad configuration sweep.
+2. Per-PC cache-miss analysis.
+3. Independent timing experiment.
+
+The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results.
+
+C9 — SOURCE MAPPING
+PC-to-source mappings and ELF comparison outputs exist. Multiple ELF files have different hashes and timestamps. The exact ELF corresponding to each measured trace set is not established by the available provenance output. Treat source attribution as a candidate mapping pending build-to-run confirmation.
+
+DELIVERABLES
+- person2_corrected_zero_padded.csv
+- person2_pc_source_mapping.csv
+- person2_findings_summary.txt
+- person2_final_audit.txt
+- person2_C5_C9_final_audit.txt
+- person2_C5_C9_provenance_check.txt
+
+STATUS
+C5/C9 documentation and audit artifacts are generated. Full experimental provenance is not independently verified.

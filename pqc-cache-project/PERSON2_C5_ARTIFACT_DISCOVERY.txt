@@ -1,0 +1,688 @@
+PERSON 2 — C5 ARTIFACT DISCOVERY
+================================================
+Project: /home/cnc_susindharan/pqc-cache-project
+
+
+CONTENT MATCHES: all_phase_summary.txt
+  93: Welch's t-test
+  94: SVS = |Welch t|
+FILE: liboqs/.github/ISSUE_TEMPLATE/bug_report.yml (2058 bytes)
+FILE: liboqs/.github/ISSUE_TEMPLATE/feature_request.yml (1136 bytes)
+FILE: liboqs/.github/actionlint.yaml (401 bytes)
+FILE: liboqs/.github/dependabot.yml (396 bytes)
+FILE: liboqs/.github/workflows/android.yml (643 bytes)
+FILE: liboqs/.github/workflows/apple.yml (747 bytes)
+FILE: liboqs/.github/workflows/basic.yml (7909 bytes)
+FILE: liboqs/.github/workflows/code-coverage.yml (2118 bytes)
+FILE: liboqs/.github/workflows/commit-to-main.yml (510 bytes)
+FILE: liboqs/.github/workflows/docs-sync.yml (1070 bytes)
+FILE: liboqs/.github/workflows/downstream-basic.yml (5281 bytes)
+FILE: liboqs/.github/workflows/downstream-release.yml (1261 bytes)
+FILE: liboqs/.github/workflows/extended.yml (19690 bytes)
+FILE: liboqs/.github/workflows/kem-bench.yml (3975 bytes)
+FILE: liboqs/.github/workflows/linux.yml (12880 bytes)
+FILE: liboqs/.github/workflows/macos.yml (1899 bytes)
+FILE: liboqs/.github/workflows/platforms.yml (462 bytes)
+FILE: liboqs/.github/workflows/pr.yml (3011 bytes)
+FILE: liboqs/.github/workflows/push.yml (1138 bytes)
+FILE: liboqs/.github/workflows/release.yml (264 bytes)
+FILE: liboqs/.github/workflows/sig-bench.yml (4157 bytes)
+FILE: liboqs/.github/workflows/supplychain.yml (3771 bytes)
+FILE: liboqs/.github/workflows/weekly.yml (700 bytes)
+FILE: liboqs/.github/workflows/windows.yml (2165 bytes)
+FILE: liboqs/.github/workflows/zephyr.yml (2213 bytes)
+FILE: liboqs/build/CMakeFiles/CMakeConfigureLog.yaml (42687 bytes)
+FILE: liboqs/build/compile_commands.json (2692595 bytes)
+FILE: liboqs/docs/algorithms/kem/bike.yml (3913 bytes)
+FILE: liboqs/docs/algorithms/kem/classic_mceliece.yml (11347 bytes)
+FILE: liboqs/docs/algorithms/kem/frodokem.yml (12667 bytes)
+FILE: liboqs/docs/algorithms/kem/hqc.yml (2744 bytes)
+FILE: liboqs/docs/algorithms/kem/kyber.yml (6515 bytes)
+FILE: liboqs/docs/algorithms/kem/ml_kem.yml (6000 bytes)
+FILE: liboqs/docs/algorithms/kem/ntru.yml (5764 bytes)
+FILE: liboqs/docs/algorithms/kem/ntruprime.yml (1441 bytes)
+FILE: liboqs/docs/algorithms/sig/cross.yml (16644 bytes)
+FILE: liboqs/docs/algorithms/sig/falcon.yml (5674 bytes)
+FILE: liboqs/docs/algorithms/sig/mayo.yml (5727 bytes)
+FILE: liboqs/docs/algorithms/sig/ml_dsa.yml (4517 bytes)
+FILE: liboqs/docs/algorithms/sig/mqom.yml (15283 bytes)
+FILE: liboqs/docs/algorithms/sig/slh_dsa.yml (79531 bytes)
+FILE: liboqs/docs/algorithms/sig/snova.yml (16111 bytes)
+FILE: liboqs/docs/algorithms/sig/uov.yml (15881 bytes)
+FILE: liboqs/docs/algorithms/sig_stfl/lms.yml (5470 bytes)
+FILE: liboqs/docs/algorithms/sig_stfl/xmss.yml (6138 bytes)
+FILE: liboqs/docs/cbom.json (304065 bytes)
+FILE: liboqs/scripts/copy_from_upstream/copy_from_libjade.yml (1054 bytes)
+FILE: liboqs/scripts/copy_from_upstream/copy_from_upstream.yml (18953 bytes)
+FILE: liboqs/scripts/copy_from_upstream/patches/pqclean-kyber-armneon-variable-timing-fix.patch (10776 bytes)
+FILE: liboqs/scripts/run_doxygen.sh (633 bytes)
+FILE: liboqs/src/sig/mqom/mqom_mqom_common/benchmark.h (1356 bytes)
+FILE: liboqs/src/sig/slh_dsa/slh_dsa_c/integration/liboqs/META.yml (1273 bytes)
+FILE: liboqs/tests/KATs/kem/kats.json (7748 bytes)
+FILE: liboqs/tests/KATs/sig/kats.json (12294 bytes)
+FILE: liboqs/tests/KATs/sig_stfl/kats.json (5192 bytes)
+FILE: liboqs/tests/constant_time/kem/issues.json (1125 bytes)
+FILE: liboqs/tests/constant_time/kem/passes.json (896 bytes)
+FILE: liboqs/tests/constant_time/sig/issues.json (9408 bytes)
+FILE: liboqs/tests/constant_time/sig/passes.json (1898 bytes)
+FILE: liboqs/tests/ds_benchmark.h (16914 bytes)
+FILE: liboqs/tests/run_astyle.sh (789 bytes)
+FILE: liboqs/zephyr/module.yml (62 bytes)
+FILE: liboqs/zephyr/samples/KEMs/sample.yaml (335 bytes)
+FILE: liboqs/zephyr/samples/Signatures/sample.yaml (353 bytes)
+FILE: phase5_svc/PERSON2_ALL_IN_ONE_FINAL_AUDIT.txt (6714 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_ALL_IN_ONE_FINAL_AUDIT.txt
+  14: Finite Welch t: 191
+  31: 0x0000000080000540: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+  32: 0x000000008000057c: fixed mean=0.0, random mean=25.0, variances=0.0/0.0; Welch t is undefined
+  33: 0x00000000800005d6: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+  35: PERSON 2 — WELCH CONFIDENCE INTERVAL VERIFICATION
+  37: Approximate intervals differing from recomputed Welch intervals: 190
+FILE: phase5_svc/PERSON2_ALL_IN_ONE_FINAL_STATUS.txt (1378 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_ALL_IN_ONE_FINAL_STATUS.txt
+  7: Finite Welch statistics: 277
+  23: person2_rebuilt_full/person2_full_trace_welch_results.csv: exists (16230 bytes)
+FILE: phase5_svc/PERSON2_C5_C9_PROVENANCE_INVESTIGATION.txt (8172 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_C5_C9_PROVENANCE_INVESTIGATION.txt
+  36: rows=317  sha256=c74c2d469720393a7d8298aeeadc153b29529ce71eb2b357c85a73f1572637b4  file=person2_rebuilt_full/person2_full_trace_welch_results.csv
+FILE: phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt (51129 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt
+  12: 31: 0x0000000080000540: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+  13: 32: 0x000000008000057c: fixed mean=0.0, random mean=25.0, variances=0.0/0.0; Welch t is undefined
+  14: 33: 0x00000000800005d6: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+  45: 23: person2_rebuilt_full/person2_full_trace_welch_results.csv: exists (16230 bytes)
+  79: 36: rows=317  sha256=c74c2d469720393a7d8298aeeadc153b29529ce71eb2b357c85a73f1572637b4  file=person2_rebuilt_full/person2_full_trace_welch_results.csv
+  85: 23: 0x0000000080000540: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+  86: 24: 0x000000008000057c: fixed mean=0.0, random mean=25.0, variances=0.0/0.0; Welch t is undefined
+  87: 25: 0x00000000800005d6: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+  116: 48: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+  117: 53: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  118: 58: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK,CI95_LOW_EXACT,CI95_HIGH_EXACT,CI95_STATUS
+  120: 66: 8:Welch t-statistic: (fixed mean - random mean) / standard error.
+  122: 79: 9:  PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+  123: 87: 19:Matched terms: 504, 6857, 7114, 7421, LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+  124: 90: 22:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv: Welch, high-risk
+  125: 91: 23:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv: 504, Welch, high-risk
+  126: 92: 24:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt: LEAKY, configuration, baseline, lookup, branch, Welch, high-risk, source mapping
+  127: 93: 25:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv: 504, 7421, Welch, high-risk
+  128: 94: 26:  /home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv: Welch, high-risk
+  129: 96: 31:  PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  130: 104: 41:Matched terms: LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+  131: 105: 42:  Welch t-statistic: (fixed mean - random mean) / standard error.
+  132: 109: 52:Matched terms: 504, 6857, 7114, 7421, LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+  137: 6: 1. Broad configuration sweep.
+  140: 10: The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results
+  318: 9: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+  320: 19: Matched terms: 504, 6857, 7114, 7421, LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+  321: 22: /home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv: Welch, high-risk
+  322: 23: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv: 504, Welch, high-risk
+  323: 24: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt: LEAKY, configuration, baseline, lookup, branch, Welch, high-risk, source mapping
+  324: 25: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv: 504, 7421, Welch, high-risk
+  325: 26: /home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv: Welch, high-risk
+  328: 31: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  330: 41: Matched terms: LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+  331: 42: Welch t-statistic: (fixed mean - random mean) / standard error.
+  ... 47 additional matching lines
+FILE: phase5_svc/PERSON2_C5_RERUN_READINESS.txt (5147 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_C5_RERUN_READINESS.txt
+  6: --- phase5_svc/phase5_cache_variance.py ---
+  108: 55: stats_path = OUT / "person2_full_trace_welch_results.csv"
+  110: 62: "random_variance", "welch_t", "welch_df", "abs_t_gt_4_5",
+  122: 148: r"LEAKY|504.configuration|100 fixed|100 random|"
+  123: 149: r"Welch|t.statistic|high.risk|trace|ELF|objdump|addr2line",
+  139: not reproduce the separate broad configuration sweep or timing-injection tests.
+FILE: phase5_svc/PERSON2_CI_VERIFICATION.txt (693 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_CI_VERIFICATION.txt
+  1: PERSON 2 — WELCH CONFIDENCE INTERVAL VERIFICATION
+  3: Approximate intervals differing from recomputed Welch intervals: 190
+FILE: phase5_svc/PERSON2_EXACT_RECOMPUTE.txt (875 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_EXACT_RECOMPUTE.txt
+  6: Finite Welch t: 191
+  23: 0x0000000080000540: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+  24: 0x000000008000057c: fixed mean=0.0, random mean=25.0, variances=0.0/0.0; Welch t is undefined
+  25: 0x00000000800005d6: fixed mean=0.0, random mean=1.0, variances=0.0/0.0; Welch t is undefined
+FILE: phase5_svc/PERSON2_FINAL_AUDIT.txt (1149 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_FINAL_AUDIT.txt
+  5: Reconstructed Welch results: PRESENT (16230 bytes)
+FILE: phase5_svc/PERSON2_FINAL_COMPLETION_STATUS.txt (1996 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_FINAL_COMPLETION_STATUS.txt
+  8: - 191 finite Welch t-statistics and 3 undefined zero-SE cases.
+  17: - Their conventional Welch t-statistics are undefined, not infinity.
+  18: - person2_corrected_exact_ci.csv contains separately recomputed Welch intervals.
+FILE: phase5_svc/PERSON2_FINAL_DIAGNOSTIC.txt (13806 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_FINAL_DIAGNOSTIC.txt
+  48: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+  53: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  54: 0x0000000080000010,10,10,1.1,1.1,0,12.1,12.1,1.5556349,0,18,-3.268389,3.268389,FINITE_WELCH_T,NORMAL
+  58: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK,CI95_LOW_EXACT,CI95_HIGH_EXACT,CI95_STATUS
+  59: 0x0000000080000010,10,10,1.1,1.1,0,12.1,12.1,1.5556349,0,18,-3.268389,3.268389,FINITE_WELCH_T,NORMAL,-3.268267648,3.268267648,WELCH_T_95_PERCENT_INTERVAL
+  66: 8:Welch t-statistic: (fixed mean - random mean) / standard error.
+  68: 11:as a conventional Welch t-statistic.
+  69: 13:Confidence intervals are approximate 95% Welch intervals using a conservative
+  78: 8:Matched terms: Welch, high-risk
+  79: 9:  PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+  87: 19:Matched terms: 504, 6857, 7114, 7421, LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+  90: 22:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv: Welch, high-risk
+  91: 23:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv: 504, Welch, high-risk
+  92: 24:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt: LEAKY, configuration, baseline, lookup, branch, Welch, high-risk, source mapping
+  93: 25:  /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv: 504, 7421, Welch, high-risk
+  94: 26:  /home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv: Welch, high-risk
+  95: 30:Matched terms: 504, Welch, high-risk
+  96: 31:  PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  97: 32:  0x0000000080000010,10,10,1.1,1.1,0,12.1,12.1,1.5556349,0,18,-3.268389,3.268389,FINITE_WELCH_T,NORMAL
+  98: 33:  0x0000000080000014,10,10,1.4,1.4,0,19.6,19.6,1.979899,0,18,-4.1597678,4.1597678,FINITE_WELCH_T,NORMAL
+  99: 34:  0x000000008000001a,10,10,0.8,0.8,0,6.4,6.4,1.1313708,0,18,-2.3770102,2.3770102,FINITE_WELCH_T,NORMAL
+  100: 35:  0x0000000080000040,10,10,19.2,19.3,-0.1,3686.4,3724.9,27.223703,-0.0036732696,17.999514,-57.542013,57.342013,FINITE_WELCH_T,NORMAL
+  101: 36:  0x0000000080000060,10,10,0.3,0.3,0,0.9,0.9,0.42426407,0,18,-0.89137881,0.89137881,FINITE_WELCH_T,NORMAL
+  102: 37:  0x0000000080000064,10,10,0.5,0.5,0,2.5,2.5,0.70710678,0,18,-1.4856313,1.4856313,FINITE_WELCH_T,NORMAL
+  103: 38:  0x000000008000006c,10,10,0.2,0.2,0,0.4,0.4,0.28284271,0,18,-0.59425254,0.59425254,FINITE_WELCH_T,NORMAL
+  104: 41:Matched terms: LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+  105: 42:  Welch t-statistic: (fixed mean - random mean) / standard error.
+  106: 43:  as a conventional Welch t-statistic.
+  107: 44:  Confidence intervals are approximate 95% Welch intervals using a conservative
+  109: 52:Matched terms: 504, 6857, 7114, 7421, LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+  110: 53:  C3: Statistical analysis and Welch t-statistic interpretation
+  141: 6:C3: Statistical analysis and Welch t-statistic interpretation
+  145: 19:CSV columns: PC, N_FIXED, N_RANDOM, FIXED_MEAN, RANDOM_MEAN, MEAN_DIFFERENCE_FIXED_MINUS_RANDOM, FIXED_VARIANCE, RANDOM_VARIANCE, STANDARD_ERROR, WELCH_T, WELCH_DF, CI95_LOW_APPROX, CI95_HIGH_APPROX, STATISTIC_STATUS, RISK
+  146: 20:Use the CSV's finite Welch t-statistics for threshold classification; zero standard error means the conventional Welch t-statistic is undefined.
+  149: 33:For zero standard error, report group means and variances and mark t as undefined. Confidence intervals must use a suitable Welch t critical value and must not be described as exact if approximations were used.
+  ... 11 additional matching lines
+FILE: phase5_svc/PERSON2_FINAL_STATUS.txt (1146 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_FINAL_STATUS.txt
+  6: 1. Broad configuration sweep.
+  10: The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results.
+FILE: phase5_svc/PERSON2_FULL_TRACE_RECONSTRUCTION_AUDIT.txt (30607 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_FULL_TRACE_RECONSTRUCTION_AUDIT.txt
+  160: --- phase5_cache_variance.py ---
+  307: 149: r"Welch|t.statistic|high.risk|trace|ELF|objdump|addr2line",
+FILE: phase5_svc/PERSON2_INDEPENDENT_STATS_CHECK.txt (1346 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_INDEPENDENT_STATS_CHECK.txt
+  17: Finite Welch statistics: 0
+FILE: phase5_svc/PERSON2_INPUT_ORIGIN_CHECK.txt (16082 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_INPUT_ORIGIN_CHECK.txt
+  31: 94:         "WELCH_T",
+  60: 78:                 status = "FINITE_WELCH_T"
+  65: 91:             "STANDARD_ERROR": se, "WELCH_T": t, "WELCH_DF": df,
+  87: 156:     f.write("Welch t-statistic: (fixed mean - random mean) / standard error.\n")
+  90: 159:     f.write("as a conventional Welch t-statistic.\n\n")
+  91: 160:     f.write("Confidence intervals are approximate 95% Welch intervals using a conservative\n")
+  95: 164:     f.write("1. Broad configuration sweep: six crypto kernels reportedly had zero flagged\n")
+  96: 165:     f.write("   locations; LEAKY positive control showed detection.\n")
+  101: 170:     f.write("   lookup had unequal means with zero variance; branch injection showed a timing\n")
+  128: 82:             "branch", "6857", "7114", "7421", "TVLA", "Welch",
+  133: 116: log("  lookup had unequal means but zero variance; branch injection showed a timing difference.")
+  134: 121: log("- Use only finite Welch t-statistics for threshold classification.")
+  136: 123: log("- Check that confidence intervals use an appropriate Welch t critical value for each df.")
+  167: 86: log(f"Finite Welch statistics: {sum(v[0]=='FINITE' for v in computed.values())}")
+  168: 97:         recorded = float(row["WELCH_T"])
+  177: 121:                 f"t={row['WELCH_T']}, means={row['FIXED_MEAN']}/{row['RANDOM_MEAN']}, "
+  180: 132:     log("NOT VERIFIED: at least one Welch statistic or sample count differs from direct recomputation.")
+  259: {'PC': '0000000080000010', 'FIXED_MEAN_MISSES': '1.1', 'RANDOM_MEAN_MISSES': '1.1', 'FIXED_VARIANCE': '12.100000000000001', 'RANDOM_VARIANCE': '12.100000000000001', 'WELCH_T': '0.0', 'DEGREES_OF_FREEDOM': '18.0', 'SVS': '0.0', 'RISK': 'NORMAL'}
+  260: {'PC': '0000000080000014', 'FIXED_MEAN_MISSES': '1.4', 'RANDOM_MEAN_MISSES': '1.4', 'FIXED_VARIANCE': '19.599999999999998', 'RANDOM_VARIANCE': '19.599999999999998', 'WELCH_T': '0.0', 'DEGREES_OF_FREEDOM': '18.0', 'SVS': '0.0', 'RISK': 'NORMAL'}
+  261: {'PC': '000000008000001a', 'FIXED_MEAN_MISSES': '0.8', 'RANDOM_MEAN_MISSES': '0.8', 'FIXED_VARIANCE': '6.4', 'RANDOM_VARIANCE': '6.4', 'WELCH_T': '0.0', 'DEGREES_OF_FREEDOM': '18.0', 'SVS': '0.0', 'RISK': 'NORMAL'}
+  262: {'PC': '0000000080000040', 'FIXED_MEAN_MISSES': '19.2', 'RANDOM_MEAN_MISSES': '19.3', 'FIXED_VARIANCE': '3686.4000000000005', 'RANDOM_VARIANCE': '3724.8999999999996', 'WELCH_T': '-0.0036732695893537015', 'DEGREES_OF_FREEDOM': '17.999514271643605', 'SVS': '0.00
+  263: {'PC': '0000000080000060', 'FIXED_MEAN_MISSES': '0.3', 'RANDOM_MEAN_MISSES': '0.3', 'FIXED_VARIANCE': '0.9000000000000001', 'RANDOM_VARIANCE': '0.9000000000000001', 'WELCH_T': '0.0', 'DEGREES_OF_FREEDOM': '18.0', 'SVS': '0.0', 'RISK': 'NORMAL'}
+FILE: phase5_svc/PERSON2_NEXT_ACTION_REPORT.txt (8616 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_NEXT_ACTION_REPORT.txt
+  38: 81: keywords = ("LEAKY", "504", "configuration", "baseline", "lookup",
+  39: 82: "branch", "6857", "7114", "7421", "TVLA", "Welch",
+  40: 111: log("Workflow A: broad configuration sweep — earlier reported result: six crypto kernels")
+  42: 116: log("  lookup had unequal means but zero variance; branch injection showed a timing difference.")
+  66: 50: "**/misses_*.csv", "**/*svs*analysis*.py", "**/*tvla*.py",
+  73: 148: r"LEAKY|504.configuration|100 fixed|100 random|"
+  74: 149: r"Welch|t.statistic|high.risk|trace|ELF|objdump|addr2line",
+  80: 6: source = folder / "person2_full_trace_welch_results.csv"
+  82: 28: "mean_difference_fixed_minus_random", "welch_se",
+  137: --- phase5_svc/phase5_cache_variance.py ---
+FILE: phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt (54336 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt
+  210: ../phase5_svc/phase5_cache_variance.py
+  233: ../phase5_svc/person2_final_audit.py:82:            "branch", "6857", "7114", "7421", "TVLA", "Welch",
+  235: ../phase5_svc/phase5_cache_variance.py:16:def read_trace(path):
+  236: ../phase5_svc/phase5_cache_variance.py:32:def run(trace_path, seed, output_path):
+  237: ../phase5_svc/phase5_cache_variance.py:33:    rows, blocks = read_trace(trace_path)
+  238: ../phase5_svc/phase5_cache_variance.py:46:    # trace's working set. This is initialization state, not crypto data.
+  239: ../phase5_svc/phase5_cache_variance.py:68:    parser.add_argument("--trace", required=True)
+  240: ../phase5_svc/phase5_cache_variance.py:73:    hits, misses = run(args.trace, args.seed, args.output)
+  249: ../phase5_svc/person2_independent_stats_check.py:121:                f"t={row['WELCH_T']}, means={row['FIXED_MEAN']}/{row['RANDOM_MEAN']}, "
+  263: ../phase5_svc/person2_final_verification.py:50:    "**/misses_*.csv", "**/*svs*analysis*.py", "**/*tvla*.py",
+  269: ../phase5_svc/person2_final_verification.py:148:    r"LEAKY|504.configuration|100 fixed|100 random|"
+  270: ../phase5_svc/person2_final_verification.py:149:    r"Welch|t.statistic|high.risk|trace|ELF|objdump|addr2line",
+  283: ../phase5_svc/person2_final_checks.py:156:    f.write("Welch t-statistic: (fixed mean - random mean) / standard error.\n")
+FILE: phase5_svc/PERSON2_TRACE_ELF_PROVENANCE_AUDIT.txt (24653 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_TRACE_ELF_PROVENANCE_AUDIT.txt
+  180: ./phase5_cache_variance.py:68:    parser.add_argument("--trace", required=True)
+  181: ./phase5_cache_variance.py:69:    parser.add_argument("--seed", required=True, type=int)
+  182: ./phase5_cache_variance.py:70:    parser.add_argument("--output", required=True)
+  354: 1. Broad configuration sweep.
+  358: The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results.
+FILE: phase5_svc/PERSON2_VERIFICATION_AUDIT.txt (44907 bytes)
+
+CONTENT MATCHES: phase5_svc/PERSON2_VERIFICATION_AUDIT.txt
+  382: Columns: ['PC', 'N_FIXED', 'N_RANDOM', 'FIXED_MEAN', 'RANDOM_MEAN', 'MEAN_DIFFERENCE_FIXED_MINUS_RANDOM', 'FIXED_VARIANCE', 'RANDOM_VARIANCE', 'STANDARD_ERROR', 'WELCH_T', 'WELCH_DF', 'CI95_LOW_APPROX', 'CI95_HIGH_APPROX', 'STATISTIC_STATUS', 'RISK']
+  383: Sample: {'PC': '0x0000000080000010', 'N_FIXED': '10', 'N_RANDOM': '10', 'FIXED_MEAN': '1.1', 'RANDOM_MEAN': '1.1', 'MEAN_DIFFERENCE_FIXED_MINUS_RANDOM': '0', 'FIXED_VARIANCE': '12.1', 'RANDOM_VARIANCE': '12.1', 'STANDARD_ERROR': '1.5556349', 'WELCH_T': '0', 'W
+  384: Sample: {'PC': '0x0000000080000014', 'N_FIXED': '10', 'N_RANDOM': '10', 'FIXED_MEAN': '1.4', 'RANDOM_MEAN': '1.4', 'MEAN_DIFFERENCE_FIXED_MINUS_RANDOM': '0', 'FIXED_VARIANCE': '19.6', 'RANDOM_VARIANCE': '19.6', 'STANDARD_ERROR': '1.979899', 'WELCH_T': '0', 'WE
+  385: Sample: {'PC': '0x000000008000001a', 'N_FIXED': '10', 'N_RANDOM': '10', 'FIXED_MEAN': '0.8', 'RANDOM_MEAN': '0.8', 'MEAN_DIFFERENCE_FIXED_MINUS_RANDOM': '0', 'FIXED_VARIANCE': '6.4', 'RANDOM_VARIANCE': '6.4', 'STANDARD_ERROR': '1.1313708', 'WELCH_T': '0', 'WEL
+  426: L1: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+  440: /home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_cache_variance.py
+  453: L1: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  454: L2: 0x0000000080000010,10,10,1.1,1.1,0,12.1,12.1,1.5556349,0,18,-3.268389,3.268389,FINITE_WELCH_T,NORMAL
+  455: L3: 0x0000000080000014,10,10,1.4,1.4,0,19.6,19.6,1.979899,0,18,-4.1597678,4.1597678,FINITE_WELCH_T,NORMAL
+  456: L4: 0x000000008000001a,10,10,0.8,0.8,0,6.4,6.4,1.1313708,0,18,-2.3770102,2.3770102,FINITE_WELCH_T,NORMAL
+  459: L8: Welch t-statistic: (fixed mean - random mean) / standard error.
+  461: L11: as a conventional Welch t-statistic.
+  462: L13: Confidence intervals are approximate 95% Welch intervals using a conservative
+  485: L6: C3: Statistical analysis and Welch t-statistic interpretation
+  487: L19: CSV columns: PC, N_FIXED, N_RANDOM, FIXED_MEAN, RANDOM_MEAN, MEAN_DIFFERENCE_FIXED_MINUS_RANDOM, FIXED_VARIANCE, RANDOM_VARIANCE, STANDARD_ERROR, WELCH_T, WELCH_DF, CI95_LOW_APPROX, CI95_HIGH_APPROX, STATISTIC_STATUS, RISK
+  488: L20: Use the CSV's finite Welch t-statistics for threshold classification; zero standard error means the conventional Welch t-statistic is undefined.
+  491: L1: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  492: L11: 0x00000000800000c2,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  493: L12: 0x00000000800000c4,10,10,0.9,1,-0.1,0.1,0,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL
+  494: L13: 0x00000000800000d0,10,10,0.2,0,0.2,0.4,0,0.2,1,9,-0.2524,0.6524,FINITE_WELCH_T,NORMAL
+  498: L94: "WELCH_T",
+  503: L8: Matched terms: Welch, high-risk
+  504: L9: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+  510: L78: status = "FINITE_WELCH_T"
+  512: L91: "STANDARD_ERROR": se, "WELCH_T": t, "WELCH_DF": df,
+  533: L1: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+  547: /home/cnc_susindharan/pqc-cache-project/phase5_svc/phase5_cache_variance.py
+  560: L1: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  561: L2: 0x0000000080000010,10,10,1.1,1.1,0,12.1,12.1,1.5556349,0,18,-3.268389,3.268389,FINITE_WELCH_T,NORMAL
+  562: L3: 0x0000000080000014,10,10,1.4,1.4,0,19.6,19.6,1.979899,0,18,-4.1597678,4.1597678,FINITE_WELCH_T,NORMAL
+  563: L4: 0x000000008000001a,10,10,0.8,0.8,0,6.4,6.4,1.1313708,0,18,-2.3770102,2.3770102,FINITE_WELCH_T,NORMAL
+  566: L8: Welch t-statistic: (fixed mean - random mean) / standard error.
+  568: L11: as a conventional Welch t-statistic.
+  569: L13: Confidence intervals are approximate 95% Welch intervals using a conservative
+  592: L6: C3: Statistical analysis and Welch t-statistic interpretation
+  ... 17 additional matching lines
+FILE: phase5_svc/person2_C5_C9_final_audit.txt (746185 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_C5_C9_final_audit.txt
+  8: Matched terms: Welch, high-risk
+  9: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+  19: Matched terms: 504, 6857, 7114, 7421, LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+  22: /home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv: Welch, high-risk
+  23: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv: 504, Welch, high-risk
+  24: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt: LEAKY, configuration, baseline, lookup, branch, Welch, high-risk, source mapping
+  25: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv: 504, 7421, Welch, high-risk
+  26: /home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv: Welch, high-risk
+  30: Matched terms: 504, Welch, high-risk
+  31: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  32: 0x0000000080000010,10,10,1.1,1.1,0,12.1,12.1,1.5556349,0,18,-3.268389,3.268389,FINITE_WELCH_T,NORMAL
+  33: 0x0000000080000014,10,10,1.4,1.4,0,19.6,19.6,1.979899,0,18,-4.1597678,4.1597678,FINITE_WELCH_T,NORMAL
+  34: 0x000000008000001a,10,10,0.8,0.8,0,6.4,6.4,1.1313708,0,18,-2.3770102,2.3770102,FINITE_WELCH_T,NORMAL
+  35: 0x0000000080000040,10,10,19.2,19.3,-0.1,3686.4,3724.9,27.223703,-0.0036732696,17.999514,-57.542013,57.342013,FINITE_WELCH_T,NORMAL
+  36: 0x0000000080000060,10,10,0.3,0.3,0,0.9,0.9,0.42426407,0,18,-0.89137881,0.89137881,FINITE_WELCH_T,NORMAL
+  37: 0x0000000080000064,10,10,0.5,0.5,0,2.5,2.5,0.70710678,0,18,-1.4856313,1.4856313,FINITE_WELCH_T,NORMAL
+  38: 0x000000008000006c,10,10,0.2,0.2,0,0.4,0.4,0.28284271,0,18,-0.59425254,0.59425254,FINITE_WELCH_T,NORMAL
+  41: Matched terms: LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+  42: Welch t-statistic: (fixed mean - random mean) / standard error.
+  43: as a conventional Welch t-statistic.
+  44: Confidence intervals are approximate 95% Welch intervals using a conservative
+  45: 1. Broad configuration sweep: six crypto kernels reportedly had zero flagged
+  46: locations; LEAKY positive control showed detection.
+  49: lookup had unequal means with zero variance; branch injection showed a timing
+  52: Matched terms: 504, 6857, 7114, 7421, LEAKY, baseline, lookup, branch, configuration, Welch, high-risk
+  53: C3: Statistical analysis and Welch t-statistic interpretation
+  54: CSV columns: PC, N_FIXED, N_RANDOM, FIXED_MEAN, RANDOM_MEAN, MEAN_DIFFERENCE_FIXED_MINUS_RANDOM, FIXED_VARIANCE, RANDOM_VARIANCE, STANDARD_ERROR, WELCH_T, WELCH_DF, CI95_LOW_APPROX, CI95_HIGH_APPROX, STATISTIC_STATUS, RISK
+  55: Use the CSV's finite Welch t-statistics for threshold classification; zero standard error means the conventional Welch t-statistic is undefined.
+  56: Workflow A — Broad configuration sweep: prior summary reports no flagged locations for six crypto kernels and detection in the LEAKY positive control.
+  57: Workflow C — Independent timing experiment: baseline, lookup injection, and branch injection are separate timing results, not cache-miss results.
+  58: For zero standard error, report group means and variances and mark t as undefined. Confidence intervals must use a suitable Welch t critical value and must not be described as exact if approximations were used.
+  59: Welch t-statistic: (fixed mean - random mean) / standard error.
+  60: as a conventional Welch t-statistic.
+  63: Matched terms: 504, 7421, Welch, high-risk
+  64: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  ... 10 additional matching lines
+FILE: phase5_svc/person2_C5_C9_provenance_check.txt (3070 bytes)
+FILE: phase5_svc/person2_completion_report.txt (13465 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_completion_report.txt
+  6: C3: Statistical analysis and Welch t-statistic interpretation
+  19: CSV columns: PC, N_FIXED, N_RANDOM, FIXED_MEAN, RANDOM_MEAN, MEAN_DIFFERENCE_FIXED_MINUS_RANDOM, FIXED_VARIANCE, RANDOM_VARIANCE, STANDARD_ERROR, WELCH_T, WELCH_DF, CI95_LOW_APPROX, CI95_HIGH_APPROX, STATISTIC_STATUS, RISK
+  20: Use the CSV's finite Welch t-statistics for threshold classification; zero standard error means the conventional Welch t-statistic is undefined.
+  23: Workflow A — Broad configuration sweep: prior summary reports no flagged locations for six crypto kernels and detection in the LEAKY positive control.
+  25: Workflow C — Independent timing experiment: baseline, lookup injection, and branch injection are separate timing results, not cache-miss results.
+  33: For zero standard error, report group means and variances and mark t as undefined. Confidence intervals must use a suitable Welch t critical value and must not be described as exact if approximations were used.
+  43: Welch t-statistic: (fixed mean - random mean) / standard error.
+  46: as a conventional Welch t-statistic.
+  48: Confidence intervals are approximate 95% Welch intervals using a conservative
+  53: 1. Broad configuration sweep: six crypto kernels reportedly had zero flagged
+  54: locations; LEAKY positive control showed detection.
+  59: lookup had unequal means with zero variance; branch injection showed a timing
+  99: /home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv: Welch, high-risk
+  100: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv: 504, Welch, high-risk
+  101: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt: LEAKY, configuration, baseline, lookup, branch, Welch, high-risk, source mapping
+  102: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv: 504, 7421, Welch, high-risk
+  104: /home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv: Welch, high-risk
+  140: Workflow A: broad configuration sweep — earlier reported result: six crypto kernels
+  141: had zero flagged locations, while the LEAKY positive control was detected.
+  145: lookup had unequal means but zero variance; branch injection showed a timing difference.
+  150: - Use only finite Welch t-statistics for threshold classification.
+  152: - Check that confidence intervals use an appropriate Welch t critical value for each df.
+  176: 1. Broad configuration sweep.
+  180: The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results.
+FILE: phase5_svc/person2_corrected_exact_ci.csv (28329 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_corrected_exact_ci.csv
+  1: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK,CI95_LOW_EXACT,CI95_HIGH_EXACT,CI95_STATUS
+  2: 0x0000000080000010,10,10,1.1,1.1,0,12.1,12.1,1.5556349,0,18,-3.268389,3.268389,FINITE_WELCH_T,NORMAL,-3.268267648,3.268267648,WELCH_T_95_PERCENT_INTERVAL
+  3: 0x0000000080000014,10,10,1.4,1.4,0,19.6,19.6,1.979899,0,18,-4.1597678,4.1597678,FINITE_WELCH_T,NORMAL,-4.159613447,4.159613447,WELCH_T_95_PERCENT_INTERVAL
+  4: 0x000000008000001a,10,10,0.8,0.8,0,6.4,6.4,1.1313708,0,18,-2.3770102,2.3770102,FINITE_WELCH_T,NORMAL,-2.376921849,2.376921849,WELCH_T_95_PERCENT_INTERVAL
+  5: 0x0000000080000040,10,10,19.2,19.3,-0.1,3686.4,3724.9,27.223703,-0.0036732696,17.999514,-57.542013,57.342013,FINITE_WELCH_T,NORMAL,-57.29498834,57.09498834,WELCH_T_95_PERCENT_INTERVAL
+  6: 0x0000000080000060,10,10,0.3,0.3,0,0.9,0.9,0.42426407,0,18,-0.89137881,0.89137881,FINITE_WELCH_T,NORMAL,-0.8913457355,0.8913457355,WELCH_T_95_PERCENT_INTERVAL
+  7: 0x0000000080000064,10,10,0.5,0.5,0,2.5,2.5,0.70710678,0,18,-1.4856313,1.4856313,FINITE_WELCH_T,NORMAL,-1.485576219,1.485576219,WELCH_T_95_PERCENT_INTERVAL
+  8: 0x000000008000006c,10,10,0.2,0.2,0,0.4,0.4,0.28284271,0,18,-0.59425254,0.59425254,FINITE_WELCH_T,NORMAL,-0.5942304834,0.5942304834,WELCH_T_95_PERCENT_INTERVAL
+  9: 0x000000008000009a,10,10,0.9,0.9,0,8.1,8.1,1.2727922,0,18,-2.6741364,2.6741364,FINITE_WELCH_T,NORMAL,-2.674037186,2.674037186,WELCH_T_95_PERCENT_INTERVAL
+  10: 0x000000008000009e,10,10,8,8,0,640,640,11.313708,0,18,-23.770102,23.770102,FINITE_WELCH_T,NORMAL,-23.76921849,23.76921849,WELCH_T_95_PERCENT_INTERVAL
+  11: 0x00000000800000c2,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL,-0.1262157163,0.3262157163,WELCH_T_95_PERCENT_INTERVAL
+  12: 0x00000000800000c4,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL,-0.3262157163,0.1262157163,WELCH_T_95_PERCENT_INTERVAL
+  13: 0x00000000800000d0,10,10,0.2,0,0.2,0.4,0,0.2,1,9,-0.2524,0.6524,FINITE_WELCH_T,NORMAL,-0.2524314326,0.6524314326,WELCH_T_95_PERCENT_INTERVAL
+  14: 0x00000000800000e6,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL,-0.1262157163,0.3262157163,WELCH_T_95_PERCENT_INTERVAL
+  15: 0x00000000800000e8,10,10,0,0.3,-0.3,0,0.9,0.3,-1,9,-0.9786,0.3786,FINITE_WELCH_T,NORMAL,-0.9786471488,0.3786471488,WELCH_T_95_PERCENT_INTERVAL
+  16: 0x0000000080000102,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL,-0.3262157163,0.1262157163,WELCH_T_95_PERCENT_INTERVAL
+  17: 0x000000008000017e,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL,-0.1262157163,0.3262157163,WELCH_T_95_PERCENT_INTERVAL
+  18: 0x00000000800001a2,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL,-0.3262157163,0.1262157163,WELCH_T_95_PERCENT_INTERVAL
+  19: 0x0000000080000266,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL,-0.1262157163,0.3262157163,WELCH_T_95_PERCENT_INTERVAL
+  20: 0x000000008000028a,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL,-0.3262157163,0.1262157163,WELCH_T_95_PERCENT_INTERVAL
+  21: 0x00000000800002b2,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL,-0.1262157163,0.3262157163,WELCH_T_95_PERCENT_INTERVAL
+  22: 0x00000000800002b8,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL,-0.1262157163,0.3262157163,WELCH_T_95_PERCENT_INTERVAL
+  23: 0x00000000800002d6,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL,-0.3262157163,0.1262157163,WELCH_T_95_PERCENT_INTERVAL
+  24: 0x00000000800002dc,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL,-0.3262157163,0.1262157163,WELCH_T_95_PERCENT_INTERVAL
+  25: 0x00000000800002f6,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL,-0.1262157163,0.3262157163,WELCH_T_95_PERCENT_INTERVAL
+  26: 0x000000008000031a,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL,-0.3262157163,0.1262157163,WELCH_T_95_PERCENT_INTERVAL
+  27: 0x00000000800003ba,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL,-0.1262157163,0.3262157163,WELCH_T_95_PERCENT_INTERVAL
+  28: 0x00000000800003c0,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL,-0.1262157163,0.3262157163,WELCH_T_95_PERCENT_INTERVAL
+  29: 0x00000000800003de,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL,-0.3262157163,0.1262157163,WELCH_T_95_PERCENT_INTERVAL
+  30: 0x00000000800003e4,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL,-0.3262157163,0.1262157163,WELCH_T_95_PERCENT_INTERVAL
+  31: 0x0000000080000472,10,10,0.2,0,0.2,0.17777778,0,0.13333333,1.5,9,-0.1016,0.5016,FINITE_WELCH_T,NORMAL,-0.1016209475,0.5016209475,WELCH_T_95_PERCENT_INTERVAL
+  32: 0x0000000080000474,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK,0.3544497927,1.045550207,WELCH_T_95_PERCENT_INTERVAL
+  33: 0x0000000080000482,10,10,0.2,0,0.2,0.17777778,0,0.13333333,1.5,9,-0.1016,0.5016,FINITE_WELCH_T,NORMAL,-0.1016209475,0.5016209475,WELCH_T_95_PERCENT_INTERVAL
+  34: 0x0000000080000484,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK,0.3544497927,1.045550207,WELCH_T_95_PERCENT_INTERVAL
+  35: 0x0000000080000494,10,10,0,0.9,-0.9,0,0.1,0.1,-9,9,-1.1262,-0.6738,FINITE_WELCH_T,HIGH-RISK,-1.126215716,-0.6737842837,WELCH_T_95_PERCENT_INTERVAL
+  ... 157 additional matching lines
+FILE: phase5_svc/person2_corrected_full_runs.csv (31390 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_corrected_full_runs.csv
+  1: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  11: 0x00000000800000c2,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  12: 0x00000000800000c4,10,10,0.9,1,-0.1,0.1,0,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL
+  13: 0x00000000800000d0,10,10,0.2,0,0.2,0.4,0,0.2,1,9,-0.2524,0.6524,FINITE_WELCH_T,NORMAL
+  14: 0x00000000800000d2,10,10,1.8,0,1.8,0.4,0,0.2,9,9,1.3476,2.2524,FINITE_WELCH_T,HIGH-RISK
+  15: 0x00000000800000e6,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  16: 0x00000000800000e8,10,10,0.2,3,-2.8,0.17777778,0,0.13333333,-21,9,-3.1016,-2.4984,FINITE_WELCH_T,HIGH-RISK
+  17: 0x00000000800000ea,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK
+  19: 0x000000008000017e,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  20: 0x0000000080000180,10,10,0.2,0,0.2,0.17777778,0,0.13333333,1.5,9,-0.1016,0.5016,FINITE_WELCH_T,NORMAL
+  21: 0x0000000080000182,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK
+  23: 0x0000000080000266,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  24: 0x0000000080000268,10,10,0.2,0,0.2,0.17777778,0,0.13333333,1.5,9,-0.1016,0.5016,FINITE_WELCH_T,NORMAL
+  25: 0x000000008000026a,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK
+  27: 0x00000000800002b2,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  28: 0x00000000800002b4,10,10,0.2,0,0.2,0.17777778,0,0.13333333,1.5,9,-0.1016,0.5016,FINITE_WELCH_T,NORMAL
+  29: 0x00000000800002b6,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK
+  30: 0x00000000800002b8,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  31: 0x00000000800002ba,10,10,0.2,0,0.2,0.17777778,0,0.13333333,1.5,9,-0.1016,0.5016,FINITE_WELCH_T,NORMAL
+  32: 0x00000000800002bc,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK
+  35: 0x00000000800002f6,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  36: 0x00000000800002f8,10,10,0.2,0,0.2,0.17777778,0,0.13333333,1.5,9,-0.1016,0.5016,FINITE_WELCH_T,NORMAL
+  37: 0x00000000800002fa,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK
+  39: 0x00000000800003ba,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  40: 0x00000000800003bc,10,10,0.2,0,0.2,0.17777778,0,0.13333333,1.5,9,-0.1016,0.5016,FINITE_WELCH_T,NORMAL
+  41: 0x00000000800003be,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK
+  42: 0x00000000800003c0,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  43: 0x00000000800003c2,10,10,0.2,0,0.2,0.17777778,0,0.13333333,1.5,9,-0.1016,0.5016,FINITE_WELCH_T,NORMAL
+  44: 0x00000000800003c4,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK
+  47: 0x00000000800004d2,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  48: 0x00000000800004d4,10,10,0.2,0,0.2,0.17777778,0,0.13333333,1.5,9,-0.1016,0.5016,FINITE_WELCH_T,NORMAL
+  49: 0x00000000800004d6,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK
+  50: 0x00000000800004de,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  51: 0x00000000800004e0,10,10,0.2,0,0.2,0.17777778,0,0.13333333,1.5,9,-0.1016,0.5016,FINITE_WELCH_T,NORMAL
+  52: 0x00000000800004e2,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK
+  ... 202 additional matching lines
+FILE: phase5_svc/person2_corrected_zero_padded.csv (17878 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_corrected_zero_padded.csv
+  1: PC,N_FIXED,N_RANDOM,FIXED_MEAN,RANDOM_MEAN,MEAN_DIFFERENCE_FIXED_MINUS_RANDOM,FIXED_VARIANCE,RANDOM_VARIANCE,STANDARD_ERROR,WELCH_T,WELCH_DF,CI95_LOW_APPROX,CI95_HIGH_APPROX,STATISTIC_STATUS,RISK
+  2: 0x0000000080000010,10,10,1.1,1.1,0,12.1,12.1,1.5556349,0,18,-3.268389,3.268389,FINITE_WELCH_T,NORMAL
+  3: 0x0000000080000014,10,10,1.4,1.4,0,19.6,19.6,1.979899,0,18,-4.1597678,4.1597678,FINITE_WELCH_T,NORMAL
+  4: 0x000000008000001a,10,10,0.8,0.8,0,6.4,6.4,1.1313708,0,18,-2.3770102,2.3770102,FINITE_WELCH_T,NORMAL
+  5: 0x0000000080000040,10,10,19.2,19.3,-0.1,3686.4,3724.9,27.223703,-0.0036732696,17.999514,-57.542013,57.342013,FINITE_WELCH_T,NORMAL
+  6: 0x0000000080000060,10,10,0.3,0.3,0,0.9,0.9,0.42426407,0,18,-0.89137881,0.89137881,FINITE_WELCH_T,NORMAL
+  7: 0x0000000080000064,10,10,0.5,0.5,0,2.5,2.5,0.70710678,0,18,-1.4856313,1.4856313,FINITE_WELCH_T,NORMAL
+  8: 0x000000008000006c,10,10,0.2,0.2,0,0.4,0.4,0.28284271,0,18,-0.59425254,0.59425254,FINITE_WELCH_T,NORMAL
+  9: 0x000000008000009a,10,10,0.9,0.9,0,8.1,8.1,1.2727922,0,18,-2.6741364,2.6741364,FINITE_WELCH_T,NORMAL
+  10: 0x000000008000009e,10,10,8,8,0,640,640,11.313708,0,18,-23.770102,23.770102,FINITE_WELCH_T,NORMAL
+  11: 0x00000000800000c2,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  12: 0x00000000800000c4,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL
+  13: 0x00000000800000d0,10,10,0.2,0,0.2,0.4,0,0.2,1,9,-0.2524,0.6524,FINITE_WELCH_T,NORMAL
+  14: 0x00000000800000e6,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  15: 0x00000000800000e8,10,10,0,0.3,-0.3,0,0.9,0.3,-1,9,-0.9786,0.3786,FINITE_WELCH_T,NORMAL
+  16: 0x0000000080000102,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL
+  17: 0x000000008000017e,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  18: 0x00000000800001a2,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL
+  19: 0x0000000080000266,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  20: 0x000000008000028a,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL
+  21: 0x00000000800002b2,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  22: 0x00000000800002b8,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  23: 0x00000000800002d6,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL
+  24: 0x00000000800002dc,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL
+  25: 0x00000000800002f6,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  26: 0x000000008000031a,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL
+  27: 0x00000000800003ba,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  28: 0x00000000800003c0,10,10,0.1,0,0.1,0.1,0,0.1,1,9,-0.1262,0.3262,FINITE_WELCH_T,NORMAL
+  29: 0x00000000800003de,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL
+  30: 0x00000000800003e4,10,10,0,0.1,-0.1,0,0.1,0.1,-1,9,-0.3262,0.1262,FINITE_WELCH_T,NORMAL
+  31: 0x0000000080000472,10,10,0.2,0,0.2,0.17777778,0,0.13333333,1.5,9,-0.1016,0.5016,FINITE_WELCH_T,NORMAL
+  32: 0x0000000080000474,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK
+  33: 0x0000000080000482,10,10,0.2,0,0.2,0.17777778,0,0.13333333,1.5,9,-0.1016,0.5016,FINITE_WELCH_T,NORMAL
+  34: 0x0000000080000484,10,10,0.7,0,0.7,0.23333333,0,0.15275252,4.5825757,9,0.35447379,1.0455262,FINITE_WELCH_T,HIGH-RISK
+  35: 0x0000000080000494,10,10,0,0.9,-0.9,0,0.1,0.1,-9,9,-1.1262,-0.6738,FINITE_WELCH_T,HIGH-RISK
+  ... 157 additional matching lines
+FILE: phase5_svc/person2_exact_recompute.py (4951 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_exact_recompute.py
+  22: def welch(x, y):
+  42: mx, my, vx, vy, se, t, status = welch(x, y)
+  48: "STANDARD_ERROR": se, "WELCH_T": t,
+  71: f"Finite Welch t: {sum(r['STATISTIC_STATUS']=='FINITE' for r in recomputed.values())}",
+  100: tfield = "WELCH_T"
+  103: rt = b["WELCH_T"]
+  105: mismatches.append((pc, "WELCH_T", tv, rt))
+  107: mismatches.append((pc, "WELCH_T", tv, "should be undefined"))
+  109: mismatches.append((pc, "WELCH_T", "missing/unreadable", b["WELCH_T"]))
+  123: "Welch t is undefined"
+FILE: phase5_svc/person2_final_audit.py (5634 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_final_audit.py
+  81: keywords = ("LEAKY", "504", "configuration", "baseline", "lookup",
+  82: "branch", "6857", "7114", "7421", "TVLA", "Welch",
+  111: log("Workflow A: broad configuration sweep — earlier reported result: six crypto kernels")
+  112: log("  had zero flagged locations, while the LEAKY positive control was detected.")
+  116: log("  lookup had unequal means but zero variance; branch injection showed a timing difference.")
+  121: log("- Use only finite Welch t-statistics for threshold classification.")
+  123: log("- Check that confidence intervals use an appropriate Welch t critical value for each df.")
+FILE: phase5_svc/person2_final_audit.txt (8290 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_final_audit.txt
+  32: /home/cnc_susindharan/pqc-cache-project/phase5_svc/svs_results.csv: Welch, high-risk
+  33: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_zero_padded.csv: 504, Welch, high-risk
+  34: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_findings_summary.txt: LEAKY, configuration, baseline, lookup, branch, Welch, high-risk, source mapping
+  35: /home/cnc_susindharan/pqc-cache-project/phase5_svc/person2_corrected_full_runs.csv: 504, 7421, Welch, high-risk
+  37: /home/cnc_susindharan/pqc-cache-project/phase6/high_risk_source_mapping.csv: Welch, high-risk
+  73: Workflow A: broad configuration sweep — earlier reported result: six crypto kernels
+  74: had zero flagged locations, while the LEAKY positive control was detected.
+  78: lookup had unequal means but zero variance; branch injection showed a timing difference.
+  83: - Use only finite Welch t-statistics for threshold classification.
+  85: - Check that confidence intervals use an appropriate Welch t critical value for each df.
+FILE: phase5_svc/person2_final_checks.py (8385 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_final_checks.py
+  78: status = "FINITE_WELCH_T"
+  91: "STANDARD_ERROR": se, "WELCH_T": t, "WELCH_DF": df,
+  156: f.write("Welch t-statistic: (fixed mean - random mean) / standard error.\n")
+  159: f.write("as a conventional Welch t-statistic.\n\n")
+  160: f.write("Confidence intervals are approximate 95% Welch intervals using a conservative\n")
+  164: f.write("1. Broad configuration sweep: six crypto kernels reportedly had zero flagged\n")
+  165: f.write("   locations; LEAKY positive control showed detection.\n")
+  170: f.write("   lookup had unequal means with zero variance; branch injection showed a timing\n")
+FILE: phase5_svc/person2_final_elf_mapping.txt (10449 bytes)
+FILE: phase5_svc/person2_final_verification.py (7045 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_final_verification.py
+  50: "**/misses_*.csv", "**/*svs*analysis*.py", "**/*tvla*.py",
+  148: r"LEAKY|504.configuration|100 fixed|100 random|"
+  149: r"Welch|t.statistic|high.risk|trace|ELF|objdump|addr2line",
+FILE: phase5_svc/person2_findings_summary.txt (1686 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_findings_summary.txt
+  8: Welch t-statistic: (fixed mean - random mean) / standard error.
+  11: as a conventional Welch t-statistic.
+  13: Confidence intervals are approximate 95% Welch intervals using a conservative
+  18: 1. Broad configuration sweep: six crypto kernels reportedly had zero flagged
+  19: locations; LEAKY positive control showed detection.
+  24: lookup had unequal means with zero variance; branch injection showed a timing
+FILE: phase5_svc/person2_finish_ci_audit.py (3261 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_finish_ci_audit.py
+  6: source = folder / "person2_full_trace_welch_results.csv"
+  13: # Welch-Satterthwaite df and approximate 95% CI.
+  28: "mean_difference_fixed_minus_random", "welch_se",
+  53: r["welch_se"] = f"{se:.10g}"
+  60: r["welch_se"] = ""
+  74: "Method: Welch standard error and Welch-Satterthwaite degrees of freedom.\n"
+FILE: phase5_svc/person2_independent_stats_check.py (5792 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_independent_stats_check.py
+  86: log(f"Finite Welch statistics: {sum(v[0]=='FINITE' for v in computed.values())}")
+  97: recorded = float(row["WELCH_T"])
+  121: f"t={row['WELCH_T']}, means={row['FIXED_MEAN']}/{row['RANDOM_MEAN']}, "
+  132: log("NOT VERIFIED: at least one Welch statistic or sample count differs from direct recomputation.")
+FILE: phase5_svc/person2_pc_source_mapping.csv (42250 bytes)
+FILE: phase5_svc/person2_rebuild_full_traces.py (4437 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_rebuild_full_traces.py
+  5: SCRIPT = BASE / "phase5_cache_variance.py"
+  32: def welch(a, b):
+  55: stats_path = OUT / "person2_full_trace_welch_results.csv"
+  62: "random_variance", "welch_t", "welch_df", "abs_t_gt_4_5",
+  68: ma, mb, va, vb, t, df = welch(a, b)
+  89: f.write("Method: regenerated per-PC cache misses using phase5_cache_variance.py.\n")
+  94: f.write(f"Finite Welch t-statistics: {len(all_pcs)-undefined}\n")
+  102: f.write("\nOutput CSV: person2_full_trace_welch_results.csv\n")
+FILE: phase5_svc/person2_rebuilt_full/PERSON2_CI_AUDIT.txt (596 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_rebuilt_full/PERSON2_CI_AUDIT.txt
+  3: Input: person2_rebuilt_full/person2_full_trace_welch_results.csv
+  8: Method: Welch standard error and Welch-Satterthwaite degrees of freedom.
+FILE: phase5_svc/person2_rebuilt_full/PERSON2_FULL_TRACE_REBUILD_REPORT.txt (2073 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_rebuilt_full/PERSON2_FULL_TRACE_REBUILD_REPORT.txt
+  7: Method: regenerated per-PC cache misses using phase5_cache_variance.py.
+  13: Finite Welch t-statistics: 277
+  59: Output CSV: person2_full_trace_welch_results.csv
+FILE: phase5_svc/person2_rebuilt_full/person2_full_trace_welch_results.csv (16230 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_rebuilt_full/person2_full_trace_welch_results.csv
+  1: PC,fixed_mean,random_mean,fixed_variance,random_variance,welch_t,welch_df,abs_t_gt_4_5,status
+FILE: phase5_svc/person2_rebuilt_full/person2_full_trace_with_ci.csv (34321 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_rebuilt_full/person2_full_trace_with_ci.csv
+  1: PC,fixed_mean,random_mean,fixed_variance,random_variance,welch_t,welch_df,abs_t_gt_4_5,status,mean_difference_fixed_minus_random,welch_se,ci95_lower_approx,ci95_upper_approx,ci_status
+FILE: phase5_svc/person2_status.txt (363 bytes)
+FILE: phase5_svc/person2_verify_confidence_intervals.py (3503 bytes)
+
+CONTENT MATCHES: phase5_svc/person2_verify_confidence_intervals.py
+  74: df = float(r["WELCH_DF"])
+  83: status = "WELCH_T_95_PERCENT_INTERVAL"
+  103: "PERSON 2 — WELCH CONFIDENCE INTERVAL VERIFICATION",
+  105: f"Approximate intervals differing from recomputed Welch intervals: {len(mismatches)}",
+FILE: phase5_svc/phase5_cache_variance.py (2304 bytes)
+FILE: phase5_svc/phase5_fixed.elf (378992 bytes)
+FILE: phase5_svc/phase5_fixed.o (24920 bytes)
+FILE: phase5_svc/phase5_fixed_1.elf (379024 bytes)
+FILE: phase5_svc/phase5_fixed_1.o (24928 bytes)
+FILE: phase5_svc/phase5_fixed_10.elf (378992 bytes)
+FILE: phase5_svc/phase5_fixed_10.o (24920 bytes)
+FILE: phase5_svc/phase5_fixed_2.elf (379024 bytes)
+FILE: phase5_svc/phase5_fixed_2.o (24928 bytes)
+FILE: phase5_svc/phase5_fixed_3.elf (379024 bytes)
+FILE: phase5_svc/phase5_fixed_3.o (24928 bytes)
+FILE: phase5_svc/phase5_fixed_4.elf (379016 bytes)
+FILE: phase5_svc/phase5_fixed_4.o (24920 bytes)
+FILE: phase5_svc/phase5_fixed_5.elf (379024 bytes)
+FILE: phase5_svc/phase5_fixed_5.o (24928 bytes)
+FILE: phase5_svc/phase5_fixed_6.elf (379024 bytes)
+FILE: phase5_svc/phase5_fixed_6.o (24928 bytes)
+FILE: phase5_svc/phase5_fixed_7.elf (379016 bytes)
+FILE: phase5_svc/phase5_fixed_7.o (24920 bytes)
+FILE: phase5_svc/phase5_fixed_8.elf (379016 bytes)
+FILE: phase5_svc/phase5_fixed_8.o (24920 bytes)
+FILE: phase5_svc/phase5_fixed_9.elf (379016 bytes)
+FILE: phase5_svc/phase5_fixed_9.o (24920 bytes)
+FILE: phase5_svc/phase5_mlkem_harness.c (2298 bytes)
+FILE: phase5_svc/phase5_random.elf (379008 bytes)
+FILE: phase5_svc/phase5_random.o (24368 bytes)
+FILE: phase5_svc/phase5_random_1.elf (379008 bytes)
+FILE: phase5_svc/phase5_random_1.o (24368 bytes)
+FILE: phase5_svc/phase5_random_10.elf (379008 bytes)
+FILE: phase5_svc/phase5_random_10.o (24368 bytes)
+FILE: phase5_svc/phase5_random_2.elf (379008 bytes)
+FILE: phase5_svc/phase5_random_2.o (24368 bytes)
+FILE: phase5_svc/phase5_random_3.elf (379008 bytes)
+FILE: phase5_svc/phase5_random_3.o (24368 bytes)
+FILE: phase5_svc/phase5_random_4.elf (379008 bytes)
+FILE: phase5_svc/phase5_random_4.o (24368 bytes)
+FILE: phase5_svc/phase5_random_5.elf (379008 bytes)
+FILE: phase5_svc/phase5_random_5.o (24368 bytes)
+FILE: phase5_svc/phase5_random_6.elf (379008 bytes)
+FILE: phase5_svc/phase5_random_6.o (24368 bytes)
+FILE: phase5_svc/phase5_random_7.elf (379008 bytes)
+FILE: phase5_svc/phase5_random_7.o (24368 bytes)
+FILE: phase5_svc/phase5_random_8.elf (379008 bytes)
+FILE: phase5_svc/phase5_random_8.o (24368 bytes)
+FILE: phase5_svc/phase5_random_9.elf (379008 bytes)
+FILE: phase5_svc/phase5_random_9.o (24368 bytes)
+FILE: phase5_svc/phase5_random_full_01.elf (379008 bytes)
+FILE: phase5_svc/phase5_random_full_01.o (24368 bytes)
+FILE: phase5_svc/phase5_test_fixed.elf (379024 bytes)
+FILE: phase5_svc/phase5_test_fixed.o (24928 bytes)
+FILE: phase5_svc/phase5_test_random.elf (379008 bytes)
+FILE: phase5_svc/phase5_test_random.o (24368 bytes)
+FILE: phase5_svc/phase5_test_random18.elf (379008 bytes)
+FILE: phase5_svc/phase5_test_random18.o (24368 bytes)
+
+CONTENT MATCHES: phase5_svc/svs_analysis.py
+  94: "WELCH_T",
+
+CONTENT MATCHES: phase5_svc/svs_results.csv
+  1: PC,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,DEGREES_OF_FREEDOM,SVS,RISK
+
+CONTENT MATCHES: phase6/high_risk_source_mapping.csv
+  1: PC,FUNCTION,SOURCE_LOCATION,FIXED_MEAN_MISSES,RANDOM_MEAN_MISSES,FIXED_VARIANCE,RANDOM_VARIANCE,WELCH_T,SVS,RISK
+
+CONTENT MATCHES: phase6/phase6_plots.py
+  109: plt.ylabel("SVS = |Welch t|")
+  126: plt.xlabel("SVS = |Welch t|")
+
+Total file/content match entries: 1189
+
+NOTE: Discovery is not proof that an experiment ran. Preserve logs, parameters,
+and output files before attempting any rerun.

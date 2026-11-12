@@ -1,0 +1,60 @@
+PERSON 2 — FULL TRACE REBUILD REPORT
+====================================
+Original traces and miss CSVs were not overwritten.
+Inputs: runs/fixed/trace_1.csv through trace_10.csv and
+        runs/random/trace_1.csv through trace_10.csv
+
+Method: regenerated per-PC cache misses using phase5_cache_variance.py.
+Seeds are newly assigned deterministic seeds, not recovered historical seeds.
+Therefore this is a reproducible reconstruction, not proof of original-run identity.
+Missing PCs in a generated miss CSV are treated as zero misses.
+
+PCs in union: 317
+Finite Welch t-statistics: 277
+Undefined statistics: 40
+Finite |t| > 4.5: 100
+
+Generated seeds and cache simulator outputs:
+fixed run 01: seed=10001
+fixed run 02: seed=10002
+fixed run 03: seed=10003
+fixed run 04: seed=10004
+fixed run 05: seed=10005
+fixed run 06: seed=10006
+fixed run 07: seed=10007
+fixed run 08: seed=10008
+fixed run 09: seed=10009
+fixed run 10: seed=10010
+random run 01: seed=20001
+random run 02: seed=20002
+random run 03: seed=20003
+random run 04: seed=20004
+random run 05: seed=20005
+random run 06: seed=20006
+random run 07: seed=20007
+random run 08: seed=20008
+random run 09: seed=20009
+random run 10: seed=20010
+fixed run 01: Hits=834221 Misses=1485
+fixed run 02: Hits=834287 Misses=1491
+fixed run 03: Hits=834462 Misses=1478
+fixed run 04: Hits=834455 Misses=1467
+fixed run 05: Hits=834443 Misses=1479
+fixed run 06: Hits=834327 Misses=1460
+fixed run 07: Hits=834290 Misses=1479
+fixed run 08: Hits=834408 Misses=1487
+fixed run 09: Hits=834348 Misses=1475
+fixed run 10: Hits=834280 Misses=1489
+random run 01: Hits=834360 Misses=1484
+random run 02: Hits=834365 Misses=1479
+random run 03: Hits=834251 Misses=1476
+random run 04: Hits=834260 Misses=1485
+random run 05: Hits=834186 Misses=1487
+random run 06: Hits=834277 Misses=1477
+random run 07: Hits=834315 Misses=1484
+random run 08: Hits=834368 Misses=1485
+random run 09: Hits=834378 Misses=1484
+random run 10: Hits=834187 Misses=1486
+
+Output CSV: person2_full_trace_welch_results.csv
+Per-run reconstructed miss files are stored in this directory.

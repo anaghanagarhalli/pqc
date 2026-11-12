@@ -1,0 +1,1823 @@
+{
+  "project_root": "/home/cnc_susindharan/pqc-cache-project",
+  "candidate_files": [
+    "phase5_svc/PERSON2_ALL_IN_ONE_FINAL_AUDIT.txt",
+    "phase5_svc/PERSON2_ALL_IN_ONE_FINAL_STATUS.txt",
+    "phase5_svc/PERSON2_C5_C9_FINAL_RECOVERY.txt",
+    "phase5_svc/PERSON2_C5_C9_PROVENANCE_INVESTIGATION.txt",
+    "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+    "phase5_svc/PERSON2_C5_RERUN_READINESS.txt",
+    "phase5_svc/PERSON2_CI_VERIFICATION.txt",
+    "phase5_svc/PERSON2_EXACT_RECOMPUTE.txt",
+    "phase5_svc/PERSON2_FINAL_AUDIT.txt",
+    "phase5_svc/PERSON2_FINAL_COMPLETION_STATUS.txt",
+    "phase5_svc/PERSON2_FINAL_DIAGNOSTIC.txt",
+    "phase5_svc/PERSON2_FINAL_HANDOFF.txt",
+    "phase5_svc/PERSON2_FINAL_HANDOFF_RUNLOG.txt",
+    "phase5_svc/PERSON2_FINAL_STATUS.txt",
+    "phase5_svc/PERSON2_FULL_TRACE_RECONSTRUCTION_AUDIT.txt",
+    "phase5_svc/PERSON2_INDEPENDENT_STATS_CHECK.txt",
+    "phase5_svc/PERSON2_INPUT_ORIGIN_CHECK.txt",
+    "phase5_svc/PERSON2_NEXT_ACTION_REPORT.txt",
+    "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+    "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+    "phase5_svc/PERSON2_TRACE_ELF_PROVENANCE_AUDIT.txt",
+    "phase5_svc/PERSON2_VERIFICATION_AUDIT.txt",
+    "phase5_svc/fips202.c",
+    "phase5_svc/fips202.h",
+    "phase5_svc/mlkem_config.h",
+    "phase5_svc/person2_C5_C9_final_audit.txt",
+    "phase5_svc/person2_C5_C9_provenance_check.txt",
+    "phase5_svc/person2_completion_report.txt",
+    "phase5_svc/person2_exact_recompute.py",
+    "phase5_svc/person2_final_audit.py",
+    "phase5_svc/person2_final_audit.txt",
+    "phase5_svc/person2_final_checks.py",
+    "phase5_svc/person2_final_elf_mapping.txt",
+    "phase5_svc/person2_final_verification.py",
+    "phase5_svc/person2_findings_summary.txt",
+    "phase5_svc/person2_finish_ci_audit.py",
+    "phase5_svc/person2_independent_stats_check.py",
+    "phase5_svc/person2_rebuild_full_traces.py",
+    "phase5_svc/person2_rebuilt_full/PERSON2_CI_AUDIT.txt",
+    "phase5_svc/person2_rebuilt_full/PERSON2_FULL_TRACE_REBUILD_REPORT.txt",
+    "phase5_svc/person2_status.txt",
+    "phase5_svc/person2_verify_confidence_intervals.py",
+    "phase5_svc/phase5_cache_variance.py",
+    "phase5_svc/phase5_mlkem_harness.c",
+    "phase5_svc/randombytes.c",
+    "phase5_svc/runs/fixed/cache_01.txt",
+    "phase5_svc/runs/fixed/cache_02.txt",
+    "phase5_svc/runs/fixed/cache_03.txt",
+    "phase5_svc/runs/fixed/cache_04.txt",
+    "phase5_svc/runs/fixed/cache_05.txt",
+    "phase5_svc/runs/fixed/cache_06.txt",
+    "phase5_svc/runs/fixed/cache_07.txt",
+    "phase5_svc/runs/fixed/cache_08.txt",
+    "phase5_svc/runs/fixed/cache_09.txt",
+    "phase5_svc/runs/fixed/cache_10.txt",
+    "phase5_svc/runs/random/cache_01.txt",
+    "phase5_svc/runs/random/cache_02.txt",
+    "phase5_svc/runs/random/cache_03.txt",
+    "phase5_svc/runs/random/cache_04.txt",
+    "phase5_svc/runs/random/cache_05.txt",
+    "phase5_svc/runs/random/cache_06.txt",
+    "phase5_svc/runs/random/cache_07.txt",
+    "phase5_svc/runs/random/cache_08.txt",
+    "phase5_svc/runs/random/cache_09.txt",
+    "phase5_svc/runs/random/cache_10.txt",
+    "phase5_svc/string.h",
+    "phase5_svc/svs_analysis.py",
+    "phase5_svc/test_oqs_include.c",
+    "phase6/venv/lib/python3.12/site-packages/fontTools/cu2qu/benchmark.py",
+    "phase6/venv/lib/python3.12/site-packages/fontTools/qu2cu/benchmark.py",
+    "phase6/venv/lib/python3.12/site-packages/packaging/_elffile.py",
+    "phase6/venv/lib/python3.12/site-packages/pip/_internal/self_outdated_check.py",
+    "phase6/venv/lib/python3.12/site-packages/pip/_vendor/rich/traceback.py",
+    "workloads/mldsa44_ntt/mldsa44_ntt_harness.c",
+    "workloads/mlkem512_ntt/mlkem512_ntt_harness.c"
+  ],
+  "build_and_experiment_hints": [
+    {
+      "file": "phase5_svc/PERSON2_ALL_IN_ONE_FINAL_AUDIT.txt",
+      "line": 123,
+      "text": "/usr/bin/python3"
+    },
+    {
+      "file": "phase5_svc/PERSON2_FINAL_HANDOFF_RUNLOG.txt",
+      "line": 81,
+      "text": "C5: NOT VERIFIED unless primary execution logs for the broad configuration sweep and timing-injection tests are recovered."
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_FINAL_RECOVERY.txt",
+      "line": 10,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase5_svc/../phase6/venv/lib/python3.12/site-packages/fontTools/cu2qu/__pycache__/benchmark.cpython-312.pyc | 2780 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_FINAL_RECOVERY.txt",
+      "line": 11,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase5_svc/../phase6/venv/lib/python3.12/site-packages/fontTools/cu2qu/benchmark.py | 1296 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_FINAL_RECOVERY.txt",
+      "line": 12,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase5_svc/../phase6/venv/lib/python3.12/site-packages/fontTools/qu2cu/__pycache__/benchmark.cpython-312.pyc | 2922 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_FINAL_RECOVERY.txt",
+      "line": 13,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase5_svc/../phase6/venv/lib/python3.12/site-packages/fontTools/qu2cu/benchmark.py | 1400 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_FINAL_RECOVERY.txt",
+      "line": 151,
+      "text": "python3: /usr/bin/python3"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_FINAL_RECOVERY.txt",
+      "line": 152,
+      "text": "make: /usr/bin/make"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_FINAL_RECOVERY.txt",
+      "line": 158,
+      "text": "phase6/venv/lib/python3.12/site-packages/fontTools/cu2qu/benchmark.py (1296 bytes)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_FINAL_RECOVERY.txt",
+      "line": 159,
+      "text": "phase6/venv/lib/python3.12/site-packages/fontTools/qu2cu/benchmark.py (1400 bytes)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_RERUN_READINESS.txt",
+      "line": 8,
+      "text": "1: #!/usr/bin/env python3"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_RERUN_READINESS.txt",
+      "line": 124,
+      "text": "186: for cmd in [\"python3\", \"riscv64-unknown-elf-objdump\","
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_RERUN_READINESS.txt",
+      "line": 139,
+      "text": "not reproduce the separate broad configuration sweep or timing-injection tests."
+    },
+    {
+      "file": "phase5_svc/PERSON2_TRACE_ELF_PROVENANCE_AUDIT.txt",
+      "line": 101,
+      "text": "#!/usr/bin/env python3"
+    },
+    {
+      "file": "phase5_svc/PERSON2_TRACE_ELF_PROVENANCE_AUDIT.txt",
+      "line": 354,
+      "text": "1. Broad configuration sweep."
+    },
+    {
+      "file": "phase5_svc/PERSON2_TRACE_ELF_PROVENANCE_AUDIT.txt",
+      "line": 358,
+      "text": "The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.py",
+      "line": 82,
+      "text": "\"branch\", \"6857\", \"7114\", \"7421\", \"TVLA\", \"Welch\","
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.py",
+      "line": 111,
+      "text": "log(\"Workflow A: broad configuration sweep \u2014 earlier reported result: six crypto kernels\")"
+    },
+    {
+      "file": "phase5_svc/phase5_cache_variance.py",
+      "line": 1,
+      "text": "#!/usr/bin/env python3"
+    },
+    {
+      "file": "phase5_svc/PERSON2_FULL_TRACE_RECONSTRUCTION_AUDIT.txt",
+      "line": 308,
+      "text": "186: for cmd in [\"python3\", \"riscv64-unknown-elf-objdump\","
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 38,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Stocks.csv: 504, 6857, 7114, 7421"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 39,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/msft.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 40,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy-2.5.2.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 41,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/sfc64-testset-1.csv: 504, 7114"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 42,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64-testset-2.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 43,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/sfc64-testset-2.csv: 504, 6857, 7421"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 44,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/mt19937-testset-2.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 45,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/mt19937-testset-1.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 46,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64dxsm-testset-2.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 47,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/philox-testset-1.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 48,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64dxsm-testset-1.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 49,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/philox-testset-2.csv: 504, 7114"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 50,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64-testset-1.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 51,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arctan.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 52,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-tanh.csv: 504, 7421"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 53,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-sin.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 54,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-tan.csv: 504, 7114, 7421"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 55,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arctanh.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 56,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-exp2.csv: 504, 7421"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 57,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arccosh.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 58,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arcsin.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 59,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-cbrt.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 60,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-log10.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 61,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-sinh.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 62,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-log2.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 63,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-cos.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 64,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-exp.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 65,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-expm1.csv: 504, 6857"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 66,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arcsinh.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 67,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-cosh.csv: 6857"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 68,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arccos.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 69,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-log.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 70,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-log1p.csv: 504, 7421"
+    },
+    {
+      "file": "phase5_svc/person2_final_audit.txt",
+      "line": 73,
+      "text": "Workflow A: broad configuration sweep \u2014 earlier reported result: six crypto kernels"
+    },
+    {
+      "file": "phase5_svc/PERSON2_FINAL_DIAGNOSTIC.txt",
+      "line": 180,
+      "text": "10:The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated resu"
+    },
+    {
+      "file": "phase5_svc/person2_findings_summary.txt",
+      "line": 18,
+      "text": "1. Broad configuration sweep: six crypto kernels reportedly had zero flagged"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 137,
+      "text": "6: 1. Broad configuration sweep."
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 140,
+      "text": "10: The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated res"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 326,
+      "text": "27: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Stocks.csv: 504, 6857, 7114, 7421"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 332,
+      "text": "45: 1. Broad configuration sweep: six crypto kernels reportedly had zero flagged"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 339,
+      "text": "56: Workflow A \u2014 Broad configuration sweep: prior summary reports no flagged locations for six crypto kernels and detection in the LEAKY positive control."
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 382,
+      "text": "23: Workflow A \u2014 Broad configuration sweep: prior summary reports no flagged locations for six crypto kernels and detection in the LEAKY positive control."
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 387,
+      "text": "53: 1. Broad configuration sweep: six crypto kernels reportedly had zero flagged"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 445,
+      "text": "111: log(\"Workflow A: broad configuration sweep \u2014 earlier reported result: six crypto kernels\")"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 470,
+      "text": "38: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Stocks.csv: 504, 6857, 7114, 7421"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 471,
+      "text": "39: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/msft.csv: 504"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 472,
+      "text": "40: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy-2.5.2.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md: 504"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 473,
+      "text": "41: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/sfc64-testset-1.csv: 504, 7114"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 474,
+      "text": "42: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64-testset-2.csv: 504"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 475,
+      "text": "43: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/sfc64-testset-2.csv: 504, 6857, 7421"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 476,
+      "text": "44: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/mt19937-testset-2.csv: 504"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 477,
+      "text": "45: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/mt19937-testset-1.csv: 504"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 478,
+      "text": "46: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64dxsm-testset-2.csv: 504"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 479,
+      "text": "47: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/philox-testset-1.csv: 504"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 480,
+      "text": "48: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64dxsm-testset-1.csv: 504"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 481,
+      "text": "49: /home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/philox-testset-2.csv: 504, 7114"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 514,
+      "text": "164: f.write(\"1. Broad configuration sweep: six crypto kernels reportedly had zero flagged\\n\")"
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 551,
+      "text": "50: \"**/misses_*.csv\", \"**/*svs*analysis*.py\", \"**/*tvla*.py\","
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 561,
+      "text": "186: for cmd in [\"python3\", \"riscv64-unknown-elf-objdump\","
+    },
+    {
+      "file": "phase5_svc/PERSON2_C5_C9_SCRIPT_SEARCH.txt",
+      "line": 568,
+      "text": "18: 1. Broad configuration sweep: six crypto kernels reportedly had zero flagged"
+    },
+    {
+      "file": "phase5_svc/PERSON2_FINAL_STATUS.txt",
+      "line": 9,
+      "text": "C5 \u2014 Configuration sweep and timing injection:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_FINAL_HANDOFF.txt",
+      "line": 25,
+      "text": "C5: NOT VERIFIED \u2014 primary logs for the claimed broad sweep and timing-injection execution have not been established by the available audit."
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 144,
+      "text": "phase6/venv/lib/python3.12/site-packages/fontTools/cu2qu/benchmark.py | 1296 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 145,
+      "text": "phase6/venv/lib/python3.12/site-packages/fontTools/qu2cu/benchmark.py | 1400 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 146,
+      "text": "phase6/venv/lib/python3.12/site-packages/fontTools/ttLib/tables/table_API_readme.txt | 2748 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 147,
+      "text": "phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/readme.txt | 828 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 148,
+      "text": "phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/README.txt | 128 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 149,
+      "text": "phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-README.txt | 967 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 150,
+      "text": "phase6/venv/lib/python3.12/site-packages/numpy/typing/tests/test_runtime.py | 3114 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 151,
+      "text": "phase6/venv/lib/python3.12/site-packages/packaging/_elffile.py | 3236 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 152,
+      "text": "phase6/venv/lib/python3.12/site-packages/pandas/tests/frame/methods/test_truncate.py | 5216 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 153,
+      "text": "phase6/venv/lib/python3.12/site-packages/pandas/tests/series/methods/test_truncate.py | 2307 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 154,
+      "text": "phase6/venv/lib/python3.12/site-packages/pip/__pip-runner__.py | 1444 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 155,
+      "text": "phase6/venv/lib/python3.12/site-packages/pip/_internal/cache.py | 10370 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 156,
+      "text": "phase6/venv/lib/python3.12/site-packages/pip/_internal/commands/cache.py | 7944 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 157,
+      "text": "phase6/venv/lib/python3.12/site-packages/pip/_internal/network/cache.py | 3935 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 158,
+      "text": "phase6/venv/lib/python3.12/site-packages/pip/_internal/self_outdated_check.py | 8378 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 159,
+      "text": "phase6/venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/cache.py | 1952 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 160,
+      "text": "phase6/venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py | 5352 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 161,
+      "text": "phase6/venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py | 1386 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 162,
+      "text": "phase6/venv/lib/python3.12/site-packages/pip/_vendor/rich/traceback.py | 29604 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 163,
+      "text": "phase6/venv/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py | 1417 bytes"
+    },
+    {
+      "file": "phase5_svc/PERSON2_REMAINING_WORK_PLAN.txt",
+      "line": 167,
+      "text": "P2 \u2014 C5: Locate the actual configuration-sweep and timing-injection runners, then execute them only after confirming their usage and dependencies."
+    },
+    {
+      "file": "phase5_svc/PERSON2_INPUT_ORIGIN_CHECK.txt",
+      "line": 95,
+      "text": "164:     f.write(\"1. Broad configuration sweep: six crypto kernels reportedly had zero flagged\\n\")"
+    },
+    {
+      "file": "phase5_svc/PERSON2_INPUT_ORIGIN_CHECK.txt",
+      "line": 128,
+      "text": "82:             \"branch\", \"6857\", \"7114\", \"7421\", \"TVLA\", \"Welch\","
+    },
+    {
+      "file": "phase5_svc/PERSON2_NEXT_ACTION_REPORT.txt",
+      "line": 39,
+      "text": "82: \"branch\", \"6857\", \"7114\", \"7421\", \"TVLA\", \"Welch\","
+    },
+    {
+      "file": "phase5_svc/PERSON2_NEXT_ACTION_REPORT.txt",
+      "line": 40,
+      "text": "111: log(\"Workflow A: broad configuration sweep \u2014 earlier reported result: six crypto kernels\")"
+    },
+    {
+      "file": "phase5_svc/PERSON2_NEXT_ACTION_REPORT.txt",
+      "line": 66,
+      "text": "50: \"**/misses_*.csv\", \"**/*svs*analysis*.py\", \"**/*tvla*.py\","
+    },
+    {
+      "file": "phase5_svc/PERSON2_NEXT_ACTION_REPORT.txt",
+      "line": 75,
+      "text": "186: for cmd in [\"python3\", \"riscv64-unknown-elf-objdump\","
+    },
+    {
+      "file": "phase5_svc/PERSON2_VERIFICATION_AUDIT.txt",
+      "line": 515,
+      "text": "L9: riscv64-unknown-elf-gcc --version"
+    },
+    {
+      "file": "phase5_svc/PERSON2_VERIFICATION_AUDIT.txt",
+      "line": 516,
+      "text": "L33: riscv64-unknown-elf-gcc -O2 -g ..."
+    },
+    {
+      "file": "phase5_svc/PERSON2_VERIFICATION_AUDIT.txt",
+      "line": 680,
+      "text": "python3: /usr/bin/python3"
+    },
+    {
+      "file": "phase5_svc/PERSON2_VERIFICATION_AUDIT.txt",
+      "line": 693,
+      "text": "1. Broad configuration sweep."
+    },
+    {
+      "file": "phase5_svc/PERSON2_VERIFICATION_AUDIT.txt",
+      "line": 697,
+      "text": "The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results"
+    },
+    {
+      "file": "phase5_svc/PERSON2_VERIFICATION_AUDIT.txt",
+      "line": 730,
+      "text": "1. Broad configuration sweep."
+    },
+    {
+      "file": "phase5_svc/PERSON2_VERIFICATION_AUDIT.txt",
+      "line": 734,
+      "text": "The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results"
+    },
+    {
+      "file": "phase5_svc/person2_final_verification.py",
+      "line": 50,
+      "text": "\"**/misses_*.csv\", \"**/*svs*analysis*.py\", \"**/*tvla*.py\","
+    },
+    {
+      "file": "phase5_svc/person2_final_verification.py",
+      "line": 186,
+      "text": "for cmd in [\"python3\", \"riscv64-unknown-elf-objdump\","
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 23,
+      "text": "Workflow A \u2014 Broad configuration sweep: prior summary reports no flagged locations for six crypto kernels and detection in the LEAKY positive control."
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 53,
+      "text": "1. Broad configuration sweep: six crypto kernels reportedly had zero flagged"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 105,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Stocks.csv: 504, 6857, 7114, 7421"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 106,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/msft.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 107,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy-2.5.2.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 108,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/sfc64-testset-1.csv: 504, 7114"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 109,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64-testset-2.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 110,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/sfc64-testset-2.csv: 504, 6857, 7421"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 111,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/mt19937-testset-2.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 112,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/mt19937-testset-1.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 113,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64dxsm-testset-2.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 114,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/philox-testset-1.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 115,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64dxsm-testset-1.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 116,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/philox-testset-2.csv: 504, 7114"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 117,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/random/tests/data/pcg64-testset-1.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 118,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arctan.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 119,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-tanh.csv: 504, 7421"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 120,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-sin.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 121,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-tan.csv: 504, 7114, 7421"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 122,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arctanh.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 123,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-exp2.csv: 504, 7421"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 124,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arccosh.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 125,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arcsin.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 126,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-cbrt.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 127,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-log10.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 128,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-sinh.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 129,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-log2.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 130,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-cos.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 131,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-exp.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 132,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-expm1.csv: 504, 6857"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 133,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arcsinh.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 134,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-cosh.csv: 6857"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 135,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-arccos.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 136,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-log.csv: 504"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 137,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-log1p.csv: 504, 7421"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 140,
+      "text": "Workflow A: broad configuration sweep \u2014 earlier reported result: six crypto kernels"
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 176,
+      "text": "1. Broad configuration sweep."
+    },
+    {
+      "file": "phase5_svc/person2_completion_report.txt",
+      "line": 180,
+      "text": "The provenance search found no separate original configuration-sweep or timing-experiment logs in the searched project locations. Their reported results must be described as previously reported results, not independently revalidated results"
+    },
+    {
+      "file": "phase5_svc/svs_analysis.py",
+      "line": 1,
+      "text": "#!/usr/bin/env python3"
+    },
+    {
+      "file": "phase5_svc/person2_C5_C9_final_audit.txt",
+      "line": 27,
+      "text": "/home/cnc_susindharan/pqc-cache-project/phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Stocks.csv: 504, 6857, 7114, 7421"
+    },
+    {
+      "file": "phase5_svc/person2_C5_C9_final_audit.txt",
+      "line": 45,
+      "text": "1. Broad configuration sweep: six crypto kernels reportedly had zero flagged"
+    },
+    {
+      "file": "phase5_svc/person2_C5_C9_final_audit.txt",
+      "line": 56,
+      "text": "Workflow A \u2014 Broad configuration sweep: prior summary reports no flagged locations for six crypto kernels and detection in the LEAKY positive control."
+    },
+    {
+      "file": "phase5_svc/person2_C5_C9_final_audit.txt",
+      "line": 85,
+      "text": "The three workflows are kept separate: configuration sweep, per-PC cache-miss analysis, and independent timing experiment."
+    },
+    {
+      "file": "phase5_svc/person2_final_checks.py",
+      "line": 1,
+      "text": "#!/usr/bin/env python3"
+    },
+    {
+      "file": "phase5_svc/person2_final_checks.py",
+      "line": 164,
+      "text": "f.write(\"1. Broad configuration sweep: six crypto kernels reportedly had zero flagged\\n\")"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 57,
+      "text": "../liboqs/.CMake/CMakeDependentOption.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 58,
+      "text": "../liboqs/.CMake/alg_support.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 59,
+      "text": "../liboqs/.CMake/apple.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 60,
+      "text": "../liboqs/.CMake/compiler_opts.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 61,
+      "text": "../liboqs/.CMake/gcc_clang_intrinsics.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 62,
+      "text": "../liboqs/.CMake/toolchain_arm64.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 63,
+      "text": "../liboqs/.CMake/toolchain_armhf.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 64,
+      "text": "../liboqs/.CMake/toolchain_rasppi.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 65,
+      "text": "../liboqs/.CMake/toolchain_windows-amd64.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 66,
+      "text": "../liboqs/.CMake/toolchain_windows_amd64.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 67,
+      "text": "../liboqs/.CMake/toolchain_windows_arm64.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 68,
+      "text": "../liboqs/.CMake/toolchain_windows_x86.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 69,
+      "text": "../liboqs/.CMake/toolchain_x86.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 96,
+      "text": "../liboqs/build/CMakeFiles/3.28.3/CMakeASMCompiler.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 97,
+      "text": "../liboqs/build/CMakeFiles/3.28.3/CMakeCCompiler.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 98,
+      "text": "../liboqs/build/CMakeFiles/3.28.3/CMakeSystem.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 100,
+      "text": "../liboqs/build/CPackConfig.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 101,
+      "text": "../liboqs/build/CPackSourceConfig.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 102,
+      "text": "../liboqs/build/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 103,
+      "text": "../liboqs/build/cmake_uninstall.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 105,
+      "text": "../liboqs/build/src/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 106,
+      "text": "../liboqs/build/src/common/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 107,
+      "text": "../liboqs/build/src/kem/bike/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 108,
+      "text": "../liboqs/build/src/kem/classic_mceliece/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 109,
+      "text": "../liboqs/build/src/kem/frodokem/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 110,
+      "text": "../liboqs/build/src/kem/hqc/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 111,
+      "text": "../liboqs/build/src/kem/kyber/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 112,
+      "text": "../liboqs/build/src/kem/ml_kem/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 113,
+      "text": "../liboqs/build/src/kem/ntru/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 114,
+      "text": "../liboqs/build/src/kem/ntruprime/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 115,
+      "text": "../liboqs/build/src/liboqsConfig.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 116,
+      "text": "../liboqs/build/src/liboqsConfigVersion.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 117,
+      "text": "../liboqs/build/src/liboqsTargets.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 118,
+      "text": "../liboqs/build/src/sig/cross/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 119,
+      "text": "../liboqs/build/src/sig/falcon/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 120,
+      "text": "../liboqs/build/src/sig/mayo/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 121,
+      "text": "../liboqs/build/src/sig/ml_dsa/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 122,
+      "text": "../liboqs/build/src/sig/mqom/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 123,
+      "text": "../liboqs/build/src/sig/slh_dsa/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 124,
+      "text": "../liboqs/build/src/sig/snova/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 125,
+      "text": "../liboqs/build/src/sig/uov/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 126,
+      "text": "../liboqs/build/tests/cmake_install.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 170,
+      "text": "../liboqs/src/oqsconfig.h.cmake"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 213,
+      "text": "../phase6/venv/lib/python3.12/site-packages/pylab.py"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 214,
+      "text": "../phase6/venv/lib/python3.12/site-packages/six.py"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 226,
+      "text": "../phase4_cache/cache_simulator.py:271:        help=\"Path to Spike CSV trace file\","
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 233,
+      "text": "../phase5_svc/person2_final_audit.py:82:            \"branch\", \"6857\", \"7114\", \"7421\", \"TVLA\", \"Welch\","
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 263,
+      "text": "../phase5_svc/person2_final_verification.py:50:    \"**/misses_*.csv\", \"**/*svs*analysis*.py\", \"**/*tvla*.py\","
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 348,
+      "text": "../liboqs/tests/test_hash.py:24:@pytest.mark.parametrize('algname', ['sha256', 'sha384', 'sha512', 'sha3_256', 'sha3_384', 'sha3_512'])"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 358,
+      "text": "../liboqs/tests/helpers.py:257:        run_subprocess([\"qemu-\"+platform+\"-static\", \"-cpu\", mincpu, path_to_executable('test_kem')], ignore_returncode=True)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 360,
+      "text": "../liboqs/tests/helpers.py:260:    return pytest.mark.skipif(no_qemu,"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 361,
+      "text": "../liboqs/tests/helpers.py:261:                reason='Test requires qemu-{}-static -cpu {}'.format(platform, mincpu))"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 362,
+      "text": "../liboqs/tests/test_distbuild.py:8:# TODO: We shouldn't use platform.machine() to select the qemu binary directly,"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 364,
+      "text": "../liboqs/tests/test_distbuild.py:26:    helpers.run_subprocess([\"qemu-\"+platform.machine()+\"-static\", \"-cpu\", MINCPU,"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 366,
+      "text": "../liboqs/tests/test_distbuild.py:37:    helpers.run_subprocess([\"qemu-\"+platform.machine()+\"-static\", \"-cpu\", MINCPU,"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 391,
+      "text": "../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:74:        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fo"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 392,
+      "text": "../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:109:        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,f"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 393,
+      "text": "../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:116:         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 396,
+      "text": "../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:160:        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c "
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 397,
+      "text": "../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:195:        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c "
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 398,
+      "text": "../liboqs/build/CMakeFiles/CMakeConfigureLog.yaml:202:        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrap"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 410,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:71:        Method to take an exception and translate the Python internal traceback into a list"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 411,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:78:        - depth (default=16) - number of levels back in the stack trace to list expression"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 412,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:79:          and function names; if None, the full stack trace names will be listed; if 0, only"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 413,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:83:        exception's stack trace."
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 414,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:96:        if depth <= 0 or exc.__traceback__ is None:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 415,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:99:        callers = inspect.getinnerframes(exc.__traceback__, context=depth)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 416,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:251:        Method to translate the Python internal traceback into a list"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 417,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:256:        - depth (default=16) - number of levels back in the stack trace to list expression"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 418,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:257:          and function names; if None, the full stack trace names will be listed; if 0, only"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 419,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:261:        exception's stack trace."
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 420,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:288:        Note: pyparsing's default truncation of exception tracebacks may also truncate the"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 421,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:290:        of parser expressions, you may have to set ``ParserElement.verbose_stacktrace = True``"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 422,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:350:        self.parseElementTrace = parseElementList"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 423,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/exceptions.py:353:        return f\"RecursiveGrammarException: {self.parseElementTrace}\""
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 424,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/tools/cvt_pyparsing_pep8_names.py:23:traceParseAction transformString tryParse unicodeString upcaseTokens withAttribute withClass"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 425,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:28:import traceback"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 426,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:260:_trim_arity_call_line: traceback.StackSummary = None  # type: ignore[assignment]"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 427,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:274:    # synthesize what would be returned by traceback.extract_stack at the call to"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 428,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:281:    _trim_arity_call_line = _trim_arity_call_line or traceback.extract_stack(limit=2)[-1]"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 429,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:298:                    tb = te.__traceback__"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 430,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:299:                    frames = traceback.extract_tb(tb, limit=2)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 431,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:316:                ).with_traceback(None)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 432,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:401:    verbose_stacktrace: bool = False"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 433,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:786:            Traceback (most recent call last):"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 434,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:843:            Traceback (most recent call last):"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 435,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1096:                    # cache a copy of the exception, without the traceback"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 436,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1319:            Traceback (most recent call last):"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 437,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1342:            if ParserElement.verbose_stacktrace:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 438,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1345:            # catch and re-raise exception from here, clearing out pyparsing internal stack trace"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 439,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1346:            raise exc.with_traceback(None)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 440,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1448:            if ParserElement.verbose_stacktrace:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 441,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1451:            # catch and re-raise exception from here, clears out pyparsing internal stack trace"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 442,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1452:            raise exc.with_traceback(None)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 443,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1507:            if ParserElement.verbose_stacktrace:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 444,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1510:            # catch and re-raise exception from here, clears out pyparsing internal stack trace"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 445,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1511:            raise exc.with_traceback(None)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 446,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1566:            if ParserElement.verbose_stacktrace:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 447,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1569:            # catch and re-raise exception from here, clears out pyparsing internal stack trace"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 448,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:1570:            raise exc.with_traceback(None)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 449,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2154:            Traceback (most recent call last):"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 450,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2160:            Traceback (most recent call last):"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 451,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2204:    def validate(self, validateTrace=None) -> None:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 452,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2244:            if ParserElement.verbose_stacktrace:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 453,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2247:            # catch and re-raise exception from here, clears out pyparsing internal stack trace"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 454,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2248:            raise exc.with_traceback(None)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 455,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2480:                if ParserElement.verbose_stacktrace:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 456,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2481:                    out.extend(traceback.format_tb(pe.__traceback__))"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 457,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2488:                tb = exc.__traceback__"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 458,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2489:                it = iter(traceback.walk_tb(tb))"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 459,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2497:                if ParserElement.verbose_stacktrace:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 460,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2498:                    out.extend(traceback.format_tb(exc.__traceback__))"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 461,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2708:        Traceback (most recent call last):"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 462,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2812:        Traceback (most recent call last):"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 463,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:2820:        Traceback (most recent call last):"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 464,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:3018:        Traceback (most recent call last):"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 465,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4411:    def validate(self, validateTrace=None) -> None:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 466,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4417:        tmp = (validateTrace if validateTrace is not None else [])[:] + [self]"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 467,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4623:                    pe.__traceback__ = None"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 468,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4711:                pfe.__traceback__ = None"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 469,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4718:                    err.__traceback__ = None"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 470,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4752:                    err.__traceback__ = None"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 471,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:4872:                pfe.__traceback__ = None"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 472,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:5069:                    pfe.__traceback__ = None"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 473,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:5215:    def validate(self, validateTrace=None) -> None:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 474,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:5221:        if validateTrace is None:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 475,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:5222:            validateTrace = []"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 476,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:5223:        tmp = validateTrace[:] + [self]"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 477,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6166:        self.caller_frame = traceback.extract_stack(limit=2)[0]"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 478,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6189:        self.lshift_line = traceback.extract_stack(limit=2)[-2]  # type: ignore[assignment]"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 479,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6199:        caller_line = traceback.extract_stack(limit=2)[-2]"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 480,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6244:            tb = traceback.extract_stack(limit=200)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 481,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6347:    def validate(self, validateTrace=None) -> None:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 482,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6353:        if validateTrace is None:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 483,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6354:            validateTrace = []"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 484,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6356:        if self not in validateTrace:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 485,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6357:            tmp = validateTrace[:] + [self]"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 486,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6450:        Traceback (most recent call last):"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 487,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6691:def trace_parse_action(f: ParseAction) -> ParseAction:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 488,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6714:        @trace_parse_action"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 489,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/core.py:6948:traceParseAction = replaced_by_pep8(\"traceParseAction\", trace_parse_action)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 490,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/__init__.py:199:- If troubleshooting parse actions, use pyparsing's trace_parse_action decorator to echo arguments and return value"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 491,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/__init__.py:360:    \"trace_parse_action\","
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 492,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/__init__.py:406:    \"traceParseAction\","
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 493,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/results.py:655:           Traceback (most recent call last):"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 494,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/testing.py:73:            self._save_context[\"verbose_stacktrace\"] = ParserElement.verbose_stacktrace"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 495,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/testing.py:107:            ParserElement.verbose_stacktrace = self._save_context[\"verbose_stacktrace\"]"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 496,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/testing.py:191:            self, run_tests_report, expected_parse_results=None, msg=None"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 497,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/common.py:432:            raise ParseException(t, l, f\"Invalid date/time: {ve}\").with_traceback("
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 498,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/pyparsing/common.py:433:                ve.__traceback__"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 499,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/mpl_toolkits/axes_grid1/axes_divider.py:151:    def get_position_runtime(self, ax, renderer):"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 500,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/mpl_toolkits/axes_grid1/axes_divider.py:216:        x, y, w, h = self.get_position_runtime(axes, renderer)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 501,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/mpl_toolkits/axes_grid1/axes_divider.py:545:        x, y, w, h = self.get_position_runtime(axes, renderer)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 502,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/mpl_toolkits/axes_grid1/axes_divider.py:582:        x, y, w, h = self.get_position_runtime(axes, renderer)"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 503,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:101:                elif op == 3 and self._previous_pixel:  # QOI_OP_RUN"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 504,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:143:    def _write_run(self) -> bytes:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 505,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:144:        data = o8(0b11000000 | (self._run - 1))  # QOI_OP_RUN"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 506,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:145:        self._run = 0"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 507,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:171:                    self._run += 1"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 508,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:172:                    if self._run == 62:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 509,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:173:                        data += self._write_run()"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 510,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:175:                    if self._run:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 511,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:176:                        data += self._write_run()"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 512,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:223:        if self._run:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 513,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/QoiImagePlugin.py:224:            data += self._write_run()"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 514,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/ImageFile.py:429:        if not self.map and not LOAD_TRUNCATED_IMAGES and err_code < 0:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 515,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/ContainerIO.py:147:    def truncate(self, size: int | None = None) -> int:"
+    },
+    {
+      "file": "phase5_svc/PERSON2_PENDING_EVIDENCE_SEARCH.txt",
+      "line": 516,
+      "text": "../phase6/venv/lib64/python3.12/site-packages/PIL/JpegImagePlugin.py:420:        if not s and ImageFile.LOAD_TRUNCATED_IMAGES and not hasattr(self, \"_ended\"):"
+    },
+    {
+      "file": "phase6/venv/lib/python3.12/site-packages/pip/_internal/self_outdated_check.py",
+      "line": 97,
+      "text": "# Check to make sure that we own the directory"
+    },
+    {
+      "file": "phase6/venv/lib/python3.12/site-packages/pip/_internal/self_outdated_check.py",
+      "line": 102,
+      "text": "# ahead and make sure that all our directories are created."
+    }
+  ],
+  "output_checks": [
+    {
+      "path": "phase5_svc/person2_corrected_exact_ci.csv",
+      "exists": true,
+      "size": 28329,
+      "sha256": "06e992465cfcbefbdcf9fbd7648d4097aa173e23f42d53bcc072e5fda921cb2b",
+      "header": [
+        "PC",
+        "N_FIXED",
+        "N_RANDOM",
+        "FIXED_MEAN",
+        "RANDOM_MEAN",
+        "MEAN_DIFFERENCE_FIXED_MINUS_RANDOM",
+        "FIXED_VARIANCE",
+        "RANDOM_VARIANCE",
+        "STANDARD_ERROR",
+        "WELCH_T",
+        "WELCH_DF",
+        "CI95_LOW_APPROX",
+        "CI95_HIGH_APPROX",
+        "STATISTIC_STATUS",
+        "RISK",
+        "CI95_LOW_EXACT",
+        "CI95_HIGH_EXACT",
+        "CI95_STATUS"
+      ],
+      "data_rows": 194
+    },
+    {
+      "path": "phase5_svc/person2_rebuilt_full/person2_full_trace_welch_results.csv",
+      "exists": true,
+      "size": 16230,
+      "sha256": "c74c2d469720393a7d8298aeeadc153b29529ce71eb2b357c85a73f1572637b4",
+      "header": [
+        "PC",
+        "fixed_mean",
+        "random_mean",
+        "fixed_variance",
+        "random_variance",
+        "welch_t",
+        "welch_df",
+        "abs_t_gt_4_5",
+        "status"
+      ],
+      "data_rows": 317
+    },
+    {
+      "path": "phase5_svc/person2_full_trace_with_ci.csv",
+      "exists": false
+    },
+    {
+      "path": "phase5_svc/person2_findings_summary.txt",
+      "exists": true,
+      "size": 1686,
+      "sha256": "6cb1e30bc6e043f4210360c61834dc98f1c9399e021a5529a49330b0944f68f6"
+    },
+    {
+      "path": "phase6/high_risk_source_mapping.csv",
+      "exists": true,
+      "size": 2935,
+      "sha256": "4d68dc6d6ec962cacfdad1b76976fa180e44eec982621996c8786bdfe19b4fae",
+      "header": [
+        "PC",
+        "FUNCTION",
+        "SOURCE_LOCATION",
+        "FIXED_MEAN_MISSES",
+        "RANDOM_MEAN_MISSES",
+        "FIXED_VARIANCE",
+        "RANDOM_VARIANCE",
+        "WELCH_T",
+        "SVS",
+        "RISK"
+      ],
+      "data_rows": 13
+    }
+  ]
+}

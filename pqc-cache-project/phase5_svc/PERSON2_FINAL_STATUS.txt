@@ -1,0 +1,15 @@
+PERSON 2 — FINAL STATUS
+
+C3 — Statistical analysis:
+Existing statistical CSVs are inventoried. Undefined Welch statistics must not be treated as significant results.
+
+C4 — Full-trace reconstruction:
+Reconstructed full-trace statistics use newly assigned deterministic seeds. They must not be presented as verified historical runs.
+
+C5 — Configuration sweep and timing injection:
+NOT VERIFIED. The targeted source audit found summary claims but did not establish the original execution logs or primary experiment outputs. Do not claim this work is verified until those artifacts are recovered or the experiments are rerun.
+
+C9 — Source-to-binary provenance:
+PROVISIONAL. The source mapping exists, but exact trace-to-ELF provenance remains unconfirmed.
+
+This status records evidence currently available; it does not fabricate missing results.

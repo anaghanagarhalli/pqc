@@ -1,0 +1,1604 @@
+{
+  "generated": "2026-10-19T16:11:18.823995+00:00",
+  "project_root": "/home/cnc_susindharan/pqc-cache-project",
+  "file_count": 314,
+  "files": [
+    {
+      "path": "liboqs/.github/workflows/kem-bench.yml",
+      "size_bytes": 3975,
+      "extension": ".yml"
+    },
+    {
+      "path": "liboqs/CMakeLists.txt",
+      "size_bytes": 14112,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/README.md",
+      "size_bytes": 28542,
+      "extension": ".md"
+    },
+    {
+      "path": "liboqs/build/CMakeCache.txt",
+      "size_bytes": 43196,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/build/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c",
+      "size_bytes": 27030,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/build/CMakeFiles/CMakeConfigureLog.yaml",
+      "size_bytes": 42687,
+      "extension": ".yaml"
+    },
+    {
+      "path": "liboqs/build/include/oqs/kem.h",
+      "size_bytes": 16518,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/build/include/oqs/kem_bike.h",
+      "size_bytes": 2962,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/build/include/oqs/kem_classic_mceliece.h",
+      "size_bytes": 11769,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/build/include/oqs/kem_frodokem.h",
+      "size_bytes": 13053,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/build/include/oqs/kem_hqc.h",
+      "size_bytes": 2848,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/build/include/oqs/kem_kyber.h",
+      "size_bytes": 3018,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/build/include/oqs/kem_ml_kem.h",
+      "size_bytes": 3065,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/build/include/oqs/kem_ntru.h",
+      "size_bytes": 6275,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/build/include/oqs/kem_ntruprime.h",
+      "size_bytes": 1209,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/docs/algorithms/kem/frodokem.md",
+      "size_bytes": 19179,
+      "extension": ".md"
+    },
+    {
+      "path": "liboqs/docs/algorithms/kem/frodokem.yml",
+      "size_bytes": 12667,
+      "extension": ".yml"
+    },
+    {
+      "path": "liboqs/docs/algorithms/kem/ml_kem.md",
+      "size_bytes": 8654,
+      "extension": ".md"
+    },
+    {
+      "path": "liboqs/docs/algorithms/kem/ml_kem.yml",
+      "size_bytes": 6000,
+      "extension": ".yml"
+    },
+    {
+      "path": "liboqs/scripts/copy_from_upstream/README.md",
+      "size_bytes": 12779,
+      "extension": ".md"
+    },
+    {
+      "path": "liboqs/scripts/copy_from_upstream/src/kem/family/CMakeLists.txt",
+      "size_bytes": 7624,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/scripts/copy_from_upstream/src/kem/family/kem_family.h",
+      "size_bytes": 3753,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/scripts/copy_from_upstream/src/kem/family/kem_scheme.c",
+      "size_bytes": 32993,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/scripts/copy_from_upstream/src/sig/family/CMakeLists.txt",
+      "size_bytes": 6615,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/scripts/copy_from_xkcp/CMakeLists.txt",
+      "size_bytes": 2196,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/CMakeLists.txt",
+      "size_bytes": 6294,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/common/CMakeLists.txt",
+      "size_bytes": 7450,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/common/sha3/avx512vl_low/CMakeLists.txt",
+      "size_bytes": 442,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/common/sha3/xkcp_low/CMakeLists.txt",
+      "size_bytes": 2852,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/kem/bike/CMakeLists.txt",
+      "size_bytes": 4553,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/kem/bike/additional_r4/README.md",
+      "size_bytes": 11562,
+      "extension": ".md"
+    },
+    {
+      "path": "liboqs/src/kem/bike/additional_r4/kem.c",
+      "size_bytes": 8839,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/bike/kem_bike.c",
+      "size_bytes": 2870,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/bike/kem_bike.h",
+      "size_bytes": 2962,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/CMakeLists.txt",
+      "size_bytes": 34961,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/kem_classic_mceliece.h",
+      "size_bytes": 11769,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/kem_classic_mceliece_348864.c",
+      "size_bytes": 4519,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/kem_classic_mceliece_348864f.c",
+      "size_bytes": 4686,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/kem_classic_mceliece_460896.c",
+      "size_bytes": 4519,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/kem_classic_mceliece_460896f.c",
+      "size_bytes": 4686,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/kem_classic_mceliece_6688128.c",
+      "size_bytes": 4557,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/kem_classic_mceliece_6688128f.c",
+      "size_bytes": 4724,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/kem_classic_mceliece_6960119.c",
+      "size_bytes": 4557,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/kem_classic_mceliece_6960119f.c",
+      "size_bytes": 4724,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/kem_classic_mceliece_8192128.c",
+      "size_bytes": 4557,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/kem_classic_mceliece_8192128f.c",
+      "size_bytes": 4724,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece348864_avx2/crypto_kem.h",
+      "size_bytes": 283,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece348864_clean/crypto_kem.h",
+      "size_bytes": 285,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece348864f_avx2/crypto_kem.h",
+      "size_bytes": 285,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece348864f_clean/crypto_kem.h",
+      "size_bytes": 287,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece460896_avx2/crypto_kem.h",
+      "size_bytes": 283,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece460896_clean/crypto_kem.h",
+      "size_bytes": 285,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece460896f_avx2/crypto_kem.h",
+      "size_bytes": 285,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece460896f_clean/crypto_kem.h",
+      "size_bytes": 287,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece6688128_avx2/crypto_kem.h",
+      "size_bytes": 285,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece6688128_clean/crypto_kem.h",
+      "size_bytes": 287,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece6688128f_avx2/crypto_kem.h",
+      "size_bytes": 287,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece6688128f_clean/crypto_kem.h",
+      "size_bytes": 289,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece6960119_avx2/crypto_kem.h",
+      "size_bytes": 285,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece6960119_clean/crypto_kem.h",
+      "size_bytes": 287,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece6960119f_avx2/crypto_kem.h",
+      "size_bytes": 287,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece6960119f_clean/crypto_kem.h",
+      "size_bytes": 289,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece8192128_avx2/crypto_kem.h",
+      "size_bytes": 285,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece8192128_clean/crypto_kem.h",
+      "size_bytes": 287,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece8192128f_avx2/crypto_kem.h",
+      "size_bytes": 287,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/classic_mceliece/pqclean_mceliece8192128f_clean/crypto_kem.h",
+      "size_bytes": 289,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/CMakeLists.txt",
+      "size_bytes": 3453,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/external/efrodo/ekem.c",
+      "size_bytes": 13002,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/external/frodo/kem.c",
+      "size_bytes": 13760,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/kem_efrodokem1344aes.c",
+      "size_bytes": 1238,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/kem_efrodokem1344shake.c",
+      "size_bytes": 1266,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/kem_efrodokem640aes.c",
+      "size_bytes": 1224,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/kem_efrodokem640shake.c",
+      "size_bytes": 1252,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/kem_efrodokem976aes.c",
+      "size_bytes": 1224,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/kem_efrodokem976shake.c",
+      "size_bytes": 1252,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/kem_frodokem.h",
+      "size_bytes": 13053,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/kem_frodokem1344aes.c",
+      "size_bytes": 1224,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/kem_frodokem1344shake.c",
+      "size_bytes": 1252,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/kem_frodokem640aes.c",
+      "size_bytes": 1210,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/kem_frodokem640shake.c",
+      "size_bytes": 1238,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/kem_frodokem976aes.c",
+      "size_bytes": 1210,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/frodokem/kem_frodokem976shake.c",
+      "size_bytes": 1238,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/hqc/CMakeLists.txt",
+      "size_bytes": 2902,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/kem/hqc/kem_hqc.h",
+      "size_bytes": 2848,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/hqc/kem_hqc_1.c",
+      "size_bytes": 2264,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/hqc/kem_hqc_3.c",
+      "size_bytes": 2264,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/hqc/kem_hqc_5.c",
+      "size_bytes": 2264,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/hqc/pqc-hqc_hqc-1_ref/kem.c",
+      "size_bytes": 9562,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/hqc/pqc-hqc_hqc-3_ref/kem.c",
+      "size_bytes": 9562,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/hqc/pqc-hqc_hqc-5_ref/kem.c",
+      "size_bytes": 9562,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kem.c",
+      "size_bytes": 17510,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kem.h",
+      "size_bytes": 16518,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/CMakeLists.txt",
+      "size_bytes": 11789,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/kem_kyber.h",
+      "size_bytes": 3018,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/kem_kyber_1024.c",
+      "size_bytes": 5770,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/kem_kyber_512.c",
+      "size_bytes": 8560,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/kem_kyber_768.c",
+      "size_bytes": 8560,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/oldpqclean_kyber1024_aarch64/kem.c",
+      "size_bytes": 4659,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/oldpqclean_kyber1024_aarch64/kem.h",
+      "size_bytes": 764,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/oldpqclean_kyber512_aarch64/kem.c",
+      "size_bytes": 4656,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/oldpqclean_kyber512_aarch64/kem.h",
+      "size_bytes": 760,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/oldpqclean_kyber768_aarch64/kem.c",
+      "size_bytes": 4656,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/oldpqclean_kyber768_aarch64/kem.h",
+      "size_bytes": 760,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/pqcrystals-kyber_kyber1024_avx2/kem.c",
+      "size_bytes": 4262,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/pqcrystals-kyber_kyber1024_avx2/kem.h",
+      "size_bytes": 988,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/pqcrystals-kyber_kyber1024_ref/kem.c",
+      "size_bytes": 4280,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/pqcrystals-kyber_kyber1024_ref/kem.h",
+      "size_bytes": 988,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/pqcrystals-kyber_kyber512_avx2/kem.c",
+      "size_bytes": 4262,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/pqcrystals-kyber_kyber512_avx2/kem.h",
+      "size_bytes": 988,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/pqcrystals-kyber_kyber512_ref/kem.c",
+      "size_bytes": 4280,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/pqcrystals-kyber_kyber512_ref/kem.h",
+      "size_bytes": 988,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/pqcrystals-kyber_kyber768_avx2/kem.c",
+      "size_bytes": 4262,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/pqcrystals-kyber_kyber768_avx2/kem.h",
+      "size_bytes": 988,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/pqcrystals-kyber_kyber768_ref/kem.c",
+      "size_bytes": 4280,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/kyber/pqcrystals-kyber_kyber768_ref/kem.h",
+      "size_bytes": 988,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/CMakeLists.txt",
+      "size_bytes": 20704,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/icicle_ml-kem-1024_icicle_cuda/icicle_ml-kem.cpp",
+      "size_bytes": 1866,
+      "extension": ".cpp"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/icicle_ml-kem-512_icicle_cuda/icicle_ml-kem.cpp",
+      "size_bytes": 1857,
+      "extension": ".cpp"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/icicle_ml-kem-768_icicle_cuda/icicle_ml-kem.cpp",
+      "size_bytes": 1857,
+      "extension": ".cpp"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/kem_ml_kem.h",
+      "size_bytes": 3065,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/kem_ml_kem_1024.c",
+      "size_bytes": 10399,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/kem_ml_kem_512.c",
+      "size_bytes": 10305,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/kem_ml_kem_768.c",
+      "size_bytes": 10305,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-1024_aarch64/mlkem/src/kem.c",
+      "size_bytes": 13814,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-1024_aarch64/mlkem/src/kem.h",
+      "size_bytes": 13133,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-1024_aarch64/mlkem/src/native/aarch64/README.md",
+      "size_bytes": 1211,
+      "extension": ".md"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-1024_ref/mlkem/src/kem.c",
+      "size_bytes": 13814,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-1024_ref/mlkem/src/kem.h",
+      "size_bytes": 13133,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-1024_x86_64/mlkem/src/kem.c",
+      "size_bytes": 13814,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-1024_x86_64/mlkem/src/kem.h",
+      "size_bytes": 13133,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-1024_x86_64/mlkem/src/native/x86_64/README.md",
+      "size_bytes": 237,
+      "extension": ".md"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_aarch64/mlkem/src/kem.c",
+      "size_bytes": 13814,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_aarch64/mlkem/src/kem.h",
+      "size_bytes": 13133,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_aarch64/mlkem/src/native/aarch64/README.md",
+      "size_bytes": 1211,
+      "extension": ".md"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.c",
+      "size_bytes": 13814,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_ref/mlkem/src/kem.h",
+      "size_bytes": 13133,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_x86_64/mlkem/src/kem.c",
+      "size_bytes": 13814,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_x86_64/mlkem/src/kem.h",
+      "size_bytes": 13133,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-512_x86_64/mlkem/src/native/x86_64/README.md",
+      "size_bytes": 237,
+      "extension": ".md"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-768_aarch64/mlkem/src/kem.c",
+      "size_bytes": 13814,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-768_aarch64/mlkem/src/kem.h",
+      "size_bytes": 13133,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-768_aarch64/mlkem/src/native/aarch64/README.md",
+      "size_bytes": 1211,
+      "extension": ".md"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-768_ref/mlkem/src/kem.c",
+      "size_bytes": 13814,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-768_ref/mlkem/src/kem.h",
+      "size_bytes": 13133,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-768_x86_64/mlkem/src/kem.c",
+      "size_bytes": 13814,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-768_x86_64/mlkem/src/kem.h",
+      "size_bytes": 13133,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/ml_kem/mlkem-native_ml-kem-768_x86_64/mlkem/src/native/x86_64/README.md",
+      "size_bytes": 237,
+      "extension": ".md"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/CMakeLists.txt",
+      "size_bytes": 13792,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/kem_ntru.h",
+      "size_bytes": 6275,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/kem_ntru_hps2048509.c",
+      "size_bytes": 4371,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/kem_ntru_hps2048677.c",
+      "size_bytes": 4371,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/kem_ntru_hps40961229.c",
+      "size_bytes": 2603,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/kem_ntru_hps4096821.c",
+      "size_bytes": 4371,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/kem_ntru_hrss1373.c",
+      "size_bytes": 2528,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/kem_ntru_hrss701.c",
+      "size_bytes": 4257,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/pqclean_ntruhps2048509_avx2/kem.c",
+      "size_bytes": 2002,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/pqclean_ntruhps2048509_clean/kem.c",
+      "size_bytes": 2014,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/pqclean_ntruhps2048677_avx2/kem.c",
+      "size_bytes": 2002,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/pqclean_ntruhps2048677_clean/kem.c",
+      "size_bytes": 2014,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/pqclean_ntruhps40961229_clean/kem.c",
+      "size_bytes": 2026,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/pqclean_ntruhps4096821_avx2/kem.c",
+      "size_bytes": 2002,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/pqclean_ntruhps4096821_clean/kem.c",
+      "size_bytes": 2014,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/pqclean_ntruhrss1373_clean/kem.c",
+      "size_bytes": 1990,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/pqclean_ntruhrss701_avx2/kem.c",
+      "size_bytes": 1966,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntru/pqclean_ntruhrss701_clean/kem.c",
+      "size_bytes": 1978,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/kem/ntruprime/CMakeLists.txt",
+      "size_bytes": 548,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/kem/ntruprime/kem_ntruprime.h",
+      "size_bytes": 1209,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/kem/ntruprime/kem_ntruprime_sntrup761.c",
+      "size_bytes": 2609,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/src/sig/cross/CMakeLists.txt",
+      "size_bytes": 27400,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/sig/falcon/CMakeLists.txt",
+      "size_bytes": 10629,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/sig/mayo/CMakeLists.txt",
+      "size_bytes": 8075,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/sig/ml_dsa/CMakeLists.txt",
+      "size_bytes": 22315,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/sig/mqom/CMakeLists.txt",
+      "size_bytes": 67741,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/sig/mqom/mqom_mqom_common/benchmark.h",
+      "size_bytes": 1356,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/sig/mqom/mqom_mqom_common/piop_cache.h",
+      "size_bytes": 1644,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/sig/mqom/mqom_mqom_common/prg_cache.h",
+      "size_bytes": 5142,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/src/sig/slh_dsa/CMakeLists.txt",
+      "size_bytes": 13830,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/sig/snova/CMakeLists.txt",
+      "size_bytes": 31622,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/sig/uov/CMakeLists.txt",
+      "size_bytes": 35310,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/sig_stfl/lms/CMakeLists.txt",
+      "size_bytes": 1191,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/src/sig_stfl/xmss/CMakeLists.txt",
+      "size_bytes": 13284,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/tests/CMakeLists.txt",
+      "size_bytes": 9649,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/tests/KATs/README.md",
+      "size_bytes": 1680,
+      "extension": ".md"
+    },
+    {
+      "path": "liboqs/tests/ds_benchmark.h",
+      "size_bytes": 16914,
+      "extension": ".h"
+    },
+    {
+      "path": "liboqs/tests/example_kem.c",
+      "size_bytes": 6658,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/tests/fuzz_test_kem.c",
+      "size_bytes": 4498,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/tests/kat_kem.c",
+      "size_bytes": 4576,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/tests/speed_kem.c",
+      "size_bytes": 6268,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/tests/test_kem.c",
+      "size_bytes": 16398,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/tests/test_kem_mem.c",
+      "size_bytes": 6660,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/tests/test_kem_vectors.sh",
+      "size_bytes": 1748,
+      "extension": ".sh"
+    },
+    {
+      "path": "liboqs/tests/vectors_kem.c",
+      "size_bytes": 28547,
+      "extension": ".c"
+    },
+    {
+      "path": "liboqs/zephyr/CMakeLists.txt",
+      "size_bytes": 8347,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/zephyr/README.md",
+      "size_bytes": 2752,
+      "extension": ".md"
+    },
+    {
+      "path": "liboqs/zephyr/samples/KEMs/CMakeLists.txt",
+      "size_bytes": 262,
+      "extension": ".txt"
+    },
+    {
+      "path": "liboqs/zephyr/samples/Signatures/CMakeLists.txt",
+      "size_bytes": 230,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase4_cache/cache_simulator.py",
+      "size_bytes": 9030,
+      "extension": ".py"
+    },
+    {
+      "path": "phase5_svc/PERSON2_FULL_TRACE_RECONSTRUCTION_AUDIT.txt",
+      "size_bytes": 30607,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/PERSON2_TRACE_ELF_PROVENANCE_AUDIT.txt",
+      "size_bytes": 24653,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/fixed_trace.csv",
+      "size_bytes": 41314,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/mlkem_config.h",
+      "size_bytes": 265,
+      "extension": ".h"
+    },
+    {
+      "path": "phase5_svc/person2_rebuild_full_traces.py",
+      "size_bytes": 4437,
+      "extension": ".py"
+    },
+    {
+      "path": "phase5_svc/person2_rebuilt_full/PERSON2_FULL_TRACE_REBUILD_REPORT.txt",
+      "size_bytes": 2073,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/person2_rebuilt_full/person2_full_trace_welch_results.csv",
+      "size_bytes": 16230,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/person2_rebuilt_full/person2_full_trace_with_ci.csv",
+      "size_bytes": 34321,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/phase5_cache_variance.py",
+      "size_bytes": 2304,
+      "extension": ".py"
+    },
+    {
+      "path": "phase5_svc/phase5_fixed.elf",
+      "size_bytes": 378992,
+      "extension": ".elf",
+      "sha256": "df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137"
+    },
+    {
+      "path": "phase5_svc/phase5_fixed_1.elf",
+      "size_bytes": 379024,
+      "extension": ".elf",
+      "sha256": "1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b"
+    },
+    {
+      "path": "phase5_svc/phase5_fixed_10.elf",
+      "size_bytes": 378992,
+      "extension": ".elf",
+      "sha256": "df184c14309e9a7e083ca0c4a6e5a830d7149ed448b1d8e9883719946dc18137"
+    },
+    {
+      "path": "phase5_svc/phase5_fixed_2.elf",
+      "size_bytes": 379024,
+      "extension": ".elf",
+      "sha256": "6bde6e353e5cfcaaf15f87ea85d12a1d2ac99bfa25a4f7778207c310d4dff5dd"
+    },
+    {
+      "path": "phase5_svc/phase5_fixed_3.elf",
+      "size_bytes": 379024,
+      "extension": ".elf",
+      "sha256": "d7977e3c9268cdd9cdc6eaa987ef0a4cf4583e60510ce8fb6e6ef8fabadffdbc"
+    },
+    {
+      "path": "phase5_svc/phase5_fixed_4.elf",
+      "size_bytes": 379016,
+      "extension": ".elf",
+      "sha256": "ba1f1b26f0c91173fc2bd3d0901dd6da94568d452841fdcbdd6f3939d377a599"
+    },
+    {
+      "path": "phase5_svc/phase5_fixed_5.elf",
+      "size_bytes": 379024,
+      "extension": ".elf",
+      "sha256": "02f7580e195313ca7205d1217c40e5b157c8e2f9ca5cd306325eed4b2c7278b0"
+    },
+    {
+      "path": "phase5_svc/phase5_fixed_6.elf",
+      "size_bytes": 379024,
+      "extension": ".elf",
+      "sha256": "1120c1c388d081bb993b27275de894f9a34eaf203bb5943ea777ee942c3617b3"
+    },
+    {
+      "path": "phase5_svc/phase5_fixed_7.elf",
+      "size_bytes": 379016,
+      "extension": ".elf",
+      "sha256": "df29e977b592cb6799eb3f99e031a2e251dca0ff1fa43c1fbf6095fa313c75c3"
+    },
+    {
+      "path": "phase5_svc/phase5_fixed_8.elf",
+      "size_bytes": 379016,
+      "extension": ".elf",
+      "sha256": "3fbe912e61cb2df796c1043397deb4d7357fcd2e1af779942ad94559c639774f"
+    },
+    {
+      "path": "phase5_svc/phase5_fixed_9.elf",
+      "size_bytes": 379016,
+      "extension": ".elf",
+      "sha256": "2848fcb07dd1fd96465804161a2e938b8cde38dab37342ad447977b2fe518b9b"
+    },
+    {
+      "path": "phase5_svc/phase5_mlkem_harness.c",
+      "size_bytes": 2298,
+      "extension": ".c"
+    },
+    {
+      "path": "phase5_svc/phase5_random.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "355ae10935e3daeb0c49bf374b4da2ceab55dc563a2675ca86fb730ccabf7310"
+    },
+    {
+      "path": "phase5_svc/phase5_random_1.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42"
+    },
+    {
+      "path": "phase5_svc/phase5_random_10.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "1702cc9c90459ead962448c7f1d5ffdd5d79c5d7c14033c7ed049b93d945f33b"
+    },
+    {
+      "path": "phase5_svc/phase5_random_2.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "8ee30bad0f970c2004105b651040969446641ef541beccf63a4ed11344b46daf"
+    },
+    {
+      "path": "phase5_svc/phase5_random_3.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "f633df1994860a6fd4b1a52fbd7ab888ef7147bc471b7e0c052998cbe5639578"
+    },
+    {
+      "path": "phase5_svc/phase5_random_4.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "bc055f4ded37da14fac4803f6ebe99f45b7931de16c585d3ae78bdf2fd33d50e"
+    },
+    {
+      "path": "phase5_svc/phase5_random_5.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "f86149a40a3c1ec0ed5e35b26c600cb2cb05c74912fad1cd5703c78c4b3b0fe9"
+    },
+    {
+      "path": "phase5_svc/phase5_random_6.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "7886c1257028caa99812e5f017a4eb19521c34c195a97756f5798442d1c19706"
+    },
+    {
+      "path": "phase5_svc/phase5_random_7.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "6ea3b9e4443efb544b828852ac55b089474721991d653b2b8f18e4e54f7abd31"
+    },
+    {
+      "path": "phase5_svc/phase5_random_8.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "8f4f875a24944c17225db897a5e00e5240e5b625d28992fe6969d61dd6f7a8c2"
+    },
+    {
+      "path": "phase5_svc/phase5_random_9.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "5f734bd1c48073fc9b04e7091747f87a9a7646d7aef64e89e5940fe50ea6766c"
+    },
+    {
+      "path": "phase5_svc/phase5_random_full_01.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "90656c0037410a350954d049074eaaa063fa1dc3fa3b5c674b1e247ad2079a42"
+    },
+    {
+      "path": "phase5_svc/phase5_test_fixed.elf",
+      "size_bytes": 379024,
+      "extension": ".elf",
+      "sha256": "1b2574ef1b75bffbb0b3125b0824a982bf46a90b49de3949c6e3b44c5d04ea8b"
+    },
+    {
+      "path": "phase5_svc/phase5_test_random.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "22191aa1b8e8ff49b4f8c235839830dc474775d46b4612282f229c0b567b1ce0"
+    },
+    {
+      "path": "phase5_svc/phase5_test_random18.elf",
+      "size_bytes": 379008,
+      "extension": ".elf",
+      "sha256": "81e9660610511dccd4091bc91655750a794332c8d85cdb9f2349bfa440a25945"
+    },
+    {
+      "path": "phase5_svc/random_trace.csv",
+      "size_bytes": 39657,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/cache_01.txt",
+      "size_bytes": 265,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/cache_02.txt",
+      "size_bytes": 265,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/cache_03.txt",
+      "size_bytes": 265,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/cache_04.txt",
+      "size_bytes": 265,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/cache_05.txt",
+      "size_bytes": 265,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/cache_06.txt",
+      "size_bytes": 265,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/cache_07.txt",
+      "size_bytes": 265,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/cache_08.txt",
+      "size_bytes": 265,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/cache_09.txt",
+      "size_bytes": 265,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/cache_10.txt",
+      "size_bytes": 265,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_01.csv",
+      "size_bytes": 41314,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_02.csv",
+      "size_bytes": 41314,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_03.csv",
+      "size_bytes": 41314,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_04.csv",
+      "size_bytes": 41314,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_05.csv",
+      "size_bytes": 41314,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_06.csv",
+      "size_bytes": 41314,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_07.csv",
+      "size_bytes": 41314,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_08.csv",
+      "size_bytes": 41314,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_09.csv",
+      "size_bytes": 41314,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_1.csv",
+      "size_bytes": 21266364,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_10.csv",
+      "size_bytes": 21267939,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_2.csv",
+      "size_bytes": 21268164,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_3.csv",
+      "size_bytes": 21272214,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_4.csv",
+      "size_bytes": 21271764,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_5.csv",
+      "size_bytes": 21271764,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_6.csv",
+      "size_bytes": 21268389,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_7.csv",
+      "size_bytes": 21267939,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_8.csv",
+      "size_bytes": 21271089,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/fixed/trace_9.csv",
+      "size_bytes": 21269289,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/cache_01.txt",
+      "size_bytes": 264,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/random/cache_02.txt",
+      "size_bytes": 264,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/random/cache_03.txt",
+      "size_bytes": 264,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/random/cache_04.txt",
+      "size_bytes": 264,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/random/cache_05.txt",
+      "size_bytes": 264,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/random/cache_06.txt",
+      "size_bytes": 264,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/random/cache_07.txt",
+      "size_bytes": 264,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/random/cache_08.txt",
+      "size_bytes": 264,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/random/cache_09.txt",
+      "size_bytes": 264,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/random/cache_10.txt",
+      "size_bytes": 264,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_01.csv",
+      "size_bytes": 39657,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_02.csv",
+      "size_bytes": 39657,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_03.csv",
+      "size_bytes": 39657,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_04.csv",
+      "size_bytes": 39657,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_05.csv",
+      "size_bytes": 39657,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_06.csv",
+      "size_bytes": 39657,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_07.csv",
+      "size_bytes": 39657,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_08.csv",
+      "size_bytes": 39657,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_09.csv",
+      "size_bytes": 39657,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_1.csv",
+      "size_bytes": 21269815,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_10.csv",
+      "size_bytes": 21265540,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_17_full.csv",
+      "size_bytes": 21268240,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_18_full.csv",
+      "size_bytes": 21270715,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_2.csv",
+      "size_bytes": 21269815,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_3.csv",
+      "size_bytes": 21266890,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_4.csv",
+      "size_bytes": 21267340,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_5.csv",
+      "size_bytes": 21265540,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_6.csv",
+      "size_bytes": 21267565,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_7.csv",
+      "size_bytes": 21268690,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_8.csv",
+      "size_bytes": 21270040,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_9.csv",
+      "size_bytes": 21270265,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase5_svc/runs/random/trace_full_01.csv",
+      "size_bytes": 21269815,
+      "extension": ".csv"
+    },
+    {
+      "path": "phase6/phase6_plots.py",
+      "size_bytes": 3613,
+      "extension": ".py"
+    },
+    {
+      "path": "phase6/phase6_report_summary.txt",
+      "size_bytes": 634,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/fontTools/cu2qu/benchmark.py",
+      "size_bytes": 1296,
+      "extension": ".py"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/fontTools/qu2cu/benchmark.py",
+      "size_bytes": 1400,
+      "extension": ".py"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/fontTools/ttLib/tables/table_API_readme.txt",
+      "size_bytes": 2748,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/readme.txt",
+      "size_bytes": 828,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/README.txt",
+      "size_bytes": 128,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/numpy/_core/tests/data/umath-validation-set-README.txt",
+      "size_bytes": 967,
+      "extension": ".txt"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/pip/_internal/cache.py",
+      "size_bytes": 10370,
+      "extension": ".py"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/pip/_internal/commands/cache.py",
+      "size_bytes": 7944,
+      "extension": ".py"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/pip/_internal/network/cache.py",
+      "size_bytes": 3935,
+      "extension": ".py"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/cache.py",
+      "size_bytes": 1952,
+      "extension": ".py"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py",
+      "size_bytes": 5352,
+      "extension": ".py"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py",
+      "size_bytes": 1386,
+      "extension": ".py"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/pip/_vendor/rich/traceback.py",
+      "size_bytes": 29604,
+      "extension": ".py"
+    },
+    {
+      "path": "phase6/venv/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py",
+      "size_bytes": 1417,
+      "extension": ".py"
+    },
+    {
+      "path": "workloads/mldsa44_ntt/mldsa44_ntt_harness.c",
+      "size_bytes": 293,
+      "extension": ".c"
+    },
+    {
+      "path": "workloads/mlkem512_ntt/mlkem512_ntt.elf",
+      "size_bytes": 22800,
+      "extension": ".elf",
+      "sha256": "0626c11ca777fbd9663b3c24d2ac429bdd7a89f23cbef6110cf7e161eb7f42a5"
+    },
+    {
+      "path": "workloads/mlkem512_ntt/mlkem512_ntt_harness.c",
+      "size_bytes": 606,
+      "extension": ".c"
+    }
+  ]
+}

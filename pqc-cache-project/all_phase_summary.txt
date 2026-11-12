@@ -1,0 +1,124 @@
+========================================
+RISC-V PQC CACHE-TIMING PROJECT
+PHASE 1-6 SUMMARY
+========================================
+
+PHASE 1 — ENVIRONMENT & TOOLCHAIN
+----------------------------------------
+RISC-V compiler:
+riscv64-unknown-elf-gcc --version
+
+Spike:
+~/riscv-isa-sim/build/spike
+
+Status:
+Environment, Spike, and RISC-V cross compiler configured successfully.
+
+
+PHASE 2 — PQC WORKLOAD ISOLATION & COMPILATION
+----------------------------------------
+Source:
+~/pqc-cache-project/liboqs
+
+Workloads:
+- ML-KEM-512 NTT
+- ML-DSA-44 NTT
+- ML-KEM inverse NTT
+- ML-DSA inverse NTT
+- Keccak
+- ML-KEM polynomial/vector arithmetic
+- Complete ML-KEM Phase-5 target
+
+Compilation:
+riscv64-unknown-elf-gcc -O2 -g ...
+
+Status:
+Standalone PQC workloads and RISC-V ELF binaries generated successfully.
+
+
+PHASE 3 — SPIKE SIMULATOR INSTRUMENTATION
+----------------------------------------
+Modified:
+~/riscv-isa-sim/riscv/mmu.h
+~/riscv-isa-sim/riscv/mmu.cc
+
+Trace format:
+PC,ACCESS,ADDRESS,SIZE
+
+Trace range:
+0x80000000 to 0x81000000
+
+Spike rebuild:
+cd ~/riscv-isa-sim/build
+make -B spike -j"$(nproc)"
+
+Result:
+Full execution memory trace generated.
+
+Example:
+835654 trace lines.
+
+
+PHASE 4 — PYTHON L1 CACHE SIMULATOR
+----------------------------------------
+Simulator:
+~/pqc-cache-project/phase4_cache/cache_simulator.py
+
+Supported:
+Cache size: 8/16/32 KB
+Associativity: direct/2/4/8-way
+Block size: 32/64 bytes
+Policy: LRU/Pseudo-LRU/Random
+
+Representative result:
+Cache size      : 8 KB
+Associativity   : 4-way
+Block size      : 32 bytes
+Policy          : Pseudo-LRU
+Reads           : 458824
+Writes          : 376892
+Hits            : 834292
+Misses          : 1424
+Hit rate        : 99.8296%
+Miss rate        : 0.1704%
+
+
+PHASE 5 — SIDE-CHANNEL VULNERABILITY ANALYSIS
+----------------------------------------
+Experiments:
+10 fixed runs
+10 random runs
+
+Analysis:
+Welch's t-test
+SVS = |Welch t|
+High-risk threshold: |t| > 4.5
+
+Results:
+13 high-risk PCs
+11 PCs with both fixed variance > 0 and random variance > 0
+
+Main result file:
+~/pqc-cache-project/phase5_svc/svs_results.csv
+
+
+PHASE 6 — VISUALIZATION & ANALYSIS
+----------------------------------------
+Source mapping:
+high_risk_source_mapping.csv
+high_risk_source_mapping.txt
+
+Plots:
+cache_miss_heatmap.png
+svs_distribution.png
+svs_leakage_confidence.png
+associativity_tradeoff.png
+
+Associativity results:
+Direct : 2120 misses, 99.7463% hit rate
+2-way  : 1285 misses, 99.8462% hit rate
+4-way  : 1424 misses, 99.8296% hit rate
+8-way  : 1508 misses, 99.8196% hit rate
+
+Final status:
+PHASES 1-6 COMPLETED
